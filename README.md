@@ -99,19 +99,111 @@ python scripts/generate_instructions.py --llm --model gpt-4o
 
 ## Running the real experiment (--live)
 
-Once API keys are configured:
-
-```bash
-python scripts/run_benchmark.py --live --models gpt-4o,claude-3-5-sonnet-20241022
-python scripts/run_noise_experiment.py --live --model gpt-4o
-```
-
 `--live` swaps `MockLLMBackend` → `LLMBackend` (real litellm calls) and
 `HeuristicJudge` → `LLMJudge` (real GPT-4o-as-judge scoring per the design
 doc's three-dimension rubric: correctness, completeness, instruction
 adherence). It also switches the router's encoder backend from the offline
 hashing embedder to the real `sentence-transformers` model in
 `config/settings.yaml` (`all-MiniLM-L6-v2` by default).
+
+`LLMBackend` is a thin wrapper over `litellm.completion()`, so it is
+model-agnostic — any model string litellm understands works, hosted or
+local. `config/settings.yaml`'s `models:` list is just the example set used
+by the full benchmark sweep; any individual script call can target a
+different model via `--models` / `--model`.
+
+### Hosted models (OpenAI, Anthropic, ...)
+
+Set the provider's API key as an environment variable, then pass its
+litellm model string.
+
+**Linux / macOS:**
+```bash
+export OPENAI_API_KEY=sk-...
+export ANTHROPIC_API_KEY=sk-ant-...
+
+python scripts/run_benchmark.py --live --models gpt-4o,claude-3-5-sonnet-20241022
+python scripts/run_noise_experiment.py --live --model gpt-4o
+```
+
+**Windows (PowerShell):**
+```powershell
+$env:OPENAI_API_KEY = "sk-..."
+$env:ANTHROPIC_API_KEY = "sk-ant-..."
+
+python scripts/run_benchmark.py --live --models gpt-4o,claude-3-5-sonnet-20241022
+python scripts/run_noise_experiment.py --live --model gpt-4o
+```
+(`set OPENAI_API_KEY=sk-...` if using `cmd.exe` instead of PowerShell.)
+
+The judge (`LLMJudge`) also needs a key for whichever model
+`config/settings.yaml` → `evaluation.judge_model` points at (`gpt-4o` by
+default) — set that provider's key even if the model under test is
+something else (e.g. a local Ollama model), or repoint `judge_model` at a
+model you do have a key for.
+
+### Local models via Ollama (Llama, Qwen, Mistral, ...)
+
+No API key needed — litellm talks to Ollama's local server
+(`http://localhost:11434` by default) for any `ollama/<model>` string.
+
+**1. Install Ollama**
+
+Linux:
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+Windows: download the installer from [ollama.com](https://ollama.com) or
+```powershell
+winget install Ollama.Ollama
+```
+It installs as a background service on both platforms — no separate
+`ollama serve` step needed unless you stopped it.
+
+**2. Pull a model** (same command on both OSes)
+```bash
+ollama pull llama3.1:8b     # Llama
+ollama pull qwen2.5:7b      # Qwen
+ollama pull mistral:7b      # Mistral
+```
+
+**3. Verify it's running**
+```bash
+ollama list
+curl http://localhost:11434/api/tags
+```
+
+**4. Run a small live smoke test first**
+
+Don't start with the full task set or the `static_full` strategy: with all
+500 modules loaded uncapped (`static_full` has no token budget by default)
+it composes ~175k tokens of context, which blows past Ollama's default
+context window (2k-4k tokens unless you raise `num_ctx`). Start narrow:
+
+```bash
+python scripts/run_benchmark.py --live --models ollama/llama3.1:8b \
+  --n-tasks 5 --strategies sir_adaptive,sir_top3,oracle
+```
+
+(swap `llama3.1:8b` for `qwen2.5:7b` / `mistral:7b` / whatever tag you
+pulled — same `ollama/<tag>` prefix either way). If you don't have
+`OPENAI_API_KEY` set for the judge, either export it (see above) or edit
+`evaluation.judge_model` in `config/settings.yaml` to `ollama/llama3.1:8b`
+so judging runs on Ollama too (weaker signal — a model judging its own
+output — but needs nothing but Ollama to run end-to-end).
+
+Once that's confirmed working, widen `--n-tasks` and add `static_full`
+back in — but raise Ollama's context window first:
+```bash
+OLLAMA_CONTEXT_LENGTH=32768 ollama serve      # Linux, foreground
+```
+```powershell
+$env:OLLAMA_CONTEXT_LENGTH = "32768"; ollama serve   # Windows, foreground
+```
+(or set it once via `ollama run <model> --keepalive ...` / the Ollama
+desktop app settings, depending on your install, so you don't have to
+relaunch the service manually each time).
 
 ## Human annotation
 
