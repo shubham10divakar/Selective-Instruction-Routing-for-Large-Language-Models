@@ -66,6 +66,12 @@ def main() -> None:
     parser.add_argument("--judge-model", default=None,
                          help="litellm model string for LLMJudge (--live only; default: config evaluation.judge_model, e.g. gpt-4o). "
                               "Point this at a local Ollama model (e.g. ollama/llama3.1:8b) to judge with no API key.")
+    parser.add_argument("--api-base", default=None,
+                         help="Base URL for a self-hosted OpenAI-compatible server (vLLM/LM Studio/llama.cpp server) "
+                              "serving --model, e.g. http://localhost:8000/v1. Use with --model openai/<name>.")
+    parser.add_argument("--judge-api-base", default=None,
+                         help="Base URL for a self-hosted OpenAI-compatible server serving --judge-model, if different "
+                              "from --api-base.")
     parser.add_argument("--n-tasks", type=int, default=30, help="Number of tasks to sample")
     parser.add_argument("--repeats", type=int, default=1, help="Repeats per (task, noise_level)")
     parser.add_argument("--seed", type=int, default=42)
@@ -94,11 +100,13 @@ def main() -> None:
         from src.evaluation.llm_judge import HeuristicJudge
         judge = HeuristicJudge()
     else:
-        model_backend = LLMBackend(args.model or config["models"][0])
+        model_backend = LLMBackend(args.model or config["models"][0], api_base=args.api_base)
         judge_model = args.judge_model or config["evaluation"]["judge_model"]
         from src.evaluation.llm_judge import LLMJudge
-        judge = LLMJudge(model=judge_model)
-        log.info(f"Model: {model_backend.model} | Judge model: {judge.model}")
+        judge = LLMJudge(model=judge_model, api_base=args.judge_api_base)
+        log.info(f"Model: {model_backend.model} | Judge model: {judge.model}"
+                 + (f" | model api_base={args.api_base}" if args.api_base else "")
+                 + (f" | judge api_base={args.judge_api_base}" if args.judge_api_base else ""))
 
     out_path = resolve_path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)

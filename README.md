@@ -251,10 +251,23 @@ an OpenAI-compatible API, so they route through litellm's generic
 | llama.cpp server (`llama-server`) | `openai/<model>` + `api_base="http://localhost:8080/v1"` | Lightest-weight; good for quantized GGUF models on modest hardware |
 | text-generation-webui | `openai/<model>` + its OpenAI-compatible extension endpoint | If you're already using it for something else |
 
-`LLMBackend.generate()` doesn't currently expose `api_base` as a
-parameter (only Ollama's default localhost address is exercised today),
-so wiring one of these in needs a one-line addition —
-`completion(..., api_base=self.api_base)` — before it'll work.
+`LLMBackend` and `LLMJudge` both take an `api_base` argument, and
+`run_benchmark.py` / `run_noise_experiment.py` expose it as `--api-base`
+(model under test) and `--judge-api-base` (judge, only if it needs a
+*different* server than the model under test — omit it if the judge is
+hosted or uses Ollama's default address). Example, benchmarking a model
+served locally by vLLM:
+
+```bash
+python scripts/run_benchmark.py --live --models openai/meta-llama/Llama-3-70b \
+  --api-base http://localhost:8000/v1 \
+  --judge-model gpt-4o --n-tasks 20
+```
+
+`--models` here takes a single model when paired with `--api-base` (one
+local server generally serves one model at a time); comma-separated
+`--models` is still fine for hosted providers where each string already
+carries its own provider prefix.
 
 **Hosted providers beyond OpenAI/Anthropic** (litellm model string / env
 var needed):

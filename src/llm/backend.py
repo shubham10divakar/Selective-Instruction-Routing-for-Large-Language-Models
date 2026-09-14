@@ -10,10 +10,16 @@ when they are relevant to the user's request.
 
 
 class LLMBackend:
-    def __init__(self, model: str, temperature: float = 0.2, max_tokens: int = 1024):
+    def __init__(self, model: str, temperature: float = 0.2, max_tokens: int = 1024, api_base: str | None = None):
+        """`api_base` points at a self-hosted OpenAI-compatible server (vLLM,
+        LM Studio, llama.cpp server, text-generation-webui, ...) -- pass it
+        together with `model="openai/<model-name>"` so litellm routes there
+        instead of api.openai.com. Leave it unset for hosted providers and
+        for Ollama (litellm already knows Ollama's default localhost address)."""
         self.model = model
         self.temperature = temperature
         self.max_tokens = max_tokens
+        self.api_base = api_base
 
     def generate(self, instructions_context: str, request: str) -> str:
         """Generate a response, injecting `instructions_context` as system content."""
@@ -32,6 +38,7 @@ class LLMBackend:
             ],
             temperature=self.temperature,
             max_tokens=self.max_tokens,
+            api_base=self.api_base,
         )
         return response.choices[0].message.content
 

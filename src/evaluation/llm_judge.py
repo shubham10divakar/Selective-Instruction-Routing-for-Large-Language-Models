@@ -36,8 +36,15 @@ class LLMJudge:
     lazy so the rest of the codebase (and tests) work without one.
     """
 
-    def __init__(self, model: str = "gpt-4o"):
+    def __init__(self, model: str = "gpt-4o", api_base: str | None = None):
+        """`api_base` points at a self-hosted OpenAI-compatible server (vLLM,
+        LM Studio, llama.cpp server, ...) -- pass it with `model="openai/<name>"`
+        to judge with a local model instead of a hosted one. Note some local
+        servers don't support the `response_format={"type": "json_object"}`
+        constraint used below; if scoring fails with a malformed-JSON error,
+        that's the likely cause."""
         self.model = model
+        self.api_base = api_base
 
     def score(self, request: str, instructions_summary: str, response: str, reference: str) -> dict:
         from litellm import completion  # lazy import
@@ -53,6 +60,7 @@ class LLMJudge:
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
             temperature=0,
+            api_base=self.api_base,
         )
         return json.loads(result.choices[0].message.content)
 

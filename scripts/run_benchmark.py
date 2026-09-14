@@ -85,6 +85,12 @@ def main() -> None:
     parser.add_argument("--judge-model", default=None,
                          help="litellm model string for LLMJudge (--live only; default: config evaluation.judge_model, e.g. gpt-4o). "
                               "Point this at a local Ollama model (e.g. ollama/llama3.1:8b) to judge with no API key.")
+    parser.add_argument("--api-base", default=None,
+                         help="Base URL for a self-hosted OpenAI-compatible server (vLLM/LM Studio/llama.cpp server) "
+                              "serving the --models under test, e.g. http://localhost:8000/v1. Use with --models openai/<name>.")
+    parser.add_argument("--judge-api-base", default=None,
+                         help="Base URL for a self-hosted OpenAI-compatible server serving --judge-model, if different "
+                              "from --api-base (e.g. judging locally while the model under test is hosted, or vice versa).")
     parser.add_argument("--n-tasks", type=int, default=None, help="Cap number of tasks (default: all)")
     parser.add_argument("--out", default="data/results/benchmark_results.jsonl")
     args = parser.parse_args()
@@ -115,13 +121,15 @@ def main() -> None:
         judge = HeuristicJudge()
     else:
         model_names = (args.models or ",".join(config["models"])).split(",")
-        model_backends = [LLMBackend(m) for m in model_names]
+        model_backends = [LLMBackend(m, api_base=args.api_base) for m in model_names]
         judge_model = args.judge_model or config["evaluation"]["judge_model"]
         from src.evaluation.llm_judge import LLMJudge
-        judge = LLMJudge(model=judge_model)
+        judge = LLMJudge(model=judge_model, api_base=args.judge_api_base)
     log.info(f"Models: {[m.model for m in model_backends]} | mode={'offline' if args.offline else 'live'}")
     if not args.offline:
-        log.info(f"Judge model: {judge.model}")
+        log.info(f"Judge model: {judge.model}"
+                 + (f" | model api_base={args.api_base}" if args.api_base else "")
+                 + (f" | judge api_base={args.judge_api_base}" if args.judge_api_base else ""))
 
     out_path = resolve_path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
