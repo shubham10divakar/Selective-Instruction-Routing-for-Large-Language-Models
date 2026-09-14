@@ -2,20 +2,21 @@
   "module_id": "research_qualitative_methods_conventions",
   "name": "Qualitative Methods Conventions",
   "domain": "research",
-  "description": "This module governs the naming, structure, and style conventions expected when working on qualitative methods so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing qualitative methods code or output, so results stay consistent with the existing qualitative methods style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "formatting",
     "methods",
-    "naming",
+    "naming conventions",
     "qualitative",
     "qualitative methods",
     "research",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on qualitative methods so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Validate qualitative methods outputs against a concrete example before treating the work as complete.\n2. Before starting qualitative methods work, confirm the scope and constraints so the approach matches the actual requirement.\n3. State assumptions about qualitative methods explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any qualitative methods bottleneck; do not guess at what is slow.\n5. Keep qualitative methods changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. When qualitative methods decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Re-check edge cases relevant to qualitative methods (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of qualitative methods correctness.\n- Avoid introducing new qualitative methods abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated qualitative methods concerns into a single change; keep each change focused.\n- Do not apply generic qualitative methods advice without checking it fits the specific context at hand.\n- Do not skip documenting qualitative methods assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these qualitative methods guidelines if the task's constraints change significantly during the work.",
-  "token_count": 410,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing qualitative methods code or output, so results stay consistent with the existing qualitative methods style guide.\n\nCORE GUIDELINES\n1. Validate qualitative methods outputs against a concrete example before treating the work as complete.\n2. Before starting qualitative methods work, confirm the scope and constraints so the approach matches the actual requirement.\n3. State assumptions about qualitative methods explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any qualitative methods bottleneck; do not guess at what is slow.\n5. Keep qualitative methods changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. When qualitative methods decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Re-check edge cases relevant to qualitative methods (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of qualitative methods correctness.\n- Avoid introducing new qualitative methods abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated qualitative methods concerns into a single change; keep each change focused.\n- Do not apply generic qualitative methods advice without checking it fits the specific context at hand.\n- Do not skip documenting qualitative methods assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these qualitative methods guidelines if the task's constraints change significantly during the work.",
+  "token_count": 432,
   "metadata": {
     "subject": "qualitative_methods",
     "aspect": "conventions",

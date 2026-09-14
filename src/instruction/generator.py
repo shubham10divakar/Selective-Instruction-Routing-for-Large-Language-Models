@@ -125,11 +125,29 @@ _PITFALL_TEMPLATES = [
 ]
 
 _PURPOSE_TEMPLATES = {
-    "conventions": "This module governs the naming, structure, and style conventions expected when working on {subject_readable} so output stays consistent and easy to review.",
-    "best_practices": "This module captures the best practices for {subject_readable}, distilled from common failure modes and what tends to hold up over time.",
-    "checklist": "This module is a pre-completion checklist for {subject_readable} work: a short set of checks to run before calling a {subject_readable} task done.",
-    "common_pitfalls": "This module lists the most common pitfalls encountered in {subject_readable} work, so they can be actively avoided rather than rediscovered.",
-    "advanced_patterns": "This module describes advanced patterns for {subject_readable} intended for non-trivial cases where the basic approach is insufficient.",
+    "conventions": (
+        "This module defines the naming, formatting, and structural style conventions to follow "
+        "whenever writing, implementing, or reviewing {subject_readable} code or output, so results "
+        "stay consistent with the existing {subject_readable} style guide."
+    ),
+    "best_practices": (
+        "This module lists the best, most commonly recommended practices for writing, implementing, "
+        "and building {subject_readable} — the default, everyday guidance to apply on typical, "
+        "ordinary {subject_readable} tasks and implementations, not specialized or unusual ones."
+    ),
+    "checklist": (
+        "This module is a short pre-completion checklist of specific items to verify before marking "
+        "any {subject_readable} task, implementation, or piece of work complete."
+    ),
+    "common_pitfalls": (
+        "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday "
+        "{subject_readable} work, so they can be recognized and avoided during typical {subject_readable} tasks."
+    ),
+    "advanced_patterns": (
+        "This module documents advanced, specialized {subject_readable} techniques reserved for "
+        "unusually complex, large-scale, or non-standard situations — it does not apply to small, "
+        "typical, everyday {subject_readable} work where the basic approach is already sufficient."
+    ),
 }
 
 _CLOSING_TEMPLATES = [
@@ -139,11 +157,11 @@ _CLOSING_TEMPLATES = [
 ]
 
 _CAPABILITY_EXTRA_TERMS = {
-    "conventions": ["naming", "style guide", "formatting", "consistency"],
-    "best_practices": ["best practices", "quality", "maintainability"],
-    "checklist": ["checklist", "verification", "pre-completion review"],
-    "common_pitfalls": ["pitfalls", "anti-patterns", "failure modes"],
-    "advanced_patterns": ["advanced patterns", "edge cases", "scalability"],
+    "conventions": ["naming conventions", "style guide", "formatting", "syntax rules", "structural consistency"],
+    "best_practices": ["best practices", "everyday tasks", "recommended approach", "implementation guidance", "typical work"],
+    "checklist": ["pre-completion checklist", "verification steps", "review checklist", "done criteria"],
+    "common_pitfalls": ["common mistakes", "anti-patterns", "failure modes", "pitfalls to avoid"],
+    "advanced_patterns": ["advanced techniques", "complex scenarios", "large-scale systems", "non-standard cases", "specialized patterns"],
 }
 
 

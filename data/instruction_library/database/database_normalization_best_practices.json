@@ -2,16 +2,18 @@
   "module_id": "database_normalization_best_practices",
   "name": "Normalization Best Practices",
   "domain": "database",
-  "description": "This module captures the best practices for normalization, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building normalization — the default, everyday guidance to apply on typical, ordinary normalization tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "database",
-    "maintainability",
+    "everyday tasks",
+    "implementation guidance",
     "normalization",
-    "quality"
+    "recommended approach",
+    "typical work"
   ],
-  "content": "This module captures the best practices for normalization, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When normalization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Keep normalization outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Prefer the simplest normalization approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Document any non-obvious normalization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. Keep normalization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Check that normalization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. State assumptions about normalization explicitly before proceeding, rather than leaving them implicit.\n8. Re-check edge cases relevant to normalization (empty input, boundary values, concurrent access) before calling the task done.\n9. Validate normalization outputs against a concrete example before treating the work as complete.\n10. Surface known limitations of a chosen normalization approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated normalization concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of normalization correctness.\n- Do not apply generic normalization advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these normalization guidelines if the task's constraints change significantly during the work.",
-  "token_count": 437,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building normalization — the default, everyday guidance to apply on typical, ordinary normalization tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. When normalization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Keep normalization outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Prefer the simplest normalization approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Document any non-obvious normalization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. Keep normalization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Check that normalization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. State assumptions about normalization explicitly before proceeding, rather than leaving them implicit.\n8. Re-check edge cases relevant to normalization (empty input, boundary values, concurrent access) before calling the task done.\n9. Validate normalization outputs against a concrete example before treating the work as complete.\n10. Surface known limitations of a chosen normalization approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated normalization concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of normalization correctness.\n- Do not apply generic normalization advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these normalization guidelines if the task's constraints change significantly during the work.",
+  "token_count": 468,
   "metadata": {
     "subject": "normalization",
     "aspect": "best_practices",

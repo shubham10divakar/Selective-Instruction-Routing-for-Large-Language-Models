@@ -2,18 +2,20 @@
   "module_id": "debugging_performance_profiling_checklist",
   "name": "Performance Profiling Checklist",
   "domain": "debugging",
-  "description": "This module is a pre-completion checklist for performance profiling work: a short set of checks to run before calling a performance profiling task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any performance profiling task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "debugging",
+    "done criteria",
     "performance",
     "performance profiling",
-    "pre-completion review",
+    "pre-completion checklist",
     "profiling",
-    "verification"
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for performance profiling work: a short set of checks to run before calling a performance profiling task done.\n\nCORE GUIDELINES\n1. Before starting performance profiling work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Prefer the simplest performance profiling approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Surface known limitations of a chosen performance profiling approach instead of presenting it as complete when it is not.\n4. Validate performance profiling outputs against a concrete example before treating the work as complete.\n5. Document any non-obvious performance profiling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. When performance profiling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. When performance profiling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Measure before optimizing any performance profiling bottleneck; do not guess at what is slow.\n9. When multiple performance profiling strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated performance profiling concerns into a single change; keep each change focused.\n- Do not silently drop performance profiling edge cases to make an example look cleaner than the real system.\n- Avoid introducing new performance profiling abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about performance profiling over a shortcut that saves a few lines but hides intent.",
-  "token_count": 450,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any performance profiling task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Before starting performance profiling work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Prefer the simplest performance profiling approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Surface known limitations of a chosen performance profiling approach instead of presenting it as complete when it is not.\n4. Validate performance profiling outputs against a concrete example before treating the work as complete.\n5. Document any non-obvious performance profiling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. When performance profiling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. When performance profiling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Measure before optimizing any performance profiling bottleneck; do not guess at what is slow.\n9. When multiple performance profiling strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated performance profiling concerns into a single change; keep each change focused.\n- Do not silently drop performance profiling edge cases to make an example look cleaner than the real system.\n- Avoid introducing new performance profiling abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about performance profiling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 454,
   "metadata": {
     "subject": "performance_profiling",
     "aspect": "checklist",

@@ -2,16 +2,18 @@
   "module_id": "writing_proofreading_checklist",
   "name": "Proofreading Checklist",
   "domain": "writing",
-  "description": "This module is a pre-completion checklist for proofreading work: a short set of checks to run before calling a proofreading task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any proofreading task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
-    "pre-completion review",
+    "done criteria",
+    "pre-completion checklist",
     "proofreading",
-    "verification",
+    "review checklist",
+    "verification steps",
     "writing"
   ],
-  "content": "This module is a pre-completion checklist for proofreading work: a short set of checks to run before calling a proofreading task done.\n\nCORE GUIDELINES\n1. Validate proofreading outputs against a concrete example before treating the work as complete.\n2. Measure before optimizing any proofreading bottleneck; do not guess at what is slow.\n3. Prefer explicit, readable proofreading solutions over clever ones that are hard to verify.\n4. Surface known limitations of a chosen proofreading approach instead of presenting it as complete when it is not.\n5. When proofreading decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Re-check edge cases relevant to proofreading (empty input, boundary values, concurrent access) before calling the task done.\n7. Document any non-obvious proofreading decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop proofreading edge cases to make an example look cleaner than the real system.\n- Avoid introducing new proofreading abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of proofreading correctness.\n- Do not apply generic proofreading advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated proofreading concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about proofreading over a shortcut that saves a few lines but hides intent.",
-  "token_count": 395,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any proofreading task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Validate proofreading outputs against a concrete example before treating the work as complete.\n2. Measure before optimizing any proofreading bottleneck; do not guess at what is slow.\n3. Prefer explicit, readable proofreading solutions over clever ones that are hard to verify.\n4. Surface known limitations of a chosen proofreading approach instead of presenting it as complete when it is not.\n5. When proofreading decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Re-check edge cases relevant to proofreading (empty input, boundary values, concurrent access) before calling the task done.\n7. Document any non-obvious proofreading decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop proofreading edge cases to make an example look cleaner than the real system.\n- Avoid introducing new proofreading abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of proofreading correctness.\n- Do not apply generic proofreading advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated proofreading concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about proofreading over a shortcut that saves a few lines but hides intent.",
+  "token_count": 400,
   "metadata": {
     "subject": "proofreading",
     "aspect": "checklist",

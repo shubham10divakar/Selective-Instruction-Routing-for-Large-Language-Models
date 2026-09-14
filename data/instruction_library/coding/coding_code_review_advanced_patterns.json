@@ -2,18 +2,21 @@
   "module_id": "coding_code_review_advanced_patterns",
   "name": "Advanced Code Review Patterns",
   "domain": "coding",
-  "description": "This module describes advanced patterns for code review intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized code review techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday code review work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
     "code",
     "code review",
     "coding",
-    "edge cases",
+    "complex scenarios",
+    "large-scale systems",
+    "non-standard cases",
     "review",
-    "scalability"
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for code review intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to code review (empty input, boundary values, concurrent access) before calling the task done.\n2. Keep code review changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Prefer the simplest code review approach that satisfies the requirement over a more general one that isn't needed yet.\n4. When code review decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When code review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Validate code review outputs against a concrete example before treating the work as complete.\n7. Document any non-obvious code review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new code review abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting code review assumptions just because they seem obvious in the moment.\n- Do not apply generic code review advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these code review guidelines if the task's constraints change significantly during the work.",
-  "token_count": 352,
+  "content": "This module documents advanced, specialized code review techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday code review work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to code review (empty input, boundary values, concurrent access) before calling the task done.\n2. Keep code review changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Prefer the simplest code review approach that satisfies the requirement over a more general one that isn't needed yet.\n4. When code review decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When code review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Validate code review outputs against a concrete example before treating the work as complete.\n7. Document any non-obvious code review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new code review abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting code review assumptions just because they seem obvious in the moment.\n- Do not apply generic code review advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these code review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 382,
   "metadata": {
     "subject": "code_review",
     "aspect": "advanced_patterns",

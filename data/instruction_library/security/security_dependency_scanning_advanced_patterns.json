@@ -2,18 +2,21 @@
   "module_id": "security_dependency_scanning_advanced_patterns",
   "name": "Advanced Dependency Scanning Patterns",
   "domain": "security",
-  "description": "This module describes advanced patterns for dependency scanning intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized dependency scanning techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday dependency scanning work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
+    "complex scenarios",
     "dependency",
     "dependency scanning",
-    "edge cases",
-    "scalability",
+    "large-scale systems",
+    "non-standard cases",
     "scanning",
-    "security"
+    "security",
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for dependency scanning intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Keep dependency scanning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Document any non-obvious dependency scanning decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When dependency scanning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. When dependency scanning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. State assumptions about dependency scanning explicitly before proceeding, rather than leaving them implicit.\n6. Measure before optimizing any dependency scanning bottleneck; do not guess at what is slow.\n7. Surface known limitations of a chosen dependency scanning approach instead of presenting it as complete when it is not.\n8. Validate dependency scanning outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new dependency scanning abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of dependency scanning correctness.\n- Do not silently drop dependency scanning edge cases to make an example look cleaner than the real system.\n- Do not skip documenting dependency scanning assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated dependency scanning concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about dependency scanning over a shortcut that saves a few lines but hides intent.",
-  "token_count": 455,
+  "content": "This module documents advanced, specialized dependency scanning techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday dependency scanning work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Keep dependency scanning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Document any non-obvious dependency scanning decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When dependency scanning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. When dependency scanning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. State assumptions about dependency scanning explicitly before proceeding, rather than leaving them implicit.\n6. Measure before optimizing any dependency scanning bottleneck; do not guess at what is slow.\n7. Surface known limitations of a chosen dependency scanning approach instead of presenting it as complete when it is not.\n8. Validate dependency scanning outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new dependency scanning abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of dependency scanning correctness.\n- Do not silently drop dependency scanning edge cases to make an example look cleaner than the real system.\n- Do not skip documenting dependency scanning assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated dependency scanning concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about dependency scanning over a shortcut that saves a few lines but hides intent.",
+  "token_count": 488,
   "metadata": {
     "subject": "dependency_scanning",
     "aspect": "advanced_patterns",

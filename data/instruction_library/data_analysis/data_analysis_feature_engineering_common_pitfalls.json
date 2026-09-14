@@ -2,19 +2,20 @@
   "module_id": "data_analysis_feature_engineering_common_pitfalls",
   "name": "Feature Engineering Common Pitfalls",
   "domain": "data_analysis",
-  "description": "This module lists the most common pitfalls encountered in feature engineering work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday feature engineering work, so they can be recognized and avoided during typical feature engineering tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "data_analysis",
     "engineering",
     "failure modes",
     "feature",
     "feature engineering",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in feature engineering work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When feature engineering guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. When multiple feature engineering strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Check that feature engineering terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Surface known limitations of a chosen feature engineering approach instead of presenting it as complete when it is not.\n5. Prefer the simplest feature engineering approach that satisfies the requirement over a more general one that isn't needed yet.\n6. State assumptions about feature engineering explicitly before proceeding, rather than leaving them implicit.\n7. Keep feature engineering outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop feature engineering edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of feature engineering correctness.\n- Do not skip documenting feature engineering assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for feature engineering, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 388,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday feature engineering work, so they can be recognized and avoided during typical feature engineering tasks.\n\nCORE GUIDELINES\n1. When feature engineering guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. When multiple feature engineering strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Check that feature engineering terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Surface known limitations of a chosen feature engineering approach instead of presenting it as complete when it is not.\n5. Prefer the simplest feature engineering approach that satisfies the requirement over a more general one that isn't needed yet.\n6. State assumptions about feature engineering explicitly before proceeding, rather than leaving them implicit.\n7. Keep feature engineering outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop feature engineering edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of feature engineering correctness.\n- Do not skip documenting feature engineering assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for feature engineering, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 401,
   "metadata": {
     "subject": "feature_engineering",
     "aspect": "common_pitfalls",

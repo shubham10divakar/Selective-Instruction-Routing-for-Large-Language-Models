@@ -2,20 +2,21 @@
   "module_id": "debugging_exception_handling_conventions",
   "name": "Exception Handling Conventions",
   "domain": "debugging",
-  "description": "This module governs the naming, structure, and style conventions expected when working on exception handling so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing exception handling code or output, so results stay consistent with the existing exception handling style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "debugging",
     "exception",
     "exception handling",
     "formatting",
     "handling",
-    "naming",
-    "style guide"
+    "naming conventions",
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on exception handling so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Validate exception handling outputs against a concrete example before treating the work as complete.\n2. Check that exception handling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. State assumptions about exception handling explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any exception handling bottleneck; do not guess at what is slow.\n5. When exception handling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Re-check edge cases relevant to exception handling (empty input, boundary values, concurrent access) before calling the task done.\n7. When multiple exception handling strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Document any non-obvious exception handling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When exception handling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n10. Prefer the simplest exception handling approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting exception handling assumptions just because they seem obvious in the moment.\n- Do not silently drop exception handling edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated exception handling concerns into a single change; keep each change focused.\n- Do not apply generic exception handling advice without checking it fits the specific context at hand.\n- Avoid introducing new exception handling abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these exception handling guidelines if the task's constraints change significantly during the work.",
-  "token_count": 520,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing exception handling code or output, so results stay consistent with the existing exception handling style guide.\n\nCORE GUIDELINES\n1. Validate exception handling outputs against a concrete example before treating the work as complete.\n2. Check that exception handling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. State assumptions about exception handling explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any exception handling bottleneck; do not guess at what is slow.\n5. When exception handling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Re-check edge cases relevant to exception handling (empty input, boundary values, concurrent access) before calling the task done.\n7. When multiple exception handling strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Document any non-obvious exception handling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When exception handling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n10. Prefer the simplest exception handling approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting exception handling assumptions just because they seem obvious in the moment.\n- Do not silently drop exception handling edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated exception handling concerns into a single change; keep each change focused.\n- Do not apply generic exception handling advice without checking it fits the specific context at hand.\n- Avoid introducing new exception handling abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these exception handling guidelines if the task's constraints change significantly during the work.",
+  "token_count": 542,
   "metadata": {
     "subject": "exception_handling",
     "aspect": "conventions",

@@ -2,18 +2,19 @@
   "module_id": "security_authentication_conventions",
   "name": "Authentication Conventions",
   "domain": "security",
-  "description": "This module governs the naming, structure, and style conventions expected when working on authentication so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing authentication code or output, so results stay consistent with the existing authentication style guide.",
   "capabilities": [
     "authentication",
-    "consistency",
     "conventions",
     "formatting",
-    "naming",
+    "naming conventions",
     "security",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on authentication so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer the simplest authentication approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Check that authentication terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Keep authentication outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Prefer explicit, readable authentication solutions over clever ones that are hard to verify.\n5. Keep authentication changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Before starting authentication work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When authentication guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new authentication abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated authentication concerns into a single change; keep each change focused.\n- Do not silently drop authentication edge cases to make an example look cleaner than the real system.\n- Do not skip documenting authentication assumptions just because they seem obvious in the moment.\n- Do not apply generic authentication advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for authentication, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 424,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing authentication code or output, so results stay consistent with the existing authentication style guide.\n\nCORE GUIDELINES\n1. Prefer the simplest authentication approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Check that authentication terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Keep authentication outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Prefer explicit, readable authentication solutions over clever ones that are hard to verify.\n5. Keep authentication changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Before starting authentication work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When authentication guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new authentication abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated authentication concerns into a single change; keep each change focused.\n- Do not silently drop authentication edge cases to make an example look cleaner than the real system.\n- Do not skip documenting authentication assumptions just because they seem obvious in the moment.\n- Do not apply generic authentication advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for authentication, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 445,
   "metadata": {
     "subject": "authentication",
     "aspect": "conventions",

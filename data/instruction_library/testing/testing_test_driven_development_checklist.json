@@ -2,19 +2,21 @@
   "module_id": "testing_test_driven_development_checklist",
   "name": "Test Driven Development Checklist",
   "domain": "testing",
-  "description": "This module is a pre-completion checklist for test driven development work: a short set of checks to run before calling a test driven development task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any test driven development task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "development",
+    "done criteria",
     "driven",
-    "pre-completion review",
+    "pre-completion checklist",
+    "review checklist",
     "test",
     "test driven development",
     "testing",
-    "verification"
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for test driven development work: a short set of checks to run before calling a test driven development task done.\n\nCORE GUIDELINES\n1. When test driven development guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Keep test driven development changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. State assumptions about test driven development explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any test driven development bottleneck; do not guess at what is slow.\n5. When test driven development decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Prefer explicit, readable test driven development solutions over clever ones that are hard to verify.\n7. Document any non-obvious test driven development decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. Re-check edge cases relevant to test driven development (empty input, boundary values, concurrent access) before calling the task done.\n9. Check that test driven development terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated test driven development concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of test driven development correctness.\n- Avoid introducing new test driven development abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting test driven development assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these test driven development guidelines if the task's constraints change significantly during the work.",
-  "token_count": 470,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any test driven development task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. When test driven development guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Keep test driven development changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. State assumptions about test driven development explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any test driven development bottleneck; do not guess at what is slow.\n5. When test driven development decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Prefer explicit, readable test driven development solutions over clever ones that are hard to verify.\n7. Document any non-obvious test driven development decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. Re-check edge cases relevant to test driven development (empty input, boundary values, concurrent access) before calling the task done.\n9. Check that test driven development terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated test driven development concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of test driven development correctness.\n- Avoid introducing new test driven development abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting test driven development assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these test driven development guidelines if the task's constraints change significantly during the work.",
+  "token_count": 473,
   "metadata": {
     "subject": "test_driven_development",
     "aspect": "checklist",

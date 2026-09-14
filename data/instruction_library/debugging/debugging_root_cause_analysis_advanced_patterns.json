@@ -2,19 +2,22 @@
   "module_id": "debugging_root_cause_analysis_advanced_patterns",
   "name": "Advanced Root Cause Analysis Patterns",
   "domain": "debugging",
-  "description": "This module describes advanced patterns for root cause analysis intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized root cause analysis techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday root cause analysis work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
     "analysis",
     "cause",
+    "complex scenarios",
     "debugging",
-    "edge cases",
+    "large-scale systems",
+    "non-standard cases",
     "root",
     "root cause analysis",
-    "scalability"
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for root cause analysis intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Validate root cause analysis outputs against a concrete example before treating the work as complete.\n2. Keep root cause analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Document any non-obvious root cause analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Surface known limitations of a chosen root cause analysis approach instead of presenting it as complete when it is not.\n5. Before starting root cause analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n6. State assumptions about root cause analysis explicitly before proceeding, rather than leaving them implicit.\n7. Measure before optimizing any root cause analysis bottleneck; do not guess at what is slow.\n8. Keep root cause analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Re-check edge cases relevant to root cause analysis (empty input, boundary values, concurrent access) before calling the task done.\n10. When root cause analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n11. When root cause analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting root cause analysis assumptions just because they seem obvious in the moment.\n- Do not apply generic root cause analysis advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of root cause analysis correctness.\n- Do not silently drop root cause analysis edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated root cause analysis concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these root cause analysis guidelines if the task's constraints change significantly during the work.",
-  "token_count": 538,
+  "content": "This module documents advanced, specialized root cause analysis techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday root cause analysis work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Validate root cause analysis outputs against a concrete example before treating the work as complete.\n2. Keep root cause analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Document any non-obvious root cause analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Surface known limitations of a chosen root cause analysis approach instead of presenting it as complete when it is not.\n5. Before starting root cause analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n6. State assumptions about root cause analysis explicitly before proceeding, rather than leaving them implicit.\n7. Measure before optimizing any root cause analysis bottleneck; do not guess at what is slow.\n8. Keep root cause analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Re-check edge cases relevant to root cause analysis (empty input, boundary values, concurrent access) before calling the task done.\n10. When root cause analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n11. When root cause analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting root cause analysis assumptions just because they seem obvious in the moment.\n- Do not apply generic root cause analysis advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of root cause analysis correctness.\n- Do not silently drop root cause analysis edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated root cause analysis concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these root cause analysis guidelines if the task's constraints change significantly during the work.",
+  "token_count": 570,
   "metadata": {
     "subject": "root_cause_analysis",
     "aspect": "advanced_patterns",

@@ -2,17 +2,18 @@
   "module_id": "database_indexing_common_pitfalls",
   "name": "Indexing Common Pitfalls",
   "domain": "database",
-  "description": "This module lists the most common pitfalls encountered in indexing work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday indexing work, so they can be recognized and avoided during typical indexing tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "database",
     "failure modes",
     "indexing",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in indexing work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When indexing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Prefer explicit, readable indexing solutions over clever ones that are hard to verify.\n3. Measure before optimizing any indexing bottleneck; do not guess at what is slow.\n4. State assumptions about indexing explicitly before proceeding, rather than leaving them implicit.\n5. Surface known limitations of a chosen indexing approach instead of presenting it as complete when it is not.\n6. Re-check edge cases relevant to indexing (empty input, boundary values, concurrent access) before calling the task done.\n7. Check that indexing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Keep indexing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Validate indexing outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic indexing advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated indexing concerns into a single change; keep each change focused.\n- Do not skip documenting indexing assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these indexing guidelines if the task's constraints change significantly during the work.",
-  "token_count": 386,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday indexing work, so they can be recognized and avoided during typical indexing tasks.\n\nCORE GUIDELINES\n1. When indexing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Prefer explicit, readable indexing solutions over clever ones that are hard to verify.\n3. Measure before optimizing any indexing bottleneck; do not guess at what is slow.\n4. State assumptions about indexing explicitly before proceeding, rather than leaving them implicit.\n5. Surface known limitations of a chosen indexing approach instead of presenting it as complete when it is not.\n6. Re-check edge cases relevant to indexing (empty input, boundary values, concurrent access) before calling the task done.\n7. Check that indexing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Keep indexing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Validate indexing outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic indexing advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated indexing concerns into a single change; keep each change focused.\n- Do not skip documenting indexing assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these indexing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 397,
   "metadata": {
     "subject": "indexing",
     "aspect": "common_pitfalls",

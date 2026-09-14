@@ -2,20 +2,21 @@
   "module_id": "deployment_infrastructure_as_code_common_pitfalls",
   "name": "Infrastructure As Code Common Pitfalls",
   "domain": "deployment",
-  "description": "This module lists the most common pitfalls encountered in infrastructure as code work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday infrastructure as code work, so they can be recognized and avoided during typical infrastructure as code tasks.",
   "capabilities": [
     "anti-patterns",
     "as",
     "code",
+    "common mistakes",
     "common pitfalls",
     "deployment",
     "failure modes",
     "infrastructure",
     "infrastructure as code",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in infrastructure as code work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Document any non-obvious infrastructure as code decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Keep infrastructure as code outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. State assumptions about infrastructure as code explicitly before proceeding, rather than leaving them implicit.\n4. Re-check edge cases relevant to infrastructure as code (empty input, boundary values, concurrent access) before calling the task done.\n5. Measure before optimizing any infrastructure as code bottleneck; do not guess at what is slow.\n6. Validate infrastructure as code outputs against a concrete example before treating the work as complete.\n7. Before starting infrastructure as code work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new infrastructure as code abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting infrastructure as code assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated infrastructure as code concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these infrastructure as code guidelines if the task's constraints change significantly during the work.",
-  "token_count": 378,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday infrastructure as code work, so they can be recognized and avoided during typical infrastructure as code tasks.\n\nCORE GUIDELINES\n1. Document any non-obvious infrastructure as code decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Keep infrastructure as code outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. State assumptions about infrastructure as code explicitly before proceeding, rather than leaving them implicit.\n4. Re-check edge cases relevant to infrastructure as code (empty input, boundary values, concurrent access) before calling the task done.\n5. Measure before optimizing any infrastructure as code bottleneck; do not guess at what is slow.\n6. Validate infrastructure as code outputs against a concrete example before treating the work as complete.\n7. Before starting infrastructure as code work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new infrastructure as code abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting infrastructure as code assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated infrastructure as code concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these infrastructure as code guidelines if the task's constraints change significantly during the work.",
+  "token_count": 392,
   "metadata": {
     "subject": "infrastructure_as_code",
     "aspect": "common_pitfalls",

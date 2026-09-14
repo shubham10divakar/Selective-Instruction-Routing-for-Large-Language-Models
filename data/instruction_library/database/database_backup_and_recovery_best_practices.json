@@ -2,19 +2,21 @@
   "module_id": "database_backup_and_recovery_best_practices",
   "name": "Backup And Recovery Best Practices",
   "domain": "database",
-  "description": "This module captures the best practices for backup and recovery, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building backup and recovery — the default, everyday guidance to apply on typical, ordinary backup and recovery tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "and",
     "backup",
     "backup and recovery",
     "best practices",
     "database",
-    "maintainability",
-    "quality",
-    "recovery"
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
+    "recovery",
+    "typical work"
   ],
-  "content": "This module captures the best practices for backup and recovery, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer explicit, readable backup and recovery solutions over clever ones that are hard to verify.\n2. Surface known limitations of a chosen backup and recovery approach instead of presenting it as complete when it is not.\n3. When backup and recovery guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Measure before optimizing any backup and recovery bottleneck; do not guess at what is slow.\n5. Validate backup and recovery outputs against a concrete example before treating the work as complete.\n6. Before starting backup and recovery work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Keep backup and recovery changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Prefer the simplest backup and recovery approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting backup and recovery assumptions just because they seem obvious in the moment.\n- Avoid introducing new backup and recovery abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated backup and recovery concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of backup and recovery correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about backup and recovery over a shortcut that saves a few lines but hides intent.",
-  "token_count": 420,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building backup and recovery — the default, everyday guidance to apply on typical, ordinary backup and recovery tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Prefer explicit, readable backup and recovery solutions over clever ones that are hard to verify.\n2. Surface known limitations of a chosen backup and recovery approach instead of presenting it as complete when it is not.\n3. When backup and recovery guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Measure before optimizing any backup and recovery bottleneck; do not guess at what is slow.\n5. Validate backup and recovery outputs against a concrete example before treating the work as complete.\n6. Before starting backup and recovery work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Keep backup and recovery changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Prefer the simplest backup and recovery approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting backup and recovery assumptions just because they seem obvious in the moment.\n- Avoid introducing new backup and recovery abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated backup and recovery concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of backup and recovery correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about backup and recovery over a shortcut that saves a few lines but hides intent.",
+  "token_count": 452,
   "metadata": {
     "subject": "backup_and_recovery",
     "aspect": "best_practices",

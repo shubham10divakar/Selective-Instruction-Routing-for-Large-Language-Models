@@ -2,19 +2,22 @@
   "module_id": "debugging_production_incident_response_advanced_patterns",
   "name": "Advanced Production Incident Response Patterns",
   "domain": "debugging",
-  "description": "This module describes advanced patterns for production incident response intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized production incident response techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday production incident response work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
+    "complex scenarios",
     "debugging",
-    "edge cases",
     "incident",
+    "large-scale systems",
+    "non-standard cases",
     "production",
     "production incident response",
     "response",
-    "scalability"
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for production incident response intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to production incident response (empty input, boundary values, concurrent access) before calling the task done.\n2. Document any non-obvious production incident response decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Keep production incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Validate production incident response outputs against a concrete example before treating the work as complete.\n5. Prefer the simplest production incident response approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Check that production incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Surface known limitations of a chosen production incident response approach instead of presenting it as complete when it is not.\n8. When multiple production incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop production incident response edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of production incident response correctness.\n- Do not skip documenting production incident response assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated production incident response concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about production incident response over a shortcut that saves a few lines but hides intent.",
-  "token_count": 472,
+  "content": "This module documents advanced, specialized production incident response techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday production incident response work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to production incident response (empty input, boundary values, concurrent access) before calling the task done.\n2. Document any non-obvious production incident response decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Keep production incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Validate production incident response outputs against a concrete example before treating the work as complete.\n5. Prefer the simplest production incident response approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Check that production incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Surface known limitations of a chosen production incident response approach instead of presenting it as complete when it is not.\n8. When multiple production incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop production incident response edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of production incident response correctness.\n- Do not skip documenting production incident response assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated production incident response concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about production incident response over a shortcut that saves a few lines but hides intent.",
+  "token_count": 508,
   "metadata": {
     "subject": "production_incident_response",
     "aspect": "advanced_patterns",

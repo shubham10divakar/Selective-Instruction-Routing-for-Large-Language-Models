@@ -2,18 +2,20 @@
   "module_id": "testing_end_to_end_testing_best_practices",
   "name": "End To End Testing Best Practices",
   "domain": "testing",
-  "description": "This module captures the best practices for end to end testing, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building end to end testing — the default, everyday guidance to apply on typical, ordinary end to end testing tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "end",
     "end to end testing",
-    "maintainability",
-    "quality",
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
     "testing",
-    "to"
+    "to",
+    "typical work"
   ],
-  "content": "This module captures the best practices for end to end testing, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer explicit, readable end to end testing solutions over clever ones that are hard to verify.\n2. When multiple end to end testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Keep end to end testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. State assumptions about end to end testing explicitly before proceeding, rather than leaving them implicit.\n5. Measure before optimizing any end to end testing bottleneck; do not guess at what is slow.\n6. Before starting end to end testing work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When end to end testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of end to end testing correctness.\n- Avoid mixing unrelated end to end testing concerns into a single change; keep each change focused.\n- Do not skip documenting end to end testing assumptions just because they seem obvious in the moment.\n- Avoid introducing new end to end testing abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about end to end testing over a shortcut that saves a few lines but hides intent.",
-  "token_count": 385,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building end to end testing — the default, everyday guidance to apply on typical, ordinary end to end testing tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Prefer explicit, readable end to end testing solutions over clever ones that are hard to verify.\n2. When multiple end to end testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Keep end to end testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. State assumptions about end to end testing explicitly before proceeding, rather than leaving them implicit.\n5. Measure before optimizing any end to end testing bottleneck; do not guess at what is slow.\n6. Before starting end to end testing work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When end to end testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of end to end testing correctness.\n- Avoid mixing unrelated end to end testing concerns into a single change; keep each change focused.\n- Do not skip documenting end to end testing assumptions just because they seem obvious in the moment.\n- Avoid introducing new end to end testing abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about end to end testing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 417,
   "metadata": {
     "subject": "end_to_end_testing",
     "aspect": "best_practices",

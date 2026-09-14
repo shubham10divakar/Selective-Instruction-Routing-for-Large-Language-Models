@@ -2,20 +2,21 @@
   "module_id": "database_query_optimization_conventions",
   "name": "Query Optimization Conventions",
   "domain": "database",
-  "description": "This module governs the naming, structure, and style conventions expected when working on query optimization so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing query optimization code or output, so results stay consistent with the existing query optimization style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "database",
     "formatting",
-    "naming",
+    "naming conventions",
     "optimization",
     "query",
     "query optimization",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on query optimization so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen query optimization approach instead of presenting it as complete when it is not.\n2. Before starting query optimization work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Prefer explicit, readable query optimization solutions over clever ones that are hard to verify.\n4. State assumptions about query optimization explicitly before proceeding, rather than leaving them implicit.\n5. Validate query optimization outputs against a concrete example before treating the work as complete.\n6. When query optimization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Prefer the simplest query optimization approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Check that query optimization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Measure before optimizing any query optimization bottleneck; do not guess at what is slow.\n10. Document any non-obvious query optimization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. Re-check edge cases relevant to query optimization (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic query optimization advice without checking it fits the specific context at hand.\n- Do not skip documenting query optimization assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated query optimization concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about query optimization over a shortcut that saves a few lines but hides intent.",
-  "token_count": 492,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing query optimization code or output, so results stay consistent with the existing query optimization style guide.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen query optimization approach instead of presenting it as complete when it is not.\n2. Before starting query optimization work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Prefer explicit, readable query optimization solutions over clever ones that are hard to verify.\n4. State assumptions about query optimization explicitly before proceeding, rather than leaving them implicit.\n5. Validate query optimization outputs against a concrete example before treating the work as complete.\n6. When query optimization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Prefer the simplest query optimization approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Check that query optimization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Measure before optimizing any query optimization bottleneck; do not guess at what is slow.\n10. Document any non-obvious query optimization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. Re-check edge cases relevant to query optimization (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic query optimization advice without checking it fits the specific context at hand.\n- Do not skip documenting query optimization assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated query optimization concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about query optimization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 514,
   "metadata": {
     "subject": "query_optimization",
     "aspect": "conventions",

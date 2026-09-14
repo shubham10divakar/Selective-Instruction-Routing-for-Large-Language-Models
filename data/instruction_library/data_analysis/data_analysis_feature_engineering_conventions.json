@@ -2,20 +2,21 @@
   "module_id": "data_analysis_feature_engineering_conventions",
   "name": "Feature Engineering Conventions",
   "domain": "data_analysis",
-  "description": "This module governs the naming, structure, and style conventions expected when working on feature engineering so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing feature engineering code or output, so results stay consistent with the existing feature engineering style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "data_analysis",
     "engineering",
     "feature",
     "feature engineering",
     "formatting",
-    "naming",
-    "style guide"
+    "naming conventions",
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on feature engineering so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Validate feature engineering outputs against a concrete example before treating the work as complete.\n2. When feature engineering decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Check that feature engineering terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Before starting feature engineering work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Measure before optimizing any feature engineering bottleneck; do not guess at what is slow.\n6. Prefer explicit, readable feature engineering solutions over clever ones that are hard to verify.\n7. Prefer the simplest feature engineering approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic feature engineering advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of feature engineering correctness.\n- Avoid introducing new feature engineering abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for feature engineering, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 371,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing feature engineering code or output, so results stay consistent with the existing feature engineering style guide.\n\nCORE GUIDELINES\n1. Validate feature engineering outputs against a concrete example before treating the work as complete.\n2. When feature engineering decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Check that feature engineering terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Before starting feature engineering work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Measure before optimizing any feature engineering bottleneck; do not guess at what is slow.\n6. Prefer explicit, readable feature engineering solutions over clever ones that are hard to verify.\n7. Prefer the simplest feature engineering approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic feature engineering advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of feature engineering correctness.\n- Avoid introducing new feature engineering abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for feature engineering, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 394,
   "metadata": {
     "subject": "feature_engineering",
     "aspect": "conventions",

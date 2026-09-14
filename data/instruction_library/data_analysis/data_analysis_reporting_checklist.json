@@ -2,16 +2,18 @@
   "module_id": "data_analysis_reporting_checklist",
   "name": "Reporting Checklist",
   "domain": "data_analysis",
-  "description": "This module is a pre-completion checklist for reporting work: a short set of checks to run before calling a reporting task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any reporting task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "data_analysis",
-    "pre-completion review",
+    "done criteria",
+    "pre-completion checklist",
     "reporting",
-    "verification"
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for reporting work: a short set of checks to run before calling a reporting task done.\n\nCORE GUIDELINES\n1. Document any non-obvious reporting decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any reporting bottleneck; do not guess at what is slow.\n3. Before starting reporting work, confirm the scope and constraints so the approach matches the actual requirement.\n4. When multiple reporting strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Prefer explicit, readable reporting solutions over clever ones that are hard to verify.\n6. State assumptions about reporting explicitly before proceeding, rather than leaving them implicit.\n7. When reporting guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reporting concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of reporting correctness.\n- Avoid introducing new reporting abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about reporting over a shortcut that saves a few lines but hides intent.",
-  "token_count": 371,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any reporting task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Document any non-obvious reporting decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any reporting bottleneck; do not guess at what is slow.\n3. Before starting reporting work, confirm the scope and constraints so the approach matches the actual requirement.\n4. When multiple reporting strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Prefer explicit, readable reporting solutions over clever ones that are hard to verify.\n6. State assumptions about reporting explicitly before proceeding, rather than leaving them implicit.\n7. When reporting guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reporting concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of reporting correctness.\n- Avoid introducing new reporting abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about reporting over a shortcut that saves a few lines but hides intent.",
+  "token_count": 378,
   "metadata": {
     "subject": "reporting",
     "aspect": "checklist",

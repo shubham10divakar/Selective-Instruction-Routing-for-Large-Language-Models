@@ -2,20 +2,21 @@
   "module_id": "coding_error_handling_conventions",
   "name": "Error Handling Conventions",
   "domain": "coding",
-  "description": "This module governs the naming, structure, and style conventions expected when working on error handling so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing error handling code or output, so results stay consistent with the existing error handling style guide.",
   "capabilities": [
     "coding",
-    "consistency",
     "conventions",
     "error",
     "error handling",
     "formatting",
     "handling",
-    "naming",
-    "style guide"
+    "naming conventions",
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on error handling so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen error handling approach instead of presenting it as complete when it is not.\n2. Document any non-obvious error handling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. State assumptions about error handling explicitly before proceeding, rather than leaving them implicit.\n4. Check that error handling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Keep error handling outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer explicit, readable error handling solutions over clever ones that are hard to verify.\n7. When error handling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Re-check edge cases relevant to error handling (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated error handling concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of error handling correctness.\n- Do not skip documenting error handling assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about error handling over a shortcut that saves a few lines but hides intent.",
-  "token_count": 395,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing error handling code or output, so results stay consistent with the existing error handling style guide.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen error handling approach instead of presenting it as complete when it is not.\n2. Document any non-obvious error handling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. State assumptions about error handling explicitly before proceeding, rather than leaving them implicit.\n4. Check that error handling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Keep error handling outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer explicit, readable error handling solutions over clever ones that are hard to verify.\n7. When error handling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Re-check edge cases relevant to error handling (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated error handling concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of error handling correctness.\n- Do not skip documenting error handling assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about error handling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 416,
   "metadata": {
     "subject": "error_handling",
     "aspect": "conventions",

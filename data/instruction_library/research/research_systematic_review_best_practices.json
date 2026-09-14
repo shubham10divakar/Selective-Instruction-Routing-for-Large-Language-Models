@@ -2,18 +2,20 @@
   "module_id": "research_systematic_review_best_practices",
   "name": "Systematic Review Best Practices",
   "domain": "research",
-  "description": "This module captures the best practices for systematic review, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building systematic review — the default, everyday guidance to apply on typical, ordinary systematic review tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
-    "maintainability",
-    "quality",
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
     "research",
     "review",
     "systematic",
-    "systematic review"
+    "systematic review",
+    "typical work"
   ],
-  "content": "This module captures the best practices for systematic review, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When systematic review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. When multiple systematic review strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Document any non-obvious systematic review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Surface known limitations of a chosen systematic review approach instead of presenting it as complete when it is not.\n5. State assumptions about systematic review explicitly before proceeding, rather than leaving them implicit.\n6. Measure before optimizing any systematic review bottleneck; do not guess at what is slow.\n7. Validate systematic review outputs against a concrete example before treating the work as complete.\n8. Keep systematic review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable systematic review solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop systematic review edge cases to make an example look cleaner than the real system.\n- Avoid introducing new systematic review abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated systematic review concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of systematic review correctness.\n\nCLOSING NOTE\nRevisit these systematic review guidelines if the task's constraints change significantly during the work.",
-  "token_count": 443,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building systematic review — the default, everyday guidance to apply on typical, ordinary systematic review tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. When systematic review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. When multiple systematic review strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Document any non-obvious systematic review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Surface known limitations of a chosen systematic review approach instead of presenting it as complete when it is not.\n5. State assumptions about systematic review explicitly before proceeding, rather than leaving them implicit.\n6. Measure before optimizing any systematic review bottleneck; do not guess at what is slow.\n7. Validate systematic review outputs against a concrete example before treating the work as complete.\n8. Keep systematic review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable systematic review solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop systematic review edge cases to make an example look cleaner than the real system.\n- Avoid introducing new systematic review abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated systematic review concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of systematic review correctness.\n\nCLOSING NOTE\nRevisit these systematic review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 475,
   "metadata": {
     "subject": "systematic_review",
     "aspect": "best_practices",

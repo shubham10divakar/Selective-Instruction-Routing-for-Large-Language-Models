@@ -2,20 +2,21 @@
   "module_id": "database_nosql_modeling_conventions",
   "name": "Nosql Modeling Conventions",
   "domain": "database",
-  "description": "This module governs the naming, structure, and style conventions expected when working on nosql modeling so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing nosql modeling code or output, so results stay consistent with the existing nosql modeling style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "database",
     "formatting",
     "modeling",
-    "naming",
+    "naming conventions",
     "nosql",
     "nosql modeling",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on nosql modeling so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Document any non-obvious nosql modeling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any nosql modeling bottleneck; do not guess at what is slow.\n3. Re-check edge cases relevant to nosql modeling (empty input, boundary values, concurrent access) before calling the task done.\n4. Validate nosql modeling outputs against a concrete example before treating the work as complete.\n5. When multiple nosql modeling strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Prefer the simplest nosql modeling approach that satisfies the requirement over a more general one that isn't needed yet.\n7. When nosql modeling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Check that nosql modeling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Keep nosql modeling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n10. Surface known limitations of a chosen nosql modeling approach instead of presenting it as complete when it is not.\n11. Keep nosql modeling outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated nosql modeling concerns into a single change; keep each change focused.\n- Avoid introducing new nosql modeling abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting nosql modeling assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for nosql modeling, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 485,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing nosql modeling code or output, so results stay consistent with the existing nosql modeling style guide.\n\nCORE GUIDELINES\n1. Document any non-obvious nosql modeling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any nosql modeling bottleneck; do not guess at what is slow.\n3. Re-check edge cases relevant to nosql modeling (empty input, boundary values, concurrent access) before calling the task done.\n4. Validate nosql modeling outputs against a concrete example before treating the work as complete.\n5. When multiple nosql modeling strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Prefer the simplest nosql modeling approach that satisfies the requirement over a more general one that isn't needed yet.\n7. When nosql modeling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Check that nosql modeling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Keep nosql modeling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n10. Surface known limitations of a chosen nosql modeling approach instead of presenting it as complete when it is not.\n11. Keep nosql modeling outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated nosql modeling concerns into a single change; keep each change focused.\n- Avoid introducing new nosql modeling abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting nosql modeling assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for nosql modeling, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 506,
   "metadata": {
     "subject": "nosql_modeling",
     "aspect": "conventions",

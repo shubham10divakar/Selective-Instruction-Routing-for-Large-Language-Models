@@ -2,18 +2,21 @@
   "module_id": "deployment_capacity_planning_advanced_patterns",
   "name": "Advanced Capacity Planning Patterns",
   "domain": "deployment",
-  "description": "This module describes advanced patterns for capacity planning intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized capacity planning techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday capacity planning work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
     "capacity",
     "capacity planning",
+    "complex scenarios",
     "deployment",
-    "edge cases",
+    "large-scale systems",
+    "non-standard cases",
     "planning",
-    "scalability"
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for capacity planning intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. When multiple capacity planning strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Validate capacity planning outputs against a concrete example before treating the work as complete.\n3. Prefer the simplest capacity planning approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Before starting capacity planning work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Keep capacity planning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Keep capacity planning changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. When capacity planning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. When capacity planning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting capacity planning assumptions just because they seem obvious in the moment.\n- Do not silently drop capacity planning edge cases to make an example look cleaner than the real system.\n- Avoid introducing new capacity planning abstractions before there is a second concrete use case that needs them.\n- Do not apply generic capacity planning advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of capacity planning correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for capacity planning, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 454,
+  "content": "This module documents advanced, specialized capacity planning techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday capacity planning work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. When multiple capacity planning strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Validate capacity planning outputs against a concrete example before treating the work as complete.\n3. Prefer the simplest capacity planning approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Before starting capacity planning work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Keep capacity planning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Keep capacity planning changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. When capacity planning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. When capacity planning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting capacity planning assumptions just because they seem obvious in the moment.\n- Do not silently drop capacity planning edge cases to make an example look cleaner than the real system.\n- Avoid introducing new capacity planning abstractions before there is a second concrete use case that needs them.\n- Do not apply generic capacity planning advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of capacity planning correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for capacity planning, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 486,
   "metadata": {
     "subject": "capacity_planning",
     "aspect": "advanced_patterns",

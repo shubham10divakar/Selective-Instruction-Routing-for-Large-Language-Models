@@ -2,18 +2,20 @@
   "module_id": "coding_code_review_checklist",
   "name": "Code Review Checklist",
   "domain": "coding",
-  "description": "This module is a pre-completion checklist for code review work: a short set of checks to run before calling a code review task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any code review task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "code",
     "code review",
     "coding",
-    "pre-completion review",
+    "done criteria",
+    "pre-completion checklist",
     "review",
-    "verification"
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for code review work: a short set of checks to run before calling a code review task done.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to code review (empty input, boundary values, concurrent access) before calling the task done.\n2. Measure before optimizing any code review bottleneck; do not guess at what is slow.\n3. Keep code review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. When multiple code review strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Validate code review outputs against a concrete example before treating the work as complete.\n6. Prefer explicit, readable code review solutions over clever ones that are hard to verify.\n7. Surface known limitations of a chosen code review approach instead of presenting it as complete when it is not.\n8. Check that code review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. State assumptions about code review explicitly before proceeding, rather than leaving them implicit.\n10. Prefer the simplest code review approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic code review advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated code review concerns into a single change; keep each change focused.\n- Do not silently drop code review edge cases to make an example look cleaner than the real system.\n- Do not skip documenting code review assumptions just because they seem obvious in the moment.\n- Avoid introducing new code review abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about code review over a shortcut that saves a few lines but hides intent.",
-  "token_count": 481,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any code review task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to code review (empty input, boundary values, concurrent access) before calling the task done.\n2. Measure before optimizing any code review bottleneck; do not guess at what is slow.\n3. Keep code review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. When multiple code review strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Validate code review outputs against a concrete example before treating the work as complete.\n6. Prefer explicit, readable code review solutions over clever ones that are hard to verify.\n7. Surface known limitations of a chosen code review approach instead of presenting it as complete when it is not.\n8. Check that code review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. State assumptions about code review explicitly before proceeding, rather than leaving them implicit.\n10. Prefer the simplest code review approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic code review advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated code review concerns into a single change; keep each change focused.\n- Do not silently drop code review edge cases to make an example look cleaner than the real system.\n- Do not skip documenting code review assumptions just because they seem obvious in the moment.\n- Avoid introducing new code review abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about code review over a shortcut that saves a few lines but hides intent.",
+  "token_count": 487,
   "metadata": {
     "subject": "code_review",
     "aspect": "checklist",

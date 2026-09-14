@@ -2,18 +2,20 @@
   "module_id": "database_connection_pooling_best_practices",
   "name": "Connection Pooling Best Practices",
   "domain": "database",
-  "description": "This module captures the best practices for connection pooling, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building connection pooling — the default, everyday guidance to apply on typical, ordinary connection pooling tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "connection",
     "connection pooling",
     "database",
-    "maintainability",
+    "everyday tasks",
+    "implementation guidance",
     "pooling",
-    "quality"
+    "recommended approach",
+    "typical work"
   ],
-  "content": "This module captures the best practices for connection pooling, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Before starting connection pooling work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Surface known limitations of a chosen connection pooling approach instead of presenting it as complete when it is not.\n3. Prefer the simplest connection pooling approach that satisfies the requirement over a more general one that isn't needed yet.\n4. When multiple connection pooling strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Measure before optimizing any connection pooling bottleneck; do not guess at what is slow.\n6. Check that connection pooling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Validate connection pooling outputs against a concrete example before treating the work as complete.\n8. State assumptions about connection pooling explicitly before proceeding, rather than leaving them implicit.\n9. Document any non-obvious connection pooling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of connection pooling correctness.\n- Do not apply generic connection pooling advice without checking it fits the specific context at hand.\n- Do not silently drop connection pooling edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for connection pooling, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 432,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building connection pooling — the default, everyday guidance to apply on typical, ordinary connection pooling tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Before starting connection pooling work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Surface known limitations of a chosen connection pooling approach instead of presenting it as complete when it is not.\n3. Prefer the simplest connection pooling approach that satisfies the requirement over a more general one that isn't needed yet.\n4. When multiple connection pooling strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Measure before optimizing any connection pooling bottleneck; do not guess at what is slow.\n6. Check that connection pooling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Validate connection pooling outputs against a concrete example before treating the work as complete.\n8. State assumptions about connection pooling explicitly before proceeding, rather than leaving them implicit.\n9. Document any non-obvious connection pooling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of connection pooling correctness.\n- Do not apply generic connection pooling advice without checking it fits the specific context at hand.\n- Do not silently drop connection pooling edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for connection pooling, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 464,
   "metadata": {
     "subject": "connection_pooling",
     "aspect": "best_practices",

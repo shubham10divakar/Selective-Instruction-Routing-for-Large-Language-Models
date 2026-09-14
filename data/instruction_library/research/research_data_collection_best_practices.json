@@ -2,18 +2,20 @@
   "module_id": "research_data_collection_best_practices",
   "name": "Data Collection Best Practices",
   "domain": "research",
-  "description": "This module captures the best practices for data collection, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building data collection — the default, everyday guidance to apply on typical, ordinary data collection tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "collection",
     "data",
     "data collection",
-    "maintainability",
-    "quality",
-    "research"
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
+    "research",
+    "typical work"
   ],
-  "content": "This module captures the best practices for data collection, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Document any non-obvious data collection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any data collection bottleneck; do not guess at what is slow.\n3. Validate data collection outputs against a concrete example before treating the work as complete.\n4. Check that data collection terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Prefer explicit, readable data collection solutions over clever ones that are hard to verify.\n6. Re-check edge cases relevant to data collection (empty input, boundary values, concurrent access) before calling the task done.\n7. When data collection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Before starting data collection work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Keep data collection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic data collection advice without checking it fits the specific context at hand.\n- Do not skip documenting data collection assumptions just because they seem obvious in the moment.\n- Do not silently drop data collection edge cases to make an example look cleaner than the real system.\n- Avoid introducing new data collection abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated data collection concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for data collection, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 475,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building data collection — the default, everyday guidance to apply on typical, ordinary data collection tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Document any non-obvious data collection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any data collection bottleneck; do not guess at what is slow.\n3. Validate data collection outputs against a concrete example before treating the work as complete.\n4. Check that data collection terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Prefer explicit, readable data collection solutions over clever ones that are hard to verify.\n6. Re-check edge cases relevant to data collection (empty input, boundary values, concurrent access) before calling the task done.\n7. When data collection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Before starting data collection work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Keep data collection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic data collection advice without checking it fits the specific context at hand.\n- Do not skip documenting data collection assumptions just because they seem obvious in the moment.\n- Do not silently drop data collection edge cases to make an example look cleaner than the real system.\n- Avoid introducing new data collection abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated data collection concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for data collection, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 506,
   "metadata": {
     "subject": "data_collection",
     "aspect": "best_practices",

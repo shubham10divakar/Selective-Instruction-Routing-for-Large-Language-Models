@@ -2,18 +2,19 @@
   "module_id": "data_analysis_reporting_conventions",
   "name": "Reporting Conventions",
   "domain": "data_analysis",
-  "description": "This module governs the naming, structure, and style conventions expected when working on reporting so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing reporting code or output, so results stay consistent with the existing reporting style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "data_analysis",
     "formatting",
-    "naming",
+    "naming conventions",
     "reporting",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on reporting so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Keep reporting outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. When reporting guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. State assumptions about reporting explicitly before proceeding, rather than leaving them implicit.\n4. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n5. Prefer explicit, readable reporting solutions over clever ones that are hard to verify.\n6. Prefer the simplest reporting approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Validate reporting outputs against a concrete example before treating the work as complete.\n8. Re-check edge cases relevant to reporting (empty input, boundary values, concurrent access) before calling the task done.\n9. Measure before optimizing any reporting bottleneck; do not guess at what is slow.\n10. When multiple reporting strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of reporting correctness.\n- Do not silently drop reporting edge cases to make an example look cleaner than the real system.\n- Avoid introducing new reporting abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for reporting, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 432,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing reporting code or output, so results stay consistent with the existing reporting style guide.\n\nCORE GUIDELINES\n1. Keep reporting outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. When reporting guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. State assumptions about reporting explicitly before proceeding, rather than leaving them implicit.\n4. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n5. Prefer explicit, readable reporting solutions over clever ones that are hard to verify.\n6. Prefer the simplest reporting approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Validate reporting outputs against a concrete example before treating the work as complete.\n8. Re-check edge cases relevant to reporting (empty input, boundary values, concurrent access) before calling the task done.\n9. Measure before optimizing any reporting bottleneck; do not guess at what is slow.\n10. When multiple reporting strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of reporting correctness.\n- Do not silently drop reporting edge cases to make an example look cleaner than the real system.\n- Avoid introducing new reporting abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for reporting, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 452,
   "metadata": {
     "subject": "reporting",
     "aspect": "conventions",

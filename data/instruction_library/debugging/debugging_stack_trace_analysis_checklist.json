@@ -2,19 +2,21 @@
   "module_id": "debugging_stack_trace_analysis_checklist",
   "name": "Stack Trace Analysis Checklist",
   "domain": "debugging",
-  "description": "This module is a pre-completion checklist for stack trace analysis work: a short set of checks to run before calling a stack trace analysis task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any stack trace analysis task, implementation, or piece of work complete.",
   "capabilities": [
     "analysis",
     "checklist",
     "debugging",
-    "pre-completion review",
+    "done criteria",
+    "pre-completion checklist",
+    "review checklist",
     "stack",
     "stack trace analysis",
     "trace",
-    "verification"
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for stack trace analysis work: a short set of checks to run before calling a stack trace analysis task done.\n\nCORE GUIDELINES\n1. Document any non-obvious stack trace analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any stack trace analysis bottleneck; do not guess at what is slow.\n3. When stack trace analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Prefer explicit, readable stack trace analysis solutions over clever ones that are hard to verify.\n5. Re-check edge cases relevant to stack trace analysis (empty input, boundary values, concurrent access) before calling the task done.\n6. When multiple stack trace analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Check that stack trace analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Before starting stack trace analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Keep stack trace analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic stack trace analysis advice without checking it fits the specific context at hand.\n- Avoid introducing new stack trace analysis abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of stack trace analysis correctness.\n\nCLOSING NOTE\nRevisit these stack trace analysis guidelines if the task's constraints change significantly during the work.",
-  "token_count": 439,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any stack trace analysis task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Document any non-obvious stack trace analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Measure before optimizing any stack trace analysis bottleneck; do not guess at what is slow.\n3. When stack trace analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Prefer explicit, readable stack trace analysis solutions over clever ones that are hard to verify.\n5. Re-check edge cases relevant to stack trace analysis (empty input, boundary values, concurrent access) before calling the task done.\n6. When multiple stack trace analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Check that stack trace analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Before starting stack trace analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Keep stack trace analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic stack trace analysis advice without checking it fits the specific context at hand.\n- Avoid introducing new stack trace analysis abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of stack trace analysis correctness.\n\nCLOSING NOTE\nRevisit these stack trace analysis guidelines if the task's constraints change significantly during the work.",
+  "token_count": 443,
   "metadata": {
     "subject": "stack_trace_analysis",
     "aspect": "checklist",

@@ -2,16 +2,18 @@
   "module_id": "security_encryption_best_practices",
   "name": "Encryption Best Practices",
   "domain": "security",
-  "description": "This module captures the best practices for encryption, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building encryption — the default, everyday guidance to apply on typical, ordinary encryption tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "encryption",
-    "maintainability",
-    "quality",
-    "security"
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
+    "security",
+    "typical work"
   ],
-  "content": "This module captures the best practices for encryption, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Measure before optimizing any encryption bottleneck; do not guess at what is slow.\n2. When encryption decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. When multiple encryption strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. When encryption guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Prefer explicit, readable encryption solutions over clever ones that are hard to verify.\n6. Re-check edge cases relevant to encryption (empty input, boundary values, concurrent access) before calling the task done.\n7. Validate encryption outputs against a concrete example before treating the work as complete.\n8. Surface known limitations of a chosen encryption approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of encryption correctness.\n- Do not apply generic encryption advice without checking it fits the specific context at hand.\n- Avoid introducing new encryption abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated encryption concerns into a single change; keep each change focused.\n- Do not silently drop encryption edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these encryption guidelines if the task's constraints change significantly during the work.",
-  "token_count": 410,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building encryption — the default, everyday guidance to apply on typical, ordinary encryption tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Measure before optimizing any encryption bottleneck; do not guess at what is slow.\n2. When encryption decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. When multiple encryption strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. When encryption guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Prefer explicit, readable encryption solutions over clever ones that are hard to verify.\n6. Re-check edge cases relevant to encryption (empty input, boundary values, concurrent access) before calling the task done.\n7. Validate encryption outputs against a concrete example before treating the work as complete.\n8. Surface known limitations of a chosen encryption approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of encryption correctness.\n- Do not apply generic encryption advice without checking it fits the specific context at hand.\n- Avoid introducing new encryption abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated encryption concerns into a single change; keep each change focused.\n- Do not silently drop encryption edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these encryption guidelines if the task's constraints change significantly during the work.",
+  "token_count": 440,
   "metadata": {
     "subject": "encryption",
     "aspect": "best_practices",

@@ -2,16 +2,18 @@
   "module_id": "coding_documentation_checklist",
   "name": "Documentation Checklist",
   "domain": "coding",
-  "description": "This module is a pre-completion checklist for documentation work: a short set of checks to run before calling a documentation task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any documentation task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "coding",
     "documentation",
-    "pre-completion review",
-    "verification"
+    "done criteria",
+    "pre-completion checklist",
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for documentation work: a short set of checks to run before calling a documentation task done.\n\nCORE GUIDELINES\n1. Measure before optimizing any documentation bottleneck; do not guess at what is slow.\n2. Keep documentation outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Prefer explicit, readable documentation solutions over clever ones that are hard to verify.\n4. State assumptions about documentation explicitly before proceeding, rather than leaving them implicit.\n5. When documentation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. When multiple documentation strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Validate documentation outputs against a concrete example before treating the work as complete.\n8. When documentation decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. Prefer the simplest documentation approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop documentation edge cases to make an example look cleaner than the real system.\n- Avoid introducing new documentation abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated documentation concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for documentation, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 410,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any documentation task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Measure before optimizing any documentation bottleneck; do not guess at what is slow.\n2. Keep documentation outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Prefer explicit, readable documentation solutions over clever ones that are hard to verify.\n4. State assumptions about documentation explicitly before proceeding, rather than leaving them implicit.\n5. When documentation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. When multiple documentation strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Validate documentation outputs against a concrete example before treating the work as complete.\n8. When documentation decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. Prefer the simplest documentation approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop documentation edge cases to make an example look cleaner than the real system.\n- Avoid introducing new documentation abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated documentation concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for documentation, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 416,
   "metadata": {
     "subject": "documentation",
     "aspect": "checklist",

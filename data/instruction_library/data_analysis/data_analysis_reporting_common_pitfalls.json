@@ -2,17 +2,18 @@
   "module_id": "data_analysis_reporting_common_pitfalls",
   "name": "Reporting Common Pitfalls",
   "domain": "data_analysis",
-  "description": "This module lists the most common pitfalls encountered in reporting work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday reporting work, so they can be recognized and avoided during typical reporting tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "data_analysis",
     "failure modes",
-    "pitfalls",
+    "pitfalls to avoid",
     "reporting"
   ],
-  "content": "This module lists the most common pitfalls encountered in reporting work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. State assumptions about reporting explicitly before proceeding, rather than leaving them implicit.\n2. Keep reporting changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Keep reporting outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Check that reporting terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. When reporting decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Prefer the simplest reporting approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reporting concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of reporting correctness.\n- Avoid introducing new reporting abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting reporting assumptions just because they seem obvious in the moment.\n- Do not apply generic reporting advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about reporting over a shortcut that saves a few lines but hides intent.",
-  "token_count": 392,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday reporting work, so they can be recognized and avoided during typical reporting tasks.\n\nCORE GUIDELINES\n1. State assumptions about reporting explicitly before proceeding, rather than leaving them implicit.\n2. Keep reporting changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Keep reporting outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Check that reporting terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. When reporting decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Prefer the simplest reporting approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reporting concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of reporting correctness.\n- Avoid introducing new reporting abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting reporting assumptions just because they seem obvious in the moment.\n- Do not apply generic reporting advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about reporting over a shortcut that saves a few lines but hides intent.",
+  "token_count": 403,
   "metadata": {
     "subject": "reporting",
     "aspect": "common_pitfalls",

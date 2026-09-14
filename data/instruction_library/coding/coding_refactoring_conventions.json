@@ -2,18 +2,19 @@
   "module_id": "coding_refactoring_conventions",
   "name": "Refactoring Conventions",
   "domain": "coding",
-  "description": "This module governs the naming, structure, and style conventions expected when working on refactoring so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing refactoring code or output, so results stay consistent with the existing refactoring style guide.",
   "capabilities": [
     "coding",
-    "consistency",
     "conventions",
     "formatting",
-    "naming",
+    "naming conventions",
     "refactoring",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on refactoring so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Document any non-obvious refactoring decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Check that refactoring terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Surface known limitations of a chosen refactoring approach instead of presenting it as complete when it is not.\n4. Measure before optimizing any refactoring bottleneck; do not guess at what is slow.\n5. When refactoring decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Before starting refactoring work, confirm the scope and constraints so the approach matches the actual requirement.\n7. State assumptions about refactoring explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated refactoring concerns into a single change; keep each change focused.\n- Do not apply generic refactoring advice without checking it fits the specific context at hand.\n- Do not silently drop refactoring edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these refactoring guidelines if the task's constraints change significantly during the work.",
-  "token_count": 348,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing refactoring code or output, so results stay consistent with the existing refactoring style guide.\n\nCORE GUIDELINES\n1. Document any non-obvious refactoring decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Check that refactoring terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Surface known limitations of a chosen refactoring approach instead of presenting it as complete when it is not.\n4. Measure before optimizing any refactoring bottleneck; do not guess at what is slow.\n5. When refactoring decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Before starting refactoring work, confirm the scope and constraints so the approach matches the actual requirement.\n7. State assumptions about refactoring explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated refactoring concerns into a single change; keep each change focused.\n- Do not apply generic refactoring advice without checking it fits the specific context at hand.\n- Do not silently drop refactoring edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these refactoring guidelines if the task's constraints change significantly during the work.",
+  "token_count": 368,
   "metadata": {
     "subject": "refactoring",
     "aspect": "conventions",

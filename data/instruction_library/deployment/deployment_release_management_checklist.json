@@ -2,18 +2,20 @@
   "module_id": "deployment_release_management_checklist",
   "name": "Release Management Checklist",
   "domain": "deployment",
-  "description": "This module is a pre-completion checklist for release management work: a short set of checks to run before calling a release management task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any release management task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "deployment",
+    "done criteria",
     "management",
-    "pre-completion review",
+    "pre-completion checklist",
     "release",
     "release management",
-    "verification"
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for release management work: a short set of checks to run before calling a release management task done.\n\nCORE GUIDELINES\n1. Keep release management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. When multiple release management strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Prefer the simplest release management approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Check that release management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Validate release management outputs against a concrete example before treating the work as complete.\n6. State assumptions about release management explicitly before proceeding, rather than leaving them implicit.\n7. Re-check edge cases relevant to release management (empty input, boundary values, concurrent access) before calling the task done.\n8. Keep release management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic release management advice without checking it fits the specific context at hand.\n- Do not silently drop release management edge cases to make an example look cleaner than the real system.\n- Do not skip documenting release management assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of release management correctness.\n- Avoid introducing new release management abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for release management, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 460,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any release management task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Keep release management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. When multiple release management strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Prefer the simplest release management approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Check that release management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Validate release management outputs against a concrete example before treating the work as complete.\n6. State assumptions about release management explicitly before proceeding, rather than leaving them implicit.\n7. Re-check edge cases relevant to release management (empty input, boundary values, concurrent access) before calling the task done.\n8. Keep release management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic release management advice without checking it fits the specific context at hand.\n- Do not silently drop release management edge cases to make an example look cleaner than the real system.\n- Do not skip documenting release management assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of release management correctness.\n- Avoid introducing new release management abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for release management, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 464,
   "metadata": {
     "subject": "release_management",
     "aspect": "checklist",

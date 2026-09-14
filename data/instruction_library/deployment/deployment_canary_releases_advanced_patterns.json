@@ -2,18 +2,21 @@
   "module_id": "deployment_canary_releases_advanced_patterns",
   "name": "Advanced Canary Releases Patterns",
   "domain": "deployment",
-  "description": "This module describes advanced patterns for canary releases intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized canary releases techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday canary releases work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
     "canary",
     "canary releases",
+    "complex scenarios",
     "deployment",
-    "edge cases",
+    "large-scale systems",
+    "non-standard cases",
     "releases",
-    "scalability"
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for canary releases intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Check that canary releases terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. When canary releases decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Document any non-obvious canary releases decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When canary releases guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Surface known limitations of a chosen canary releases approach instead of presenting it as complete when it is not.\n6. Keep canary releases outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Prefer explicit, readable canary releases solutions over clever ones that are hard to verify.\n8. Keep canary releases changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Before starting canary releases work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting canary releases assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of canary releases correctness.\n- Avoid introducing new canary releases abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about canary releases over a shortcut that saves a few lines but hides intent.",
-  "token_count": 428,
+  "content": "This module documents advanced, specialized canary releases techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday canary releases work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Check that canary releases terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. When canary releases decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Document any non-obvious canary releases decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When canary releases guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Surface known limitations of a chosen canary releases approach instead of presenting it as complete when it is not.\n6. Keep canary releases outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Prefer explicit, readable canary releases solutions over clever ones that are hard to verify.\n8. Keep canary releases changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Before starting canary releases work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting canary releases assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of canary releases correctness.\n- Avoid introducing new canary releases abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about canary releases over a shortcut that saves a few lines but hides intent.",
+  "token_count": 460,
   "metadata": {
     "subject": "canary_releases",
     "aspect": "advanced_patterns",

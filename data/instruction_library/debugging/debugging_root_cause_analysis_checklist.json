@@ -2,19 +2,21 @@
   "module_id": "debugging_root_cause_analysis_checklist",
   "name": "Root Cause Analysis Checklist",
   "domain": "debugging",
-  "description": "This module is a pre-completion checklist for root cause analysis work: a short set of checks to run before calling a root cause analysis task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any root cause analysis task, implementation, or piece of work complete.",
   "capabilities": [
     "analysis",
     "cause",
     "checklist",
     "debugging",
-    "pre-completion review",
+    "done criteria",
+    "pre-completion checklist",
+    "review checklist",
     "root",
     "root cause analysis",
-    "verification"
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for root cause analysis work: a short set of checks to run before calling a root cause analysis task done.\n\nCORE GUIDELINES\n1. Validate root cause analysis outputs against a concrete example before treating the work as complete.\n2. When root cause analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Prefer the simplest root cause analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Surface known limitations of a chosen root cause analysis approach instead of presenting it as complete when it is not.\n5. When multiple root cause analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Re-check edge cases relevant to root cause analysis (empty input, boundary values, concurrent access) before calling the task done.\n7. Check that root cause analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. State assumptions about root cause analysis explicitly before proceeding, rather than leaving them implicit.\n9. Before starting root cause analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Keep root cause analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n11. Keep root cause analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop root cause analysis edge cases to make an example look cleaner than the real system.\n- Do not apply generic root cause analysis advice without checking it fits the specific context at hand.\n- Do not skip documenting root cause analysis assumptions just because they seem obvious in the moment.\n- Avoid introducing new root cause analysis abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these root cause analysis guidelines if the task's constraints change significantly during the work.",
-  "token_count": 522,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any root cause analysis task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Validate root cause analysis outputs against a concrete example before treating the work as complete.\n2. When root cause analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Prefer the simplest root cause analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Surface known limitations of a chosen root cause analysis approach instead of presenting it as complete when it is not.\n5. When multiple root cause analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Re-check edge cases relevant to root cause analysis (empty input, boundary values, concurrent access) before calling the task done.\n7. Check that root cause analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. State assumptions about root cause analysis explicitly before proceeding, rather than leaving them implicit.\n9. Before starting root cause analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Keep root cause analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n11. Keep root cause analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop root cause analysis edge cases to make an example look cleaner than the real system.\n- Do not apply generic root cause analysis advice without checking it fits the specific context at hand.\n- Do not skip documenting root cause analysis assumptions just because they seem obvious in the moment.\n- Avoid introducing new root cause analysis abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these root cause analysis guidelines if the task's constraints change significantly during the work.",
+  "token_count": 526,
   "metadata": {
     "subject": "root_cause_analysis",
     "aspect": "checklist",

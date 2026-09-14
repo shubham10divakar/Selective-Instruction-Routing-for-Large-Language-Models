@@ -2,19 +2,21 @@
   "module_id": "testing_flaky_test_management_best_practices",
   "name": "Flaky Test Management Best Practices",
   "domain": "testing",
-  "description": "This module captures the best practices for flaky test management, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building flaky test management — the default, everyday guidance to apply on typical, ordinary flaky test management tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
+    "everyday tasks",
     "flaky",
     "flaky test management",
-    "maintainability",
+    "implementation guidance",
     "management",
-    "quality",
+    "recommended approach",
     "test",
-    "testing"
+    "testing",
+    "typical work"
   ],
-  "content": "This module captures the best practices for flaky test management, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When multiple flaky test management strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Prefer the simplest flaky test management approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Check that flaky test management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When flaky test management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Validate flaky test management outputs against a concrete example before treating the work as complete.\n6. Keep flaky test management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Prefer explicit, readable flaky test management solutions over clever ones that are hard to verify.\n8. Re-check edge cases relevant to flaky test management (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic flaky test management advice without checking it fits the specific context at hand.\n- Do not silently drop flaky test management edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of flaky test management correctness.\n- Do not skip documenting flaky test management assumptions just because they seem obvious in the moment.\n- Avoid introducing new flaky test management abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these flaky test management guidelines if the task's constraints change significantly during the work.",
-  "token_count": 460,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building flaky test management — the default, everyday guidance to apply on typical, ordinary flaky test management tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. When multiple flaky test management strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Prefer the simplest flaky test management approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Check that flaky test management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When flaky test management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Validate flaky test management outputs against a concrete example before treating the work as complete.\n6. Keep flaky test management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Prefer explicit, readable flaky test management solutions over clever ones that are hard to verify.\n8. Re-check edge cases relevant to flaky test management (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic flaky test management advice without checking it fits the specific context at hand.\n- Do not silently drop flaky test management edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of flaky test management correctness.\n- Do not skip documenting flaky test management assumptions just because they seem obvious in the moment.\n- Avoid introducing new flaky test management abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these flaky test management guidelines if the task's constraints change significantly during the work.",
+  "token_count": 492,
   "metadata": {
     "subject": "flaky_test_management",
     "aspect": "best_practices",

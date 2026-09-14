@@ -2,18 +2,20 @@
   "module_id": "database_query_optimization_best_practices",
   "name": "Query Optimization Best Practices",
   "domain": "database",
-  "description": "This module captures the best practices for query optimization, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building query optimization — the default, everyday guidance to apply on typical, ordinary query optimization tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "database",
-    "maintainability",
+    "everyday tasks",
+    "implementation guidance",
     "optimization",
-    "quality",
     "query",
-    "query optimization"
+    "query optimization",
+    "recommended approach",
+    "typical work"
   ],
-  "content": "This module captures the best practices for query optimization, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When query optimization guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Keep query optimization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Measure before optimizing any query optimization bottleneck; do not guess at what is slow.\n4. Prefer explicit, readable query optimization solutions over clever ones that are hard to verify.\n5. Validate query optimization outputs against a concrete example before treating the work as complete.\n6. Prefer the simplest query optimization approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Before starting query optimization work, confirm the scope and constraints so the approach matches the actual requirement.\n8. When multiple query optimization strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Check that query optimization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated query optimization concerns into a single change; keep each change focused.\n- Do not apply generic query optimization advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of query optimization correctness.\n- Avoid introducing new query optimization abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting query optimization assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about query optimization over a shortcut that saves a few lines but hides intent.",
-  "token_count": 477,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building query optimization — the default, everyday guidance to apply on typical, ordinary query optimization tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. When query optimization guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Keep query optimization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Measure before optimizing any query optimization bottleneck; do not guess at what is slow.\n4. Prefer explicit, readable query optimization solutions over clever ones that are hard to verify.\n5. Validate query optimization outputs against a concrete example before treating the work as complete.\n6. Prefer the simplest query optimization approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Before starting query optimization work, confirm the scope and constraints so the approach matches the actual requirement.\n8. When multiple query optimization strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Check that query optimization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated query optimization concerns into a single change; keep each change focused.\n- Do not apply generic query optimization advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of query optimization correctness.\n- Avoid introducing new query optimization abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting query optimization assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about query optimization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 509,
   "metadata": {
     "subject": "query_optimization",
     "aspect": "best_practices",

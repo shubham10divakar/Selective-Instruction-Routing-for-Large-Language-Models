@@ -2,17 +2,18 @@
   "module_id": "data_analysis_visualization_common_pitfalls",
   "name": "Visualization Common Pitfalls",
   "domain": "data_analysis",
-  "description": "This module lists the most common pitfalls encountered in visualization work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday visualization work, so they can be recognized and avoided during typical visualization tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "data_analysis",
     "failure modes",
-    "pitfalls",
+    "pitfalls to avoid",
     "visualization"
   ],
-  "content": "This module lists the most common pitfalls encountered in visualization work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen visualization approach instead of presenting it as complete when it is not.\n2. When visualization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Keep visualization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Check that visualization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Measure before optimizing any visualization bottleneck; do not guess at what is slow.\n6. Validate visualization outputs against a concrete example before treating the work as complete.\n7. When visualization guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic visualization advice without checking it fits the specific context at hand.\n- Do not silently drop visualization edge cases to make an example look cleaner than the real system.\n- Avoid introducing new visualization abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of visualization correctness.\n- Do not skip documenting visualization assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about visualization over a shortcut that saves a few lines but hides intent.",
-  "token_count": 401,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday visualization work, so they can be recognized and avoided during typical visualization tasks.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen visualization approach instead of presenting it as complete when it is not.\n2. When visualization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Keep visualization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Check that visualization terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Measure before optimizing any visualization bottleneck; do not guess at what is slow.\n6. Validate visualization outputs against a concrete example before treating the work as complete.\n7. When visualization guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic visualization advice without checking it fits the specific context at hand.\n- Do not silently drop visualization edge cases to make an example look cleaner than the real system.\n- Avoid introducing new visualization abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of visualization correctness.\n- Do not skip documenting visualization assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about visualization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 413,
   "metadata": {
     "subject": "visualization",
     "aspect": "common_pitfalls",

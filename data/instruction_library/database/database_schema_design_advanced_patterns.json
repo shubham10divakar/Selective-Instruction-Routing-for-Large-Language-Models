@@ -2,18 +2,21 @@
   "module_id": "database_schema_design_advanced_patterns",
   "name": "Advanced Schema Design Patterns",
   "domain": "database",
-  "description": "This module describes advanced patterns for schema design intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized schema design techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday schema design work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
+    "complex scenarios",
     "database",
     "design",
-    "edge cases",
-    "scalability",
+    "large-scale systems",
+    "non-standard cases",
     "schema",
-    "schema design"
+    "schema design",
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for schema design intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Keep schema design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. Surface known limitations of a chosen schema design approach instead of presenting it as complete when it is not.\n3. Prefer the simplest schema design approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Prefer explicit, readable schema design solutions over clever ones that are hard to verify.\n5. Validate schema design outputs against a concrete example before treating the work as complete.\n6. Keep schema design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Before starting schema design work, confirm the scope and constraints so the approach matches the actual requirement.\n8. When schema design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. When multiple schema design strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Document any non-obvious schema design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated schema design concerns into a single change; keep each change focused.\n- Do not silently drop schema design edge cases to make an example look cleaner than the real system.\n- Do not skip documenting schema design assumptions just because they seem obvious in the moment.\n- Avoid introducing new schema design abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of schema design correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for schema design, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 490,
+  "content": "This module documents advanced, specialized schema design techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday schema design work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Keep schema design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. Surface known limitations of a chosen schema design approach instead of presenting it as complete when it is not.\n3. Prefer the simplest schema design approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Prefer explicit, readable schema design solutions over clever ones that are hard to verify.\n5. Validate schema design outputs against a concrete example before treating the work as complete.\n6. Keep schema design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Before starting schema design work, confirm the scope and constraints so the approach matches the actual requirement.\n8. When schema design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. When multiple schema design strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Document any non-obvious schema design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated schema design concerns into a single change; keep each change focused.\n- Do not silently drop schema design edge cases to make an example look cleaner than the real system.\n- Do not skip documenting schema design assumptions just because they seem obvious in the moment.\n- Avoid introducing new schema design abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of schema design correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for schema design, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 522,
   "metadata": {
     "subject": "schema_design",
     "aspect": "advanced_patterns",

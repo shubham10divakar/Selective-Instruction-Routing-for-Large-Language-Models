@@ -2,21 +2,22 @@
   "module_id": "database_backup_and_recovery_conventions",
   "name": "Backup And Recovery Conventions",
   "domain": "database",
-  "description": "This module governs the naming, structure, and style conventions expected when working on backup and recovery so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing backup and recovery code or output, so results stay consistent with the existing backup and recovery style guide.",
   "capabilities": [
     "and",
     "backup",
     "backup and recovery",
-    "consistency",
     "conventions",
     "database",
     "formatting",
-    "naming",
+    "naming conventions",
     "recovery",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on backup and recovery so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When backup and recovery decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Validate backup and recovery outputs against a concrete example before treating the work as complete.\n3. Prefer explicit, readable backup and recovery solutions over clever ones that are hard to verify.\n4. State assumptions about backup and recovery explicitly before proceeding, rather than leaving them implicit.\n5. Keep backup and recovery outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Surface known limitations of a chosen backup and recovery approach instead of presenting it as complete when it is not.\n7. When backup and recovery guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Measure before optimizing any backup and recovery bottleneck; do not guess at what is slow.\n9. Before starting backup and recovery work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Re-check edge cases relevant to backup and recovery (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new backup and recovery abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of backup and recovery correctness.\n- Do not apply generic backup and recovery advice without checking it fits the specific context at hand.\n- Do not silently drop backup and recovery edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about backup and recovery over a shortcut that saves a few lines but hides intent.",
-  "token_count": 491,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing backup and recovery code or output, so results stay consistent with the existing backup and recovery style guide.\n\nCORE GUIDELINES\n1. When backup and recovery decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Validate backup and recovery outputs against a concrete example before treating the work as complete.\n3. Prefer explicit, readable backup and recovery solutions over clever ones that are hard to verify.\n4. State assumptions about backup and recovery explicitly before proceeding, rather than leaving them implicit.\n5. Keep backup and recovery outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Surface known limitations of a chosen backup and recovery approach instead of presenting it as complete when it is not.\n7. When backup and recovery guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Measure before optimizing any backup and recovery bottleneck; do not guess at what is slow.\n9. Before starting backup and recovery work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Re-check edge cases relevant to backup and recovery (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new backup and recovery abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of backup and recovery correctness.\n- Do not apply generic backup and recovery advice without checking it fits the specific context at hand.\n- Do not silently drop backup and recovery edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about backup and recovery over a shortcut that saves a few lines but hides intent.",
+  "token_count": 513,
   "metadata": {
     "subject": "backup_and_recovery",
     "aspect": "conventions",

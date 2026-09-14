@@ -2,16 +2,18 @@
   "module_id": "database_indexing_best_practices",
   "name": "Indexing Best Practices",
   "domain": "database",
-  "description": "This module captures the best practices for indexing, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building indexing — the default, everyday guidance to apply on typical, ordinary indexing tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "database",
+    "everyday tasks",
+    "implementation guidance",
     "indexing",
-    "maintainability",
-    "quality"
+    "recommended approach",
+    "typical work"
   ],
-  "content": "This module captures the best practices for indexing, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. State assumptions about indexing explicitly before proceeding, rather than leaving them implicit.\n2. Re-check edge cases relevant to indexing (empty input, boundary values, concurrent access) before calling the task done.\n3. Document any non-obvious indexing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Prefer explicit, readable indexing solutions over clever ones that are hard to verify.\n5. When indexing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. When indexing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Validate indexing outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting indexing assumptions just because they seem obvious in the moment.\n- Avoid introducing new indexing abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of indexing correctness.\n- Do not apply generic indexing advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for indexing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 368,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building indexing — the default, everyday guidance to apply on typical, ordinary indexing tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. State assumptions about indexing explicitly before proceeding, rather than leaving them implicit.\n2. Re-check edge cases relevant to indexing (empty input, boundary values, concurrent access) before calling the task done.\n3. Document any non-obvious indexing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Prefer explicit, readable indexing solutions over clever ones that are hard to verify.\n5. When indexing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. When indexing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Validate indexing outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting indexing assumptions just because they seem obvious in the moment.\n- Avoid introducing new indexing abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of indexing correctness.\n- Do not apply generic indexing advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for indexing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 397,
   "metadata": {
     "subject": "indexing",
     "aspect": "best_practices",

@@ -2,18 +2,20 @@
   "module_id": "data_analysis_data_pipelines_checklist",
   "name": "Data Pipelines Checklist",
   "domain": "data_analysis",
-  "description": "This module is a pre-completion checklist for data pipelines work: a short set of checks to run before calling a data pipelines task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any data pipelines task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
     "data",
     "data pipelines",
     "data_analysis",
+    "done criteria",
     "pipelines",
-    "pre-completion review",
-    "verification"
+    "pre-completion checklist",
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for data pipelines work: a short set of checks to run before calling a data pipelines task done.\n\nCORE GUIDELINES\n1. When data pipelines decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When data pipelines guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Prefer explicit, readable data pipelines solutions over clever ones that are hard to verify.\n4. Surface known limitations of a chosen data pipelines approach instead of presenting it as complete when it is not.\n5. Check that data pipelines terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Before starting data pipelines work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer the simplest data pipelines approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Keep data pipelines outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Document any non-obvious data pipelines decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Keep data pipelines changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n11. Validate data pipelines outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting data pipelines assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated data pipelines concerns into a single change; keep each change focused.\n- Avoid introducing new data pipelines abstractions before there is a second concrete use case that needs them.\n- Do not silently drop data pipelines edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for data pipelines, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 512,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any data pipelines task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. When data pipelines decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When data pipelines guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Prefer explicit, readable data pipelines solutions over clever ones that are hard to verify.\n4. Surface known limitations of a chosen data pipelines approach instead of presenting it as complete when it is not.\n5. Check that data pipelines terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Before starting data pipelines work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer the simplest data pipelines approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Keep data pipelines outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Document any non-obvious data pipelines decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Keep data pipelines changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n11. Validate data pipelines outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting data pipelines assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated data pipelines concerns into a single change; keep each change focused.\n- Avoid introducing new data pipelines abstractions before there is a second concrete use case that needs them.\n- Do not silently drop data pipelines edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for data pipelines, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 517,
   "metadata": {
     "subject": "data_pipelines",
     "aspect": "checklist",

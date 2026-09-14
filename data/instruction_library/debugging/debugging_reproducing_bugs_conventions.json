@@ -2,20 +2,21 @@
   "module_id": "debugging_reproducing_bugs_conventions",
   "name": "Reproducing Bugs Conventions",
   "domain": "debugging",
-  "description": "This module governs the naming, structure, and style conventions expected when working on reproducing bugs so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing reproducing bugs code or output, so results stay consistent with the existing reproducing bugs style guide.",
   "capabilities": [
     "bugs",
-    "consistency",
     "conventions",
     "debugging",
     "formatting",
-    "naming",
+    "naming conventions",
     "reproducing",
     "reproducing bugs",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on reproducing bugs so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Document any non-obvious reproducing bugs decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When multiple reproducing bugs strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. When reproducing bugs guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Surface known limitations of a chosen reproducing bugs approach instead of presenting it as complete when it is not.\n5. Check that reproducing bugs terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Before starting reproducing bugs work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When reproducing bugs decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Keep reproducing bugs outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable reproducing bugs solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting reproducing bugs assumptions just because they seem obvious in the moment.\n- Do not silently drop reproducing bugs edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated reproducing bugs concerns into a single change; keep each change focused.\n- Avoid introducing new reproducing bugs abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these reproducing bugs guidelines if the task's constraints change significantly during the work.",
-  "token_count": 462,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing reproducing bugs code or output, so results stay consistent with the existing reproducing bugs style guide.\n\nCORE GUIDELINES\n1. Document any non-obvious reproducing bugs decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When multiple reproducing bugs strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. When reproducing bugs guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Surface known limitations of a chosen reproducing bugs approach instead of presenting it as complete when it is not.\n5. Check that reproducing bugs terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Before starting reproducing bugs work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When reproducing bugs decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Keep reproducing bugs outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable reproducing bugs solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting reproducing bugs assumptions just because they seem obvious in the moment.\n- Do not silently drop reproducing bugs edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated reproducing bugs concerns into a single change; keep each change focused.\n- Avoid introducing new reproducing bugs abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these reproducing bugs guidelines if the task's constraints change significantly during the work.",
+  "token_count": 484,
   "metadata": {
     "subject": "reproducing_bugs",
     "aspect": "conventions",

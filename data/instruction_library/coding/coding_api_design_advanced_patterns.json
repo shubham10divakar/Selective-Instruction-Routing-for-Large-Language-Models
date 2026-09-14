@@ -2,18 +2,21 @@
   "module_id": "coding_api_design_advanced_patterns",
   "name": "Advanced Api Design Patterns",
   "domain": "coding",
-  "description": "This module describes advanced patterns for api design intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized api design techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday api design work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
     "api",
     "api design",
     "coding",
+    "complex scenarios",
     "design",
-    "edge cases",
-    "scalability"
+    "large-scale systems",
+    "non-standard cases",
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for api design intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Before starting api design work, confirm the scope and constraints so the approach matches the actual requirement.\n2. State assumptions about api design explicitly before proceeding, rather than leaving them implicit.\n3. Keep api design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Validate api design outputs against a concrete example before treating the work as complete.\n5. When api design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Prefer the simplest api design approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n8. When multiple api design strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop api design edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not skip documenting api design assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for api design, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 400,
+  "content": "This module documents advanced, specialized api design techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday api design work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Before starting api design work, confirm the scope and constraints so the approach matches the actual requirement.\n2. State assumptions about api design explicitly before proceeding, rather than leaving them implicit.\n3. Keep api design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Validate api design outputs against a concrete example before treating the work as complete.\n5. When api design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Prefer the simplest api design approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n8. When multiple api design strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop api design edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not skip documenting api design assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for api design, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 431,
   "metadata": {
     "subject": "api_design",
     "aspect": "advanced_patterns",

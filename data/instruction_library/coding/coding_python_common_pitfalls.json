@@ -2,17 +2,18 @@
   "module_id": "coding_python_common_pitfalls",
   "name": "Python Common Pitfalls",
   "domain": "coding",
-  "description": "This module lists the most common pitfalls encountered in python work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday python work, so they can be recognized and avoided during typical python tasks.",
   "capabilities": [
     "anti-patterns",
     "coding",
+    "common mistakes",
     "common pitfalls",
     "failure modes",
-    "pitfalls",
+    "pitfalls to avoid",
     "python"
   ],
-  "content": "This module lists the most common pitfalls encountered in python work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Measure before optimizing any python bottleneck; do not guess at what is slow.\n2. When python guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Validate python outputs against a concrete example before treating the work as complete.\n4. When python decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. State assumptions about python explicitly before proceeding, rather than leaving them implicit.\n6. Keep python changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Surface known limitations of a chosen python approach instead of presenting it as complete when it is not.\n8. Check that python terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Document any non-obvious python decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Before starting python work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting python assumptions just because they seem obvious in the moment.\n- Do not apply generic python advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of python correctness.\n\nCLOSING NOTE\nRevisit these python guidelines if the task's constraints change significantly during the work.",
-  "token_count": 406,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday python work, so they can be recognized and avoided during typical python tasks.\n\nCORE GUIDELINES\n1. Measure before optimizing any python bottleneck; do not guess at what is slow.\n2. When python guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Validate python outputs against a concrete example before treating the work as complete.\n4. When python decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. State assumptions about python explicitly before proceeding, rather than leaving them implicit.\n6. Keep python changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Surface known limitations of a chosen python approach instead of presenting it as complete when it is not.\n8. Check that python terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Document any non-obvious python decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Before starting python work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting python assumptions just because they seem obvious in the moment.\n- Do not apply generic python advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of python correctness.\n\nCLOSING NOTE\nRevisit these python guidelines if the task's constraints change significantly during the work.",
+  "token_count": 416,
   "metadata": {
     "subject": "python",
     "aspect": "common_pitfalls",

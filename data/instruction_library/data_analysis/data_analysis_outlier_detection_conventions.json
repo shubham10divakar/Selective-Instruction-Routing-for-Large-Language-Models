@@ -2,20 +2,21 @@
   "module_id": "data_analysis_outlier_detection_conventions",
   "name": "Outlier Detection Conventions",
   "domain": "data_analysis",
-  "description": "This module governs the naming, structure, and style conventions expected when working on outlier detection so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing outlier detection code or output, so results stay consistent with the existing outlier detection style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "data_analysis",
     "detection",
     "formatting",
-    "naming",
+    "naming conventions",
     "outlier",
     "outlier detection",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on outlier detection so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer the simplest outlier detection approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Prefer explicit, readable outlier detection solutions over clever ones that are hard to verify.\n3. When multiple outlier detection strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep outlier detection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Measure before optimizing any outlier detection bottleneck; do not guess at what is slow.\n6. State assumptions about outlier detection explicitly before proceeding, rather than leaving them implicit.\n7. When outlier detection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. When outlier detection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Check that outlier detection terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new outlier detection abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting outlier detection assumptions just because they seem obvious in the moment.\n- Do not silently drop outlier detection edge cases to make an example look cleaner than the real system.\n- Do not apply generic outlier detection advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about outlier detection over a shortcut that saves a few lines but hides intent.",
-  "token_count": 454,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing outlier detection code or output, so results stay consistent with the existing outlier detection style guide.\n\nCORE GUIDELINES\n1. Prefer the simplest outlier detection approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Prefer explicit, readable outlier detection solutions over clever ones that are hard to verify.\n3. When multiple outlier detection strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep outlier detection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Measure before optimizing any outlier detection bottleneck; do not guess at what is slow.\n6. State assumptions about outlier detection explicitly before proceeding, rather than leaving them implicit.\n7. When outlier detection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. When outlier detection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Check that outlier detection terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new outlier detection abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting outlier detection assumptions just because they seem obvious in the moment.\n- Do not silently drop outlier detection edge cases to make an example look cleaner than the real system.\n- Do not apply generic outlier detection advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about outlier detection over a shortcut that saves a few lines but hides intent.",
+  "token_count": 476,
   "metadata": {
     "subject": "outlier_detection",
     "aspect": "conventions",

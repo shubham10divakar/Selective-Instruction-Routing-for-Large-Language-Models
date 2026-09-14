@@ -2,18 +2,20 @@
   "module_id": "data_analysis_ab_testing_checklist",
   "name": "Ab Testing Checklist",
   "domain": "data_analysis",
-  "description": "This module is a pre-completion checklist for ab testing work: a short set of checks to run before calling a ab testing task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any ab testing task, implementation, or piece of work complete.",
   "capabilities": [
     "ab",
     "ab testing",
     "checklist",
     "data_analysis",
-    "pre-completion review",
+    "done criteria",
+    "pre-completion checklist",
+    "review checklist",
     "testing",
-    "verification"
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for ab testing work: a short set of checks to run before calling a ab testing task done.\n\nCORE GUIDELINES\n1. Document any non-obvious ab testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. State assumptions about ab testing explicitly before proceeding, rather than leaving them implicit.\n3. Validate ab testing outputs against a concrete example before treating the work as complete.\n4. Re-check edge cases relevant to ab testing (empty input, boundary values, concurrent access) before calling the task done.\n5. Check that ab testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. When ab testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Keep ab testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. When ab testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. When multiple ab testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Measure before optimizing any ab testing bottleneck; do not guess at what is slow.\n11. Surface known limitations of a chosen ab testing approach instead of presenting it as complete when it is not.\n12. Prefer the simplest ab testing approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new ab testing abstractions before there is a second concrete use case that needs them.\n- Do not apply generic ab testing advice without checking it fits the specific context at hand.\n- Do not silently drop ab testing edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of ab testing correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for ab testing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 518,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any ab testing task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Document any non-obvious ab testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. State assumptions about ab testing explicitly before proceeding, rather than leaving them implicit.\n3. Validate ab testing outputs against a concrete example before treating the work as complete.\n4. Re-check edge cases relevant to ab testing (empty input, boundary values, concurrent access) before calling the task done.\n5. Check that ab testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. When ab testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Keep ab testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. When ab testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. When multiple ab testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Measure before optimizing any ab testing bottleneck; do not guess at what is slow.\n11. Surface known limitations of a chosen ab testing approach instead of presenting it as complete when it is not.\n12. Prefer the simplest ab testing approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new ab testing abstractions before there is a second concrete use case that needs them.\n- Do not apply generic ab testing advice without checking it fits the specific context at hand.\n- Do not silently drop ab testing edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of ab testing correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for ab testing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 524,
   "metadata": {
     "subject": "ab_testing",
     "aspect": "checklist",

@@ -2,20 +2,21 @@
   "module_id": "research_data_collection_conventions",
   "name": "Data Collection Conventions",
   "domain": "research",
-  "description": "This module governs the naming, structure, and style conventions expected when working on data collection so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing data collection code or output, so results stay consistent with the existing data collection style guide.",
   "capabilities": [
     "collection",
-    "consistency",
     "conventions",
     "data",
     "data collection",
     "formatting",
-    "naming",
+    "naming conventions",
     "research",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on data collection so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to data collection (empty input, boundary values, concurrent access) before calling the task done.\n2. Prefer the simplest data collection approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Keep data collection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Keep data collection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Before starting data collection work, confirm the scope and constraints so the approach matches the actual requirement.\n6. When data collection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Measure before optimizing any data collection bottleneck; do not guess at what is slow.\n8. Surface known limitations of a chosen data collection approach instead of presenting it as complete when it is not.\n9. Validate data collection outputs against a concrete example before treating the work as complete.\n10. Document any non-obvious data collection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. State assumptions about data collection explicitly before proceeding, rather than leaving them implicit.\n12. When multiple data collection strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new data collection abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated data collection concerns into a single change; keep each change focused.\n- Do not apply generic data collection advice without checking it fits the specific context at hand.\n- Do not skip documenting data collection assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for data collection, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 539,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing data collection code or output, so results stay consistent with the existing data collection style guide.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to data collection (empty input, boundary values, concurrent access) before calling the task done.\n2. Prefer the simplest data collection approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Keep data collection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Keep data collection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Before starting data collection work, confirm the scope and constraints so the approach matches the actual requirement.\n6. When data collection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Measure before optimizing any data collection bottleneck; do not guess at what is slow.\n8. Surface known limitations of a chosen data collection approach instead of presenting it as complete when it is not.\n9. Validate data collection outputs against a concrete example before treating the work as complete.\n10. Document any non-obvious data collection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. State assumptions about data collection explicitly before proceeding, rather than leaving them implicit.\n12. When multiple data collection strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new data collection abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated data collection concerns into a single change; keep each change focused.\n- Do not apply generic data collection advice without checking it fits the specific context at hand.\n- Do not skip documenting data collection assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for data collection, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 560,
   "metadata": {
     "subject": "data_collection",
     "aspect": "conventions",

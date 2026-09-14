@@ -2,18 +2,19 @@
   "module_id": "coding_performance_conventions",
   "name": "Performance Conventions",
   "domain": "coding",
-  "description": "This module governs the naming, structure, and style conventions expected when working on performance so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing performance code or output, so results stay consistent with the existing performance style guide.",
   "capabilities": [
     "coding",
-    "consistency",
     "conventions",
     "formatting",
-    "naming",
+    "naming conventions",
     "performance",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on performance so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When performance decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When multiple performance strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Before starting performance work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Surface known limitations of a chosen performance approach instead of presenting it as complete when it is not.\n5. Prefer the simplest performance approach that satisfies the requirement over a more general one that isn't needed yet.\n6. State assumptions about performance explicitly before proceeding, rather than leaving them implicit.\n7. Check that performance terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Measure before optimizing any performance bottleneck; do not guess at what is slow.\n9. Validate performance outputs against a concrete example before treating the work as complete.\n10. When performance guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new performance abstractions before there is a second concrete use case that needs them.\n- Do not apply generic performance advice without checking it fits the specific context at hand.\n- Do not silently drop performance edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these performance guidelines if the task's constraints change significantly during the work.",
-  "token_count": 436,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing performance code or output, so results stay consistent with the existing performance style guide.\n\nCORE GUIDELINES\n1. When performance decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When multiple performance strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Before starting performance work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Surface known limitations of a chosen performance approach instead of presenting it as complete when it is not.\n5. Prefer the simplest performance approach that satisfies the requirement over a more general one that isn't needed yet.\n6. State assumptions about performance explicitly before proceeding, rather than leaving them implicit.\n7. Check that performance terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Measure before optimizing any performance bottleneck; do not guess at what is slow.\n9. Validate performance outputs against a concrete example before treating the work as complete.\n10. When performance guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new performance abstractions before there is a second concrete use case that needs them.\n- Do not apply generic performance advice without checking it fits the specific context at hand.\n- Do not silently drop performance edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these performance guidelines if the task's constraints change significantly during the work.",
+  "token_count": 456,
   "metadata": {
     "subject": "performance",
     "aspect": "conventions",

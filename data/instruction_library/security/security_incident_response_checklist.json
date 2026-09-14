@@ -2,18 +2,20 @@
   "module_id": "security_incident_response_checklist",
   "name": "Incident Response Checklist",
   "domain": "security",
-  "description": "This module is a pre-completion checklist for incident response work: a short set of checks to run before calling a incident response task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any incident response task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
+    "done criteria",
     "incident",
     "incident response",
-    "pre-completion review",
+    "pre-completion checklist",
     "response",
+    "review checklist",
     "security",
-    "verification"
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for incident response work: a short set of checks to run before calling a incident response task done.\n\nCORE GUIDELINES\n1. Check that incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. When incident response decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Validate incident response outputs against a concrete example before treating the work as complete.\n4. Keep incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Measure before optimizing any incident response bottleneck; do not guess at what is slow.\n6. Surface known limitations of a chosen incident response approach instead of presenting it as complete when it is not.\n7. When multiple incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. When incident response guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Keep incident response changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of incident response correctness.\n- Do not apply generic incident response advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated incident response concerns into a single change; keep each change focused.\n- Do not skip documenting incident response assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for incident response, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 450,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any incident response task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Check that incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. When incident response decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Validate incident response outputs against a concrete example before treating the work as complete.\n4. Keep incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Measure before optimizing any incident response bottleneck; do not guess at what is slow.\n6. Surface known limitations of a chosen incident response approach instead of presenting it as complete when it is not.\n7. When multiple incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. When incident response guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Keep incident response changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of incident response correctness.\n- Do not apply generic incident response advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated incident response concerns into a single change; keep each change focused.\n- Do not skip documenting incident response assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for incident response, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 454,
   "metadata": {
     "subject": "incident_response",
     "aspect": "checklist",

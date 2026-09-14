@@ -2,19 +2,20 @@
   "module_id": "coding_api_design_common_pitfalls",
   "name": "Api Design Common Pitfalls",
   "domain": "coding",
-  "description": "This module lists the most common pitfalls encountered in api design work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday api design work, so they can be recognized and avoided during typical api design tasks.",
   "capabilities": [
     "anti-patterns",
     "api",
     "api design",
     "coding",
+    "common mistakes",
     "common pitfalls",
     "design",
     "failure modes",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in api design work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. When api design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. When multiple api design strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Re-check edge cases relevant to api design (empty input, boundary values, concurrent access) before calling the task done.\n5. Keep api design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer the simplest api design approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Check that api design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting api design assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not apply generic api design advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of api design correctness.\n- Avoid introducing new api design abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these api design guidelines if the task's constraints change significantly during the work.",
-  "token_count": 426,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday api design work, so they can be recognized and avoided during typical api design tasks.\n\nCORE GUIDELINES\n1. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. When api design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. When multiple api design strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Re-check edge cases relevant to api design (empty input, boundary values, concurrent access) before calling the task done.\n5. Keep api design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer the simplest api design approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Check that api design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting api design assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not apply generic api design advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of api design correctness.\n- Avoid introducing new api design abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these api design guidelines if the task's constraints change significantly during the work.",
+  "token_count": 436,
   "metadata": {
     "subject": "api_design",
     "aspect": "common_pitfalls",

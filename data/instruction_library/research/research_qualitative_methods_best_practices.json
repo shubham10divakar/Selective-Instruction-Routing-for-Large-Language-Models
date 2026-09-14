@@ -2,18 +2,20 @@
   "module_id": "research_qualitative_methods_best_practices",
   "name": "Qualitative Methods Best Practices",
   "domain": "research",
-  "description": "This module captures the best practices for qualitative methods, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building qualitative methods — the default, everyday guidance to apply on typical, ordinary qualitative methods tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
-    "maintainability",
+    "everyday tasks",
+    "implementation guidance",
     "methods",
     "qualitative",
     "qualitative methods",
-    "quality",
-    "research"
+    "recommended approach",
+    "research",
+    "typical work"
   ],
-  "content": "This module captures the best practices for qualitative methods, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer the simplest qualitative methods approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When multiple qualitative methods strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. When qualitative methods guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Re-check edge cases relevant to qualitative methods (empty input, boundary values, concurrent access) before calling the task done.\n5. Before starting qualitative methods work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Keep qualitative methods outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Keep qualitative methods changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Measure before optimizing any qualitative methods bottleneck; do not guess at what is slow.\n9. Surface known limitations of a chosen qualitative methods approach instead of presenting it as complete when it is not.\n10. When qualitative methods decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new qualitative methods abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting qualitative methods assumptions just because they seem obvious in the moment.\n- Do not apply generic qualitative methods advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated qualitative methods concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about qualitative methods over a shortcut that saves a few lines but hides intent.",
-  "token_count": 496,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building qualitative methods — the default, everyday guidance to apply on typical, ordinary qualitative methods tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Prefer the simplest qualitative methods approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When multiple qualitative methods strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. When qualitative methods guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Re-check edge cases relevant to qualitative methods (empty input, boundary values, concurrent access) before calling the task done.\n5. Before starting qualitative methods work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Keep qualitative methods outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Keep qualitative methods changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Measure before optimizing any qualitative methods bottleneck; do not guess at what is slow.\n9. Surface known limitations of a chosen qualitative methods approach instead of presenting it as complete when it is not.\n10. When qualitative methods decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new qualitative methods abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting qualitative methods assumptions just because they seem obvious in the moment.\n- Do not apply generic qualitative methods advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated qualitative methods concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about qualitative methods over a shortcut that saves a few lines but hides intent.",
+  "token_count": 528,
   "metadata": {
     "subject": "qualitative_methods",
     "aspect": "best_practices",

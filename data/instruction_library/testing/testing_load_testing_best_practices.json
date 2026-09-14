@@ -2,17 +2,19 @@
   "module_id": "testing_load_testing_best_practices",
   "name": "Load Testing Best Practices",
   "domain": "testing",
-  "description": "This module captures the best practices for load testing, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building load testing — the default, everyday guidance to apply on typical, ordinary load testing tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
+    "everyday tasks",
+    "implementation guidance",
     "load",
     "load testing",
-    "maintainability",
-    "quality",
-    "testing"
+    "recommended approach",
+    "testing",
+    "typical work"
   ],
-  "content": "This module captures the best practices for load testing, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. State assumptions about load testing explicitly before proceeding, rather than leaving them implicit.\n2. Keep load testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Check that load testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When load testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When load testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Surface known limitations of a chosen load testing approach instead of presenting it as complete when it is not.\n7. Prefer the simplest load testing approach that satisfies the requirement over a more general one that isn't needed yet.\n8. When multiple load testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting load testing assumptions just because they seem obvious in the moment.\n- Avoid introducing new load testing abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated load testing concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these load testing guidelines if the task's constraints change significantly during the work.",
-  "token_count": 387,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building load testing — the default, everyday guidance to apply on typical, ordinary load testing tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. State assumptions about load testing explicitly before proceeding, rather than leaving them implicit.\n2. Keep load testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Check that load testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When load testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When load testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Surface known limitations of a chosen load testing approach instead of presenting it as complete when it is not.\n7. Prefer the simplest load testing approach that satisfies the requirement over a more general one that isn't needed yet.\n8. When multiple load testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting load testing assumptions just because they seem obvious in the moment.\n- Avoid introducing new load testing abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated load testing concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these load testing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 418,
   "metadata": {
     "subject": "load_testing",
     "aspect": "best_practices",

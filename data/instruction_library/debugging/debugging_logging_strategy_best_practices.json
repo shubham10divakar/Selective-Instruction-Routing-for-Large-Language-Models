@@ -2,18 +2,20 @@
   "module_id": "debugging_logging_strategy_best_practices",
   "name": "Logging Strategy Best Practices",
   "domain": "debugging",
-  "description": "This module captures the best practices for logging strategy, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building logging strategy — the default, everyday guidance to apply on typical, ordinary logging strategy tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "debugging",
+    "everyday tasks",
+    "implementation guidance",
     "logging",
     "logging strategy",
-    "maintainability",
-    "quality",
-    "strategy"
+    "recommended approach",
+    "strategy",
+    "typical work"
   ],
-  "content": "This module captures the best practices for logging strategy, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer the simplest logging strategy approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When logging strategy decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. When multiple logging strategy strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Validate logging strategy outputs against a concrete example before treating the work as complete.\n5. Before starting logging strategy work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Surface known limitations of a chosen logging strategy approach instead of presenting it as complete when it is not.\n7. Prefer explicit, readable logging strategy solutions over clever ones that are hard to verify.\n8. Keep logging strategy changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Document any non-obvious logging strategy decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new logging strategy abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of logging strategy correctness.\n- Do not apply generic logging strategy advice without checking it fits the specific context at hand.\n- Do not skip documenting logging strategy assumptions just because they seem obvious in the moment.\n- Do not silently drop logging strategy edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about logging strategy over a shortcut that saves a few lines but hides intent.",
-  "token_count": 470,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building logging strategy — the default, everyday guidance to apply on typical, ordinary logging strategy tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Prefer the simplest logging strategy approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When logging strategy decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. When multiple logging strategy strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Validate logging strategy outputs against a concrete example before treating the work as complete.\n5. Before starting logging strategy work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Surface known limitations of a chosen logging strategy approach instead of presenting it as complete when it is not.\n7. Prefer explicit, readable logging strategy solutions over clever ones that are hard to verify.\n8. Keep logging strategy changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Document any non-obvious logging strategy decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new logging strategy abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of logging strategy correctness.\n- Do not apply generic logging strategy advice without checking it fits the specific context at hand.\n- Do not skip documenting logging strategy assumptions just because they seem obvious in the moment.\n- Do not silently drop logging strategy edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about logging strategy over a shortcut that saves a few lines but hides intent.",
+  "token_count": 502,
   "metadata": {
     "subject": "logging_strategy",
     "aspect": "best_practices",

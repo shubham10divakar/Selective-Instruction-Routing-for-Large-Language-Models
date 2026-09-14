@@ -2,19 +2,20 @@
   "module_id": "data_analysis_outlier_detection_common_pitfalls",
   "name": "Outlier Detection Common Pitfalls",
   "domain": "data_analysis",
-  "description": "This module lists the most common pitfalls encountered in outlier detection work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday outlier detection work, so they can be recognized and avoided during typical outlier detection tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "data_analysis",
     "detection",
     "failure modes",
     "outlier",
     "outlier detection",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in outlier detection work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Before starting outlier detection work, confirm the scope and constraints so the approach matches the actual requirement.\n2. State assumptions about outlier detection explicitly before proceeding, rather than leaving them implicit.\n3. Document any non-obvious outlier detection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When multiple outlier detection strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Keep outlier detection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Keep outlier detection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Validate outlier detection outputs against a concrete example before treating the work as complete.\n8. Prefer the simplest outlier detection approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop outlier detection edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated outlier detection concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of outlier detection correctness.\n- Avoid introducing new outlier detection abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about outlier detection over a shortcut that saves a few lines but hides intent.",
-  "token_count": 426,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday outlier detection work, so they can be recognized and avoided during typical outlier detection tasks.\n\nCORE GUIDELINES\n1. Before starting outlier detection work, confirm the scope and constraints so the approach matches the actual requirement.\n2. State assumptions about outlier detection explicitly before proceeding, rather than leaving them implicit.\n3. Document any non-obvious outlier detection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When multiple outlier detection strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Keep outlier detection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Keep outlier detection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Validate outlier detection outputs against a concrete example before treating the work as complete.\n8. Prefer the simplest outlier detection approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop outlier detection edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated outlier detection concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of outlier detection correctness.\n- Avoid introducing new outlier detection abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about outlier detection over a shortcut that saves a few lines but hides intent.",
+  "token_count": 438,
   "metadata": {
     "subject": "outlier_detection",
     "aspect": "common_pitfalls",

@@ -2,18 +2,21 @@
   "module_id": "deployment_blue_green_deployment_advanced_patterns",
   "name": "Advanced Blue Green Deployment Patterns",
   "domain": "deployment",
-  "description": "This module describes advanced patterns for blue green deployment intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized blue green deployment techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday blue green deployment work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
+    "advanced techniques",
     "blue",
     "blue green deployment",
+    "complex scenarios",
     "deployment",
-    "edge cases",
     "green",
-    "scalability"
+    "large-scale systems",
+    "non-standard cases",
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for blue green deployment intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Before starting blue green deployment work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Document any non-obvious blue green deployment decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When blue green deployment guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. State assumptions about blue green deployment explicitly before proceeding, rather than leaving them implicit.\n5. Validate blue green deployment outputs against a concrete example before treating the work as complete.\n6. When blue green deployment decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Prefer explicit, readable blue green deployment solutions over clever ones that are hard to verify.\n8. Surface known limitations of a chosen blue green deployment approach instead of presenting it as complete when it is not.\n9. Keep blue green deployment outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting blue green deployment assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated blue green deployment concerns into a single change; keep each change focused.\n- Do not silently drop blue green deployment edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about blue green deployment over a shortcut that saves a few lines but hides intent.",
-  "token_count": 442,
+  "content": "This module documents advanced, specialized blue green deployment techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday blue green deployment work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Before starting blue green deployment work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Document any non-obvious blue green deployment decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When blue green deployment guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. State assumptions about blue green deployment explicitly before proceeding, rather than leaving them implicit.\n5. Validate blue green deployment outputs against a concrete example before treating the work as complete.\n6. When blue green deployment decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Prefer explicit, readable blue green deployment solutions over clever ones that are hard to verify.\n8. Surface known limitations of a chosen blue green deployment approach instead of presenting it as complete when it is not.\n9. Keep blue green deployment outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting blue green deployment assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated blue green deployment concerns into a single change; keep each change focused.\n- Do not silently drop blue green deployment edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about blue green deployment over a shortcut that saves a few lines but hides intent.",
+  "token_count": 475,
   "metadata": {
     "subject": "blue_green_deployment",
     "aspect": "advanced_patterns",

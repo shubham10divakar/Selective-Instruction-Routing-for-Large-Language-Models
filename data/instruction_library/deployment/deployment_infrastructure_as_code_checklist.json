@@ -2,19 +2,21 @@
   "module_id": "deployment_infrastructure_as_code_checklist",
   "name": "Infrastructure As Code Checklist",
   "domain": "deployment",
-  "description": "This module is a pre-completion checklist for infrastructure as code work: a short set of checks to run before calling a infrastructure as code task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any infrastructure as code task, implementation, or piece of work complete.",
   "capabilities": [
     "as",
     "checklist",
     "code",
     "deployment",
+    "done criteria",
     "infrastructure",
     "infrastructure as code",
-    "pre-completion review",
-    "verification"
+    "pre-completion checklist",
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for infrastructure as code work: a short set of checks to run before calling a infrastructure as code task done.\n\nCORE GUIDELINES\n1. Keep infrastructure as code outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Document any non-obvious infrastructure as code decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Before starting infrastructure as code work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Measure before optimizing any infrastructure as code bottleneck; do not guess at what is slow.\n5. Validate infrastructure as code outputs against a concrete example before treating the work as complete.\n6. Keep infrastructure as code changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Re-check edge cases relevant to infrastructure as code (empty input, boundary values, concurrent access) before calling the task done.\n8. Prefer the simplest infrastructure as code approach that satisfies the requirement over a more general one that isn't needed yet.\n9. State assumptions about infrastructure as code explicitly before proceeding, rather than leaving them implicit.\n10. Check that infrastructure as code terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated infrastructure as code concerns into a single change; keep each change focused.\n- Do not silently drop infrastructure as code edge cases to make an example look cleaner than the real system.\n- Do not apply generic infrastructure as code advice without checking it fits the specific context at hand.\n- Avoid introducing new infrastructure as code abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting infrastructure as code assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about infrastructure as code over a shortcut that saves a few lines but hides intent.",
-  "token_count": 537,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any infrastructure as code task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Keep infrastructure as code outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Document any non-obvious infrastructure as code decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Before starting infrastructure as code work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Measure before optimizing any infrastructure as code bottleneck; do not guess at what is slow.\n5. Validate infrastructure as code outputs against a concrete example before treating the work as complete.\n6. Keep infrastructure as code changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Re-check edge cases relevant to infrastructure as code (empty input, boundary values, concurrent access) before calling the task done.\n8. Prefer the simplest infrastructure as code approach that satisfies the requirement over a more general one that isn't needed yet.\n9. State assumptions about infrastructure as code explicitly before proceeding, rather than leaving them implicit.\n10. Check that infrastructure as code terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated infrastructure as code concerns into a single change; keep each change focused.\n- Do not silently drop infrastructure as code edge cases to make an example look cleaner than the real system.\n- Do not apply generic infrastructure as code advice without checking it fits the specific context at hand.\n- Avoid introducing new infrastructure as code abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting infrastructure as code assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about infrastructure as code over a shortcut that saves a few lines but hides intent.",
+  "token_count": 540,
   "metadata": {
     "subject": "infrastructure_as_code",
     "aspect": "checklist",

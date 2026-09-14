@@ -2,17 +2,18 @@
   "module_id": "database_migrations_common_pitfalls",
   "name": "Migrations Common Pitfalls",
   "domain": "database",
-  "description": "This module lists the most common pitfalls encountered in migrations work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday migrations work, so they can be recognized and avoided during typical migrations tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "database",
     "failure modes",
     "migrations",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in migrations work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When migrations decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Surface known limitations of a chosen migrations approach instead of presenting it as complete when it is not.\n3. Check that migrations terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Measure before optimizing any migrations bottleneck; do not guess at what is slow.\n5. State assumptions about migrations explicitly before proceeding, rather than leaving them implicit.\n6. Before starting migrations work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer the simplest migrations approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated migrations concerns into a single change; keep each change focused.\n- Avoid introducing new migrations abstractions before there is a second concrete use case that needs them.\n- Do not apply generic migrations advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of migrations correctness.\n\nCLOSING NOTE\nRevisit these migrations guidelines if the task's constraints change significantly during the work.",
-  "token_count": 362,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday migrations work, so they can be recognized and avoided during typical migrations tasks.\n\nCORE GUIDELINES\n1. When migrations decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Surface known limitations of a chosen migrations approach instead of presenting it as complete when it is not.\n3. Check that migrations terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Measure before optimizing any migrations bottleneck; do not guess at what is slow.\n5. State assumptions about migrations explicitly before proceeding, rather than leaving them implicit.\n6. Before starting migrations work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer the simplest migrations approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated migrations concerns into a single change; keep each change focused.\n- Avoid introducing new migrations abstractions before there is a second concrete use case that needs them.\n- Do not apply generic migrations advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of migrations correctness.\n\nCLOSING NOTE\nRevisit these migrations guidelines if the task's constraints change significantly during the work.",
+  "token_count": 373,
   "metadata": {
     "subject": "migrations",
     "aspect": "common_pitfalls",

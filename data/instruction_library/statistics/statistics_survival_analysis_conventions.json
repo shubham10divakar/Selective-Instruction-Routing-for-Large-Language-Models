@@ -2,20 +2,21 @@
   "module_id": "statistics_survival_analysis_conventions",
   "name": "Survival Analysis Conventions",
   "domain": "statistics",
-  "description": "This module governs the naming, structure, and style conventions expected when working on survival analysis so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing survival analysis code or output, so results stay consistent with the existing survival analysis style guide.",
   "capabilities": [
     "analysis",
-    "consistency",
     "conventions",
     "formatting",
-    "naming",
+    "naming conventions",
     "statistics",
+    "structural consistency",
     "style guide",
     "survival",
-    "survival analysis"
+    "survival analysis",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on survival analysis so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer the simplest survival analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Keep survival analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Re-check edge cases relevant to survival analysis (empty input, boundary values, concurrent access) before calling the task done.\n4. Document any non-obvious survival analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. State assumptions about survival analysis explicitly before proceeding, rather than leaving them implicit.\n6. Before starting survival analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Check that survival analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Surface known limitations of a chosen survival analysis approach instead of presenting it as complete when it is not.\n9. When multiple survival analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Measure before optimizing any survival analysis bottleneck; do not guess at what is slow.\n11. When survival analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new survival analysis abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of survival analysis correctness.\n- Do not apply generic survival analysis advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated survival analysis concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these survival analysis guidelines if the task's constraints change significantly during the work.",
-  "token_count": 513,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing survival analysis code or output, so results stay consistent with the existing survival analysis style guide.\n\nCORE GUIDELINES\n1. Prefer the simplest survival analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Keep survival analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Re-check edge cases relevant to survival analysis (empty input, boundary values, concurrent access) before calling the task done.\n4. Document any non-obvious survival analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. State assumptions about survival analysis explicitly before proceeding, rather than leaving them implicit.\n6. Before starting survival analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Check that survival analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Surface known limitations of a chosen survival analysis approach instead of presenting it as complete when it is not.\n9. When multiple survival analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Measure before optimizing any survival analysis bottleneck; do not guess at what is slow.\n11. When survival analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new survival analysis abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of survival analysis correctness.\n- Do not apply generic survival analysis advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated survival analysis concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these survival analysis guidelines if the task's constraints change significantly during the work.",
+  "token_count": 535,
   "metadata": {
     "subject": "survival_analysis",
     "aspect": "conventions",

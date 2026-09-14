@@ -2,17 +2,18 @@
   "module_id": "coding_documentation_common_pitfalls",
   "name": "Documentation Common Pitfalls",
   "domain": "coding",
-  "description": "This module lists the most common pitfalls encountered in documentation work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday documentation work, so they can be recognized and avoided during typical documentation tasks.",
   "capabilities": [
     "anti-patterns",
     "coding",
+    "common mistakes",
     "common pitfalls",
     "documentation",
     "failure modes",
-    "pitfalls"
+    "pitfalls to avoid"
   ],
-  "content": "This module lists the most common pitfalls encountered in documentation work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Document any non-obvious documentation decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When documentation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Measure before optimizing any documentation bottleneck; do not guess at what is slow.\n4. Re-check edge cases relevant to documentation (empty input, boundary values, concurrent access) before calling the task done.\n5. State assumptions about documentation explicitly before proceeding, rather than leaving them implicit.\n6. Keep documentation changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Before starting documentation work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Surface known limitations of a chosen documentation approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of documentation correctness.\n- Do not apply generic documentation advice without checking it fits the specific context at hand.\n- Do not skip documenting documentation assumptions just because they seem obvious in the moment.\n- Do not silently drop documentation edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about documentation over a shortcut that saves a few lines but hides intent.",
-  "token_count": 412,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday documentation work, so they can be recognized and avoided during typical documentation tasks.\n\nCORE GUIDELINES\n1. Document any non-obvious documentation decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When documentation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Measure before optimizing any documentation bottleneck; do not guess at what is slow.\n4. Re-check edge cases relevant to documentation (empty input, boundary values, concurrent access) before calling the task done.\n5. State assumptions about documentation explicitly before proceeding, rather than leaving them implicit.\n6. Keep documentation changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Before starting documentation work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Surface known limitations of a chosen documentation approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of documentation correctness.\n- Do not apply generic documentation advice without checking it fits the specific context at hand.\n- Do not skip documenting documentation assumptions just because they seem obvious in the moment.\n- Do not silently drop documentation edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about documentation over a shortcut that saves a few lines but hides intent.",
+  "token_count": 423,
   "metadata": {
     "subject": "documentation",
     "aspect": "common_pitfalls",

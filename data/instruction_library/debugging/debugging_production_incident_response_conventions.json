@@ -2,21 +2,22 @@
   "module_id": "debugging_production_incident_response_conventions",
   "name": "Production Incident Response Conventions",
   "domain": "debugging",
-  "description": "This module governs the naming, structure, and style conventions expected when working on production incident response so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing production incident response code or output, so results stay consistent with the existing production incident response style guide.",
   "capabilities": [
-    "consistency",
     "conventions",
     "debugging",
     "formatting",
     "incident",
-    "naming",
+    "naming conventions",
     "production",
     "production incident response",
     "response",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on production incident response so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer the simplest production incident response approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Validate production incident response outputs against a concrete example before treating the work as complete.\n3. When multiple production incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. State assumptions about production incident response explicitly before proceeding, rather than leaving them implicit.\n5. Keep production incident response changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Before starting production incident response work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When production incident response decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Check that production incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Keep production incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting production incident response assumptions just because they seem obvious in the moment.\n- Avoid introducing new production incident response abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of production incident response correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about production incident response over a shortcut that saves a few lines but hides intent.",
-  "token_count": 469,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing production incident response code or output, so results stay consistent with the existing production incident response style guide.\n\nCORE GUIDELINES\n1. Prefer the simplest production incident response approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Validate production incident response outputs against a concrete example before treating the work as complete.\n3. When multiple production incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. State assumptions about production incident response explicitly before proceeding, rather than leaving them implicit.\n5. Keep production incident response changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Before starting production incident response work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When production incident response decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Check that production incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Keep production incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting production incident response assumptions just because they seem obvious in the moment.\n- Avoid introducing new production incident response abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of production incident response correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about production incident response over a shortcut that saves a few lines but hides intent.",
+  "token_count": 493,
   "metadata": {
     "subject": "production_incident_response",
     "aspect": "conventions",

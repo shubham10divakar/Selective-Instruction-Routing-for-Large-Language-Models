@@ -2,20 +2,21 @@
   "module_id": "coding_api_design_conventions",
   "name": "Api Design Conventions",
   "domain": "coding",
-  "description": "This module governs the naming, structure, and style conventions expected when working on api design so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing api design code or output, so results stay consistent with the existing api design style guide.",
   "capabilities": [
     "api",
     "api design",
     "coding",
-    "consistency",
     "conventions",
     "design",
     "formatting",
-    "naming",
-    "style guide"
+    "naming conventions",
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on api design so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Keep api design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. State assumptions about api design explicitly before proceeding, rather than leaving them implicit.\n3. Measure before optimizing any api design bottleneck; do not guess at what is slow.\n4. When api design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Document any non-obvious api design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. When multiple api design strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Before starting api design work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Prefer the simplest api design approach that satisfies the requirement over a more general one that isn't needed yet.\n10. Re-check edge cases relevant to api design (empty input, boundary values, concurrent access) before calling the task done.\n11. Validate api design outputs against a concrete example before treating the work as complete.\n12. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not silently drop api design edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of api design correctness.\n- Do not skip documenting api design assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these api design guidelines if the task's constraints change significantly during the work.",
-  "token_count": 498,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing api design code or output, so results stay consistent with the existing api design style guide.\n\nCORE GUIDELINES\n1. Keep api design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. State assumptions about api design explicitly before proceeding, rather than leaving them implicit.\n3. Measure before optimizing any api design bottleneck; do not guess at what is slow.\n4. When api design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Document any non-obvious api design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. When multiple api design strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Before starting api design work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Prefer the simplest api design approach that satisfies the requirement over a more general one that isn't needed yet.\n10. Re-check edge cases relevant to api design (empty input, boundary values, concurrent access) before calling the task done.\n11. Validate api design outputs against a concrete example before treating the work as complete.\n12. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not silently drop api design edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of api design correctness.\n- Do not skip documenting api design assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these api design guidelines if the task's constraints change significantly during the work.",
+  "token_count": 518,
   "metadata": {
     "subject": "api_design",
     "aspect": "conventions",

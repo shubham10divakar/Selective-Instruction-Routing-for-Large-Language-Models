@@ -2,18 +2,20 @@
   "module_id": "security_dependency_scanning_best_practices",
   "name": "Dependency Scanning Best Practices",
   "domain": "security",
-  "description": "This module captures the best practices for dependency scanning, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building dependency scanning — the default, everyday guidance to apply on typical, ordinary dependency scanning tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "dependency",
     "dependency scanning",
-    "maintainability",
-    "quality",
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
     "scanning",
-    "security"
+    "security",
+    "typical work"
   ],
-  "content": "This module captures the best practices for dependency scanning, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. State assumptions about dependency scanning explicitly before proceeding, rather than leaving them implicit.\n2. Document any non-obvious dependency scanning decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When dependency scanning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Measure before optimizing any dependency scanning bottleneck; do not guess at what is slow.\n5. When multiple dependency scanning strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. When dependency scanning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Surface known limitations of a chosen dependency scanning approach instead of presenting it as complete when it is not.\n8. Validate dependency scanning outputs against a concrete example before treating the work as complete.\n9. Prefer explicit, readable dependency scanning solutions over clever ones that are hard to verify.\n10. Check that dependency scanning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of dependency scanning correctness.\n- Avoid introducing new dependency scanning abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated dependency scanning concerns into a single change; keep each change focused.\n- Do not silently drop dependency scanning edge cases to make an example look cleaner than the real system.\n- Do not skip documenting dependency scanning assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about dependency scanning over a shortcut that saves a few lines but hides intent.",
-  "token_count": 514,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building dependency scanning — the default, everyday guidance to apply on typical, ordinary dependency scanning tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. State assumptions about dependency scanning explicitly before proceeding, rather than leaving them implicit.\n2. Document any non-obvious dependency scanning decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When dependency scanning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Measure before optimizing any dependency scanning bottleneck; do not guess at what is slow.\n5. When multiple dependency scanning strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. When dependency scanning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Surface known limitations of a chosen dependency scanning approach instead of presenting it as complete when it is not.\n8. Validate dependency scanning outputs against a concrete example before treating the work as complete.\n9. Prefer explicit, readable dependency scanning solutions over clever ones that are hard to verify.\n10. Check that dependency scanning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of dependency scanning correctness.\n- Avoid introducing new dependency scanning abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated dependency scanning concerns into a single change; keep each change focused.\n- Do not silently drop dependency scanning edge cases to make an example look cleaner than the real system.\n- Do not skip documenting dependency scanning assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about dependency scanning over a shortcut that saves a few lines but hides intent.",
+  "token_count": 546,
   "metadata": {
     "subject": "dependency_scanning",
     "aspect": "best_practices",

@@ -2,18 +2,19 @@
   "module_id": "testing_load_testing_common_pitfalls",
   "name": "Load Testing Common Pitfalls",
   "domain": "testing",
-  "description": "This module lists the most common pitfalls encountered in load testing work, so they can be actively avoided rather than rediscovered.",
+  "description": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday load testing work, so they can be recognized and avoided during typical load testing tasks.",
   "capabilities": [
     "anti-patterns",
+    "common mistakes",
     "common pitfalls",
     "failure modes",
     "load",
     "load testing",
-    "pitfalls",
+    "pitfalls to avoid",
     "testing"
   ],
-  "content": "This module lists the most common pitfalls encountered in load testing work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Prefer the simplest load testing approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Measure before optimizing any load testing bottleneck; do not guess at what is slow.\n3. Keep load testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Check that load testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. When load testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Prefer explicit, readable load testing solutions over clever ones that are hard to verify.\n7. When load testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Keep load testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Before starting load testing work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Re-check edge cases relevant to load testing (empty input, boundary values, concurrent access) before calling the task done.\n11. When multiple load testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting load testing assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of load testing correctness.\n- Avoid introducing new load testing abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these load testing guidelines if the task's constraints change significantly during the work.",
-  "token_count": 464,
+  "content": "This module lists frequently observed mistakes, bugs, and anti-patterns seen in everyday load testing work, so they can be recognized and avoided during typical load testing tasks.\n\nCORE GUIDELINES\n1. Prefer the simplest load testing approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Measure before optimizing any load testing bottleneck; do not guess at what is slow.\n3. Keep load testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Check that load testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. When load testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Prefer explicit, readable load testing solutions over clever ones that are hard to verify.\n7. When load testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Keep load testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Before starting load testing work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Re-check edge cases relevant to load testing (empty input, boundary values, concurrent access) before calling the task done.\n11. When multiple load testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting load testing assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of load testing correctness.\n- Avoid introducing new load testing abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these load testing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 476,
   "metadata": {
     "subject": "load_testing",
     "aspect": "common_pitfalls",

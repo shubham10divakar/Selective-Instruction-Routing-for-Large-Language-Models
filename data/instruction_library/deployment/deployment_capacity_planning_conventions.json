@@ -2,20 +2,21 @@
   "module_id": "deployment_capacity_planning_conventions",
   "name": "Capacity Planning Conventions",
   "domain": "deployment",
-  "description": "This module governs the naming, structure, and style conventions expected when working on capacity planning so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing capacity planning code or output, so results stay consistent with the existing capacity planning style guide.",
   "capabilities": [
     "capacity",
     "capacity planning",
-    "consistency",
     "conventions",
     "deployment",
     "formatting",
-    "naming",
+    "naming conventions",
     "planning",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on capacity planning so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen capacity planning approach instead of presenting it as complete when it is not.\n2. Keep capacity planning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Check that capacity planning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Measure before optimizing any capacity planning bottleneck; do not guess at what is slow.\n5. When capacity planning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Before starting capacity planning work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Validate capacity planning outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting capacity planning assumptions just because they seem obvious in the moment.\n- Avoid introducing new capacity planning abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of capacity planning correctness.\n- Do not apply generic capacity planning advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated capacity planning concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for capacity planning, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 421,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing capacity planning code or output, so results stay consistent with the existing capacity planning style guide.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen capacity planning approach instead of presenting it as complete when it is not.\n2. Keep capacity planning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Check that capacity planning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Measure before optimizing any capacity planning bottleneck; do not guess at what is slow.\n5. When capacity planning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Before starting capacity planning work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Validate capacity planning outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting capacity planning assumptions just because they seem obvious in the moment.\n- Avoid introducing new capacity planning abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of capacity planning correctness.\n- Do not apply generic capacity planning advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated capacity planning concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for capacity planning, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 443,
   "metadata": {
     "subject": "capacity_planning",
     "aspect": "conventions",

@@ -2,20 +2,21 @@
   "module_id": "database_connection_pooling_conventions",
   "name": "Connection Pooling Conventions",
   "domain": "database",
-  "description": "This module governs the naming, structure, and style conventions expected when working on connection pooling so output stays consistent and easy to review.",
+  "description": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing connection pooling code or output, so results stay consistent with the existing connection pooling style guide.",
   "capabilities": [
     "connection",
     "connection pooling",
-    "consistency",
     "conventions",
     "database",
     "formatting",
-    "naming",
+    "naming conventions",
     "pooling",
-    "style guide"
+    "structural consistency",
+    "style guide",
+    "syntax rules"
   ],
-  "content": "This module governs the naming, structure, and style conventions expected when working on connection pooling so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When connection pooling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Measure before optimizing any connection pooling bottleneck; do not guess at what is slow.\n3. When multiple connection pooling strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Prefer explicit, readable connection pooling solutions over clever ones that are hard to verify.\n5. Validate connection pooling outputs against a concrete example before treating the work as complete.\n6. Before starting connection pooling work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Surface known limitations of a chosen connection pooling approach instead of presenting it as complete when it is not.\n8. Document any non-obvious connection pooling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When connection pooling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n10. Keep connection pooling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n11. Prefer the simplest connection pooling approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting connection pooling assumptions just because they seem obvious in the moment.\n- Do not apply generic connection pooling advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of connection pooling correctness.\n- Do not silently drop connection pooling edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated connection pooling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about connection pooling over a shortcut that saves a few lines but hides intent.",
-  "token_count": 540,
+  "content": "This module defines the naming, formatting, and structural style conventions to follow whenever writing, implementing, or reviewing connection pooling code or output, so results stay consistent with the existing connection pooling style guide.\n\nCORE GUIDELINES\n1. When connection pooling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Measure before optimizing any connection pooling bottleneck; do not guess at what is slow.\n3. When multiple connection pooling strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Prefer explicit, readable connection pooling solutions over clever ones that are hard to verify.\n5. Validate connection pooling outputs against a concrete example before treating the work as complete.\n6. Before starting connection pooling work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Surface known limitations of a chosen connection pooling approach instead of presenting it as complete when it is not.\n8. Document any non-obvious connection pooling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When connection pooling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n10. Keep connection pooling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n11. Prefer the simplest connection pooling approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting connection pooling assumptions just because they seem obvious in the moment.\n- Do not apply generic connection pooling advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of connection pooling correctness.\n- Do not silently drop connection pooling edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated connection pooling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about connection pooling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 562,
   "metadata": {
     "subject": "connection_pooling",
     "aspect": "conventions",

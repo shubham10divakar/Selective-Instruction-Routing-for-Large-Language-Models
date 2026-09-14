@@ -2,16 +2,19 @@
   "module_id": "research_reproducibility_advanced_patterns",
   "name": "Advanced Reproducibility Patterns",
   "domain": "research",
-  "description": "This module describes advanced patterns for reproducibility intended for non-trivial cases where the basic approach is insufficient.",
+  "description": "This module documents advanced, specialized reproducibility techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday reproducibility work where the basic approach is already sufficient.",
   "capabilities": [
     "advanced patterns",
-    "edge cases",
+    "advanced techniques",
+    "complex scenarios",
+    "large-scale systems",
+    "non-standard cases",
     "reproducibility",
     "research",
-    "scalability"
+    "specialized patterns"
   ],
-  "content": "This module describes advanced patterns for reproducibility intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to reproducibility (empty input, boundary values, concurrent access) before calling the task done.\n2. Before starting reproducibility work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Surface known limitations of a chosen reproducibility approach instead of presenting it as complete when it is not.\n4. Document any non-obvious reproducibility decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. State assumptions about reproducibility explicitly before proceeding, rather than leaving them implicit.\n6. When reproducibility guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Keep reproducibility outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new reproducibility abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of reproducibility correctness.\n- Do not skip documenting reproducibility assumptions just because they seem obvious in the moment.\n- Do not apply generic reproducibility advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these reproducibility guidelines if the task's constraints change significantly during the work.",
-  "token_count": 396,
+  "content": "This module documents advanced, specialized reproducibility techniques reserved for unusually complex, large-scale, or non-standard situations — it does not apply to small, typical, everyday reproducibility work where the basic approach is already sufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to reproducibility (empty input, boundary values, concurrent access) before calling the task done.\n2. Before starting reproducibility work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Surface known limitations of a chosen reproducibility approach instead of presenting it as complete when it is not.\n4. Document any non-obvious reproducibility decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. State assumptions about reproducibility explicitly before proceeding, rather than leaving them implicit.\n6. When reproducibility guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Keep reproducibility outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new reproducibility abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of reproducibility correctness.\n- Do not skip documenting reproducibility assumptions just because they seem obvious in the moment.\n- Do not apply generic reproducibility advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these reproducibility guidelines if the task's constraints change significantly during the work.",
+  "token_count": 428,
   "metadata": {
     "subject": "reproducibility",
     "aspect": "advanced_patterns",

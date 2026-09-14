@@ -2,17 +2,19 @@
   "module_id": "research_research_ethics_checklist",
   "name": "Research Ethics Checklist",
   "domain": "research",
-  "description": "This module is a pre-completion checklist for research ethics work: a short set of checks to run before calling a research ethics task done.",
+  "description": "This module is a short pre-completion checklist of specific items to verify before marking any research ethics task, implementation, or piece of work complete.",
   "capabilities": [
     "checklist",
+    "done criteria",
     "ethics",
-    "pre-completion review",
+    "pre-completion checklist",
     "research",
     "research ethics",
-    "verification"
+    "review checklist",
+    "verification steps"
   ],
-  "content": "This module is a pre-completion checklist for research ethics work: a short set of checks to run before calling a research ethics task done.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen research ethics approach instead of presenting it as complete when it is not.\n2. When research ethics decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Before starting research ethics work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Keep research ethics outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. When research ethics guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Keep research ethics changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Prefer the simplest research ethics approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Document any non-obvious research ethics decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When multiple research ethics strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Validate research ethics outputs against a concrete example before treating the work as complete.\n11. State assumptions about research ethics explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated research ethics concerns into a single change; keep each change focused.\n- Do not silently drop research ethics edge cases to make an example look cleaner than the real system.\n- Avoid introducing new research ethics abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these research ethics guidelines if the task's constraints change significantly during the work.",
-  "token_count": 482,
+  "content": "This module is a short pre-completion checklist of specific items to verify before marking any research ethics task, implementation, or piece of work complete.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen research ethics approach instead of presenting it as complete when it is not.\n2. When research ethics decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Before starting research ethics work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Keep research ethics outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. When research ethics guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Keep research ethics changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Prefer the simplest research ethics approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Document any non-obvious research ethics decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When multiple research ethics strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Validate research ethics outputs against a concrete example before treating the work as complete.\n11. State assumptions about research ethics explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated research ethics concerns into a single change; keep each change focused.\n- Do not silently drop research ethics edge cases to make an example look cleaner than the real system.\n- Avoid introducing new research ethics abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these research ethics guidelines if the task's constraints change significantly during the work.",
+  "token_count": 487,
   "metadata": {
     "subject": "research_ethics",
     "aspect": "checklist",

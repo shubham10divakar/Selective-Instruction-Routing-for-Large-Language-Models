@@ -2,18 +2,20 @@
   "module_id": "statistics_experimental_design_best_practices",
   "name": "Experimental Design Best Practices",
   "domain": "statistics",
-  "description": "This module captures the best practices for experimental design, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building experimental design — the default, everyday guidance to apply on typical, ordinary experimental design tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "design",
+    "everyday tasks",
     "experimental",
     "experimental design",
-    "maintainability",
-    "quality",
-    "statistics"
+    "implementation guidance",
+    "recommended approach",
+    "statistics",
+    "typical work"
   ],
-  "content": "This module captures the best practices for experimental design, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When experimental design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Surface known limitations of a chosen experimental design approach instead of presenting it as complete when it is not.\n3. State assumptions about experimental design explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any experimental design bottleneck; do not guess at what is slow.\n5. Keep experimental design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Validate experimental design outputs against a concrete example before treating the work as complete.\n7. Check that experimental design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. When experimental design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. When multiple experimental design strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Prefer explicit, readable experimental design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop experimental design edge cases to make an example look cleaner than the real system.\n- Do not apply generic experimental design advice without checking it fits the specific context at hand.\n- Do not skip documenting experimental design assumptions just because they seem obvious in the moment.\n- Avoid introducing new experimental design abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for experimental design, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
-  "token_count": 490,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building experimental design — the default, everyday guidance to apply on typical, ordinary experimental design tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. When experimental design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Surface known limitations of a chosen experimental design approach instead of presenting it as complete when it is not.\n3. State assumptions about experimental design explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any experimental design bottleneck; do not guess at what is slow.\n5. Keep experimental design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Validate experimental design outputs against a concrete example before treating the work as complete.\n7. Check that experimental design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. When experimental design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. When multiple experimental design strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Prefer explicit, readable experimental design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop experimental design edge cases to make an example look cleaner than the real system.\n- Do not apply generic experimental design advice without checking it fits the specific context at hand.\n- Do not skip documenting experimental design assumptions just because they seem obvious in the moment.\n- Avoid introducing new experimental design abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for experimental design, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 522,
   "metadata": {
     "subject": "experimental_design",
     "aspect": "best_practices",

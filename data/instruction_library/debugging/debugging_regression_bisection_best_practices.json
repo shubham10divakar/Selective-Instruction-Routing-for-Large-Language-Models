@@ -2,18 +2,20 @@
   "module_id": "debugging_regression_bisection_best_practices",
   "name": "Regression Bisection Best Practices",
   "domain": "debugging",
-  "description": "This module captures the best practices for regression bisection, distilled from common failure modes and what tends to hold up over time.",
+  "description": "This module lists the best, most commonly recommended practices for writing, implementing, and building regression bisection — the default, everyday guidance to apply on typical, ordinary regression bisection tasks and implementations, not specialized or unusual ones.",
   "capabilities": [
     "best practices",
     "bisection",
     "debugging",
-    "maintainability",
-    "quality",
+    "everyday tasks",
+    "implementation guidance",
+    "recommended approach",
     "regression",
-    "regression bisection"
+    "regression bisection",
+    "typical work"
   ],
-  "content": "This module captures the best practices for regression bisection, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Validate regression bisection outputs against a concrete example before treating the work as complete.\n2. Re-check edge cases relevant to regression bisection (empty input, boundary values, concurrent access) before calling the task done.\n3. Keep regression bisection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Measure before optimizing any regression bisection bottleneck; do not guess at what is slow.\n5. When regression bisection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Document any non-obvious regression bisection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Keep regression bisection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. When multiple regression bisection strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Before starting regression bisection work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop regression bisection edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated regression bisection concerns into a single change; keep each change focused.\n- Do not skip documenting regression bisection assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of regression bisection correctness.\n\nCLOSING NOTE\nRevisit these regression bisection guidelines if the task's constraints change significantly during the work.",
-  "token_count": 458,
+  "content": "This module lists the best, most commonly recommended practices for writing, implementing, and building regression bisection — the default, everyday guidance to apply on typical, ordinary regression bisection tasks and implementations, not specialized or unusual ones.\n\nCORE GUIDELINES\n1. Validate regression bisection outputs against a concrete example before treating the work as complete.\n2. Re-check edge cases relevant to regression bisection (empty input, boundary values, concurrent access) before calling the task done.\n3. Keep regression bisection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Measure before optimizing any regression bisection bottleneck; do not guess at what is slow.\n5. When regression bisection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Document any non-obvious regression bisection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Keep regression bisection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. When multiple regression bisection strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Before starting regression bisection work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop regression bisection edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated regression bisection concerns into a single change; keep each change focused.\n- Do not skip documenting regression bisection assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of regression bisection correctness.\n\nCLOSING NOTE\nRevisit these regression bisection guidelines if the task's constraints change significantly during the work.",
+  "token_count": 491,
   "metadata": {
     "subject": "regression_bisection",
     "aspect": "best_practices",
