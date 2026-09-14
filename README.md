@@ -1,5 +1,14 @@
 # SIR — Selective Instruction Routing
 
+[![PyPI](https://img.shields.io/pypi/v/poormansrag.svg)](https://pypi.org/project/poormansrag/)
+[![Python versions](https://img.shields.io/pypi/pyversions/poormansrag.svg)](https://pypi.org/project/poormansrag/)
+[![Downloads](https://static.pepy.tech/badge/poormansrag)](https://pepy.tech/project/poormansrag)
+[![Downloads/month](https://static.pepy.tech/badge/poormansrag/month)](https://pepy.tech/project/poormansrag)
+
+Published on PyPI as **`poormansrag`** — badges above go live once a release is
+pushed (see [Building & publishing](#building--publishing-to-pypi)); until
+then they render as "not found", which is expected.
+
 Experimental pipeline for **"Give LLMs What They Need, Not Everything: Selective
 Instruction Routing for Large Language Models"** (Subham Divakar, Rojalina
 Priyadarshini).
@@ -50,6 +59,69 @@ tests, runs with zero network calls and zero cost. Pass `--live` to any
 experiment script to use real LLMs via [litellm](https://github.com/BerriAI/litellm)
 (set `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / point at a local Ollama server,
 as appropriate for the model string you pass).
+
+## Using it as a library
+
+Once installed (`pip install poormansrag`, or any of the variants above), a
+minimal use from another project — build a tiny library in memory and route a
+query against it:
+
+```python
+from src.instruction.library import InstructionLibrary
+from src.instruction.module import InstructionModule
+from src.router import SIRRouter
+from src.router.encoder import DualEncoder
+
+library = InstructionLibrary([
+    InstructionModule(
+        module_id="python-style",
+        name="Python Style Guide",
+        domain="coding",
+        description="PEP8 conventions and this project's style rules",
+        capabilities=["formatting", "naming", "docstrings"],
+        content="Use snake_case for functions and variables. Every public "
+                 "function needs a one-line docstring. Max line length 100.",
+    ),
+    InstructionModule(
+        module_id="sql-safety",
+        name="SQL Safety Rules",
+        domain="database",
+        description="Preventing SQL injection and unsafe queries",
+        capabilities=["parameterized queries", "input validation"],
+        content="Always use parameterized queries, never string-format user "
+                 "input into SQL. Reject queries without a WHERE clause on "
+                 "UPDATE/DELETE.",
+    ),
+])
+
+router = SIRRouter(library, encoder=DualEncoder(backend="hashing"))  # base install, zero downloads
+result = router.route("How should I write this SQL update statement?")
+
+print(result.composed_context)                       # inject into your LLM's system prompt
+print([m.module_id for m in result.selected_modules]) # -> ['sql-safety', 'python-style']
+```
+
+Note the explicit `encoder=DualEncoder(backend="hashing")`: `DualEncoder()`'s
+default backend is a real `sentence-transformers` model, so plain
+`SIRRouter(library)` needs the `embeddings` extra installed and downloads
+model weights on first use. Pass `backend="hashing"` (as above) to stay on
+the base install with zero network calls — good enough for prototyping and
+tests; swap to the real embedder (drop the `backend=` argument, or pass
+`backend="sentence-transformer"` explicitly, plus a `model_name` if you want
+something other than `all-MiniLM-L6-v2`) once you care about actual routing
+quality.
+
+`SIRRouter(library, ...)` re-embeds the whole library and builds a FAISS
+index up front, so construct it once per library and reuse it across
+`route()` calls (don't rebuild it per request). To load a library from disk
+instead of building one in memory, use
+`InstructionLibrary.load("path/to/instruction_library/")` — same
+directory-of-JSON-files layout described in
+[Project layout](#project-layout). To bootstrap a starter library instead of
+hand-writing modules, see [Synthetic data generation](#synthetic-data-generation--two-modes)
+— `generate_library_modules()` produces a full offline synthetic set you can
+prune/edit, or `generate_module_llm(domain, topic)` generates one module at a
+time via a real LLM.
 
 ## Quickstart
 
@@ -325,6 +397,40 @@ Labels each (task, candidate module) pair as ESSENTIAL / HELPFUL / IRRELEVANT
 / HARMFUL; run under multiple `--annotator` names to build the 3-annotator
 ground-truth set described in the design doc, then compute inter-annotator
 agreement over `data/annotations/ground_truth.json`.
+
+## Building & publishing to PyPI
+
+Bump `version` in `pyproject.toml` first — PyPI rejects re-uploading an
+existing version number, so this has to happen before every release.
+
+```bash
+pip install build twine     # one-time, if not already present
+
+rm -rf dist/                # avoid re-uploading stale artifacts from a previous version
+python -m build              # writes dist/poormansrag-<version>.tar.gz and .whl
+python -m twine check dist/* # validates metadata/README rendering before upload
+```
+
+Upload to **TestPyPI** first to sanity-check the listing and a real install:
+
+```bash
+python -m twine upload --repository testpypi dist/*
+pip install --index-url https://test.pypi.org/simple/ poormansrag
+```
+
+Then the real thing:
+
+```bash
+python -m twine upload dist/*
+```
+
+Both `upload` commands prompt for credentials — username `__token__` and an
+API token (starts with `pypi-...`, generated at
+https://pypi.org/manage/account/token/ or https://test.pypi.org/manage/account/token/)
+as the password. Set `TWINE_USERNAME=__token__` and `TWINE_PASSWORD=<token>`
+as environment variables to skip the prompt (e.g. in CI). Once published, the
+badges at the top of this README (version, Python versions, downloads) start
+resolving automatically — no further action needed.
 
 ## Key design decisions
 
