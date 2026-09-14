@@ -234,6 +234,48 @@ $env:OLLAMA_CONTEXT_LENGTH = "32768"; ollama serve   # Windows, foreground
 desktop app settings, depending on your install, so you don't have to
 relaunch the service manually each time).
 
+### Other providers and local runtimes
+
+`LLMBackend` (and `LLMJudge`) go through `litellm.completion()`, so any
+provider litellm supports works with **zero code changes** — just the
+right model string, and an API key/base URL where relevant.
+
+**Other local/self-hosted runtimes** (alternatives to Ollama — all speak
+an OpenAI-compatible API, so they route through litellm's generic
+`openai/` provider with a custom `api_base`):
+
+| Runtime | Model string pattern | Notes |
+|---|---|---|
+| vLLM | `openai/<model>` + `api_base="http://localhost:8000/v1"` | Best throughput for batch benchmarking; needs a real GPU |
+| LM Studio | `openai/<model>` + `api_base="http://localhost:1234/v1"` | GUI-based, easy on Windows, good for manual testing |
+| llama.cpp server (`llama-server`) | `openai/<model>` + `api_base="http://localhost:8080/v1"` | Lightest-weight; good for quantized GGUF models on modest hardware |
+| text-generation-webui | `openai/<model>` + its OpenAI-compatible extension endpoint | If you're already using it for something else |
+
+`LLMBackend.generate()` doesn't currently expose `api_base` as a
+parameter (only Ollama's default localhost address is exercised today),
+so wiring one of these in needs a one-line addition —
+`completion(..., api_base=self.api_base)` — before it'll work.
+
+**Hosted providers beyond OpenAI/Anthropic** (litellm model string / env
+var needed):
+
+| Provider | Model string | Env var |
+|---|---|---|
+| Google Gemini | `gemini/gemini-1.5-pro` | `GEMINI_API_KEY` |
+| Groq (fast inference, free tier) | `groq/llama-3.1-70b-versatile` | `GROQ_API_KEY` |
+| Together AI | `together_ai/meta-llama/Llama-3-70b-chat-hf` | `TOGETHER_API_KEY` |
+| Mistral's own API | `mistral/mistral-large-latest` | `MISTRAL_API_KEY` |
+| DeepSeek | `deepseek/deepseek-chat` | `DEEPSEEK_API_KEY` |
+| xAI (Grok) | `xai/grok-2` | `XAI_API_KEY` |
+| OpenRouter (proxies many models under one key) | `openrouter/<provider>/<model>` | `OPENROUTER_API_KEY` |
+| AWS Bedrock | `bedrock/anthropic.claude-3-5-sonnet...` | AWS credentials |
+| Azure OpenAI | `azure/<deployment-name>` | Azure endpoint + key |
+
+Groq is worth calling out specifically if you want a quick sanity check
+against a hosted judge without committing to a paid API: it's hosted but
+has a free tier and is fast, sitting between "fully offline Ollama" and
+"paying OpenAI/Anthropic."
+
 ## Human annotation
 
 ```bash
