@@ -1,0 +1,9 @@
+\begin{tabular}{lrrrrrrrrrrrr}
+\toprule
+ strategy     &   performance &   correctness &   completeness &   adherence &   context\_tokens &   routing\_latency\_ms &   generation\_latency\_ms &   modules\_selected &   routing\_precision &   routing\_recall &   routing\_f1 &   n \\
+\midrule
+ oracle       &        19.85  &         8.56  &          8.56  &      42.42  &            505.6 &                0.1   &                   0.001 &               1.5  &               1     &             1    &        1     &  20 \\
+ sir\_adaptive &        22.015 &         8.25  &          8.25  &      49.535 &            413.3 &                0.952 &                   0.001 &               1.15 &               0.275 &             0.15 &        0.192 &  20 \\
+ static\_full  &         6.755 &         6.915 &          6.915 &       6.445 &         174848   &                0.715 &                   0.001 &             500    &               0.003 &             1    &        0.006 &  20 \\
+\bottomrule
+\end{tabular}
