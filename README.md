@@ -198,9 +198,29 @@ Ollama and no API key at all — without it, `LLMJudge` falls back to
 `gpt-4o` and needs `OPENAI_API_KEY` even though the model under test is
 local. Judging with the same small local model that's under test is a
 weaker signal than a real judge model, but it's enough to smoke-test the
-pipeline; for real numbers use a stronger judge (`--judge-model gpt-4o` /
-`claude-3-5-sonnet-20241022`, with that provider's key set) once you're
-past the smoke test.
+pipeline; for real numbers, use a stronger judge once you're past the
+smoke test.
+
+**A stronger judge doesn't have to mean a hosted API.** `--judge-model`
+takes any litellm model string, so you can pull a bigger local model and
+judge with that instead — still fully offline, still no API key, just a
+different (larger) `ollama/<tag>`:
+
+```bash
+ollama pull qwen2.5:32b        # or llama3.1:70b / mixtral:8x22b, hardware permitting
+
+python scripts/run_benchmark.py --live --models ollama/llama3.1:8b \
+  --judge-model ollama/qwen2.5:32b --n-tasks 20 --strategies sir_adaptive,static_full,oracle
+```
+
+The point of a separate judge model is avoiding self-evaluation bias
+(a model tends to rate its own outputs generously) — what matters is that
+the judge is a **different, stronger** model than the one under test, not
+that it's hosted. `ollama/qwen2.5:32b`, `ollama/llama3.1:70b`, or
+`ollama/mixtral:8x22b` are reasonable "strong local judge" choices if you
+have the RAM/VRAM for them (32b-class models generally want ~24GB+ VRAM
+or a lot of system RAM in CPU mode); if not, a hosted judge (`gpt-4o`,
+`claude-3-5-sonnet-20241022`) with that provider's key is the fallback.
 
 Once that's confirmed working, widen `--n-tasks` and add `static_full`
 back in — but raise Ollama's context window first:
