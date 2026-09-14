@@ -136,11 +136,16 @@ python scripts/run_noise_experiment.py --live --model gpt-4o
 ```
 (`set OPENAI_API_KEY=sk-...` if using `cmd.exe` instead of PowerShell.)
 
-The judge (`LLMJudge`) also needs a key for whichever model
-`config/settings.yaml` → `evaluation.judge_model` points at (`gpt-4o` by
-default) — set that provider's key even if the model under test is
-something else (e.g. a local Ollama model), or repoint `judge_model` at a
-model you do have a key for.
+The judge (`LLMJudge`) also needs a key for whichever model it's scoring
+with — `gpt-4o` by default (`config/settings.yaml` → `evaluation.judge_model`)
+— even if the model under test is something else (e.g. a local Ollama
+model). Set that provider's key, or override the judge model per run with
+`--judge-model` (works on both `run_benchmark.py` and
+`run_noise_experiment.py`) without touching the config file:
+
+```bash
+python scripts/run_benchmark.py --live --models gpt-4o --judge-model claude-3-5-sonnet-20241022
+```
 
 ### Local models via Ollama (Llama, Qwen, Mistral, ...)
 
@@ -183,15 +188,19 @@ context window (2k-4k tokens unless you raise `num_ctx`). Start narrow:
 
 ```bash
 python scripts/run_benchmark.py --live --models ollama/llama3.1:8b \
-  --n-tasks 5 --strategies sir_adaptive,sir_top3,oracle
+  --judge-model ollama/llama3.1:8b --n-tasks 5 --strategies sir_adaptive,sir_top3,oracle
 ```
 
 (swap `llama3.1:8b` for `qwen2.5:7b` / `mistral:7b` / whatever tag you
-pulled — same `ollama/<tag>` prefix either way). If you don't have
-`OPENAI_API_KEY` set for the judge, either export it (see above) or edit
-`evaluation.judge_model` in `config/settings.yaml` to `ollama/llama3.1:8b`
-so judging runs on Ollama too (weaker signal — a model judging its own
-output — but needs nothing but Ollama to run end-to-end).
+pulled — same `ollama/<tag>` prefix either way, and `--judge-model` accepts
+the same prefix). `--judge-model` is what lets this run with nothing but
+Ollama and no API key at all — without it, `LLMJudge` falls back to
+`gpt-4o` and needs `OPENAI_API_KEY` even though the model under test is
+local. Judging with the same small local model that's under test is a
+weaker signal than a real judge model, but it's enough to smoke-test the
+pipeline; for real numbers use a stronger judge (`--judge-model gpt-4o` /
+`claude-3-5-sonnet-20241022`, with that provider's key set) once you're
+past the smoke test.
 
 Once that's confirmed working, widen `--n-tasks` and add `static_full`
 back in — but raise Ollama's context window first:

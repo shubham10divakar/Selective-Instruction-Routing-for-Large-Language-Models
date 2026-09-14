@@ -63,6 +63,9 @@ def main() -> None:
     parser.add_argument("--offline", action="store_true", default=True)
     parser.add_argument("--live", dest="offline", action="store_false")
     parser.add_argument("--model", default=None, help="litellm model string (--live only)")
+    parser.add_argument("--judge-model", default=None,
+                         help="litellm model string for LLMJudge (--live only; default: config evaluation.judge_model, e.g. gpt-4o). "
+                              "Point this at a local Ollama model (e.g. ollama/llama3.1:8b) to judge with no API key.")
     parser.add_argument("--n-tasks", type=int, default=30, help="Number of tasks to sample")
     parser.add_argument("--repeats", type=int, default=1, help="Repeats per (task, noise_level)")
     parser.add_argument("--seed", type=int, default=42)
@@ -92,8 +95,10 @@ def main() -> None:
         judge = HeuristicJudge()
     else:
         model_backend = LLMBackend(args.model or config["models"][0])
+        judge_model = args.judge_model or config["evaluation"]["judge_model"]
         from src.evaluation.llm_judge import LLMJudge
-        judge = LLMJudge(model=config["evaluation"]["judge_model"])
+        judge = LLMJudge(model=judge_model)
+        log.info(f"Model: {model_backend.model} | Judge model: {judge.model}")
 
     out_path = resolve_path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)

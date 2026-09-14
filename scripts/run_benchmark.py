@@ -82,6 +82,9 @@ def main() -> None:
     parser.add_argument("--live", dest="offline", action="store_false", help="Use real LLM calls via litellm")
     parser.add_argument("--strategies", default=None, help="Comma-separated subset of strategy names (default: all)")
     parser.add_argument("--models", default=None, help="Comma-separated litellm model strings (--live only)")
+    parser.add_argument("--judge-model", default=None,
+                         help="litellm model string for LLMJudge (--live only; default: config evaluation.judge_model, e.g. gpt-4o). "
+                              "Point this at a local Ollama model (e.g. ollama/llama3.1:8b) to judge with no API key.")
     parser.add_argument("--n-tasks", type=int, default=None, help="Cap number of tasks (default: all)")
     parser.add_argument("--out", default="data/results/benchmark_results.jsonl")
     args = parser.parse_args()
@@ -113,9 +116,12 @@ def main() -> None:
     else:
         model_names = (args.models or ",".join(config["models"])).split(",")
         model_backends = [LLMBackend(m) for m in model_names]
+        judge_model = args.judge_model or config["evaluation"]["judge_model"]
         from src.evaluation.llm_judge import LLMJudge
-        judge = LLMJudge(model=config["evaluation"]["judge_model"])
+        judge = LLMJudge(model=judge_model)
     log.info(f"Models: {[m.model for m in model_backends]} | mode={'offline' if args.offline else 'live'}")
+    if not args.offline:
+        log.info(f"Judge model: {judge.model}")
 
     out_path = resolve_path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
