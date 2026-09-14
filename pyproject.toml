@@ -1,9 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "sir"
+name = "poormansrag"
 version = "0.1.0"
 description = "Selective Instruction Routing (SIR) for Large Language Models"
 requires-python = ">=3.10"
 readme = "README.md"
+authors = [{ name = "Subham Divakar" }]
+
+dependencies = [
+    "numpy>=1.24.0",
+    "faiss-cpu>=1.7.4",
+    "tiktoken>=0.5.0",
+    "rank-bm25>=0.2.2",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+# Real sentence-transformers embedder for DualEncoder (default is an offline
+# hashing embedder with no model download; pass a model_name to opt in).
+embeddings = ["sentence-transformers>=2.2.0"]
+# Real LLM calls (module generation via --llm, LLMJudge, LLMBackend) instead
+# of the offline template/mock/heuristic paths.
+llm = ["litellm>=1.30.0", "openai>=1.12.0"]
+all = ["poormansrag[embeddings,llm]"]
+# Everything needed to run the research pipeline scripts (tables, ablations,
+# noise sweeps) and the test suite -- not needed to just import the library.
+dev = [
+    "poormansrag[all]",
+    "pytest>=7.4.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "tabulate>=0.9.0",
+    "jsonlines>=3.1.0",
+]
+
+[project.urls]
+Repository = "https://github.com/shubham10divakar/Selective-Instruction-Routing-for-Large-Language-Models"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

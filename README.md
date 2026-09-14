@@ -12,9 +12,35 @@ pipeline, and the noise/ablation experiments described in `sir-design-doc.md`.
 
 ## Setup
 
+For working on this repo (running scripts, tests, tables, ablations):
+
 ```bash
 pip install -r requirements.txt
 ```
+
+To use SIR as a library from another project, install it directly (editable,
+from a local checkout, or straight from git):
+
+```bash
+pip install -e "/path/to/this/repo"[dev]          # repo dev, everything
+pip install "/path/to/this/repo"                  # core only: router + instruction generator
+pip install "/path/to/this/repo"[embeddings,llm]  # + real sentence-transformers / litellm
+pip install "git+https://github.com/shubham10divakar/Selective-Instruction-Routing-for-Large-Language-Models.git"
+```
+
+The base install (`poormansrag`) pulls in only `numpy`, `faiss-cpu`,
+`tiktoken`, `rank-bm25`, `PyYAML` — enough to build an instruction library and
+route against it fully offline (`DualEncoder()` defaults to a dependency-free
+hashing embedder). `poormansrag[embeddings]` adds `sentence-transformers` for
+the real encoder; `poormansrag[llm]` adds `litellm`/`openai` for LLM-backed
+module generation, the `LLMJudge`, and `LLMBackend`; `poormansrag[dev]` adds
+everything plus the research-pipeline extras (`pandas`, `scikit-learn`,
+`matplotlib`, `seaborn`, `tabulate`, `jsonlines`, `pytest`) needed for
+`scripts/*` and the test suite.
+Once installed, everything under this repo's `src/` is importable as
+`src.<subpackage>` (e.g. `from src.router import SIRRouter`,
+`from src.instruction.generator import generate_library_modules`) — see
+[Project layout](#project-layout) below for what lives where.
 
 Everything below runs **fully offline by default** — no API key required. The
 router's default encoder backend still uses a real `sentence-transformers`
