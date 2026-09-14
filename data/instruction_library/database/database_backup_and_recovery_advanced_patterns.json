@@ -1,0 +1,23 @@
+{
+  "module_id": "database_backup_and_recovery_advanced_patterns",
+  "name": "Advanced Backup And Recovery Patterns",
+  "domain": "database",
+  "description": "This module describes advanced patterns for backup and recovery intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "and",
+    "backup",
+    "backup and recovery",
+    "database",
+    "edge cases",
+    "recovery",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for backup and recovery intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Document any non-obvious backup and recovery decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When multiple backup and recovery strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Check that backup and recovery terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Prefer explicit, readable backup and recovery solutions over clever ones that are hard to verify.\n5. Validate backup and recovery outputs against a concrete example before treating the work as complete.\n6. Surface known limitations of a chosen backup and recovery approach instead of presenting it as complete when it is not.\n7. Keep backup and recovery changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. State assumptions about backup and recovery explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new backup and recovery abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of backup and recovery correctness.\n- Do not silently drop backup and recovery edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated backup and recovery concerns into a single change; keep each change focused.\n- Do not apply generic backup and recovery advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these backup and recovery guidelines if the task's constraints change significantly during the work.",
+  "token_count": 444,
+  "metadata": {
+    "subject": "backup_and_recovery",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

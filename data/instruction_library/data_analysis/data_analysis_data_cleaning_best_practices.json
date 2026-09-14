@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_data_cleaning_best_practices",
+  "name": "Data Cleaning Best Practices",
+  "domain": "data_analysis",
+  "description": "This module captures the best practices for data cleaning, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "cleaning",
+    "data",
+    "data cleaning",
+    "data_analysis",
+    "maintainability",
+    "quality"
+  ],
+  "content": "This module captures the best practices for data cleaning, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When data cleaning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Check that data cleaning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. When multiple data cleaning strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Before starting data cleaning work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Re-check edge cases relevant to data cleaning (empty input, boundary values, concurrent access) before calling the task done.\n6. Document any non-obvious data cleaning decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. State assumptions about data cleaning explicitly before proceeding, rather than leaving them implicit.\n8. Keep data cleaning changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Prefer explicit, readable data cleaning solutions over clever ones that are hard to verify.\n10. Prefer the simplest data cleaning approach that satisfies the requirement over a more general one that isn't needed yet.\n11. When data cleaning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop data cleaning edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of data cleaning correctness.\n- Do not apply generic data cleaning advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these data cleaning guidelines if the task's constraints change significantly during the work.",
+  "token_count": 472,
+  "metadata": {
+    "subject": "data_cleaning",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

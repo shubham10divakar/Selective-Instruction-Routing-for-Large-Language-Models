@@ -1,0 +1,22 @@
+{
+  "module_id": "statistics_hypothesis_testing_best_practices",
+  "name": "Hypothesis Testing Best Practices",
+  "domain": "statistics",
+  "description": "This module captures the best practices for hypothesis testing, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "hypothesis",
+    "hypothesis testing",
+    "maintainability",
+    "quality",
+    "statistics",
+    "testing"
+  ],
+  "content": "This module captures the best practices for hypothesis testing, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Check that hypothesis testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Keep hypothesis testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. When multiple hypothesis testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Prefer explicit, readable hypothesis testing solutions over clever ones that are hard to verify.\n5. Validate hypothesis testing outputs against a concrete example before treating the work as complete.\n6. Keep hypothesis testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Prefer the simplest hypothesis testing approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Measure before optimizing any hypothesis testing bottleneck; do not guess at what is slow.\n9. Before starting hypothesis testing work, confirm the scope and constraints so the approach matches the actual requirement.\n10. When hypothesis testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n11. State assumptions about hypothesis testing explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop hypothesis testing edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated hypothesis testing concerns into a single change; keep each change focused.\n- Do not apply generic hypothesis testing advice without checking it fits the specific context at hand.\n- Do not skip documenting hypothesis testing assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about hypothesis testing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 503,
+  "metadata": {
+    "subject": "hypothesis_testing",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

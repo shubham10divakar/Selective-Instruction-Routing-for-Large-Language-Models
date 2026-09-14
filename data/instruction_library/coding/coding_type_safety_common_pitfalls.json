@@ -1,0 +1,23 @@
+{
+  "module_id": "coding_type_safety_common_pitfalls",
+  "name": "Type Safety Common Pitfalls",
+  "domain": "coding",
+  "description": "This module lists the most common pitfalls encountered in type safety work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "coding",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "safety",
+    "type",
+    "type safety"
+  ],
+  "content": "This module lists the most common pitfalls encountered in type safety work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When type safety decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When type safety guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. State assumptions about type safety explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any type safety bottleneck; do not guess at what is slow.\n5. Surface known limitations of a chosen type safety approach instead of presenting it as complete when it is not.\n6. Validate type safety outputs against a concrete example before treating the work as complete.\n7. Prefer explicit, readable type safety solutions over clever ones that are hard to verify.\n8. Check that type safety terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Document any non-obvious type safety decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Prefer the simplest type safety approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop type safety edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated type safety concerns into a single change; keep each change focused.\n- Do not skip documenting type safety assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of type safety correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about type safety over a shortcut that saves a few lines but hides intent.",
+  "token_count": 455,
+  "metadata": {
+    "subject": "type_safety",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

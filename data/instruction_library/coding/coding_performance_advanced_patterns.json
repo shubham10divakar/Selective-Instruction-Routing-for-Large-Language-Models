@@ -1,0 +1,20 @@
+{
+  "module_id": "coding_performance_advanced_patterns",
+  "name": "Advanced Performance Patterns",
+  "domain": "coding",
+  "description": "This module describes advanced patterns for performance intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "coding",
+    "edge cases",
+    "performance",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for performance intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. State assumptions about performance explicitly before proceeding, rather than leaving them implicit.\n2. Measure before optimizing any performance bottleneck; do not guess at what is slow.\n3. Document any non-obvious performance decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Surface known limitations of a chosen performance approach instead of presenting it as complete when it is not.\n5. When performance decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Before starting performance work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When performance guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Keep performance outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable performance solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop performance edge cases to make an example look cleaner than the real system.\n- Do not skip documenting performance assumptions just because they seem obvious in the moment.\n- Avoid introducing new performance abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of performance correctness.\n- Avoid mixing unrelated performance concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for performance, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 456,
+  "metadata": {
+    "subject": "performance",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

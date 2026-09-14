@@ -1,0 +1,20 @@
+{
+  "module_id": "database_migrations_best_practices",
+  "name": "Migrations Best Practices",
+  "domain": "database",
+  "description": "This module captures the best practices for migrations, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "database",
+    "maintainability",
+    "migrations",
+    "quality"
+  ],
+  "content": "This module captures the best practices for migrations, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer explicit, readable migrations solutions over clever ones that are hard to verify.\n2. Validate migrations outputs against a concrete example before treating the work as complete.\n3. Re-check edge cases relevant to migrations (empty input, boundary values, concurrent access) before calling the task done.\n4. Keep migrations outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Document any non-obvious migrations decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Keep migrations changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Prefer the simplest migrations approach that satisfies the requirement over a more general one that isn't needed yet.\n8. When multiple migrations strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Check that migrations terminology is used consistently throughout, matching existing conventions in the surrounding context.\n10. Surface known limitations of a chosen migrations approach instead of presenting it as complete when it is not.\n11. When migrations guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n12. Before starting migrations work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of migrations correctness.\n- Do not skip documenting migrations assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated migrations concerns into a single change; keep each change focused.\n- Do not silently drop migrations edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for migrations, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 523,
+  "metadata": {
+    "subject": "migrations",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

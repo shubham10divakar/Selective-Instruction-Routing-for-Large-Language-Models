@@ -1,0 +1,22 @@
+{
+  "module_id": "research_data_collection_checklist",
+  "name": "Data Collection Checklist",
+  "domain": "research",
+  "description": "This module is a pre-completion checklist for data collection work: a short set of checks to run before calling a data collection task done.",
+  "capabilities": [
+    "checklist",
+    "collection",
+    "data",
+    "data collection",
+    "pre-completion review",
+    "research",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for data collection work: a short set of checks to run before calling a data collection task done.\n\nCORE GUIDELINES\n1. Check that data collection terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Keep data collection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. State assumptions about data collection explicitly before proceeding, rather than leaving them implicit.\n4. Measure before optimizing any data collection bottleneck; do not guess at what is slow.\n5. When multiple data collection strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Before starting data collection work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Surface known limitations of a chosen data collection approach instead of presenting it as complete when it is not.\n8. Document any non-obvious data collection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Prefer explicit, readable data collection solutions over clever ones that are hard to verify.\n10. Re-check edge cases relevant to data collection (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic data collection advice without checking it fits the specific context at hand.\n- Do not silently drop data collection edge cases to make an example look cleaner than the real system.\n- Do not skip documenting data collection assumptions just because they seem obvious in the moment.\n- Avoid introducing new data collection abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated data collection concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for data collection, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 510,
+  "metadata": {
+    "subject": "data_collection",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

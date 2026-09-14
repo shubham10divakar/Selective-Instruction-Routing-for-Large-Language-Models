@@ -1,0 +1,22 @@
+{
+  "module_id": "coding_type_safety_advanced_patterns",
+  "name": "Advanced Type Safety Patterns",
+  "domain": "coding",
+  "description": "This module describes advanced patterns for type safety intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "coding",
+    "edge cases",
+    "safety",
+    "scalability",
+    "type",
+    "type safety"
+  ],
+  "content": "This module describes advanced patterns for type safety intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Check that type safety terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Keep type safety outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Document any non-obvious type safety decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Keep type safety changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. When multiple type safety strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Validate type safety outputs against a concrete example before treating the work as complete.\n7. Before starting type safety work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Measure before optimizing any type safety bottleneck; do not guess at what is slow.\n9. Surface known limitations of a chosen type safety approach instead of presenting it as complete when it is not.\n10. State assumptions about type safety explicitly before proceeding, rather than leaving them implicit.\n11. When type safety guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n12. Prefer explicit, readable type safety solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop type safety edge cases to make an example look cleaner than the real system.\n- Avoid introducing new type safety abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting type safety assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated type safety concerns into a single change; keep each change focused.\n- Do not apply generic type safety advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for type safety, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 542,
+  "metadata": {
+    "subject": "type_safety",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

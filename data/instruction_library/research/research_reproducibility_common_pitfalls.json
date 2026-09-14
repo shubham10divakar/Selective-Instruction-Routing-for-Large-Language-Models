@@ -1,0 +1,21 @@
+{
+  "module_id": "research_reproducibility_common_pitfalls",
+  "name": "Reproducibility Common Pitfalls",
+  "domain": "research",
+  "description": "This module lists the most common pitfalls encountered in reproducibility work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "reproducibility",
+    "research"
+  ],
+  "content": "This module lists the most common pitfalls encountered in reproducibility work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Measure before optimizing any reproducibility bottleneck; do not guess at what is slow.\n2. Prefer the simplest reproducibility approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Before starting reproducibility work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Document any non-obvious reproducibility decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. Prefer explicit, readable reproducibility solutions over clever ones that are hard to verify.\n6. Surface known limitations of a chosen reproducibility approach instead of presenting it as complete when it is not.\n7. Validate reproducibility outputs against a concrete example before treating the work as complete.\n8. Re-check edge cases relevant to reproducibility (empty input, boundary values, concurrent access) before calling the task done.\n9. When multiple reproducibility strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. State assumptions about reproducibility explicitly before proceeding, rather than leaving them implicit.\n11. Check that reproducibility terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reproducibility concerns into a single change; keep each change focused.\n- Do not silently drop reproducibility edge cases to make an example look cleaner than the real system.\n- Do not skip documenting reproducibility assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of reproducibility correctness.\n\nCLOSING NOTE\nRevisit these reproducibility guidelines if the task's constraints change significantly during the work.",
+  "token_count": 496,
+  "metadata": {
+    "subject": "reproducibility",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

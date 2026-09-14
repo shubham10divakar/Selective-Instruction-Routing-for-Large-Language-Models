@@ -1,0 +1,20 @@
+{
+  "module_id": "security_authentication_advanced_patterns",
+  "name": "Advanced Authentication Patterns",
+  "domain": "security",
+  "description": "This module describes advanced patterns for authentication intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "authentication",
+    "edge cases",
+    "scalability",
+    "security"
+  ],
+  "content": "This module describes advanced patterns for authentication intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to authentication (empty input, boundary values, concurrent access) before calling the task done.\n2. Measure before optimizing any authentication bottleneck; do not guess at what is slow.\n3. When multiple authentication strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Surface known limitations of a chosen authentication approach instead of presenting it as complete when it is not.\n5. When authentication decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Document any non-obvious authentication decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. State assumptions about authentication explicitly before proceeding, rather than leaving them implicit.\n8. Prefer explicit, readable authentication solutions over clever ones that are hard to verify.\n9. Keep authentication outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n10. Prefer the simplest authentication approach that satisfies the requirement over a more general one that isn't needed yet.\n11. Validate authentication outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop authentication edge cases to make an example look cleaner than the real system.\n- Avoid introducing new authentication abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting authentication assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated authentication concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about authentication over a shortcut that saves a few lines but hides intent.",
+  "token_count": 496,
+  "metadata": {
+    "subject": "authentication",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

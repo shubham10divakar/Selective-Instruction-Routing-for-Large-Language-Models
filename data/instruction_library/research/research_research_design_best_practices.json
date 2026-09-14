@@ -1,0 +1,21 @@
+{
+  "module_id": "research_research_design_best_practices",
+  "name": "Research Design Best Practices",
+  "domain": "research",
+  "description": "This module captures the best practices for research design, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "design",
+    "maintainability",
+    "quality",
+    "research",
+    "research design"
+  ],
+  "content": "This module captures the best practices for research design, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When research design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Keep research design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Re-check edge cases relevant to research design (empty input, boundary values, concurrent access) before calling the task done.\n4. Check that research design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Document any non-obvious research design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Prefer the simplest research design approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Keep research design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. Surface known limitations of a chosen research design approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of research design correctness.\n- Do not skip documenting research design assumptions just because they seem obvious in the moment.\n- Do not apply generic research design advice without checking it fits the specific context at hand.\n- Avoid introducing new research design abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about research design over a shortcut that saves a few lines but hides intent.",
+  "token_count": 435,
+  "metadata": {
+    "subject": "research_design",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

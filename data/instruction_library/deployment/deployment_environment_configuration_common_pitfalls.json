@@ -1,0 +1,23 @@
+{
+  "module_id": "deployment_environment_configuration_common_pitfalls",
+  "name": "Environment Configuration Common Pitfalls",
+  "domain": "deployment",
+  "description": "This module lists the most common pitfalls encountered in environment configuration work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "configuration",
+    "deployment",
+    "environment",
+    "environment configuration",
+    "failure modes",
+    "pitfalls"
+  ],
+  "content": "This module lists the most common pitfalls encountered in environment configuration work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Check that environment configuration terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. When environment configuration guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Document any non-obvious environment configuration decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Keep environment configuration outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Re-check edge cases relevant to environment configuration (empty input, boundary values, concurrent access) before calling the task done.\n6. Keep environment configuration changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Validate environment configuration outputs against a concrete example before treating the work as complete.\n8. State assumptions about environment configuration explicitly before proceeding, rather than leaving them implicit.\n9. Prefer the simplest environment configuration approach that satisfies the requirement over a more general one that isn't needed yet.\n10. Prefer explicit, readable environment configuration solutions over clever ones that are hard to verify.\n11. When multiple environment configuration strategies are viable, name the trade-off explicitly rather than silently picking one.\n12. Measure before optimizing any environment configuration bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of environment configuration correctness.\n- Do not apply generic environment configuration advice without checking it fits the specific context at hand.\n- Do not silently drop environment configuration edge cases to make an example look cleaner than the real system.\n- Do not skip documenting environment configuration assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated environment configuration concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these environment configuration guidelines if the task's constraints change significantly during the work.",
+  "token_count": 600,
+  "metadata": {
+    "subject": "environment_configuration",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

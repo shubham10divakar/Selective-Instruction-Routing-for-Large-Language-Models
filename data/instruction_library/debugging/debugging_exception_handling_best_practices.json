@@ -1,0 +1,22 @@
+{
+  "module_id": "debugging_exception_handling_best_practices",
+  "name": "Exception Handling Best Practices",
+  "domain": "debugging",
+  "description": "This module captures the best practices for exception handling, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "debugging",
+    "exception",
+    "exception handling",
+    "handling",
+    "maintainability",
+    "quality"
+  ],
+  "content": "This module captures the best practices for exception handling, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Keep exception handling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. When exception handling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Check that exception handling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Measure before optimizing any exception handling bottleneck; do not guess at what is slow.\n5. Validate exception handling outputs against a concrete example before treating the work as complete.\n6. Prefer the simplest exception handling approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Prefer explicit, readable exception handling solutions over clever ones that are hard to verify.\n8. When exception handling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. Document any non-obvious exception handling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Surface known limitations of a chosen exception handling approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop exception handling edge cases to make an example look cleaner than the real system.\n- Avoid introducing new exception handling abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of exception handling correctness.\n- Avoid mixing unrelated exception handling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these exception handling guidelines if the task's constraints change significantly during the work.",
+  "token_count": 477,
+  "metadata": {
+    "subject": "exception_handling",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

@@ -1,0 +1,2062 @@
+[
+  {
+    "task_id": "data_analysis_simple_exploratory_analysis_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform exploratory analysis on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Exploratory Analysis Best Practices: it addresses the request about exploratory analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_conventions",
+      "debugging_regression_bisection_advanced_patterns",
+      "testing_test_coverage_advanced_patterns",
+      "writing_documentation_writing_conventions"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_cleaning_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform data cleaning on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Data Cleaning Best Practices: it addresses the request about data cleaning directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_nonparametric_methods_advanced_patterns",
+      "security_encryption_best_practices",
+      "database_query_optimization_advanced_patterns",
+      "data_analysis_exploratory_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_feature_engineering_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform feature engineering on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Feature Engineering Best Practices: it addresses the request about feature engineering directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_root_cause_analysis_conventions",
+      "coding_typescript_advanced_patterns",
+      "deployment_rollback_strategy_checklist",
+      "database_connection_pooling_checklist"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_visualization_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform visualization on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Visualization Best Practices: it addresses the request about visualization directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices"
+    ],
+    "distractor_modules": [
+      "database_nosql_modeling_best_practices",
+      "research_citation_management_checklist",
+      "security_encryption_best_practices",
+      "data_analysis_dashboarding_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_dashboarding_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform dashboarding on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Dashboarding Best Practices: it addresses the request about dashboarding directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_common_pitfalls",
+      "database_indexing_common_pitfalls",
+      "testing_test_driven_development_conventions",
+      "data_analysis_exploratory_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_cohort_analysis_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform cohort analysis on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Cohort Analysis Best Practices: it addresses the request about cohort analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "database_nosql_modeling_best_practices",
+      "statistics_survival_analysis_conventions",
+      "statistics_sampling_checklist",
+      "coding_code_review_checklist"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_ab_testing_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform ab testing on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Ab Testing Best Practices: it addresses the request about ab testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_performance_profiling_best_practices",
+      "security_dependency_scanning_checklist",
+      "debugging_stack_trace_analysis_checklist",
+      "deployment_containerization_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_reporting_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform reporting on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Reporting Best Practices: it addresses the request about reporting directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_survival_analysis_advanced_patterns",
+      "statistics_time_series_common_pitfalls",
+      "database_transactions_best_practices",
+      "data_analysis_cohort_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_pipelines_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform data pipelines on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Data Pipelines Best Practices: it addresses the request about data pipelines directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_performance_profiling_conventions",
+      "writing_technical_writing_checklist",
+      "deployment_blue_green_deployment_advanced_patterns",
+      "data_analysis_reporting_conventions"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_outlier_detection_0",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Perform outlier detection on the attached dataset and summarize your findings.",
+    "reference_output": "A strong response follows the guidance in Outlier Detection Best Practices: it addresses the request about outlier detection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_ethics_checklist",
+      "data_analysis_visualization_best_practices",
+      "deployment_rollback_strategy_common_pitfalls",
+      "data_analysis_data_pipelines_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_exploratory_analysis_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a exploratory analysis workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Exploratory Analysis Best Practices, Exploratory Analysis Checklist: it addresses the request about exploratory analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices",
+      "data_analysis_exploratory_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_ci_cd_pipelines_advanced_patterns",
+      "statistics_anova_conventions",
+      "writing_persuasive_writing_advanced_patterns",
+      "debugging_production_incident_response_best_practices"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_cleaning_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a data cleaning workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Data Cleaning Best Practices, Data Cleaning Checklist: it addresses the request about data cleaning directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_cleaning_checklist"
+    ],
+    "distractor_modules": [
+      "debugging_performance_profiling_common_pitfalls",
+      "writing_documentation_writing_best_practices",
+      "coding_api_design_checklist",
+      "testing_load_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_feature_engineering_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a feature engineering workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Feature Engineering Best Practices, Feature Engineering Checklist: it addresses the request about feature engineering directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices",
+      "data_analysis_feature_engineering_checklist"
+    ],
+    "distractor_modules": [
+      "database_replication_best_practices",
+      "statistics_anova_best_practices",
+      "database_connection_pooling_advanced_patterns",
+      "statistics_bayesian_inference_checklist"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_visualization_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a visualization workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Visualization Best Practices, Visualization Checklist: it addresses the request about visualization directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices",
+      "data_analysis_visualization_checklist"
+    ],
+    "distractor_modules": [
+      "coding_typescript_advanced_patterns",
+      "testing_integration_testing_best_practices",
+      "research_data_collection_common_pitfalls",
+      "debugging_regression_bisection_best_practices"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_dashboarding_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a dashboarding workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Dashboarding Best Practices, Dashboarding Checklist: it addresses the request about dashboarding directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "data_analysis_dashboarding_checklist"
+    ],
+    "distractor_modules": [
+      "research_literature_review_best_practices",
+      "data_analysis_exploratory_analysis_conventions",
+      "coding_javascript_conventions",
+      "security_encryption_checklist"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_cohort_analysis_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a cohort analysis workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Cohort Analysis Best Practices, Cohort Analysis Checklist: it addresses the request about cohort analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices",
+      "data_analysis_cohort_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_best_practices",
+      "deployment_blue_green_deployment_best_practices",
+      "security_secrets_management_common_pitfalls",
+      "research_grant_writing_checklist"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_ab_testing_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a ab testing workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Ab Testing Best Practices, Ab Testing Checklist: it addresses the request about ab testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "data_analysis_ab_testing_checklist"
+    ],
+    "distractor_modules": [
+      "testing_load_testing_conventions",
+      "security_encryption_common_pitfalls",
+      "data_analysis_dashboarding_checklist",
+      "security_input_validation_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_reporting_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a reporting workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Reporting Best Practices, Reporting Checklist: it addresses the request about reporting directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices",
+      "data_analysis_reporting_checklist"
+    ],
+    "distractor_modules": [
+      "security_dependency_scanning_best_practices",
+      "debugging_reproducing_bugs_conventions",
+      "research_reproducibility_best_practices",
+      "deployment_capacity_planning_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_pipelines_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a data pipelines workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Data Pipelines Best Practices, Data Pipelines Checklist: it addresses the request about data pipelines directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "data_analysis_data_pipelines_checklist"
+    ],
+    "distractor_modules": [
+      "debugging_logging_strategy_checklist",
+      "research_citation_management_conventions",
+      "data_analysis_feature_engineering_advanced_patterns",
+      "writing_persuasive_writing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_outlier_detection_1",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Set up a outlier detection workflow for our weekly reporting process.",
+    "reference_output": "A strong response follows the guidance in Outlier Detection Best Practices, Outlier Detection Checklist: it addresses the request about outlier detection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "data_analysis_outlier_detection_checklist"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_checklist",
+      "testing_test_coverage_best_practices",
+      "security_secrets_management_conventions",
+      "research_data_collection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_exploratory_analysis_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for exploratory analysis that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Exploratory Analysis Best Practices: it addresses the request about exploratory analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_regression_analysis_conventions",
+      "writing_persuasive_writing_advanced_patterns",
+      "writing_audience_adaptation_best_practices",
+      "testing_load_testing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_cleaning_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for data cleaning that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Data Cleaning Best Practices: it addresses the request about data cleaning directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_load_testing_checklist",
+      "writing_documentation_writing_best_practices",
+      "statistics_sampling_best_practices",
+      "security_authentication_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_feature_engineering_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for feature engineering that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Feature Engineering Best Practices: it addresses the request about feature engineering directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices"
+    ],
+    "distractor_modules": [
+      "research_literature_review_checklist",
+      "research_citation_management_advanced_patterns",
+      "statistics_sampling_conventions",
+      "research_grant_writing_checklist"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_visualization_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for visualization that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Visualization Best Practices: it addresses the request about visualization directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_regression_bisection_checklist",
+      "data_analysis_data_cleaning_common_pitfalls",
+      "data_analysis_data_pipelines_checklist",
+      "testing_test_data_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_dashboarding_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for dashboarding that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Dashboarding Best Practices: it addresses the request about dashboarding directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices"
+    ],
+    "distractor_modules": [
+      "security_authentication_best_practices",
+      "debugging_logging_strategy_common_pitfalls",
+      "security_input_validation_common_pitfalls",
+      "testing_flaky_test_management_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_cohort_analysis_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for cohort analysis that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Cohort Analysis Best Practices: it addresses the request about cohort analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_hypothesis_testing_conventions",
+      "testing_mocking_common_pitfalls",
+      "testing_integration_testing_advanced_patterns",
+      "research_literature_review_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_ab_testing_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for ab testing that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Ab Testing Best Practices: it addresses the request about ab testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_integration_testing_checklist",
+      "security_threat_modeling_common_pitfalls",
+      "coding_documentation_common_pitfalls",
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_reporting_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for reporting that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Reporting Best Practices: it addresses the request about reporting directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_concurrency_bugs_conventions",
+      "debugging_logging_strategy_advanced_patterns",
+      "writing_technical_writing_common_pitfalls",
+      "security_threat_modeling_best_practices"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_pipelines_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for data pipelines that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Data Pipelines Best Practices: it addresses the request about data pipelines directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices"
+    ],
+    "distractor_modules": [
+      "database_query_optimization_checklist",
+      "statistics_experimental_design_advanced_patterns",
+      "testing_end_to_end_testing_advanced_patterns",
+      "data_analysis_dashboarding_conventions"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_outlier_detection_2",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Explain the best practices for outlier detection that apply to this dataset.",
+    "reference_output": "A strong response follows the guidance in Outlier Detection Best Practices: it addresses the request about outlier detection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices"
+    ],
+    "distractor_modules": [
+      "database_normalization_checklist",
+      "writing_content_structuring_checklist",
+      "testing_unit_testing_common_pitfalls",
+      "research_literature_review_best_practices"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_exploratory_analysis_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current exploratory analysis approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Exploratory Analysis Best Practices, Exploratory Analysis Checklist: it addresses the request about exploratory analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices",
+      "data_analysis_exploratory_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_infrastructure_as_code_checklist",
+      "writing_editing_conventions",
+      "security_incident_response_conventions",
+      "security_dependency_scanning_conventions"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_cleaning_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current data cleaning approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Data Cleaning Best Practices, Data Cleaning Checklist: it addresses the request about data cleaning directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_cleaning_checklist"
+    ],
+    "distractor_modules": [
+      "database_schema_design_common_pitfalls",
+      "debugging_root_cause_analysis_common_pitfalls",
+      "writing_content_structuring_conventions",
+      "security_threat_modeling_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_feature_engineering_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current feature engineering approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Feature Engineering Best Practices, Feature Engineering Checklist: it addresses the request about feature engineering directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices",
+      "data_analysis_feature_engineering_checklist"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_common_pitfalls",
+      "database_query_optimization_checklist",
+      "deployment_capacity_planning_conventions",
+      "security_secrets_management_conventions"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_visualization_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current visualization approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Visualization Best Practices, Visualization Checklist: it addresses the request about visualization directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices",
+      "data_analysis_visualization_checklist"
+    ],
+    "distractor_modules": [
+      "database_normalization_common_pitfalls",
+      "testing_load_testing_conventions",
+      "testing_regression_testing_common_pitfalls",
+      "research_qualitative_methods_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_dashboarding_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current dashboarding approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Dashboarding Best Practices, Dashboarding Checklist: it addresses the request about dashboarding directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "data_analysis_dashboarding_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_capacity_planning_common_pitfalls",
+      "debugging_stack_trace_analysis_conventions",
+      "debugging_exception_handling_conventions",
+      "security_dependency_scanning_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_cohort_analysis_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current cohort analysis approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Cohort Analysis Best Practices, Cohort Analysis Checklist: it addresses the request about cohort analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices",
+      "data_analysis_cohort_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "debugging_regression_bisection_advanced_patterns",
+      "writing_tone_and_style_common_pitfalls",
+      "research_grant_writing_advanced_patterns",
+      "data_analysis_exploratory_analysis_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_ab_testing_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current ab testing approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Ab Testing Best Practices, Ab Testing Checklist: it addresses the request about ab testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "data_analysis_ab_testing_checklist"
+    ],
+    "distractor_modules": [
+      "database_query_optimization_conventions",
+      "data_analysis_feature_engineering_common_pitfalls",
+      "testing_load_testing_advanced_patterns",
+      "deployment_blue_green_deployment_conventions"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_reporting_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current reporting approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Reporting Best Practices, Reporting Checklist: it addresses the request about reporting directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices",
+      "data_analysis_reporting_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_sampling_conventions",
+      "deployment_release_management_best_practices",
+      "debugging_memory_leaks_advanced_patterns",
+      "testing_test_coverage_checklist"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_data_pipelines_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current data pipelines approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Data Pipelines Best Practices, Data Pipelines Checklist: it addresses the request about data pipelines directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "data_analysis_data_pipelines_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_environment_configuration_conventions",
+      "security_encryption_advanced_patterns",
+      "writing_content_structuring_checklist",
+      "testing_test_data_management_best_practices"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_simple_outlier_detection_3",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis"
+    ],
+    "complexity": "simple",
+    "request": "Review our current outlier detection approach and identify gaps.",
+    "reference_output": "A strong response follows the guidance in Outlier Detection Best Practices, Outlier Detection Checklist: it addresses the request about outlier detection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "data_analysis_outlier_detection_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_anova_best_practices",
+      "debugging_production_incident_response_advanced_patterns",
+      "debugging_stack_trace_analysis_advanced_patterns",
+      "database_transactions_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_exploratory_analysis_coding_python",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies exploratory analysis practices, and make sure the result also satisfies our coding guidelines around python.",
+    "reference_output": "A strong response satisfies both Exploratory Analysis Best Practices / Exploratory Analysis Checklist and Python Best Practices: it completes the exploratory analysis portion of the request correctly, then explicitly checks it against the python guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices",
+      "data_analysis_exploratory_analysis_checklist",
+      "coding_python_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_integration_testing_advanced_patterns",
+      "writing_proofreading_advanced_patterns",
+      "statistics_anova_checklist",
+      "deployment_infrastructure_as_code_best_practices"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "secondary_domain": "coding",
+      "secondary_subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_exploratory_analysis_statistics_regression_analysis",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies exploratory analysis practices, and make sure the result also satisfies our statistics guidelines around regression analysis.",
+    "reference_output": "A strong response satisfies both Exploratory Analysis Best Practices / Exploratory Analysis Checklist and Regression Analysis Best Practices: it completes the exploratory analysis portion of the request correctly, then explicitly checks it against the regression analysis guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices",
+      "data_analysis_exploratory_analysis_checklist",
+      "statistics_regression_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_anova_checklist",
+      "testing_regression_testing_conventions",
+      "testing_mocking_checklist",
+      "debugging_stack_trace_analysis_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "secondary_domain": "statistics",
+      "secondary_subject": "regression_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_exploratory_analysis_writing_tone_and_style",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies exploratory analysis practices, and make sure the result also satisfies our writing guidelines around tone and style.",
+    "reference_output": "A strong response satisfies both Exploratory Analysis Best Practices / Exploratory Analysis Checklist and Tone And Style Best Practices: it completes the exploratory analysis portion of the request correctly, then explicitly checks it against the tone and style guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices",
+      "data_analysis_exploratory_analysis_checklist",
+      "writing_tone_and_style_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "coding_refactoring_best_practices",
+      "writing_content_structuring_common_pitfalls",
+      "data_analysis_data_cleaning_best_practices"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "secondary_domain": "writing",
+      "secondary_subject": "tone_and_style",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_exploratory_analysis_database_migrations",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies exploratory analysis practices, and make sure the result also satisfies our database guidelines around migrations.",
+    "reference_output": "A strong response satisfies both Exploratory Analysis Best Practices / Exploratory Analysis Checklist and Migrations Best Practices: it completes the exploratory analysis portion of the request correctly, then explicitly checks it against the migrations guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_exploratory_analysis_best_practices",
+      "data_analysis_exploratory_analysis_checklist",
+      "database_migrations_best_practices"
+    ],
+    "distractor_modules": [
+      "research_citation_management_checklist",
+      "database_replication_checklist",
+      "database_nosql_modeling_conventions",
+      "research_data_collection_best_practices"
+    ],
+    "metadata": {
+      "subject": "exploratory_analysis",
+      "secondary_domain": "database",
+      "secondary_subject": "migrations",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_cleaning_coding_javascript",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data cleaning practices, and make sure the result also satisfies our coding guidelines around javascript.",
+    "reference_output": "A strong response satisfies both Data Cleaning Best Practices / Data Cleaning Checklist and Javascript Best Practices: it completes the data cleaning portion of the request correctly, then explicitly checks it against the javascript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_cleaning_checklist",
+      "coding_javascript_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_best_practices",
+      "coding_error_handling_common_pitfalls",
+      "deployment_ci_cd_pipelines_conventions",
+      "statistics_sampling_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "secondary_domain": "coding",
+      "secondary_subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_cleaning_statistics_anova",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data cleaning practices, and make sure the result also satisfies our statistics guidelines around anova.",
+    "reference_output": "A strong response satisfies both Data Cleaning Best Practices / Data Cleaning Checklist and Anova Best Practices: it completes the data cleaning portion of the request correctly, then explicitly checks it against the anova guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_cleaning_checklist",
+      "statistics_anova_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_time_series_best_practices",
+      "data_analysis_cohort_analysis_common_pitfalls",
+      "testing_test_data_management_advanced_patterns",
+      "data_analysis_dashboarding_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "secondary_domain": "statistics",
+      "secondary_subject": "anova",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_cleaning_writing_documentation_writing",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data cleaning practices, and make sure the result also satisfies our writing guidelines around documentation writing.",
+    "reference_output": "A strong response satisfies both Data Cleaning Best Practices / Data Cleaning Checklist and Documentation Writing Best Practices: it completes the data cleaning portion of the request correctly, then explicitly checks it against the documentation writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_cleaning_checklist",
+      "writing_documentation_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_sampling_advanced_patterns",
+      "debugging_root_cause_analysis_advanced_patterns",
+      "writing_executive_summaries_checklist",
+      "coding_api_design_best_practices"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "secondary_domain": "writing",
+      "secondary_subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_cleaning_database_transactions",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data cleaning practices, and make sure the result also satisfies our database guidelines around transactions.",
+    "reference_output": "A strong response satisfies both Data Cleaning Best Practices / Data Cleaning Checklist and Transactions Best Practices: it completes the data cleaning portion of the request correctly, then explicitly checks it against the transactions guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_cleaning_checklist",
+      "database_transactions_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_ethics_best_practices",
+      "deployment_infrastructure_as_code_checklist",
+      "database_normalization_conventions",
+      "security_encryption_best_practices"
+    ],
+    "metadata": {
+      "subject": "data_cleaning",
+      "secondary_domain": "database",
+      "secondary_subject": "transactions",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_feature_engineering_coding_typescript",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies feature engineering practices, and make sure the result also satisfies our coding guidelines around typescript.",
+    "reference_output": "A strong response satisfies both Feature Engineering Best Practices / Feature Engineering Checklist and Typescript Best Practices: it completes the feature engineering portion of the request correctly, then explicitly checks it against the typescript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices",
+      "data_analysis_feature_engineering_checklist",
+      "coding_typescript_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_checklist",
+      "research_research_ethics_best_practices",
+      "security_secure_coding_common_pitfalls",
+      "data_analysis_reporting_best_practices"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "secondary_domain": "coding",
+      "secondary_subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_feature_engineering_statistics_bayesian_inference",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies feature engineering practices, and make sure the result also satisfies our statistics guidelines around bayesian inference.",
+    "reference_output": "A strong response satisfies both Feature Engineering Best Practices / Feature Engineering Checklist and Bayesian Inference Best Practices: it completes the feature engineering portion of the request correctly, then explicitly checks it against the bayesian inference guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices",
+      "data_analysis_feature_engineering_checklist",
+      "statistics_bayesian_inference_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_best_practices",
+      "writing_editing_common_pitfalls",
+      "debugging_production_incident_response_common_pitfalls",
+      "coding_typescript_conventions"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "secondary_domain": "statistics",
+      "secondary_subject": "bayesian_inference",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_feature_engineering_writing_executive_summaries",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies feature engineering practices, and make sure the result also satisfies our writing guidelines around executive summaries.",
+    "reference_output": "A strong response satisfies both Feature Engineering Best Practices / Feature Engineering Checklist and Executive Summaries Best Practices: it completes the feature engineering portion of the request correctly, then explicitly checks it against the executive summaries guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices",
+      "data_analysis_feature_engineering_checklist",
+      "writing_executive_summaries_best_practices"
+    ],
+    "distractor_modules": [
+      "database_indexing_checklist",
+      "deployment_blue_green_deployment_conventions",
+      "database_query_optimization_common_pitfalls",
+      "statistics_time_series_conventions"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "secondary_domain": "writing",
+      "secondary_subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_feature_engineering_database_normalization",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies feature engineering practices, and make sure the result also satisfies our database guidelines around normalization.",
+    "reference_output": "A strong response satisfies both Feature Engineering Best Practices / Feature Engineering Checklist and Normalization Best Practices: it completes the feature engineering portion of the request correctly, then explicitly checks it against the normalization guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_feature_engineering_best_practices",
+      "data_analysis_feature_engineering_checklist",
+      "database_normalization_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_python_checklist",
+      "database_backup_and_recovery_best_practices",
+      "writing_audience_adaptation_checklist",
+      "research_systematic_review_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "feature_engineering",
+      "secondary_domain": "database",
+      "secondary_subject": "normalization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_visualization_coding_api_design",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies visualization practices, and make sure the result also satisfies our coding guidelines around api design.",
+    "reference_output": "A strong response satisfies both Visualization Best Practices / Visualization Checklist and Api Design Best Practices: it completes the visualization portion of the request correctly, then explicitly checks it against the api design guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices",
+      "data_analysis_visualization_checklist",
+      "coding_api_design_best_practices"
+    ],
+    "distractor_modules": [
+      "research_qualitative_methods_conventions",
+      "research_peer_review_checklist",
+      "data_analysis_cohort_analysis_advanced_patterns",
+      "writing_tone_and_style_conventions"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "secondary_domain": "coding",
+      "secondary_subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_visualization_statistics_time_series",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies visualization practices, and make sure the result also satisfies our statistics guidelines around time series.",
+    "reference_output": "A strong response satisfies both Visualization Best Practices / Visualization Checklist and Time Series Best Practices: it completes the visualization portion of the request correctly, then explicitly checks it against the time series guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices",
+      "data_analysis_visualization_checklist",
+      "statistics_time_series_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_refactoring_advanced_patterns",
+      "testing_unit_testing_common_pitfalls",
+      "deployment_release_management_conventions",
+      "statistics_regression_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "secondary_domain": "statistics",
+      "secondary_subject": "time_series",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_visualization_writing_persuasive_writing",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies visualization practices, and make sure the result also satisfies our writing guidelines around persuasive writing.",
+    "reference_output": "A strong response satisfies both Visualization Best Practices / Visualization Checklist and Persuasive Writing Best Practices: it completes the visualization portion of the request correctly, then explicitly checks it against the persuasive writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices",
+      "data_analysis_visualization_checklist",
+      "writing_persuasive_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_canary_releases_advanced_patterns",
+      "statistics_survival_analysis_advanced_patterns",
+      "testing_flaky_test_management_conventions",
+      "research_peer_review_best_practices"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "secondary_domain": "writing",
+      "secondary_subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_visualization_database_connection_pooling",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies visualization practices, and make sure the result also satisfies our database guidelines around connection pooling.",
+    "reference_output": "A strong response satisfies both Visualization Best Practices / Visualization Checklist and Connection Pooling Best Practices: it completes the visualization portion of the request correctly, then explicitly checks it against the connection pooling guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_visualization_best_practices",
+      "data_analysis_visualization_checklist",
+      "database_connection_pooling_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_canary_releases_advanced_patterns",
+      "coding_refactoring_best_practices",
+      "writing_content_structuring_advanced_patterns",
+      "research_research_design_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "visualization",
+      "secondary_domain": "database",
+      "secondary_subject": "connection_pooling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_dashboarding_coding_error_handling",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies dashboarding practices, and make sure the result also satisfies our coding guidelines around error handling.",
+    "reference_output": "A strong response satisfies both Dashboarding Best Practices / Dashboarding Checklist and Error Handling Best Practices: it completes the dashboarding portion of the request correctly, then explicitly checks it against the error handling guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "data_analysis_dashboarding_checklist",
+      "coding_error_handling_best_practices"
+    ],
+    "distractor_modules": [
+      "research_reproducibility_checklist",
+      "research_data_collection_checklist",
+      "security_secure_coding_advanced_patterns",
+      "writing_technical_writing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "secondary_domain": "coding",
+      "secondary_subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_dashboarding_statistics_survival_analysis",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies dashboarding practices, and make sure the result also satisfies our statistics guidelines around survival analysis.",
+    "reference_output": "A strong response satisfies both Dashboarding Best Practices / Dashboarding Checklist and Survival Analysis Best Practices: it completes the dashboarding portion of the request correctly, then explicitly checks it against the survival analysis guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "data_analysis_dashboarding_checklist",
+      "statistics_survival_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "research_qualitative_methods_best_practices",
+      "debugging_production_incident_response_best_practices",
+      "research_citation_management_conventions",
+      "research_grant_writing_conventions"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "secondary_domain": "statistics",
+      "secondary_subject": "survival_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_dashboarding_writing_grammar_and_clarity",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies dashboarding practices, and make sure the result also satisfies our writing guidelines around grammar and clarity.",
+    "reference_output": "A strong response satisfies both Dashboarding Best Practices / Dashboarding Checklist and Grammar And Clarity Best Practices: it completes the dashboarding portion of the request correctly, then explicitly checks it against the grammar and clarity guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "data_analysis_dashboarding_checklist",
+      "writing_grammar_and_clarity_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_conventions",
+      "database_indexing_checklist",
+      "security_encryption_checklist",
+      "security_incident_response_checklist"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "secondary_domain": "writing",
+      "secondary_subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_dashboarding_database_backup_and_recovery",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies dashboarding practices, and make sure the result also satisfies our database guidelines around backup and recovery.",
+    "reference_output": "A strong response satisfies both Dashboarding Best Practices / Dashboarding Checklist and Backup And Recovery Best Practices: it completes the dashboarding portion of the request correctly, then explicitly checks it against the backup and recovery guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "data_analysis_dashboarding_checklist",
+      "database_backup_and_recovery_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_best_practices",
+      "writing_proofreading_common_pitfalls",
+      "data_analysis_reporting_checklist",
+      "research_systematic_review_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "dashboarding",
+      "secondary_domain": "database",
+      "secondary_subject": "backup_and_recovery",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_cohort_analysis_coding_type_safety",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies cohort analysis practices, and make sure the result also satisfies our coding guidelines around type safety.",
+    "reference_output": "A strong response satisfies both Cohort Analysis Best Practices / Cohort Analysis Checklist and Type Safety Best Practices: it completes the cohort analysis portion of the request correctly, then explicitly checks it against the type safety guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices",
+      "data_analysis_cohort_analysis_checklist",
+      "coding_type_safety_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_reporting_advanced_patterns",
+      "debugging_logging_strategy_common_pitfalls",
+      "coding_javascript_conventions",
+      "security_encryption_conventions"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "secondary_domain": "coding",
+      "secondary_subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_cohort_analysis_statistics_experimental_design",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies cohort analysis practices, and make sure the result also satisfies our statistics guidelines around experimental design.",
+    "reference_output": "A strong response satisfies both Cohort Analysis Best Practices / Cohort Analysis Checklist and Experimental Design Best Practices: it completes the cohort analysis portion of the request correctly, then explicitly checks it against the experimental design guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices",
+      "data_analysis_cohort_analysis_checklist",
+      "statistics_experimental_design_best_practices"
+    ],
+    "distractor_modules": [
+      "database_migrations_best_practices",
+      "research_literature_review_best_practices",
+      "writing_proofreading_best_practices",
+      "testing_regression_testing_best_practices"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "secondary_domain": "statistics",
+      "secondary_subject": "experimental_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_cohort_analysis_writing_content_structuring",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies cohort analysis practices, and make sure the result also satisfies our writing guidelines around content structuring.",
+    "reference_output": "A strong response satisfies both Cohort Analysis Best Practices / Cohort Analysis Checklist and Content Structuring Best Practices: it completes the cohort analysis portion of the request correctly, then explicitly checks it against the content structuring guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices",
+      "data_analysis_cohort_analysis_checklist",
+      "writing_content_structuring_best_practices"
+    ],
+    "distractor_modules": [
+      "security_input_validation_checklist",
+      "coding_error_handling_common_pitfalls",
+      "database_connection_pooling_best_practices",
+      "debugging_concurrency_bugs_best_practices"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "secondary_domain": "writing",
+      "secondary_subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_cohort_analysis_database_replication",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies cohort analysis practices, and make sure the result also satisfies our database guidelines around replication.",
+    "reference_output": "A strong response satisfies both Cohort Analysis Best Practices / Cohort Analysis Checklist and Replication Best Practices: it completes the cohort analysis portion of the request correctly, then explicitly checks it against the replication guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_cohort_analysis_best_practices",
+      "data_analysis_cohort_analysis_checklist",
+      "database_replication_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_audience_adaptation_conventions",
+      "deployment_capacity_planning_best_practices",
+      "testing_test_coverage_advanced_patterns",
+      "testing_end_to_end_testing_checklist"
+    ],
+    "metadata": {
+      "subject": "cohort_analysis",
+      "secondary_domain": "database",
+      "secondary_subject": "replication",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_ab_testing_coding_code_review",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies ab testing practices, and make sure the result also satisfies our coding guidelines around code review.",
+    "reference_output": "A strong response satisfies both Ab Testing Best Practices / Ab Testing Checklist and Code Review Best Practices: it completes the ab testing portion of the request correctly, then explicitly checks it against the code review guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "data_analysis_ab_testing_checklist",
+      "coding_code_review_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_cohort_analysis_conventions",
+      "coding_refactoring_common_pitfalls",
+      "database_connection_pooling_conventions",
+      "research_literature_review_conventions"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "secondary_domain": "coding",
+      "secondary_subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_ab_testing_statistics_sampling",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies ab testing practices, and make sure the result also satisfies our statistics guidelines around sampling.",
+    "reference_output": "A strong response satisfies both Ab Testing Best Practices / Ab Testing Checklist and Sampling Best Practices: it completes the ab testing portion of the request correctly, then explicitly checks it against the sampling guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "data_analysis_ab_testing_checklist",
+      "statistics_sampling_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_executive_summaries_checklist",
+      "testing_load_testing_conventions",
+      "research_research_design_best_practices",
+      "testing_unit_testing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "secondary_domain": "statistics",
+      "secondary_subject": "sampling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_ab_testing_writing_audience_adaptation",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies ab testing practices, and make sure the result also satisfies our writing guidelines around audience adaptation.",
+    "reference_output": "A strong response satisfies both Ab Testing Best Practices / Ab Testing Checklist and Audience Adaptation Best Practices: it completes the ab testing portion of the request correctly, then explicitly checks it against the audience adaptation guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "data_analysis_ab_testing_checklist",
+      "writing_audience_adaptation_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_documentation_writing_best_practices",
+      "coding_code_review_common_pitfalls",
+      "coding_typescript_common_pitfalls",
+      "deployment_blue_green_deployment_conventions"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "secondary_domain": "writing",
+      "secondary_subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_ab_testing_database_nosql_modeling",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies ab testing practices, and make sure the result also satisfies our database guidelines around nosql modeling.",
+    "reference_output": "A strong response satisfies both Ab Testing Best Practices / Ab Testing Checklist and Nosql Modeling Best Practices: it completes the ab testing portion of the request correctly, then explicitly checks it against the nosql modeling guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "data_analysis_ab_testing_checklist",
+      "database_nosql_modeling_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_performance_common_pitfalls",
+      "coding_code_review_conventions",
+      "database_migrations_advanced_patterns",
+      "research_qualitative_methods_best_practices"
+    ],
+    "metadata": {
+      "subject": "ab_testing",
+      "secondary_domain": "database",
+      "secondary_subject": "nosql_modeling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_reporting_coding_documentation",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies reporting practices, and make sure the result also satisfies our coding guidelines around documentation.",
+    "reference_output": "A strong response satisfies both Reporting Best Practices / Reporting Checklist and Documentation Best Practices: it completes the reporting portion of the request correctly, then explicitly checks it against the documentation guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices",
+      "data_analysis_reporting_checklist",
+      "coding_documentation_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_ci_cd_pipelines_best_practices",
+      "writing_documentation_writing_common_pitfalls",
+      "coding_javascript_checklist",
+      "research_data_collection_conventions"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "secondary_domain": "coding",
+      "secondary_subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_reporting_statistics_nonparametric_methods",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies reporting practices, and make sure the result also satisfies our statistics guidelines around nonparametric methods.",
+    "reference_output": "A strong response satisfies both Reporting Best Practices / Reporting Checklist and Nonparametric Methods Best Practices: it completes the reporting portion of the request correctly, then explicitly checks it against the nonparametric methods guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices",
+      "data_analysis_reporting_checklist",
+      "statistics_nonparametric_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_infrastructure_as_code_checklist",
+      "testing_integration_testing_best_practices",
+      "database_migrations_checklist",
+      "deployment_ci_cd_pipelines_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "secondary_domain": "statistics",
+      "secondary_subject": "nonparametric_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_reporting_writing_proofreading",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies reporting practices, and make sure the result also satisfies our writing guidelines around proofreading.",
+    "reference_output": "A strong response satisfies both Reporting Best Practices / Reporting Checklist and Proofreading Best Practices: it completes the reporting portion of the request correctly, then explicitly checks it against the proofreading guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices",
+      "data_analysis_reporting_checklist",
+      "writing_proofreading_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_conventions",
+      "coding_error_handling_advanced_patterns",
+      "research_data_collection_best_practices",
+      "security_secrets_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "secondary_domain": "writing",
+      "secondary_subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_reporting_database_schema_design",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies reporting practices, and make sure the result also satisfies our database guidelines around schema design.",
+    "reference_output": "A strong response satisfies both Reporting Best Practices / Reporting Checklist and Schema Design Best Practices: it completes the reporting portion of the request correctly, then explicitly checks it against the schema design guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_reporting_best_practices",
+      "data_analysis_reporting_checklist",
+      "database_schema_design_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_audience_adaptation_advanced_patterns",
+      "testing_load_testing_common_pitfalls",
+      "database_migrations_common_pitfalls",
+      "writing_proofreading_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "reporting",
+      "secondary_domain": "database",
+      "secondary_subject": "schema_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_pipelines_coding_refactoring",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data pipelines practices, and make sure the result also satisfies our coding guidelines around refactoring.",
+    "reference_output": "A strong response satisfies both Data Pipelines Best Practices / Data Pipelines Checklist and Refactoring Best Practices: it completes the data pipelines portion of the request correctly, then explicitly checks it against the refactoring guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "data_analysis_data_pipelines_checklist",
+      "coding_refactoring_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_audience_adaptation_common_pitfalls",
+      "statistics_hypothesis_testing_common_pitfalls",
+      "testing_regression_testing_checklist",
+      "testing_integration_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "secondary_domain": "coding",
+      "secondary_subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_pipelines_statistics_multivariate_analysis",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data pipelines practices, and make sure the result also satisfies our statistics guidelines around multivariate analysis.",
+    "reference_output": "A strong response satisfies both Data Pipelines Best Practices / Data Pipelines Checklist and Multivariate Analysis Best Practices: it completes the data pipelines portion of the request correctly, then explicitly checks it against the multivariate analysis guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "data_analysis_data_pipelines_checklist",
+      "statistics_multivariate_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "security_dependency_scanning_best_practices",
+      "statistics_anova_best_practices",
+      "debugging_exception_handling_checklist",
+      "debugging_concurrency_bugs_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "secondary_domain": "statistics",
+      "secondary_subject": "multivariate_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_pipelines_writing_technical_writing",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data pipelines practices, and make sure the result also satisfies our writing guidelines around technical writing.",
+    "reference_output": "A strong response satisfies both Data Pipelines Best Practices / Data Pipelines Checklist and Technical Writing Best Practices: it completes the data pipelines portion of the request correctly, then explicitly checks it against the technical writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "data_analysis_data_pipelines_checklist",
+      "writing_technical_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_design_advanced_patterns",
+      "coding_documentation_conventions",
+      "security_threat_modeling_checklist",
+      "writing_audience_adaptation_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "secondary_domain": "writing",
+      "secondary_subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_data_pipelines_database_query_optimization",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies data pipelines practices, and make sure the result also satisfies our database guidelines around query optimization.",
+    "reference_output": "A strong response satisfies both Data Pipelines Best Practices / Data Pipelines Checklist and Query Optimization Best Practices: it completes the data pipelines portion of the request correctly, then explicitly checks it against the query optimization guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "data_analysis_data_pipelines_checklist",
+      "database_query_optimization_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_tone_and_style_best_practices",
+      "debugging_root_cause_analysis_conventions",
+      "statistics_anova_common_pitfalls",
+      "statistics_hypothesis_testing_best_practices"
+    ],
+    "metadata": {
+      "subject": "data_pipelines",
+      "secondary_domain": "database",
+      "secondary_subject": "query_optimization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_outlier_detection_coding_performance",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies outlier detection practices, and make sure the result also satisfies our coding guidelines around performance.",
+    "reference_output": "A strong response satisfies both Outlier Detection Best Practices / Outlier Detection Checklist and Performance Best Practices: it completes the outlier detection portion of the request correctly, then explicitly checks it against the performance guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "data_analysis_outlier_detection_checklist",
+      "coding_performance_best_practices"
+    ],
+    "distractor_modules": [
+      "research_grant_writing_conventions",
+      "deployment_release_management_conventions",
+      "research_research_design_checklist",
+      "database_query_optimization_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "secondary_domain": "coding",
+      "secondary_subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_outlier_detection_statistics_hypothesis_testing",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies outlier detection practices, and make sure the result also satisfies our statistics guidelines around hypothesis testing.",
+    "reference_output": "A strong response satisfies both Outlier Detection Best Practices / Outlier Detection Checklist and Hypothesis Testing Best Practices: it completes the outlier detection portion of the request correctly, then explicitly checks it against the hypothesis testing guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "data_analysis_outlier_detection_checklist",
+      "statistics_hypothesis_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_editing_advanced_patterns",
+      "research_systematic_review_checklist",
+      "writing_content_structuring_conventions",
+      "testing_integration_testing_best_practices"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "secondary_domain": "statistics",
+      "secondary_subject": "hypothesis_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_outlier_detection_writing_editing",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies outlier detection practices, and make sure the result also satisfies our writing guidelines around editing.",
+    "reference_output": "A strong response satisfies both Outlier Detection Best Practices / Outlier Detection Checklist and Editing Best Practices: it completes the outlier detection portion of the request correctly, then explicitly checks it against the editing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "data_analysis_outlier_detection_checklist",
+      "writing_editing_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_advanced_patterns",
+      "debugging_root_cause_analysis_best_practices",
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_cohort_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "secondary_domain": "writing",
+      "secondary_subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "data_analysis_compound_outlier_detection_database_indexing",
+    "domain": "data_analysis",
+    "domains": [
+      "data_analysis",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Build a data analysis report that applies outlier detection practices, and make sure the result also satisfies our database guidelines around indexing.",
+    "reference_output": "A strong response satisfies both Outlier Detection Best Practices / Outlier Detection Checklist and Indexing Best Practices: it completes the outlier detection portion of the request correctly, then explicitly checks it against the indexing guidance from database before calling the task done.",
+    "relevant_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "data_analysis_outlier_detection_checklist",
+      "database_indexing_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_experimental_design_common_pitfalls",
+      "coding_performance_best_practices",
+      "database_nosql_modeling_common_pitfalls",
+      "writing_content_structuring_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "outlier_detection",
+      "secondary_domain": "database",
+      "secondary_subject": "indexing",
+      "source": "template"
+    }
+  }
+]

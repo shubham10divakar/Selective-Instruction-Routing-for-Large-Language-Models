@@ -1,0 +1,21 @@
+{
+  "module_id": "coding_performance_common_pitfalls",
+  "name": "Performance Common Pitfalls",
+  "domain": "coding",
+  "description": "This module lists the most common pitfalls encountered in performance work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "coding",
+    "common pitfalls",
+    "failure modes",
+    "performance",
+    "pitfalls"
+  ],
+  "content": "This module lists the most common pitfalls encountered in performance work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to performance (empty input, boundary values, concurrent access) before calling the task done.\n2. When performance guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. State assumptions about performance explicitly before proceeding, rather than leaving them implicit.\n4. Keep performance changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Check that performance terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Surface known limitations of a chosen performance approach instead of presenting it as complete when it is not.\n7. Before starting performance work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Validate performance outputs against a concrete example before treating the work as complete.\n9. Document any non-obvious performance decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. When performance decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n11. Prefer the simplest performance approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting performance assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of performance correctness.\n- Avoid mixing unrelated performance concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about performance over a shortcut that saves a few lines but hides intent.",
+  "token_count": 471,
+  "metadata": {
+    "subject": "performance",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

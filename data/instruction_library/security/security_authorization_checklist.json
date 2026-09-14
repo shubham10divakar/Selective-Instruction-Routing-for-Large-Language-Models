@@ -1,0 +1,20 @@
+{
+  "module_id": "security_authorization_checklist",
+  "name": "Authorization Checklist",
+  "domain": "security",
+  "description": "This module is a pre-completion checklist for authorization work: a short set of checks to run before calling a authorization task done.",
+  "capabilities": [
+    "authorization",
+    "checklist",
+    "pre-completion review",
+    "security",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for authorization work: a short set of checks to run before calling a authorization task done.\n\nCORE GUIDELINES\n1. When multiple authorization strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Prefer the simplest authorization approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Surface known limitations of a chosen authorization approach instead of presenting it as complete when it is not.\n4. Keep authorization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. State assumptions about authorization explicitly before proceeding, rather than leaving them implicit.\n6. Measure before optimizing any authorization bottleneck; do not guess at what is slow.\n7. When authorization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Document any non-obvious authorization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Keep authorization outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic authorization advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of authorization correctness.\n- Avoid mixing unrelated authorization concerns into a single change; keep each change focused.\n- Do not silently drop authorization edge cases to make an example look cleaner than the real system.\n- Do not skip documenting authorization assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for authorization, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 459,
+  "metadata": {
+    "subject": "authorization",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

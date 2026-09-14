@@ -1,0 +1,22 @@
+{
+  "module_id": "security_input_validation_checklist",
+  "name": "Input Validation Checklist",
+  "domain": "security",
+  "description": "This module is a pre-completion checklist for input validation work: a short set of checks to run before calling a input validation task done.",
+  "capabilities": [
+    "checklist",
+    "input",
+    "input validation",
+    "pre-completion review",
+    "security",
+    "validation",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for input validation work: a short set of checks to run before calling a input validation task done.\n\nCORE GUIDELINES\n1. When multiple input validation strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Before starting input validation work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Re-check edge cases relevant to input validation (empty input, boundary values, concurrent access) before calling the task done.\n4. Surface known limitations of a chosen input validation approach instead of presenting it as complete when it is not.\n5. Keep input validation outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer the simplest input validation approach that satisfies the requirement over a more general one that isn't needed yet.\n7. State assumptions about input validation explicitly before proceeding, rather than leaving them implicit.\n8. When input validation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Check that input validation terminology is used consistently throughout, matching existing conventions in the surrounding context.\n10. Measure before optimizing any input validation bottleneck; do not guess at what is slow.\n11. Keep input validation changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new input validation abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated input validation concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of input validation correctness.\n- Do not silently drop input validation edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for input validation, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 520,
+  "metadata": {
+    "subject": "input_validation",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

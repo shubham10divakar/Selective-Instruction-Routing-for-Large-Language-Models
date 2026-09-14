@@ -1,0 +1,22 @@
+{
+  "module_id": "research_citation_management_best_practices",
+  "name": "Citation Management Best Practices",
+  "domain": "research",
+  "description": "This module captures the best practices for citation management, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "citation",
+    "citation management",
+    "maintainability",
+    "management",
+    "quality",
+    "research"
+  ],
+  "content": "This module captures the best practices for citation management, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Keep citation management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. Before starting citation management work, confirm the scope and constraints so the approach matches the actual requirement.\n3. When multiple citation management strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. When citation management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Prefer the simplest citation management approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Document any non-obvious citation management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Measure before optimizing any citation management bottleneck; do not guess at what is slow.\n8. Keep citation management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable citation management solutions over clever ones that are hard to verify.\n10. State assumptions about citation management explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated citation management concerns into a single change; keep each change focused.\n- Do not apply generic citation management advice without checking it fits the specific context at hand.\n- Do not silently drop citation management edge cases to make an example look cleaner than the real system.\n- Avoid introducing new citation management abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of citation management correctness.\n\nCLOSING NOTE\nRevisit these citation management guidelines if the task's constraints change significantly during the work.",
+  "token_count": 502,
+  "metadata": {
+    "subject": "citation_management",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

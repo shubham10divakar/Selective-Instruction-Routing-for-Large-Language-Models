@@ -1,0 +1,20 @@
+{
+  "module_id": "database_transactions_best_practices",
+  "name": "Transactions Best Practices",
+  "domain": "database",
+  "description": "This module captures the best practices for transactions, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "database",
+    "maintainability",
+    "quality",
+    "transactions"
+  ],
+  "content": "This module captures the best practices for transactions, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Check that transactions terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Validate transactions outputs against a concrete example before treating the work as complete.\n3. State assumptions about transactions explicitly before proceeding, rather than leaving them implicit.\n4. When transactions decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Keep transactions outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Keep transactions changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. When transactions guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Surface known limitations of a chosen transactions approach instead of presenting it as complete when it is not.\n9. Re-check edge cases relevant to transactions (empty input, boundary values, concurrent access) before calling the task done.\n10. When multiple transactions strategies are viable, name the trade-off explicitly rather than silently picking one.\n11. Measure before optimizing any transactions bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated transactions concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of transactions correctness.\n- Avoid introducing new transactions abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting transactions assumptions just because they seem obvious in the moment.\n- Do not silently drop transactions edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about transactions over a shortcut that saves a few lines but hides intent.",
+  "token_count": 514,
+  "metadata": {
+    "subject": "transactions",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

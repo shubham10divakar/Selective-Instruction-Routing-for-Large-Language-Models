@@ -1,0 +1,21 @@
+{
+  "module_id": "testing_unit_testing_checklist",
+  "name": "Unit Testing Checklist",
+  "domain": "testing",
+  "description": "This module is a pre-completion checklist for unit testing work: a short set of checks to run before calling a unit testing task done.",
+  "capabilities": [
+    "checklist",
+    "pre-completion review",
+    "testing",
+    "unit",
+    "unit testing",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for unit testing work: a short set of checks to run before calling a unit testing task done.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to unit testing (empty input, boundary values, concurrent access) before calling the task done.\n2. State assumptions about unit testing explicitly before proceeding, rather than leaving them implicit.\n3. Document any non-obvious unit testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Keep unit testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. When multiple unit testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Check that unit testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Prefer the simplest unit testing approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting unit testing assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated unit testing concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of unit testing correctness.\n- Do not apply generic unit testing advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about unit testing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 390,
+  "metadata": {
+    "subject": "unit_testing",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "module_id": "statistics_bayesian_inference_advanced_patterns",
+  "name": "Advanced Bayesian Inference Patterns",
+  "domain": "statistics",
+  "description": "This module describes advanced patterns for bayesian inference intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "bayesian",
+    "bayesian inference",
+    "edge cases",
+    "inference",
+    "scalability",
+    "statistics"
+  ],
+  "content": "This module describes advanced patterns for bayesian inference intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Measure before optimizing any bayesian inference bottleneck; do not guess at what is slow.\n2. Surface known limitations of a chosen bayesian inference approach instead of presenting it as complete when it is not.\n3. State assumptions about bayesian inference explicitly before proceeding, rather than leaving them implicit.\n4. Prefer the simplest bayesian inference approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Validate bayesian inference outputs against a concrete example before treating the work as complete.\n6. Before starting bayesian inference work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When bayesian inference decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Prefer explicit, readable bayesian inference solutions over clever ones that are hard to verify.\n9. Document any non-obvious bayesian inference decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. When bayesian inference guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n11. Re-check edge cases relevant to bayesian inference (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop bayesian inference edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of bayesian inference correctness.\n- Do not skip documenting bayesian inference assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated bayesian inference concerns into a single change; keep each change focused.\n- Avoid introducing new bayesian inference abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these bayesian inference guidelines if the task's constraints change significantly during the work.",
+  "token_count": 536,
+  "metadata": {
+    "subject": "bayesian_inference",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "module_id": "debugging_reproducing_bugs_common_pitfalls",
+  "name": "Reproducing Bugs Common Pitfalls",
+  "domain": "debugging",
+  "description": "This module lists the most common pitfalls encountered in reproducing bugs work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "bugs",
+    "common pitfalls",
+    "debugging",
+    "failure modes",
+    "pitfalls",
+    "reproducing",
+    "reproducing bugs"
+  ],
+  "content": "This module lists the most common pitfalls encountered in reproducing bugs work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Measure before optimizing any reproducing bugs bottleneck; do not guess at what is slow.\n2. Prefer the simplest reproducing bugs approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Before starting reproducing bugs work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Re-check edge cases relevant to reproducing bugs (empty input, boundary values, concurrent access) before calling the task done.\n5. When reproducing bugs decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. When reproducing bugs guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Document any non-obvious reproducing bugs decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. Validate reproducing bugs outputs against a concrete example before treating the work as complete.\n9. Keep reproducing bugs changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n10. When multiple reproducing bugs strategies are viable, name the trade-off explicitly rather than silently picking one.\n11. Check that reproducing bugs terminology is used consistently throughout, matching existing conventions in the surrounding context.\n12. Prefer explicit, readable reproducing bugs solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reproducing bugs concerns into a single change; keep each change focused.\n- Do not silently drop reproducing bugs edge cases to make an example look cleaner than the real system.\n- Do not apply generic reproducing bugs advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these reproducing bugs guidelines if the task's constraints change significantly during the work.",
+  "token_count": 508,
+  "metadata": {
+    "subject": "reproducing_bugs",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

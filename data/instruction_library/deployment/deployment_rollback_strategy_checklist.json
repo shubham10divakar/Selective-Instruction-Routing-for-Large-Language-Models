@@ -1,0 +1,22 @@
+{
+  "module_id": "deployment_rollback_strategy_checklist",
+  "name": "Rollback Strategy Checklist",
+  "domain": "deployment",
+  "description": "This module is a pre-completion checklist for rollback strategy work: a short set of checks to run before calling a rollback strategy task done.",
+  "capabilities": [
+    "checklist",
+    "deployment",
+    "pre-completion review",
+    "rollback",
+    "rollback strategy",
+    "strategy",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for rollback strategy work: a short set of checks to run before calling a rollback strategy task done.\n\nCORE GUIDELINES\n1. Before starting rollback strategy work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Surface known limitations of a chosen rollback strategy approach instead of presenting it as complete when it is not.\n3. When rollback strategy decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n4. When rollback strategy guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. State assumptions about rollback strategy explicitly before proceeding, rather than leaving them implicit.\n6. Prefer explicit, readable rollback strategy solutions over clever ones that are hard to verify.\n7. Document any non-obvious rollback strategy decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. When multiple rollback strategy strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Validate rollback strategy outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new rollback strategy abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting rollback strategy assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of rollback strategy correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about rollback strategy over a shortcut that saves a few lines but hides intent.",
+  "token_count": 430,
+  "metadata": {
+    "subject": "rollback_strategy",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

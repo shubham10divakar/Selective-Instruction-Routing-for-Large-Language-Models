@@ -1,0 +1,22 @@
+{
+  "module_id": "research_grant_writing_checklist",
+  "name": "Grant Writing Checklist",
+  "domain": "research",
+  "description": "This module is a pre-completion checklist for grant writing work: a short set of checks to run before calling a grant writing task done.",
+  "capabilities": [
+    "checklist",
+    "grant",
+    "grant writing",
+    "pre-completion review",
+    "research",
+    "verification",
+    "writing"
+  ],
+  "content": "This module is a pre-completion checklist for grant writing work: a short set of checks to run before calling a grant writing task done.\n\nCORE GUIDELINES\n1. Prefer the simplest grant writing approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Validate grant writing outputs against a concrete example before treating the work as complete.\n3. Keep grant writing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. State assumptions about grant writing explicitly before proceeding, rather than leaving them implicit.\n5. Keep grant writing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. When multiple grant writing strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. When grant writing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. When grant writing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Document any non-obvious grant writing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Re-check edge cases relevant to grant writing (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop grant writing edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated grant writing concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of grant writing correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about grant writing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 448,
+  "metadata": {
+    "subject": "grant_writing",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

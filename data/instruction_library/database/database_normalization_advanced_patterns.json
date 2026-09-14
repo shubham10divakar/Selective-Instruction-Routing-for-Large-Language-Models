@@ -1,0 +1,20 @@
+{
+  "module_id": "database_normalization_advanced_patterns",
+  "name": "Advanced Normalization Patterns",
+  "domain": "database",
+  "description": "This module describes advanced patterns for normalization intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "database",
+    "edge cases",
+    "normalization",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for normalization intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. When normalization guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. State assumptions about normalization explicitly before proceeding, rather than leaving them implicit.\n3. Re-check edge cases relevant to normalization (empty input, boundary values, concurrent access) before calling the task done.\n4. Surface known limitations of a chosen normalization approach instead of presenting it as complete when it is not.\n5. Document any non-obvious normalization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Prefer the simplest normalization approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Prefer explicit, readable normalization solutions over clever ones that are hard to verify.\n8. When normalization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. Keep normalization outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n10. When multiple normalization strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic normalization advice without checking it fits the specific context at hand.\n- Do not silently drop normalization edge cases to make an example look cleaner than the real system.\n- Do not skip documenting normalization assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about normalization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 453,
+  "metadata": {
+    "subject": "normalization",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

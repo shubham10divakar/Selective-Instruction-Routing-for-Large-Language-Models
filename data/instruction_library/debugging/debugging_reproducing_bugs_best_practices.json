@@ -1,0 +1,22 @@
+{
+  "module_id": "debugging_reproducing_bugs_best_practices",
+  "name": "Reproducing Bugs Best Practices",
+  "domain": "debugging",
+  "description": "This module captures the best practices for reproducing bugs, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "bugs",
+    "debugging",
+    "maintainability",
+    "quality",
+    "reproducing",
+    "reproducing bugs"
+  ],
+  "content": "This module captures the best practices for reproducing bugs, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Validate reproducing bugs outputs against a concrete example before treating the work as complete.\n2. Check that reproducing bugs terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Surface known limitations of a chosen reproducing bugs approach instead of presenting it as complete when it is not.\n4. Prefer explicit, readable reproducing bugs solutions over clever ones that are hard to verify.\n5. When reproducing bugs guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Before starting reproducing bugs work, confirm the scope and constraints so the approach matches the actual requirement.\n7. State assumptions about reproducing bugs explicitly before proceeding, rather than leaving them implicit.\n8. Keep reproducing bugs changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop reproducing bugs edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of reproducing bugs correctness.\n- Do not apply generic reproducing bugs advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated reproducing bugs concerns into a single change; keep each change focused.\n- Do not skip documenting reproducing bugs assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about reproducing bugs over a shortcut that saves a few lines but hides intent.",
+  "token_count": 439,
+  "metadata": {
+    "subject": "reproducing_bugs",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

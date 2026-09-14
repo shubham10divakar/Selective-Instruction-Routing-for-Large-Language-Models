@@ -1,0 +1,20 @@
+{
+  "module_id": "coding_python_best_practices",
+  "name": "Python Best Practices",
+  "domain": "coding",
+  "description": "This module captures the best practices for python, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "coding",
+    "maintainability",
+    "python",
+    "quality"
+  ],
+  "content": "This module captures the best practices for python, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer explicit, readable python solutions over clever ones that are hard to verify.\n2. Surface known limitations of a chosen python approach instead of presenting it as complete when it is not.\n3. Measure before optimizing any python bottleneck; do not guess at what is slow.\n4. Re-check edge cases relevant to python (empty input, boundary values, concurrent access) before calling the task done.\n5. Keep python outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Validate python outputs against a concrete example before treating the work as complete.\n7. When multiple python strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. When python decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. Check that python terminology is used consistently throughout, matching existing conventions in the surrounding context.\n10. Before starting python work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new python abstractions before there is a second concrete use case that needs them.\n- Do not silently drop python edge cases to make an example look cleaner than the real system.\n- Do not apply generic python advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about python over a shortcut that saves a few lines but hides intent.",
+  "token_count": 414,
+  "metadata": {
+    "subject": "python",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

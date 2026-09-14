@@ -1,0 +1,21 @@
+{
+  "module_id": "coding_javascript_common_pitfalls",
+  "name": "Javascript Common Pitfalls",
+  "domain": "coding",
+  "description": "This module lists the most common pitfalls encountered in javascript work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "coding",
+    "common pitfalls",
+    "failure modes",
+    "javascript",
+    "pitfalls"
+  ],
+  "content": "This module lists the most common pitfalls encountered in javascript work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When javascript guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Document any non-obvious javascript decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Check that javascript terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When multiple javascript strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Keep javascript outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer explicit, readable javascript solutions over clever ones that are hard to verify.\n7. Before starting javascript work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop javascript edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated javascript concerns into a single change; keep each change focused.\n- Avoid introducing new javascript abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting javascript assumptions just because they seem obvious in the moment.\n- Do not apply generic javascript advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these javascript guidelines if the task's constraints change significantly during the work.",
+  "token_count": 405,
+  "metadata": {
+    "subject": "javascript",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

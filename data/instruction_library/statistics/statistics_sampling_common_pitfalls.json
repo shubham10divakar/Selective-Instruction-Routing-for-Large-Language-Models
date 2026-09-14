@@ -1,0 +1,21 @@
+{
+  "module_id": "statistics_sampling_common_pitfalls",
+  "name": "Sampling Common Pitfalls",
+  "domain": "statistics",
+  "description": "This module lists the most common pitfalls encountered in sampling work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "sampling",
+    "statistics"
+  ],
+  "content": "This module lists the most common pitfalls encountered in sampling work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Validate sampling outputs against a concrete example before treating the work as complete.\n2. Re-check edge cases relevant to sampling (empty input, boundary values, concurrent access) before calling the task done.\n3. When sampling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Keep sampling outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Keep sampling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. When multiple sampling strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. State assumptions about sampling explicitly before proceeding, rather than leaving them implicit.\n8. When sampling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. Prefer the simplest sampling approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop sampling edge cases to make an example look cleaner than the real system.\n- Avoid introducing new sampling abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting sampling assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated sampling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about sampling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 424,
+  "metadata": {
+    "subject": "sampling",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

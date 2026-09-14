@@ -1,0 +1,23 @@
+{
+  "module_id": "testing_test_data_management_best_practices",
+  "name": "Test Data Management Best Practices",
+  "domain": "testing",
+  "description": "This module captures the best practices for test data management, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "data",
+    "maintainability",
+    "management",
+    "quality",
+    "test",
+    "test data management",
+    "testing"
+  ],
+  "content": "This module captures the best practices for test data management, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen test data management approach instead of presenting it as complete when it is not.\n2. Measure before optimizing any test data management bottleneck; do not guess at what is slow.\n3. Prefer the simplest test data management approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Keep test data management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Document any non-obvious test data management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Re-check edge cases relevant to test data management (empty input, boundary values, concurrent access) before calling the task done.\n7. When test data management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. When test data management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Before starting test data management work, confirm the scope and constraints so the approach matches the actual requirement.\n10. When multiple test data management strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of test data management correctness.\n- Avoid introducing new test data management abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated test data management concerns into a single change; keep each change focused.\n- Do not apply generic test data management advice without checking it fits the specific context at hand.\n- Do not skip documenting test data management assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about test data management over a shortcut that saves a few lines but hides intent.",
+  "token_count": 534,
+  "metadata": {
+    "subject": "test_data_management",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

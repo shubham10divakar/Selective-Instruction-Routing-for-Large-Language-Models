@@ -1,0 +1,23 @@
+{
+  "module_id": "deployment_monitoring_and_alerting_advanced_patterns",
+  "name": "Advanced Monitoring And Alerting Patterns",
+  "domain": "deployment",
+  "description": "This module describes advanced patterns for monitoring and alerting intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "alerting",
+    "and",
+    "deployment",
+    "edge cases",
+    "monitoring",
+    "monitoring and alerting",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for monitoring and alerting intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to monitoring and alerting (empty input, boundary values, concurrent access) before calling the task done.\n2. Document any non-obvious monitoring and alerting decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When monitoring and alerting guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Before starting monitoring and alerting work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Keep monitoring and alerting outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Prefer explicit, readable monitoring and alerting solutions over clever ones that are hard to verify.\n7. When monitoring and alerting decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Prefer the simplest monitoring and alerting approach that satisfies the requirement over a more general one that isn't needed yet.\n9. When multiple monitoring and alerting strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop monitoring and alerting edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of monitoring and alerting correctness.\n- Do not skip documenting monitoring and alerting assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated monitoring and alerting concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these monitoring and alerting guidelines if the task's constraints change significantly during the work.",
+  "token_count": 480,
+  "metadata": {
+    "subject": "monitoring_and_alerting",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

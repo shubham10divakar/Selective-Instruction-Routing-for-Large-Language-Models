@@ -1,0 +1,22 @@
+{
+  "module_id": "database_schema_design_checklist",
+  "name": "Schema Design Checklist",
+  "domain": "database",
+  "description": "This module is a pre-completion checklist for schema design work: a short set of checks to run before calling a schema design task done.",
+  "capabilities": [
+    "checklist",
+    "database",
+    "design",
+    "pre-completion review",
+    "schema",
+    "schema design",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for schema design work: a short set of checks to run before calling a schema design task done.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to schema design (empty input, boundary values, concurrent access) before calling the task done.\n2. Measure before optimizing any schema design bottleneck; do not guess at what is slow.\n3. Check that schema design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Prefer the simplest schema design approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Prefer explicit, readable schema design solutions over clever ones that are hard to verify.\n6. When schema design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Keep schema design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. When schema design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. When multiple schema design strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Keep schema design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n11. Document any non-obvious schema design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n12. Before starting schema design work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new schema design abstractions before there is a second concrete use case that needs them.\n- Do not apply generic schema design advice without checking it fits the specific context at hand.\n- Do not skip documenting schema design assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these schema design guidelines if the task's constraints change significantly during the work.",
+  "token_count": 504,
+  "metadata": {
+    "subject": "schema_design",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

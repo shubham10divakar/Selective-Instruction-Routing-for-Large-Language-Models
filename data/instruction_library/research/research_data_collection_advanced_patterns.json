@@ -1,0 +1,22 @@
+{
+  "module_id": "research_data_collection_advanced_patterns",
+  "name": "Advanced Data Collection Patterns",
+  "domain": "research",
+  "description": "This module describes advanced patterns for data collection intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "collection",
+    "data",
+    "data collection",
+    "edge cases",
+    "research",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for data collection intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Before starting data collection work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Measure before optimizing any data collection bottleneck; do not guess at what is slow.\n3. Document any non-obvious data collection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Check that data collection terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Re-check edge cases relevant to data collection (empty input, boundary values, concurrent access) before calling the task done.\n6. Keep data collection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. When data collection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Prefer explicit, readable data collection solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of data collection correctness.\n- Do not apply generic data collection advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated data collection concerns into a single change; keep each change focused.\n- Avoid introducing new data collection abstractions before there is a second concrete use case that needs them.\n- Do not silently drop data collection edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these data collection guidelines if the task's constraints change significantly during the work.",
+  "token_count": 445,
+  "metadata": {
+    "subject": "data_collection",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

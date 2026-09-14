@@ -1,0 +1,22 @@
+{
+  "module_id": "database_connection_pooling_advanced_patterns",
+  "name": "Advanced Connection Pooling Patterns",
+  "domain": "database",
+  "description": "This module describes advanced patterns for connection pooling intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "connection",
+    "connection pooling",
+    "database",
+    "edge cases",
+    "pooling",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for connection pooling intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Keep connection pooling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. Prefer the simplest connection pooling approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Surface known limitations of a chosen connection pooling approach instead of presenting it as complete when it is not.\n4. When connection pooling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Measure before optimizing any connection pooling bottleneck; do not guess at what is slow.\n6. Document any non-obvious connection pooling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. State assumptions about connection pooling explicitly before proceeding, rather than leaving them implicit.\n8. Before starting connection pooling work, confirm the scope and constraints so the approach matches the actual requirement.\n9. When connection pooling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n10. Validate connection pooling outputs against a concrete example before treating the work as complete.\n11. Check that connection pooling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new connection pooling abstractions before there is a second concrete use case that needs them.\n- Do not apply generic connection pooling advice without checking it fits the specific context at hand.\n- Do not skip documenting connection pooling assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of connection pooling correctness.\n- Avoid mixing unrelated connection pooling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about connection pooling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 543,
+  "metadata": {
+    "subject": "connection_pooling",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

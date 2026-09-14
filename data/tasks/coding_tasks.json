@@ -1,0 +1,2062 @@
+[
+  {
+    "task_id": "coding_simple_python_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a python implementation for a small utility function, following our python guidelines.",
+    "reference_output": "A strong response follows the guidance in Python Best Practices: it addresses the request about python directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_python_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_conventions",
+      "coding_typescript_conventions",
+      "deployment_infrastructure_as_code_advanced_patterns",
+      "statistics_time_series_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_javascript_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a javascript implementation for a small utility function, following our javascript guidelines.",
+    "reference_output": "A strong response follows the guidance in Javascript Best Practices: it addresses the request about javascript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_javascript_best_practices"
+    ],
+    "distractor_modules": [
+      "research_reproducibility_common_pitfalls",
+      "data_analysis_cohort_analysis_advanced_patterns",
+      "data_analysis_exploratory_analysis_common_pitfalls",
+      "writing_technical_writing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_typescript_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a typescript implementation for a small utility function, following our typescript guidelines.",
+    "reference_output": "A strong response follows the guidance in Typescript Best Practices: it addresses the request about typescript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_typescript_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_type_safety_best_practices",
+      "database_query_optimization_advanced_patterns",
+      "writing_content_structuring_common_pitfalls",
+      "statistics_anova_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_api_design_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a api design implementation for a small utility function, following our api design guidelines.",
+    "reference_output": "A strong response follows the guidance in Api Design Best Practices: it addresses the request about api design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_api_design_best_practices"
+    ],
+    "distractor_modules": [
+      "research_qualitative_methods_common_pitfalls",
+      "data_analysis_visualization_common_pitfalls",
+      "security_input_validation_best_practices",
+      "debugging_stack_trace_analysis_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_error_handling_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a error handling implementation for a small utility function, following our error handling guidelines.",
+    "reference_output": "A strong response follows the guidance in Error Handling Best Practices: it addresses the request about error handling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_reporting_conventions",
+      "testing_unit_testing_best_practices",
+      "data_analysis_ab_testing_checklist",
+      "data_analysis_visualization_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_type_safety_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a type safety implementation for a small utility function, following our type safety guidelines.",
+    "reference_output": "A strong response follows the guidance in Type Safety Best Practices: it addresses the request about type safety directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_regression_analysis_advanced_patterns",
+      "coding_api_design_best_practices",
+      "research_grant_writing_advanced_patterns",
+      "debugging_root_cause_analysis_conventions"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_code_review_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a code review implementation for a small utility function, following our code review guidelines.",
+    "reference_output": "A strong response follows the guidance in Code Review Best Practices: it addresses the request about code review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_code_review_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_outlier_detection_conventions",
+      "statistics_multivariate_analysis_best_practices",
+      "security_secure_coding_conventions",
+      "database_nosql_modeling_conventions"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_documentation_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a documentation implementation for a small utility function, following our documentation guidelines.",
+    "reference_output": "A strong response follows the guidance in Documentation Best Practices: it addresses the request about documentation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_documentation_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_cleaning_common_pitfalls",
+      "statistics_hypothesis_testing_common_pitfalls",
+      "database_connection_pooling_checklist",
+      "coding_api_design_conventions"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_refactoring_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a refactoring implementation for a small utility function, following our refactoring guidelines.",
+    "reference_output": "A strong response follows the guidance in Refactoring Best Practices: it addresses the request about refactoring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices"
+    ],
+    "distractor_modules": [
+      "database_connection_pooling_checklist",
+      "security_vulnerability_disclosure_common_pitfalls",
+      "writing_proofreading_best_practices",
+      "testing_load_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_performance_0",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Write a performance implementation for a small utility function, following our performance guidelines.",
+    "reference_output": "A strong response follows the guidance in Performance Best Practices: it addresses the request about performance directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_performance_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_editing_best_practices",
+      "research_literature_review_checklist",
+      "testing_integration_testing_conventions",
+      "deployment_canary_releases_conventions"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_python_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this python snippet and point out anything that violates our python conventions.",
+    "reference_output": "A strong response follows the guidance in Python Best Practices, Python Checklist: it addresses the request about python directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_python_best_practices",
+      "coding_python_checklist"
+    ],
+    "distractor_modules": [
+      "research_data_collection_common_pitfalls",
+      "writing_tone_and_style_conventions",
+      "data_analysis_cohort_analysis_conventions",
+      "debugging_production_incident_response_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_javascript_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this javascript snippet and point out anything that violates our javascript conventions.",
+    "reference_output": "A strong response follows the guidance in Javascript Best Practices, Javascript Checklist: it addresses the request about javascript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_javascript_best_practices",
+      "coding_javascript_checklist"
+    ],
+    "distractor_modules": [
+      "testing_mocking_best_practices",
+      "security_authentication_checklist",
+      "deployment_blue_green_deployment_conventions",
+      "writing_technical_writing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_typescript_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this typescript snippet and point out anything that violates our typescript conventions.",
+    "reference_output": "A strong response follows the guidance in Typescript Best Practices, Typescript Checklist: it addresses the request about typescript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_typescript_best_practices",
+      "coding_typescript_checklist"
+    ],
+    "distractor_modules": [
+      "coding_performance_common_pitfalls",
+      "writing_technical_writing_advanced_patterns",
+      "research_grant_writing_common_pitfalls",
+      "statistics_nonparametric_methods_best_practices"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_api_design_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this api design snippet and point out anything that violates our api design conventions.",
+    "reference_output": "A strong response follows the guidance in Api Design Best Practices, Api Design Checklist: it addresses the request about api design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_api_design_best_practices",
+      "coding_api_design_checklist"
+    ],
+    "distractor_modules": [
+      "writing_proofreading_checklist",
+      "security_authentication_best_practices",
+      "data_analysis_visualization_advanced_patterns",
+      "testing_test_data_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_error_handling_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this error handling snippet and point out anything that violates our error handling conventions.",
+    "reference_output": "A strong response follows the guidance in Error Handling Best Practices, Error Handling Checklist: it addresses the request about error handling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices",
+      "coding_error_handling_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_experimental_design_checklist",
+      "coding_python_advanced_patterns",
+      "data_analysis_data_pipelines_best_practices",
+      "coding_api_design_best_practices"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_type_safety_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this type safety snippet and point out anything that violates our type safety conventions.",
+    "reference_output": "A strong response follows the guidance in Type Safety Best Practices, Type Safety Checklist: it addresses the request about type safety directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices",
+      "coding_type_safety_checklist"
+    ],
+    "distractor_modules": [
+      "research_literature_review_common_pitfalls",
+      "data_analysis_exploratory_analysis_common_pitfalls",
+      "deployment_containerization_best_practices",
+      "testing_test_coverage_conventions"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_code_review_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this code review snippet and point out anything that violates our code review conventions.",
+    "reference_output": "A strong response follows the guidance in Code Review Best Practices, Code Review Checklist: it addresses the request about code review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_code_review_best_practices",
+      "coding_code_review_checklist"
+    ],
+    "distractor_modules": [
+      "database_backup_and_recovery_best_practices",
+      "database_normalization_common_pitfalls",
+      "writing_proofreading_conventions",
+      "deployment_environment_configuration_conventions"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_documentation_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this documentation snippet and point out anything that violates our documentation conventions.",
+    "reference_output": "A strong response follows the guidance in Documentation Best Practices, Documentation Checklist: it addresses the request about documentation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_documentation_best_practices",
+      "coding_documentation_checklist"
+    ],
+    "distractor_modules": [
+      "writing_technical_writing_conventions",
+      "statistics_bayesian_inference_advanced_patterns",
+      "research_reproducibility_conventions",
+      "research_research_ethics_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_refactoring_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this refactoring snippet and point out anything that violates our refactoring conventions.",
+    "reference_output": "A strong response follows the guidance in Refactoring Best Practices, Refactoring Checklist: it addresses the request about refactoring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices",
+      "coding_refactoring_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_environment_configuration_common_pitfalls",
+      "security_vulnerability_disclosure_common_pitfalls",
+      "database_replication_checklist",
+      "coding_documentation_best_practices"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_performance_1",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Review this performance snippet and point out anything that violates our performance conventions.",
+    "reference_output": "A strong response follows the guidance in Performance Best Practices, Performance Checklist: it addresses the request about performance directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_performance_best_practices",
+      "coding_performance_checklist"
+    ],
+    "distractor_modules": [
+      "database_query_optimization_conventions",
+      "security_dependency_scanning_common_pitfalls",
+      "research_qualitative_methods_advanced_patterns",
+      "statistics_bayesian_inference_best_practices"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_python_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached python module to align with best practices for python.",
+    "reference_output": "A strong response follows the guidance in Python Best Practices: it addresses the request about python directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_python_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "research_qualitative_methods_best_practices",
+      "debugging_root_cause_analysis_common_pitfalls",
+      "database_transactions_conventions"
+    ],
+    "metadata": {
+      "subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_javascript_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached javascript module to align with best practices for javascript.",
+    "reference_output": "A strong response follows the guidance in Javascript Best Practices: it addresses the request about javascript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_javascript_best_practices"
+    ],
+    "distractor_modules": [
+      "research_grant_writing_checklist",
+      "coding_api_design_common_pitfalls",
+      "deployment_capacity_planning_best_practices",
+      "statistics_hypothesis_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_typescript_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached typescript module to align with best practices for typescript.",
+    "reference_output": "A strong response follows the guidance in Typescript Best Practices: it addresses the request about typescript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_typescript_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_grammar_and_clarity_advanced_patterns",
+      "debugging_stack_trace_analysis_checklist",
+      "statistics_survival_analysis_conventions",
+      "deployment_blue_green_deployment_checklist"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_api_design_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached api design module to align with best practices for api design.",
+    "reference_output": "A strong response follows the guidance in Api Design Best Practices: it addresses the request about api design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_api_design_best_practices"
+    ],
+    "distractor_modules": [
+      "security_incident_response_advanced_patterns",
+      "deployment_release_management_conventions",
+      "research_citation_management_checklist",
+      "coding_javascript_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_error_handling_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached error handling module to align with best practices for error handling.",
+    "reference_output": "A strong response follows the guidance in Error Handling Best Practices: it addresses the request about error handling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices"
+    ],
+    "distractor_modules": [
+      "research_qualitative_methods_conventions",
+      "writing_grammar_and_clarity_conventions",
+      "testing_regression_testing_checklist",
+      "deployment_rollback_strategy_conventions"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_type_safety_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached type safety module to align with best practices for type safety.",
+    "reference_output": "A strong response follows the guidance in Type Safety Best Practices: it addresses the request about type safety directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_concurrency_bugs_checklist",
+      "debugging_root_cause_analysis_best_practices",
+      "writing_documentation_writing_common_pitfalls",
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_code_review_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached code review module to align with best practices for code review.",
+    "reference_output": "A strong response follows the guidance in Code Review Best Practices: it addresses the request about code review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_code_review_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_checklist",
+      "security_encryption_best_practices",
+      "database_backup_and_recovery_best_practices",
+      "testing_test_data_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_documentation_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached documentation module to align with best practices for documentation.",
+    "reference_output": "A strong response follows the guidance in Documentation Best Practices: it addresses the request about documentation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_documentation_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_sampling_conventions",
+      "database_backup_and_recovery_best_practices",
+      "database_replication_conventions",
+      "research_data_collection_best_practices"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_refactoring_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached refactoring module to align with best practices for refactoring.",
+    "reference_output": "A strong response follows the guidance in Refactoring Best Practices: it addresses the request about refactoring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_best_practices",
+      "writing_persuasive_writing_conventions",
+      "statistics_experimental_design_common_pitfalls",
+      "database_indexing_best_practices"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_performance_2",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Refactor the attached performance module to align with best practices for performance.",
+    "reference_output": "A strong response follows the guidance in Performance Best Practices: it addresses the request about performance directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_performance_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_flaky_test_management_checklist",
+      "testing_load_testing_advanced_patterns",
+      "data_analysis_outlier_detection_best_practices",
+      "security_incident_response_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_python_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key python guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Python Best Practices, Python Checklist: it addresses the request about python directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_python_best_practices",
+      "coding_python_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_canary_releases_conventions",
+      "security_input_validation_common_pitfalls",
+      "writing_persuasive_writing_conventions",
+      "testing_test_coverage_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_javascript_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key javascript guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Javascript Best Practices, Javascript Checklist: it addresses the request about javascript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_javascript_best_practices",
+      "coding_javascript_checklist"
+    ],
+    "distractor_modules": [
+      "security_encryption_advanced_patterns",
+      "writing_content_structuring_advanced_patterns",
+      "coding_api_design_best_practices",
+      "writing_grammar_and_clarity_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_typescript_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key typescript guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Typescript Best Practices, Typescript Checklist: it addresses the request about typescript directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_typescript_best_practices",
+      "coding_typescript_checklist"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_checklist",
+      "deployment_capacity_planning_advanced_patterns",
+      "writing_persuasive_writing_advanced_patterns",
+      "statistics_multivariate_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_api_design_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key api design guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Api Design Best Practices, Api Design Checklist: it addresses the request about api design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_api_design_best_practices",
+      "coding_api_design_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "security_authorization_conventions",
+      "coding_code_review_checklist",
+      "deployment_environment_configuration_conventions"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_error_handling_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key error handling guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Error Handling Best Practices, Error Handling Checklist: it addresses the request about error handling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices",
+      "coding_error_handling_checklist"
+    ],
+    "distractor_modules": [
+      "research_literature_review_advanced_patterns",
+      "debugging_reproducing_bugs_common_pitfalls",
+      "testing_mocking_advanced_patterns",
+      "writing_technical_writing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_type_safety_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key type safety guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Type Safety Best Practices, Type Safety Checklist: it addresses the request about type safety directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices",
+      "coding_type_safety_checklist"
+    ],
+    "distractor_modules": [
+      "research_grant_writing_common_pitfalls",
+      "writing_content_structuring_common_pitfalls",
+      "deployment_monitoring_and_alerting_best_practices",
+      "testing_test_driven_development_checklist"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_code_review_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key code review guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Code Review Best Practices, Code Review Checklist: it addresses the request about code review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_code_review_best_practices",
+      "coding_code_review_checklist"
+    ],
+    "distractor_modules": [
+      "security_authorization_conventions",
+      "debugging_production_incident_response_checklist",
+      "testing_integration_testing_conventions",
+      "testing_test_coverage_best_practices"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_documentation_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key documentation guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Documentation Best Practices, Documentation Checklist: it addresses the request about documentation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_documentation_best_practices",
+      "coding_documentation_checklist"
+    ],
+    "distractor_modules": [
+      "database_query_optimization_common_pitfalls",
+      "security_input_validation_best_practices",
+      "debugging_memory_leaks_advanced_patterns",
+      "debugging_reproducing_bugs_checklist"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_refactoring_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key refactoring guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Refactoring Best Practices, Refactoring Checklist: it addresses the request about refactoring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices",
+      "coding_refactoring_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "deployment_infrastructure_as_code_checklist",
+      "writing_grammar_and_clarity_advanced_patterns",
+      "testing_integration_testing_best_practices"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_simple_performance_3",
+    "domain": "coding",
+    "domains": [
+      "coding"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key performance guidelines our AI assistant should follow when generating code.",
+    "reference_output": "A strong response follows the guidance in Performance Best Practices, Performance Checklist: it addresses the request about performance directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "coding_performance_best_practices",
+      "coding_performance_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_dashboarding_conventions",
+      "research_data_collection_conventions",
+      "writing_grammar_and_clarity_best_practices",
+      "statistics_hypothesis_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_python_testing_unit_testing",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies python practices, and make sure the result also satisfies our testing guidelines around unit testing.",
+    "reference_output": "A strong response satisfies both Python Best Practices / Python Checklist and Unit Testing Best Practices: it completes the python portion of the request correctly, then explicitly checks it against the unit testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_python_best_practices",
+      "coding_python_checklist",
+      "testing_unit_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_data_management_checklist",
+      "statistics_nonparametric_methods_conventions",
+      "debugging_logging_strategy_conventions",
+      "debugging_performance_profiling_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "python",
+      "secondary_domain": "testing",
+      "secondary_subject": "unit_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_python_security_authentication",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies python practices, and make sure the result also satisfies our security guidelines around authentication.",
+    "reference_output": "A strong response satisfies both Python Best Practices / Python Checklist and Authentication Best Practices: it completes the python portion of the request correctly, then explicitly checks it against the authentication guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_python_best_practices",
+      "coding_python_checklist",
+      "security_authentication_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_logging_strategy_best_practices",
+      "research_peer_review_common_pitfalls",
+      "research_research_design_checklist",
+      "deployment_containerization_best_practices"
+    ],
+    "metadata": {
+      "subject": "python",
+      "secondary_domain": "security",
+      "secondary_subject": "authentication",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_python_database_indexing",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies python practices, and make sure the result also satisfies our database guidelines around indexing.",
+    "reference_output": "A strong response satisfies both Python Best Practices / Python Checklist and Indexing Best Practices: it completes the python portion of the request correctly, then explicitly checks it against the indexing guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_python_best_practices",
+      "coding_python_checklist",
+      "database_indexing_best_practices"
+    ],
+    "distractor_modules": [
+      "research_literature_review_conventions",
+      "testing_flaky_test_management_conventions",
+      "coding_error_handling_conventions",
+      "debugging_stack_trace_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "python",
+      "secondary_domain": "database",
+      "secondary_subject": "indexing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_python_deployment_rollback_strategy",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies python practices, and make sure the result also satisfies our deployment guidelines around rollback strategy.",
+    "reference_output": "A strong response satisfies both Python Best Practices / Python Checklist and Rollback Strategy Best Practices: it completes the python portion of the request correctly, then explicitly checks it against the rollback strategy guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_python_best_practices",
+      "coding_python_checklist",
+      "deployment_rollback_strategy_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_api_design_common_pitfalls",
+      "deployment_capacity_planning_advanced_patterns",
+      "data_analysis_dashboarding_best_practices",
+      "debugging_concurrency_bugs_conventions"
+    ],
+    "metadata": {
+      "subject": "python",
+      "secondary_domain": "deployment",
+      "secondary_subject": "rollback_strategy",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_javascript_testing_integration_testing",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies javascript practices, and make sure the result also satisfies our testing guidelines around integration testing.",
+    "reference_output": "A strong response satisfies both Javascript Best Practices / Javascript Checklist and Integration Testing Best Practices: it completes the javascript portion of the request correctly, then explicitly checks it against the integration testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_javascript_best_practices",
+      "coding_javascript_checklist",
+      "testing_integration_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_design_common_pitfalls",
+      "security_incident_response_checklist",
+      "security_authentication_best_practices",
+      "research_reproducibility_best_practices"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "secondary_domain": "testing",
+      "secondary_subject": "integration_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_javascript_security_authorization",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies javascript practices, and make sure the result also satisfies our security guidelines around authorization.",
+    "reference_output": "A strong response satisfies both Javascript Best Practices / Javascript Checklist and Authorization Best Practices: it completes the javascript portion of the request correctly, then explicitly checks it against the authorization guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_javascript_best_practices",
+      "coding_javascript_checklist",
+      "security_authorization_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_advanced_patterns",
+      "coding_documentation_checklist",
+      "database_schema_design_best_practices",
+      "coding_performance_checklist"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "secondary_domain": "security",
+      "secondary_subject": "authorization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_javascript_database_migrations",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies javascript practices, and make sure the result also satisfies our database guidelines around migrations.",
+    "reference_output": "A strong response satisfies both Javascript Best Practices / Javascript Checklist and Migrations Best Practices: it completes the javascript portion of the request correctly, then explicitly checks it against the migrations guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_javascript_best_practices",
+      "coding_javascript_checklist",
+      "database_migrations_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_best_practices",
+      "data_analysis_exploratory_analysis_best_practices",
+      "coding_refactoring_best_practices",
+      "debugging_production_incident_response_checklist"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "secondary_domain": "database",
+      "secondary_subject": "migrations",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_javascript_deployment_blue_green_deployment",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies javascript practices, and make sure the result also satisfies our deployment guidelines around blue green deployment.",
+    "reference_output": "A strong response satisfies both Javascript Best Practices / Javascript Checklist and Blue Green Deployment Best Practices: it completes the javascript portion of the request correctly, then explicitly checks it against the blue green deployment guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_javascript_best_practices",
+      "coding_javascript_checklist",
+      "deployment_blue_green_deployment_best_practices"
+    ],
+    "distractor_modules": [
+      "database_indexing_common_pitfalls",
+      "data_analysis_cohort_analysis_advanced_patterns",
+      "research_grant_writing_checklist",
+      "database_replication_best_practices"
+    ],
+    "metadata": {
+      "subject": "javascript",
+      "secondary_domain": "deployment",
+      "secondary_subject": "blue_green_deployment",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_typescript_testing_test_coverage",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies typescript practices, and make sure the result also satisfies our testing guidelines around test coverage.",
+    "reference_output": "A strong response satisfies both Typescript Best Practices / Typescript Checklist and Test Coverage Best Practices: it completes the typescript portion of the request correctly, then explicitly checks it against the test coverage guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_typescript_best_practices",
+      "coding_typescript_checklist",
+      "testing_test_coverage_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_cleaning_best_practices",
+      "research_grant_writing_best_practices",
+      "security_input_validation_common_pitfalls",
+      "research_research_design_conventions"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "secondary_domain": "testing",
+      "secondary_subject": "test_coverage",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_typescript_security_secrets_management",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies typescript practices, and make sure the result also satisfies our security guidelines around secrets management.",
+    "reference_output": "A strong response satisfies both Typescript Best Practices / Typescript Checklist and Secrets Management Best Practices: it completes the typescript portion of the request correctly, then explicitly checks it against the secrets management guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_typescript_best_practices",
+      "coding_typescript_checklist",
+      "security_secrets_management_best_practices"
+    ],
+    "distractor_modules": [
+      "research_citation_management_advanced_patterns",
+      "research_peer_review_conventions",
+      "data_analysis_reporting_conventions",
+      "debugging_performance_profiling_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "secondary_domain": "security",
+      "secondary_subject": "secrets_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_typescript_database_transactions",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies typescript practices, and make sure the result also satisfies our database guidelines around transactions.",
+    "reference_output": "A strong response satisfies both Typescript Best Practices / Typescript Checklist and Transactions Best Practices: it completes the typescript portion of the request correctly, then explicitly checks it against the transactions guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_typescript_best_practices",
+      "coding_typescript_checklist",
+      "database_transactions_best_practices"
+    ],
+    "distractor_modules": [
+      "database_schema_design_checklist",
+      "research_peer_review_advanced_patterns",
+      "data_analysis_data_cleaning_best_practices",
+      "writing_executive_summaries_best_practices"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "secondary_domain": "database",
+      "secondary_subject": "transactions",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_typescript_deployment_monitoring_and_alerting",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies typescript practices, and make sure the result also satisfies our deployment guidelines around monitoring and alerting.",
+    "reference_output": "A strong response satisfies both Typescript Best Practices / Typescript Checklist and Monitoring And Alerting Best Practices: it completes the typescript portion of the request correctly, then explicitly checks it against the monitoring and alerting guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_typescript_best_practices",
+      "coding_typescript_checklist",
+      "deployment_monitoring_and_alerting_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_content_structuring_common_pitfalls",
+      "coding_error_handling_checklist",
+      "testing_test_coverage_advanced_patterns",
+      "database_connection_pooling_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "typescript",
+      "secondary_domain": "deployment",
+      "secondary_subject": "monitoring_and_alerting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_api_design_testing_mocking",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies api design practices, and make sure the result also satisfies our testing guidelines around mocking.",
+    "reference_output": "A strong response satisfies both Api Design Best Practices / Api Design Checklist and Mocking Best Practices: it completes the api design portion of the request correctly, then explicitly checks it against the mocking guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_api_design_best_practices",
+      "coding_api_design_checklist",
+      "testing_mocking_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_documentation_writing_conventions",
+      "database_nosql_modeling_conventions",
+      "statistics_bayesian_inference_conventions",
+      "data_analysis_dashboarding_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "secondary_domain": "testing",
+      "secondary_subject": "mocking",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_api_design_security_dependency_scanning",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies api design practices, and make sure the result also satisfies our security guidelines around dependency scanning.",
+    "reference_output": "A strong response satisfies both Api Design Best Practices / Api Design Checklist and Dependency Scanning Best Practices: it completes the api design portion of the request correctly, then explicitly checks it against the dependency scanning guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_api_design_best_practices",
+      "coding_api_design_checklist",
+      "security_dependency_scanning_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_best_practices",
+      "statistics_time_series_conventions",
+      "writing_technical_writing_checklist",
+      "writing_content_structuring_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "secondary_domain": "security",
+      "secondary_subject": "dependency_scanning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_api_design_database_normalization",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies api design practices, and make sure the result also satisfies our database guidelines around normalization.",
+    "reference_output": "A strong response satisfies both Api Design Best Practices / Api Design Checklist and Normalization Best Practices: it completes the api design portion of the request correctly, then explicitly checks it against the normalization guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_api_design_best_practices",
+      "coding_api_design_checklist",
+      "database_normalization_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_exception_handling_checklist",
+      "deployment_infrastructure_as_code_advanced_patterns",
+      "security_encryption_checklist",
+      "debugging_production_incident_response_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "secondary_domain": "database",
+      "secondary_subject": "normalization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_api_design_deployment_environment_configuration",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies api design practices, and make sure the result also satisfies our deployment guidelines around environment configuration.",
+    "reference_output": "A strong response satisfies both Api Design Best Practices / Api Design Checklist and Environment Configuration Best Practices: it completes the api design portion of the request correctly, then explicitly checks it against the environment configuration guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_api_design_best_practices",
+      "coding_api_design_checklist",
+      "deployment_environment_configuration_best_practices"
+    ],
+    "distractor_modules": [
+      "database_transactions_common_pitfalls",
+      "coding_performance_conventions",
+      "research_qualitative_methods_advanced_patterns",
+      "coding_code_review_checklist"
+    ],
+    "metadata": {
+      "subject": "api_design",
+      "secondary_domain": "deployment",
+      "secondary_subject": "environment_configuration",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_error_handling_testing_test_data_management",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies error handling practices, and make sure the result also satisfies our testing guidelines around test data management.",
+    "reference_output": "A strong response satisfies both Error Handling Best Practices / Error Handling Checklist and Test Data Management Best Practices: it completes the error handling portion of the request correctly, then explicitly checks it against the test data management guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices",
+      "coding_error_handling_checklist",
+      "testing_test_data_management_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_performance_profiling_best_practices",
+      "coding_refactoring_checklist",
+      "writing_documentation_writing_conventions",
+      "writing_persuasive_writing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "secondary_domain": "testing",
+      "secondary_subject": "test_data_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_error_handling_security_threat_modeling",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies error handling practices, and make sure the result also satisfies our security guidelines around threat modeling.",
+    "reference_output": "A strong response satisfies both Error Handling Best Practices / Error Handling Checklist and Threat Modeling Best Practices: it completes the error handling portion of the request correctly, then explicitly checks it against the threat modeling guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices",
+      "coding_error_handling_checklist",
+      "security_threat_modeling_best_practices"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_best_practices",
+      "writing_proofreading_advanced_patterns",
+      "database_replication_common_pitfalls",
+      "coding_performance_best_practices"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "secondary_domain": "security",
+      "secondary_subject": "threat_modeling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_error_handling_database_connection_pooling",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies error handling practices, and make sure the result also satisfies our database guidelines around connection pooling.",
+    "reference_output": "A strong response satisfies both Error Handling Best Practices / Error Handling Checklist and Connection Pooling Best Practices: it completes the error handling portion of the request correctly, then explicitly checks it against the connection pooling guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices",
+      "coding_error_handling_checklist",
+      "database_connection_pooling_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_conventions",
+      "security_encryption_common_pitfalls",
+      "security_threat_modeling_conventions",
+      "writing_technical_writing_conventions"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "secondary_domain": "database",
+      "secondary_subject": "connection_pooling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_error_handling_deployment_release_management",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies error handling practices, and make sure the result also satisfies our deployment guidelines around release management.",
+    "reference_output": "A strong response satisfies both Error Handling Best Practices / Error Handling Checklist and Release Management Best Practices: it completes the error handling portion of the request correctly, then explicitly checks it against the release management guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_error_handling_best_practices",
+      "coding_error_handling_checklist",
+      "deployment_release_management_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_common_pitfalls",
+      "data_analysis_data_cleaning_best_practices",
+      "data_analysis_data_pipelines_checklist",
+      "testing_end_to_end_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "error_handling",
+      "secondary_domain": "deployment",
+      "secondary_subject": "release_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_type_safety_testing_regression_testing",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies type safety practices, and make sure the result also satisfies our testing guidelines around regression testing.",
+    "reference_output": "A strong response satisfies both Type Safety Best Practices / Type Safety Checklist and Regression Testing Best Practices: it completes the type safety portion of the request correctly, then explicitly checks it against the regression testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices",
+      "coding_type_safety_checklist",
+      "testing_regression_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_api_design_best_practices",
+      "debugging_logging_strategy_conventions",
+      "testing_flaky_test_management_checklist",
+      "writing_technical_writing_best_practices"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "secondary_domain": "testing",
+      "secondary_subject": "regression_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_type_safety_security_encryption",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies type safety practices, and make sure the result also satisfies our security guidelines around encryption.",
+    "reference_output": "A strong response satisfies both Type Safety Best Practices / Type Safety Checklist and Encryption Best Practices: it completes the type safety portion of the request correctly, then explicitly checks it against the encryption guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices",
+      "coding_type_safety_checklist",
+      "security_encryption_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_performance_conventions",
+      "writing_executive_summaries_common_pitfalls",
+      "data_analysis_ab_testing_conventions",
+      "data_analysis_reporting_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "secondary_domain": "security",
+      "secondary_subject": "encryption",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_type_safety_database_backup_and_recovery",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies type safety practices, and make sure the result also satisfies our database guidelines around backup and recovery.",
+    "reference_output": "A strong response satisfies both Type Safety Best Practices / Type Safety Checklist and Backup And Recovery Best Practices: it completes the type safety portion of the request correctly, then explicitly checks it against the backup and recovery guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices",
+      "coding_type_safety_checklist",
+      "database_backup_and_recovery_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_documentation_advanced_patterns",
+      "security_secrets_management_common_pitfalls",
+      "coding_api_design_conventions",
+      "deployment_environment_configuration_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "secondary_domain": "database",
+      "secondary_subject": "backup_and_recovery",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_type_safety_deployment_canary_releases",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies type safety practices, and make sure the result also satisfies our deployment guidelines around canary releases.",
+    "reference_output": "A strong response satisfies both Type Safety Best Practices / Type Safety Checklist and Canary Releases Best Practices: it completes the type safety portion of the request correctly, then explicitly checks it against the canary releases guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_type_safety_best_practices",
+      "coding_type_safety_checklist",
+      "deployment_canary_releases_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_best_practices",
+      "database_migrations_checklist",
+      "research_qualitative_methods_conventions",
+      "statistics_regression_analysis_conventions"
+    ],
+    "metadata": {
+      "subject": "type_safety",
+      "secondary_domain": "deployment",
+      "secondary_subject": "canary_releases",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_code_review_testing_load_testing",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies code review practices, and make sure the result also satisfies our testing guidelines around load testing.",
+    "reference_output": "A strong response satisfies both Code Review Best Practices / Code Review Checklist and Load Testing Best Practices: it completes the code review portion of the request correctly, then explicitly checks it against the load testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_code_review_best_practices",
+      "coding_code_review_checklist",
+      "testing_load_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "statistics_experimental_design_conventions",
+      "research_peer_review_conventions",
+      "writing_documentation_writing_best_practices"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "secondary_domain": "testing",
+      "secondary_subject": "load_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_code_review_security_secure_coding",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies code review practices, and make sure the result also satisfies our security guidelines around secure coding.",
+    "reference_output": "A strong response satisfies both Code Review Best Practices / Code Review Checklist and Secure Coding Best Practices: it completes the code review portion of the request correctly, then explicitly checks it against the secure coding guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_code_review_best_practices",
+      "coding_code_review_checklist",
+      "security_secure_coding_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_best_practices",
+      "coding_python_best_practices",
+      "statistics_multivariate_analysis_best_practices",
+      "security_incident_response_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "secondary_domain": "security",
+      "secondary_subject": "secure_coding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_code_review_database_replication",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies code review practices, and make sure the result also satisfies our database guidelines around replication.",
+    "reference_output": "A strong response satisfies both Code Review Best Practices / Code Review Checklist and Replication Best Practices: it completes the code review portion of the request correctly, then explicitly checks it against the replication guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_code_review_best_practices",
+      "coding_code_review_checklist",
+      "database_replication_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_advanced_patterns",
+      "deployment_capacity_planning_advanced_patterns",
+      "testing_mocking_checklist",
+      "research_research_ethics_conventions"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "secondary_domain": "database",
+      "secondary_subject": "replication",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_code_review_deployment_capacity_planning",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies code review practices, and make sure the result also satisfies our deployment guidelines around capacity planning.",
+    "reference_output": "A strong response satisfies both Code Review Best Practices / Code Review Checklist and Capacity Planning Best Practices: it completes the code review portion of the request correctly, then explicitly checks it against the capacity planning guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_code_review_best_practices",
+      "coding_code_review_checklist",
+      "deployment_capacity_planning_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_documentation_best_practices",
+      "debugging_stack_trace_analysis_advanced_patterns",
+      "debugging_memory_leaks_advanced_patterns",
+      "coding_api_design_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "code_review",
+      "secondary_domain": "deployment",
+      "secondary_subject": "capacity_planning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_documentation_testing_end_to_end_testing",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies documentation practices, and make sure the result also satisfies our testing guidelines around end to end testing.",
+    "reference_output": "A strong response satisfies both Documentation Best Practices / Documentation Checklist and End To End Testing Best Practices: it completes the documentation portion of the request correctly, then explicitly checks it against the end to end testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_documentation_best_practices",
+      "coding_documentation_checklist",
+      "testing_end_to_end_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_time_series_common_pitfalls",
+      "database_indexing_checklist",
+      "testing_unit_testing_best_practices",
+      "research_reproducibility_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "secondary_domain": "testing",
+      "secondary_subject": "end_to_end_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_documentation_security_incident_response",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies documentation practices, and make sure the result also satisfies our security guidelines around incident response.",
+    "reference_output": "A strong response satisfies both Documentation Best Practices / Documentation Checklist and Incident Response Best Practices: it completes the documentation portion of the request correctly, then explicitly checks it against the incident response guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_documentation_best_practices",
+      "coding_documentation_checklist",
+      "security_incident_response_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_stack_trace_analysis_conventions",
+      "statistics_hypothesis_testing_checklist",
+      "coding_error_handling_advanced_patterns",
+      "security_secure_coding_conventions"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "secondary_domain": "security",
+      "secondary_subject": "incident_response",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_documentation_database_nosql_modeling",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies documentation practices, and make sure the result also satisfies our database guidelines around nosql modeling.",
+    "reference_output": "A strong response satisfies both Documentation Best Practices / Documentation Checklist and Nosql Modeling Best Practices: it completes the documentation portion of the request correctly, then explicitly checks it against the nosql modeling guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_documentation_best_practices",
+      "coding_documentation_checklist",
+      "database_nosql_modeling_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_coverage_common_pitfalls",
+      "debugging_memory_leaks_best_practices",
+      "writing_technical_writing_checklist",
+      "research_peer_review_checklist"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "secondary_domain": "database",
+      "secondary_subject": "nosql_modeling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_documentation_deployment_ci_cd_pipelines",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies documentation practices, and make sure the result also satisfies our deployment guidelines around ci cd pipelines.",
+    "reference_output": "A strong response satisfies both Documentation Best Practices / Documentation Checklist and Ci Cd Pipelines Best Practices: it completes the documentation portion of the request correctly, then explicitly checks it against the ci cd pipelines guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_documentation_best_practices",
+      "coding_documentation_checklist",
+      "deployment_ci_cd_pipelines_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_advanced_patterns",
+      "database_migrations_checklist",
+      "database_backup_and_recovery_advanced_patterns",
+      "research_peer_review_checklist"
+    ],
+    "metadata": {
+      "subject": "documentation",
+      "secondary_domain": "deployment",
+      "secondary_subject": "ci_cd_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_refactoring_testing_test_driven_development",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies refactoring practices, and make sure the result also satisfies our testing guidelines around test driven development.",
+    "reference_output": "A strong response satisfies both Refactoring Best Practices / Refactoring Checklist and Test Driven Development Best Practices: it completes the refactoring portion of the request correctly, then explicitly checks it against the test driven development guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices",
+      "coding_refactoring_checklist",
+      "testing_test_driven_development_best_practices"
+    ],
+    "distractor_modules": [
+      "security_authorization_best_practices",
+      "statistics_survival_analysis_best_practices",
+      "deployment_capacity_planning_common_pitfalls",
+      "coding_performance_checklist"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "secondary_domain": "testing",
+      "secondary_subject": "test_driven_development",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_refactoring_security_vulnerability_disclosure",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies refactoring practices, and make sure the result also satisfies our security guidelines around vulnerability disclosure.",
+    "reference_output": "A strong response satisfies both Refactoring Best Practices / Refactoring Checklist and Vulnerability Disclosure Best Practices: it completes the refactoring portion of the request correctly, then explicitly checks it against the vulnerability disclosure guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices",
+      "coding_refactoring_checklist",
+      "security_vulnerability_disclosure_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_load_testing_conventions",
+      "database_normalization_common_pitfalls",
+      "debugging_memory_leaks_checklist",
+      "testing_test_driven_development_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "secondary_domain": "security",
+      "secondary_subject": "vulnerability_disclosure",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_refactoring_database_schema_design",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies refactoring practices, and make sure the result also satisfies our database guidelines around schema design.",
+    "reference_output": "A strong response satisfies both Refactoring Best Practices / Refactoring Checklist and Schema Design Best Practices: it completes the refactoring portion of the request correctly, then explicitly checks it against the schema design guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices",
+      "coding_refactoring_checklist",
+      "database_schema_design_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_advanced_patterns",
+      "deployment_ci_cd_pipelines_checklist",
+      "security_threat_modeling_best_practices",
+      "database_transactions_conventions"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "secondary_domain": "database",
+      "secondary_subject": "schema_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_refactoring_deployment_containerization",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies refactoring practices, and make sure the result also satisfies our deployment guidelines around containerization.",
+    "reference_output": "A strong response satisfies both Refactoring Best Practices / Refactoring Checklist and Containerization Best Practices: it completes the refactoring portion of the request correctly, then explicitly checks it against the containerization guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_refactoring_best_practices",
+      "coding_refactoring_checklist",
+      "deployment_containerization_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_coverage_advanced_patterns",
+      "deployment_infrastructure_as_code_conventions",
+      "testing_regression_testing_best_practices",
+      "writing_grammar_and_clarity_best_practices"
+    ],
+    "metadata": {
+      "subject": "refactoring",
+      "secondary_domain": "deployment",
+      "secondary_subject": "containerization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_performance_testing_flaky_test_management",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies performance practices, and make sure the result also satisfies our testing guidelines around flaky test management.",
+    "reference_output": "A strong response satisfies both Performance Best Practices / Performance Checklist and Flaky Test Management Best Practices: it completes the performance portion of the request correctly, then explicitly checks it against the flaky test management guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "coding_performance_best_practices",
+      "coding_performance_checklist",
+      "testing_flaky_test_management_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_documentation_writing_conventions",
+      "deployment_environment_configuration_checklist",
+      "writing_persuasive_writing_advanced_patterns",
+      "research_research_design_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "secondary_domain": "testing",
+      "secondary_subject": "flaky_test_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_performance_security_input_validation",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "security"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies performance practices, and make sure the result also satisfies our security guidelines around input validation.",
+    "reference_output": "A strong response satisfies both Performance Best Practices / Performance Checklist and Input Validation Best Practices: it completes the performance portion of the request correctly, then explicitly checks it against the input validation guidance from security before calling the task done.",
+    "relevant_modules": [
+      "coding_performance_best_practices",
+      "coding_performance_checklist",
+      "security_input_validation_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_checklist",
+      "testing_load_testing_checklist",
+      "statistics_multivariate_analysis_best_practices",
+      "deployment_ci_cd_pipelines_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "secondary_domain": "security",
+      "secondary_subject": "input_validation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_performance_database_query_optimization",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "database"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies performance practices, and make sure the result also satisfies our database guidelines around query optimization.",
+    "reference_output": "A strong response satisfies both Performance Best Practices / Performance Checklist and Query Optimization Best Practices: it completes the performance portion of the request correctly, then explicitly checks it against the query optimization guidance from database before calling the task done.",
+    "relevant_modules": [
+      "coding_performance_best_practices",
+      "coding_performance_checklist",
+      "database_query_optimization_best_practices"
+    ],
+    "distractor_modules": [
+      "database_connection_pooling_common_pitfalls",
+      "statistics_bayesian_inference_checklist",
+      "debugging_memory_leaks_checklist",
+      "security_vulnerability_disclosure_conventions"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "secondary_domain": "database",
+      "secondary_subject": "query_optimization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "coding_compound_performance_deployment_infrastructure_as_code",
+    "domain": "coding",
+    "domains": [
+      "coding",
+      "deployment"
+    ],
+    "complexity": "compound",
+    "request": "Write a small program that applies performance practices, and make sure the result also satisfies our deployment guidelines around infrastructure as code.",
+    "reference_output": "A strong response satisfies both Performance Best Practices / Performance Checklist and Infrastructure As Code Best Practices: it completes the performance portion of the request correctly, then explicitly checks it against the infrastructure as code guidance from deployment before calling the task done.",
+    "relevant_modules": [
+      "coding_performance_best_practices",
+      "coding_performance_checklist",
+      "deployment_infrastructure_as_code_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_end_to_end_testing_conventions",
+      "writing_audience_adaptation_common_pitfalls",
+      "debugging_performance_profiling_best_practices",
+      "database_indexing_checklist"
+    ],
+    "metadata": {
+      "subject": "performance",
+      "secondary_domain": "deployment",
+      "secondary_subject": "infrastructure_as_code",
+      "source": "template"
+    }
+  }
+]

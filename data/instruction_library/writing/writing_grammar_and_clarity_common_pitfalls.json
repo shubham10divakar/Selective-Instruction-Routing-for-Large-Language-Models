@@ -1,0 +1,24 @@
+{
+  "module_id": "writing_grammar_and_clarity_common_pitfalls",
+  "name": "Grammar And Clarity Common Pitfalls",
+  "domain": "writing",
+  "description": "This module lists the most common pitfalls encountered in grammar and clarity work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "and",
+    "anti-patterns",
+    "clarity",
+    "common pitfalls",
+    "failure modes",
+    "grammar",
+    "grammar and clarity",
+    "pitfalls",
+    "writing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in grammar and clarity work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When grammar and clarity decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Re-check edge cases relevant to grammar and clarity (empty input, boundary values, concurrent access) before calling the task done.\n3. Validate grammar and clarity outputs against a concrete example before treating the work as complete.\n4. Measure before optimizing any grammar and clarity bottleneck; do not guess at what is slow.\n5. When multiple grammar and clarity strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Document any non-obvious grammar and clarity decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Check that grammar and clarity terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting grammar and clarity assumptions just because they seem obvious in the moment.\n- Do not silently drop grammar and clarity edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated grammar and clarity concerns into a single change; keep each change focused.\n- Avoid introducing new grammar and clarity abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these grammar and clarity guidelines if the task's constraints change significantly during the work.",
+  "token_count": 397,
+  "metadata": {
+    "subject": "grammar_and_clarity",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

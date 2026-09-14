@@ -1,0 +1,24 @@
+{
+  "module_id": "security_input_validation_conventions",
+  "name": "Input Validation Conventions",
+  "domain": "security",
+  "description": "This module governs the naming, structure, and style conventions expected when working on input validation so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "input",
+    "input validation",
+    "naming",
+    "security",
+    "style guide",
+    "validation"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on input validation so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When input validation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Re-check edge cases relevant to input validation (empty input, boundary values, concurrent access) before calling the task done.\n3. Measure before optimizing any input validation bottleneck; do not guess at what is slow.\n4. When input validation decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Before starting input validation work, confirm the scope and constraints so the approach matches the actual requirement.\n6. When multiple input validation strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Validate input validation outputs against a concrete example before treating the work as complete.\n8. State assumptions about input validation explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of input validation correctness.\n- Do not silently drop input validation edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated input validation concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about input validation over a shortcut that saves a few lines but hides intent.",
+  "token_count": 394,
+  "metadata": {
+    "subject": "input_validation",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

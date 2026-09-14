@@ -1,0 +1,23 @@
+{
+  "module_id": "testing_unit_testing_conventions",
+  "name": "Unit Testing Conventions",
+  "domain": "testing",
+  "description": "This module governs the naming, structure, and style conventions expected when working on unit testing so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "naming",
+    "style guide",
+    "testing",
+    "unit",
+    "unit testing"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on unit testing so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When multiple unit testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. When unit testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. When unit testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Re-check edge cases relevant to unit testing (empty input, boundary values, concurrent access) before calling the task done.\n5. Keep unit testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Document any non-obvious unit testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Validate unit testing outputs against a concrete example before treating the work as complete.\n8. Prefer the simplest unit testing approach that satisfies the requirement over a more general one that isn't needed yet.\n9. Surface known limitations of a chosen unit testing approach instead of presenting it as complete when it is not.\n10. State assumptions about unit testing explicitly before proceeding, rather than leaving them implicit.\n11. Measure before optimizing any unit testing bottleneck; do not guess at what is slow.\n12. Before starting unit testing work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated unit testing concerns into a single change; keep each change focused.\n- Do not skip documenting unit testing assumptions just because they seem obvious in the moment.\n- Avoid introducing new unit testing abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for unit testing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 505,
+  "metadata": {
+    "subject": "unit_testing",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

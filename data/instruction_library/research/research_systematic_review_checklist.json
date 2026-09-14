@@ -1,0 +1,22 @@
+{
+  "module_id": "research_systematic_review_checklist",
+  "name": "Systematic Review Checklist",
+  "domain": "research",
+  "description": "This module is a pre-completion checklist for systematic review work: a short set of checks to run before calling a systematic review task done.",
+  "capabilities": [
+    "checklist",
+    "pre-completion review",
+    "research",
+    "review",
+    "systematic",
+    "systematic review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for systematic review work: a short set of checks to run before calling a systematic review task done.\n\nCORE GUIDELINES\n1. Measure before optimizing any systematic review bottleneck; do not guess at what is slow.\n2. Check that systematic review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. State assumptions about systematic review explicitly before proceeding, rather than leaving them implicit.\n4. Prefer the simplest systematic review approach that satisfies the requirement over a more general one that isn't needed yet.\n5. When multiple systematic review strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Before starting systematic review work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Re-check edge cases relevant to systematic review (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new systematic review abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting systematic review assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated systematic review concerns into a single change; keep each change focused.\n- Do not apply generic systematic review advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these systematic review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 394,
+  "metadata": {
+    "subject": "systematic_review",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

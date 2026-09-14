@@ -1,0 +1,22 @@
+{
+  "module_id": "statistics_survival_analysis_best_practices",
+  "name": "Survival Analysis Best Practices",
+  "domain": "statistics",
+  "description": "This module captures the best practices for survival analysis, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "analysis",
+    "best practices",
+    "maintainability",
+    "quality",
+    "statistics",
+    "survival",
+    "survival analysis"
+  ],
+  "content": "This module captures the best practices for survival analysis, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer explicit, readable survival analysis solutions over clever ones that are hard to verify.\n2. Re-check edge cases relevant to survival analysis (empty input, boundary values, concurrent access) before calling the task done.\n3. When survival analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Check that survival analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Before starting survival analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Surface known limitations of a chosen survival analysis approach instead of presenting it as complete when it is not.\n7. State assumptions about survival analysis explicitly before proceeding, rather than leaving them implicit.\n8. Validate survival analysis outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic survival analysis advice without checking it fits the specific context at hand.\n- Do not skip documenting survival analysis assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated survival analysis concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of survival analysis correctness.\n- Do not silently drop survival analysis edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these survival analysis guidelines if the task's constraints change significantly during the work.",
+  "token_count": 444,
+  "metadata": {
+    "subject": "survival_analysis",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

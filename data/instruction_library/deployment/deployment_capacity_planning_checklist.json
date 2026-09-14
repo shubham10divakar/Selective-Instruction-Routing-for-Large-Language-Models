@@ -1,0 +1,22 @@
+{
+  "module_id": "deployment_capacity_planning_checklist",
+  "name": "Capacity Planning Checklist",
+  "domain": "deployment",
+  "description": "This module is a pre-completion checklist for capacity planning work: a short set of checks to run before calling a capacity planning task done.",
+  "capabilities": [
+    "capacity",
+    "capacity planning",
+    "checklist",
+    "deployment",
+    "planning",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for capacity planning work: a short set of checks to run before calling a capacity planning task done.\n\nCORE GUIDELINES\n1. State assumptions about capacity planning explicitly before proceeding, rather than leaving them implicit.\n2. Prefer the simplest capacity planning approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Measure before optimizing any capacity planning bottleneck; do not guess at what is slow.\n4. When multiple capacity planning strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Surface known limitations of a chosen capacity planning approach instead of presenting it as complete when it is not.\n6. Re-check edge cases relevant to capacity planning (empty input, boundary values, concurrent access) before calling the task done.\n7. Keep capacity planning changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Prefer explicit, readable capacity planning solutions over clever ones that are hard to verify.\n9. Validate capacity planning outputs against a concrete example before treating the work as complete.\n10. Check that capacity planning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new capacity planning abstractions before there is a second concrete use case that needs them.\n- Do not silently drop capacity planning edge cases to make an example look cleaner than the real system.\n- Do not skip documenting capacity planning assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about capacity planning over a shortcut that saves a few lines but hides intent.",
+  "token_count": 451,
+  "metadata": {
+    "subject": "capacity_planning",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

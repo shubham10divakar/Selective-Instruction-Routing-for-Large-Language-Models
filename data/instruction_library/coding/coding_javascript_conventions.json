@@ -1,0 +1,22 @@
+{
+  "module_id": "coding_javascript_conventions",
+  "name": "Javascript Conventions",
+  "domain": "coding",
+  "description": "This module governs the naming, structure, and style conventions expected when working on javascript so output stays consistent and easy to review.",
+  "capabilities": [
+    "coding",
+    "consistency",
+    "conventions",
+    "formatting",
+    "javascript",
+    "naming",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on javascript so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen javascript approach instead of presenting it as complete when it is not.\n2. Validate javascript outputs against a concrete example before treating the work as complete.\n3. Prefer the simplest javascript approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Check that javascript terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Measure before optimizing any javascript bottleneck; do not guess at what is slow.\n6. When javascript decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Before starting javascript work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Document any non-obvious javascript decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Prefer explicit, readable javascript solutions over clever ones that are hard to verify.\n10. Re-check edge cases relevant to javascript (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic javascript advice without checking it fits the specific context at hand.\n- Do not skip documenting javascript assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of javascript correctness.\n- Do not silently drop javascript edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about javascript over a shortcut that saves a few lines but hides intent.",
+  "token_count": 457,
+  "metadata": {
+    "subject": "javascript",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

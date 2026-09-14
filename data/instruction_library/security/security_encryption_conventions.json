@@ -1,0 +1,22 @@
+{
+  "module_id": "security_encryption_conventions",
+  "name": "Encryption Conventions",
+  "domain": "security",
+  "description": "This module governs the naming, structure, and style conventions expected when working on encryption so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "encryption",
+    "formatting",
+    "naming",
+    "security",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on encryption so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Before starting encryption work, confirm the scope and constraints so the approach matches the actual requirement.\n2. When encryption decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Document any non-obvious encryption decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Measure before optimizing any encryption bottleneck; do not guess at what is slow.\n5. Check that encryption terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. When multiple encryption strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Prefer explicit, readable encryption solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated encryption concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of encryption correctness.\n- Do not silently drop encryption edge cases to make an example look cleaner than the real system.\n- Do not skip documenting encryption assumptions just because they seem obvious in the moment.\n- Do not apply generic encryption advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about encryption over a shortcut that saves a few lines but hides intent.",
+  "token_count": 394,
+  "metadata": {
+    "subject": "encryption",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

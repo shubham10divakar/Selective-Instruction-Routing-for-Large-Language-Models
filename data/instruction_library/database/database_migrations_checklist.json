@@ -1,0 +1,20 @@
+{
+  "module_id": "database_migrations_checklist",
+  "name": "Migrations Checklist",
+  "domain": "database",
+  "description": "This module is a pre-completion checklist for migrations work: a short set of checks to run before calling a migrations task done.",
+  "capabilities": [
+    "checklist",
+    "database",
+    "migrations",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for migrations work: a short set of checks to run before calling a migrations task done.\n\nCORE GUIDELINES\n1. When multiple migrations strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Surface known limitations of a chosen migrations approach instead of presenting it as complete when it is not.\n3. When migrations guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Re-check edge cases relevant to migrations (empty input, boundary values, concurrent access) before calling the task done.\n5. Validate migrations outputs against a concrete example before treating the work as complete.\n6. Prefer explicit, readable migrations solutions over clever ones that are hard to verify.\n7. Document any non-obvious migrations decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. Keep migrations outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. When migrations decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop migrations edge cases to make an example look cleaner than the real system.\n- Do not skip documenting migrations assumptions just because they seem obvious in the moment.\n- Avoid introducing new migrations abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated migrations concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about migrations over a shortcut that saves a few lines but hides intent.",
+  "token_count": 436,
+  "metadata": {
+    "subject": "migrations",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

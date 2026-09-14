@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_data_pipelines_best_practices",
+  "name": "Data Pipelines Best Practices",
+  "domain": "data_analysis",
+  "description": "This module captures the best practices for data pipelines, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "data",
+    "data pipelines",
+    "data_analysis",
+    "maintainability",
+    "pipelines",
+    "quality"
+  ],
+  "content": "This module captures the best practices for data pipelines, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Document any non-obvious data pipelines decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Keep data pipelines outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. When multiple data pipelines strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Prefer explicit, readable data pipelines solutions over clever ones that are hard to verify.\n5. Keep data pipelines changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Measure before optimizing any data pipelines bottleneck; do not guess at what is slow.\n7. When data pipelines decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. When data pipelines guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Surface known limitations of a chosen data pipelines approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting data pipelines assumptions just because they seem obvious in the moment.\n- Do not apply generic data pipelines advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated data pipelines concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of data pipelines correctness.\n- Do not silently drop data pipelines edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these data pipelines guidelines if the task's constraints change significantly during the work.",
+  "token_count": 454,
+  "metadata": {
+    "subject": "data_pipelines",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "module_id": "statistics_hypothesis_testing_checklist",
+  "name": "Hypothesis Testing Checklist",
+  "domain": "statistics",
+  "description": "This module is a pre-completion checklist for hypothesis testing work: a short set of checks to run before calling a hypothesis testing task done.",
+  "capabilities": [
+    "checklist",
+    "hypothesis",
+    "hypothesis testing",
+    "pre-completion review",
+    "statistics",
+    "testing",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for hypothesis testing work: a short set of checks to run before calling a hypothesis testing task done.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen hypothesis testing approach instead of presenting it as complete when it is not.\n2. Check that hypothesis testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Measure before optimizing any hypothesis testing bottleneck; do not guess at what is slow.\n4. State assumptions about hypothesis testing explicitly before proceeding, rather than leaving them implicit.\n5. Validate hypothesis testing outputs against a concrete example before treating the work as complete.\n6. Prefer explicit, readable hypothesis testing solutions over clever ones that are hard to verify.\n7. When hypothesis testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Prefer the simplest hypothesis testing approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new hypothesis testing abstractions before there is a second concrete use case that needs them.\n- Do not silently drop hypothesis testing edge cases to make an example look cleaner than the real system.\n- Do not skip documenting hypothesis testing assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of hypothesis testing correctness.\n- Avoid mixing unrelated hypothesis testing concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about hypothesis testing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 450,
+  "metadata": {
+    "subject": "hypothesis_testing",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "module_id": "security_authentication_checklist",
+  "name": "Authentication Checklist",
+  "domain": "security",
+  "description": "This module is a pre-completion checklist for authentication work: a short set of checks to run before calling a authentication task done.",
+  "capabilities": [
+    "authentication",
+    "checklist",
+    "pre-completion review",
+    "security",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for authentication work: a short set of checks to run before calling a authentication task done.\n\nCORE GUIDELINES\n1. When authentication guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Surface known limitations of a chosen authentication approach instead of presenting it as complete when it is not.\n3. Validate authentication outputs against a concrete example before treating the work as complete.\n4. Prefer explicit, readable authentication solutions over clever ones that are hard to verify.\n5. When multiple authentication strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Re-check edge cases relevant to authentication (empty input, boundary values, concurrent access) before calling the task done.\n7. State assumptions about authentication explicitly before proceeding, rather than leaving them implicit.\n8. Document any non-obvious authentication decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Prefer the simplest authentication approach that satisfies the requirement over a more general one that isn't needed yet.\n10. Measure before optimizing any authentication bottleneck; do not guess at what is slow.\n11. When authentication decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n12. Keep authentication outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop authentication edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated authentication concerns into a single change; keep each change focused.\n- Do not apply generic authentication advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about authentication over a shortcut that saves a few lines but hides intent.",
+  "token_count": 506,
+  "metadata": {
+    "subject": "authentication",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

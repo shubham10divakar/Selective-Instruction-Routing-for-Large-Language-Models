@@ -1,0 +1,20 @@
+{
+  "module_id": "statistics_sampling_advanced_patterns",
+  "name": "Advanced Sampling Patterns",
+  "domain": "statistics",
+  "description": "This module describes advanced patterns for sampling intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "sampling",
+    "scalability",
+    "statistics"
+  ],
+  "content": "This module describes advanced patterns for sampling intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Check that sampling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Validate sampling outputs against a concrete example before treating the work as complete.\n3. When sampling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Prefer the simplest sampling approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Re-check edge cases relevant to sampling (empty input, boundary values, concurrent access) before calling the task done.\n6. Measure before optimizing any sampling bottleneck; do not guess at what is slow.\n7. When multiple sampling strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. State assumptions about sampling explicitly before proceeding, rather than leaving them implicit.\n9. When sampling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop sampling edge cases to make an example look cleaner than the real system.\n- Do not apply generic sampling advice without checking it fits the specific context at hand.\n- Do not skip documenting sampling assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about sampling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 397,
+  "metadata": {
+    "subject": "sampling",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

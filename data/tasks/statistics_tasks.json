@@ -1,0 +1,2062 @@
+[
+  {
+    "task_id": "statistics_simple_hypothesis_testing_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a hypothesis testing on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Hypothesis Testing Best Practices: it addresses the request about hypothesis testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_common_pitfalls",
+      "debugging_reproducing_bugs_common_pitfalls",
+      "deployment_environment_configuration_best_practices",
+      "coding_typescript_best_practices"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_regression_analysis_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a regression analysis on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Regression Analysis Best Practices: it addresses the request about regression analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_refactoring_checklist",
+      "data_analysis_exploratory_analysis_advanced_patterns",
+      "coding_code_review_checklist",
+      "data_analysis_dashboarding_checklist"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_anova_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a anova on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Anova Best Practices: it addresses the request about anova directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_anova_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "writing_proofreading_common_pitfalls",
+      "security_threat_modeling_conventions",
+      "deployment_canary_releases_best_practices"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_bayesian_inference_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a bayesian inference on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Bayesian Inference Best Practices: it addresses the request about bayesian inference directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_regression_analysis_checklist",
+      "deployment_environment_configuration_best_practices",
+      "writing_documentation_writing_best_practices",
+      "writing_audience_adaptation_checklist"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_time_series_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a time series on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Time Series Best Practices: it addresses the request about time series directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_production_incident_response_conventions",
+      "debugging_concurrency_bugs_conventions",
+      "statistics_bayesian_inference_best_practices",
+      "database_schema_design_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_survival_analysis_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a survival analysis on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Survival Analysis Best Practices: it addresses the request about survival analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_type_safety_conventions",
+      "statistics_multivariate_analysis_advanced_patterns",
+      "statistics_hypothesis_testing_common_pitfalls",
+      "security_dependency_scanning_checklist"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_experimental_design_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a experimental design on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Experimental Design Best Practices: it addresses the request about experimental design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_typescript_advanced_patterns",
+      "database_replication_checklist",
+      "debugging_performance_profiling_checklist",
+      "research_peer_review_checklist"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_sampling_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a sampling on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Sampling Best Practices: it addresses the request about sampling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_experimental_design_advanced_patterns",
+      "debugging_exception_handling_common_pitfalls",
+      "debugging_concurrency_bugs_common_pitfalls",
+      "deployment_infrastructure_as_code_checklist"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_nonparametric_methods_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a nonparametric methods on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Nonparametric Methods Best Practices: it addresses the request about nonparametric methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_checklist",
+      "data_analysis_dashboarding_advanced_patterns",
+      "data_analysis_feature_engineering_checklist",
+      "security_input_validation_best_practices"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_multivariate_analysis_0",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Perform a multivariate analysis on the provided dataset and interpret the results.",
+    "reference_output": "A strong response follows the guidance in Multivariate Analysis Best Practices: it addresses the request about multivariate analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_environment_configuration_best_practices",
+      "database_schema_design_advanced_patterns",
+      "testing_flaky_test_management_conventions",
+      "research_research_design_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_hypothesis_testing_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using hypothesis testing for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Hypothesis Testing Best Practices, Hypothesis Testing Checklist: it addresses the request about hypothesis testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices",
+      "statistics_hypothesis_testing_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_sampling_best_practices",
+      "research_systematic_review_common_pitfalls",
+      "research_citation_management_checklist",
+      "data_analysis_ab_testing_conventions"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_regression_analysis_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using regression analysis for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Regression Analysis Best Practices, Regression Analysis Checklist: it addresses the request about regression analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices",
+      "statistics_regression_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "research_research_ethics_checklist",
+      "security_encryption_conventions",
+      "testing_test_coverage_best_practices",
+      "testing_load_testing_conventions"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_anova_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using anova for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Anova Best Practices, Anova Checklist: it addresses the request about anova directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_anova_best_practices",
+      "statistics_anova_checklist"
+    ],
+    "distractor_modules": [
+      "writing_technical_writing_common_pitfalls",
+      "statistics_multivariate_analysis_common_pitfalls",
+      "coding_performance_advanced_patterns",
+      "database_query_optimization_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_bayesian_inference_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using bayesian inference for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Bayesian Inference Best Practices, Bayesian Inference Checklist: it addresses the request about bayesian inference directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "statistics_bayesian_inference_checklist"
+    ],
+    "distractor_modules": [
+      "writing_tone_and_style_conventions",
+      "writing_editing_conventions",
+      "data_analysis_dashboarding_common_pitfalls",
+      "writing_audience_adaptation_conventions"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_time_series_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using time series for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Time Series Best Practices, Time Series Checklist: it addresses the request about time series directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices",
+      "statistics_time_series_checklist"
+    ],
+    "distractor_modules": [
+      "testing_flaky_test_management_checklist",
+      "statistics_experimental_design_common_pitfalls",
+      "deployment_release_management_common_pitfalls",
+      "writing_executive_summaries_conventions"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_survival_analysis_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using survival analysis for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Survival Analysis Best Practices, Survival Analysis Checklist: it addresses the request about survival analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices",
+      "statistics_survival_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "writing_editing_conventions",
+      "writing_technical_writing_best_practices",
+      "database_normalization_checklist",
+      "statistics_multivariate_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_experimental_design_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using experimental design for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Experimental Design Best Practices, Experimental Design Checklist: it addresses the request about experimental design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices",
+      "statistics_experimental_design_checklist"
+    ],
+    "distractor_modules": [
+      "research_literature_review_checklist",
+      "writing_editing_advanced_patterns",
+      "testing_test_driven_development_best_practices",
+      "database_backup_and_recovery_checklist"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_sampling_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using sampling for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Sampling Best Practices, Sampling Checklist: it addresses the request about sampling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices",
+      "statistics_sampling_checklist"
+    ],
+    "distractor_modules": [
+      "coding_error_handling_conventions",
+      "testing_load_testing_best_practices",
+      "testing_test_driven_development_common_pitfalls",
+      "testing_test_data_management_checklist"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_nonparametric_methods_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using nonparametric methods for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Nonparametric Methods Best Practices, Nonparametric Methods Checklist: it addresses the request about nonparametric methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "statistics_nonparametric_methods_checklist"
+    ],
+    "distractor_modules": [
+      "testing_end_to_end_testing_best_practices",
+      "writing_content_structuring_best_practices",
+      "deployment_rollback_strategy_best_practices",
+      "statistics_regression_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_multivariate_analysis_1",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Design an analysis plan using multivariate analysis for our upcoming study.",
+    "reference_output": "A strong response follows the guidance in Multivariate Analysis Best Practices, Multivariate Analysis Checklist: it addresses the request about multivariate analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices",
+      "statistics_multivariate_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "security_incident_response_best_practices",
+      "data_analysis_visualization_advanced_patterns",
+      "debugging_memory_leaks_best_practices",
+      "statistics_hypothesis_testing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_hypothesis_testing_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when hypothesis testing is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Hypothesis Testing Best Practices: it addresses the request about hypothesis testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "security_encryption_conventions",
+      "statistics_regression_analysis_advanced_patterns",
+      "writing_technical_writing_checklist",
+      "data_analysis_data_cleaning_checklist"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_regression_analysis_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when regression analysis is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Regression Analysis Best Practices: it addresses the request about regression analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_exception_handling_common_pitfalls",
+      "testing_end_to_end_testing_common_pitfalls",
+      "security_incident_response_checklist",
+      "deployment_monitoring_and_alerting_conventions"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_anova_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when anova is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Anova Best Practices: it addresses the request about anova directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_anova_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_technical_writing_checklist",
+      "statistics_hypothesis_testing_common_pitfalls",
+      "writing_content_structuring_common_pitfalls",
+      "data_analysis_exploratory_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_bayesian_inference_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when bayesian inference is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Bayesian Inference Best Practices: it addresses the request about bayesian inference directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices"
+    ],
+    "distractor_modules": [
+      "database_backup_and_recovery_checklist",
+      "data_analysis_outlier_detection_best_practices",
+      "coding_type_safety_common_pitfalls",
+      "testing_unit_testing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_time_series_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when time series is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Time Series Best Practices: it addresses the request about time series directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices"
+    ],
+    "distractor_modules": [
+      "security_secrets_management_common_pitfalls",
+      "deployment_ci_cd_pipelines_advanced_patterns",
+      "writing_content_structuring_common_pitfalls",
+      "coding_refactoring_checklist"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_survival_analysis_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when survival analysis is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Survival Analysis Best Practices: it addresses the request about survival analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "database_backup_and_recovery_checklist",
+      "testing_load_testing_common_pitfalls",
+      "data_analysis_exploratory_analysis_common_pitfalls",
+      "debugging_concurrency_bugs_conventions"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_experimental_design_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when experimental design is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Experimental Design Best Practices: it addresses the request about experimental design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_production_incident_response_advanced_patterns",
+      "testing_integration_testing_best_practices",
+      "coding_performance_checklist",
+      "debugging_exception_handling_checklist"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_sampling_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when sampling is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Sampling Best Practices: it addresses the request about sampling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_api_design_checklist",
+      "debugging_exception_handling_checklist",
+      "coding_performance_best_practices",
+      "deployment_monitoring_and_alerting_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_nonparametric_methods_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when nonparametric methods is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Nonparametric Methods Best Practices: it addresses the request about nonparametric methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_design_best_practices",
+      "data_analysis_data_pipelines_checklist",
+      "deployment_canary_releases_best_practices",
+      "debugging_stack_trace_analysis_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_multivariate_analysis_2",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Explain when multivariate analysis is the appropriate method and what assumptions it requires.",
+    "reference_output": "A strong response follows the guidance in Multivariate Analysis Best Practices: it addresses the request about multivariate analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_tone_and_style_checklist",
+      "writing_technical_writing_conventions",
+      "data_analysis_feature_engineering_advanced_patterns",
+      "research_literature_review_conventions"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_hypothesis_testing_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for hypothesis testing are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Hypothesis Testing Best Practices, Hypothesis Testing Checklist: it addresses the request about hypothesis testing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices",
+      "statistics_hypothesis_testing_checklist"
+    ],
+    "distractor_modules": [
+      "database_nosql_modeling_advanced_patterns",
+      "research_qualitative_methods_conventions",
+      "database_indexing_advanced_patterns",
+      "deployment_capacity_planning_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_regression_analysis_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for regression analysis are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Regression Analysis Best Practices, Regression Analysis Checklist: it addresses the request about regression analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices",
+      "statistics_regression_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_containerization_advanced_patterns",
+      "security_encryption_checklist",
+      "testing_test_data_management_checklist",
+      "research_systematic_review_checklist"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_anova_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for anova are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Anova Best Practices, Anova Checklist: it addresses the request about anova directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_anova_best_practices",
+      "statistics_anova_checklist"
+    ],
+    "distractor_modules": [
+      "security_incident_response_advanced_patterns",
+      "statistics_bayesian_inference_advanced_patterns",
+      "testing_unit_testing_common_pitfalls",
+      "coding_code_review_conventions"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_bayesian_inference_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for bayesian inference are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Bayesian Inference Best Practices, Bayesian Inference Checklist: it addresses the request about bayesian inference directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "statistics_bayesian_inference_checklist"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_checklist",
+      "writing_executive_summaries_conventions",
+      "research_data_collection_best_practices",
+      "statistics_survival_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_time_series_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for time series are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Time Series Best Practices, Time Series Checklist: it addresses the request about time series directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices",
+      "statistics_time_series_checklist"
+    ],
+    "distractor_modules": [
+      "testing_test_data_management_checklist",
+      "database_query_optimization_advanced_patterns",
+      "security_authentication_common_pitfalls",
+      "database_replication_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_survival_analysis_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for survival analysis are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Survival Analysis Best Practices, Survival Analysis Checklist: it addresses the request about survival analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices",
+      "statistics_survival_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_nonparametric_methods_advanced_patterns",
+      "debugging_root_cause_analysis_advanced_patterns",
+      "testing_test_driven_development_conventions",
+      "debugging_logging_strategy_best_practices"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_experimental_design_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for experimental design are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Experimental Design Best Practices, Experimental Design Checklist: it addresses the request about experimental design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices",
+      "statistics_experimental_design_checklist"
+    ],
+    "distractor_modules": [
+      "writing_editing_checklist",
+      "data_analysis_outlier_detection_best_practices",
+      "debugging_concurrency_bugs_common_pitfalls",
+      "security_input_validation_checklist"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_sampling_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for sampling are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Sampling Best Practices, Sampling Checklist: it addresses the request about sampling directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices",
+      "statistics_sampling_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_capacity_planning_best_practices",
+      "testing_load_testing_checklist",
+      "statistics_hypothesis_testing_checklist",
+      "security_secure_coding_conventions"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_nonparametric_methods_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for nonparametric methods are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Nonparametric Methods Best Practices, Nonparametric Methods Checklist: it addresses the request about nonparametric methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "statistics_nonparametric_methods_checklist"
+    ],
+    "distractor_modules": [
+      "security_authentication_conventions",
+      "research_systematic_review_best_practices",
+      "database_query_optimization_advanced_patterns",
+      "statistics_survival_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_simple_multivariate_analysis_3",
+    "domain": "statistics",
+    "domains": [
+      "statistics"
+    ],
+    "complexity": "simple",
+    "request": "Check whether the assumptions for multivariate analysis are met in this dataset and report any violations.",
+    "reference_output": "A strong response follows the guidance in Multivariate Analysis Best Practices, Multivariate Analysis Checklist: it addresses the request about multivariate analysis directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices",
+      "statistics_multivariate_analysis_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_best_practices",
+      "database_connection_pooling_conventions",
+      "debugging_regression_bisection_advanced_patterns",
+      "database_indexing_checklist"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_hypothesis_testing_coding_python",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies hypothesis testing practices, and make sure the result also satisfies our coding guidelines around python.",
+    "reference_output": "A strong response satisfies both Hypothesis Testing Best Practices / Hypothesis Testing Checklist and Python Best Practices: it completes the hypothesis testing portion of the request correctly, then explicitly checks it against the python guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices",
+      "statistics_hypothesis_testing_checklist",
+      "coding_python_best_practices"
+    ],
+    "distractor_modules": [
+      "research_data_collection_advanced_patterns",
+      "statistics_experimental_design_conventions",
+      "statistics_multivariate_analysis_common_pitfalls",
+      "testing_regression_testing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "secondary_domain": "coding",
+      "secondary_subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_hypothesis_testing_data_analysis_data_cleaning",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies hypothesis testing practices, and make sure the result also satisfies our data analysis guidelines around data cleaning.",
+    "reference_output": "A strong response satisfies both Hypothesis Testing Best Practices / Hypothesis Testing Checklist and Data Cleaning Best Practices: it completes the hypothesis testing portion of the request correctly, then explicitly checks it against the data cleaning guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices",
+      "statistics_hypothesis_testing_checklist",
+      "data_analysis_data_cleaning_best_practices"
+    ],
+    "distractor_modules": [
+      "security_authorization_conventions",
+      "debugging_logging_strategy_checklist",
+      "coding_api_design_best_practices",
+      "security_dependency_scanning_conventions"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_hypothesis_testing_research_citation_management",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies hypothesis testing practices, and make sure the result also satisfies our research guidelines around citation management.",
+    "reference_output": "A strong response satisfies both Hypothesis Testing Best Practices / Hypothesis Testing Checklist and Citation Management Best Practices: it completes the hypothesis testing portion of the request correctly, then explicitly checks it against the citation management guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices",
+      "statistics_hypothesis_testing_checklist",
+      "research_citation_management_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_end_to_end_testing_common_pitfalls",
+      "security_encryption_best_practices",
+      "testing_test_data_management_conventions",
+      "coding_javascript_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "secondary_domain": "research",
+      "secondary_subject": "citation_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_hypothesis_testing_writing_documentation_writing",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies hypothesis testing practices, and make sure the result also satisfies our writing guidelines around documentation writing.",
+    "reference_output": "A strong response satisfies both Hypothesis Testing Best Practices / Hypothesis Testing Checklist and Documentation Writing Best Practices: it completes the hypothesis testing portion of the request correctly, then explicitly checks it against the documentation writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_hypothesis_testing_best_practices",
+      "statistics_hypothesis_testing_checklist",
+      "writing_documentation_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_advanced_patterns",
+      "writing_editing_checklist",
+      "coding_api_design_advanced_patterns",
+      "coding_type_safety_best_practices"
+    ],
+    "metadata": {
+      "subject": "hypothesis_testing",
+      "secondary_domain": "writing",
+      "secondary_subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_regression_analysis_coding_javascript",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies regression analysis practices, and make sure the result also satisfies our coding guidelines around javascript.",
+    "reference_output": "A strong response satisfies both Regression Analysis Best Practices / Regression Analysis Checklist and Javascript Best Practices: it completes the regression analysis portion of the request correctly, then explicitly checks it against the javascript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices",
+      "statistics_regression_analysis_checklist",
+      "coding_javascript_best_practices"
+    ],
+    "distractor_modules": [
+      "security_incident_response_checklist",
+      "coding_python_conventions",
+      "testing_unit_testing_conventions",
+      "testing_flaky_test_management_best_practices"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "secondary_domain": "coding",
+      "secondary_subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_regression_analysis_data_analysis_feature_engineering",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies regression analysis practices, and make sure the result also satisfies our data analysis guidelines around feature engineering.",
+    "reference_output": "A strong response satisfies both Regression Analysis Best Practices / Regression Analysis Checklist and Feature Engineering Best Practices: it completes the regression analysis portion of the request correctly, then explicitly checks it against the feature engineering guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices",
+      "statistics_regression_analysis_checklist",
+      "data_analysis_feature_engineering_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_outlier_detection_conventions",
+      "data_analysis_cohort_analysis_conventions",
+      "debugging_stack_trace_analysis_checklist",
+      "data_analysis_exploratory_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_regression_analysis_research_peer_review",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies regression analysis practices, and make sure the result also satisfies our research guidelines around peer review.",
+    "reference_output": "A strong response satisfies both Regression Analysis Best Practices / Regression Analysis Checklist and Peer Review Best Practices: it completes the regression analysis portion of the request correctly, then explicitly checks it against the peer review guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices",
+      "statistics_regression_analysis_checklist",
+      "research_peer_review_best_practices"
+    ],
+    "distractor_modules": [
+      "research_literature_review_advanced_patterns",
+      "coding_type_safety_best_practices",
+      "coding_typescript_conventions",
+      "data_analysis_outlier_detection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "secondary_domain": "research",
+      "secondary_subject": "peer_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_regression_analysis_writing_executive_summaries",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies regression analysis practices, and make sure the result also satisfies our writing guidelines around executive summaries.",
+    "reference_output": "A strong response satisfies both Regression Analysis Best Practices / Regression Analysis Checklist and Executive Summaries Best Practices: it completes the regression analysis portion of the request correctly, then explicitly checks it against the executive summaries guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_regression_analysis_best_practices",
+      "statistics_regression_analysis_checklist",
+      "writing_executive_summaries_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_containerization_checklist",
+      "database_replication_checklist",
+      "testing_flaky_test_management_checklist",
+      "coding_code_review_best_practices"
+    ],
+    "metadata": {
+      "subject": "regression_analysis",
+      "secondary_domain": "writing",
+      "secondary_subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_anova_coding_typescript",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies anova practices, and make sure the result also satisfies our coding guidelines around typescript.",
+    "reference_output": "A strong response satisfies both Anova Best Practices / Anova Checklist and Typescript Best Practices: it completes the anova portion of the request correctly, then explicitly checks it against the typescript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_anova_best_practices",
+      "statistics_anova_checklist",
+      "coding_typescript_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_advanced_patterns",
+      "writing_executive_summaries_common_pitfalls",
+      "debugging_root_cause_analysis_common_pitfalls",
+      "research_citation_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "secondary_domain": "coding",
+      "secondary_subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_anova_data_analysis_visualization",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies anova practices, and make sure the result also satisfies our data analysis guidelines around visualization.",
+    "reference_output": "A strong response satisfies both Anova Best Practices / Anova Checklist and Visualization Best Practices: it completes the anova portion of the request correctly, then explicitly checks it against the visualization guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_anova_best_practices",
+      "statistics_anova_checklist",
+      "data_analysis_visualization_best_practices"
+    ],
+    "distractor_modules": [
+      "research_peer_review_best_practices",
+      "database_indexing_advanced_patterns",
+      "writing_audience_adaptation_checklist",
+      "testing_mocking_checklist"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_anova_research_grant_writing",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies anova practices, and make sure the result also satisfies our research guidelines around grant writing.",
+    "reference_output": "A strong response satisfies both Anova Best Practices / Anova Checklist and Grant Writing Best Practices: it completes the anova portion of the request correctly, then explicitly checks it against the grant writing guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_anova_best_practices",
+      "statistics_anova_checklist",
+      "research_grant_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "security_input_validation_best_practices",
+      "debugging_reproducing_bugs_advanced_patterns",
+      "research_research_ethics_conventions",
+      "debugging_logging_strategy_checklist"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "secondary_domain": "research",
+      "secondary_subject": "grant_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_anova_writing_persuasive_writing",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies anova practices, and make sure the result also satisfies our writing guidelines around persuasive writing.",
+    "reference_output": "A strong response satisfies both Anova Best Practices / Anova Checklist and Persuasive Writing Best Practices: it completes the anova portion of the request correctly, then explicitly checks it against the persuasive writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_anova_best_practices",
+      "statistics_anova_checklist",
+      "writing_persuasive_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "security_authentication_common_pitfalls",
+      "database_nosql_modeling_common_pitfalls",
+      "security_encryption_best_practices",
+      "research_qualitative_methods_best_practices"
+    ],
+    "metadata": {
+      "subject": "anova",
+      "secondary_domain": "writing",
+      "secondary_subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_bayesian_inference_coding_api_design",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies bayesian inference practices, and make sure the result also satisfies our coding guidelines around api design.",
+    "reference_output": "A strong response satisfies both Bayesian Inference Best Practices / Bayesian Inference Checklist and Api Design Best Practices: it completes the bayesian inference portion of the request correctly, then explicitly checks it against the api design guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "statistics_bayesian_inference_checklist",
+      "coding_api_design_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_visualization_conventions",
+      "coding_typescript_common_pitfalls",
+      "research_peer_review_checklist",
+      "statistics_nonparametric_methods_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "secondary_domain": "coding",
+      "secondary_subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_bayesian_inference_data_analysis_dashboarding",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies bayesian inference practices, and make sure the result also satisfies our data analysis guidelines around dashboarding.",
+    "reference_output": "A strong response satisfies both Bayesian Inference Best Practices / Bayesian Inference Checklist and Dashboarding Best Practices: it completes the bayesian inference portion of the request correctly, then explicitly checks it against the dashboarding guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "statistics_bayesian_inference_checklist",
+      "data_analysis_dashboarding_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_performance_profiling_advanced_patterns",
+      "security_vulnerability_disclosure_advanced_patterns",
+      "statistics_survival_analysis_best_practices",
+      "testing_unit_testing_conventions"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_bayesian_inference_research_data_collection",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies bayesian inference practices, and make sure the result also satisfies our research guidelines around data collection.",
+    "reference_output": "A strong response satisfies both Bayesian Inference Best Practices / Bayesian Inference Checklist and Data Collection Best Practices: it completes the bayesian inference portion of the request correctly, then explicitly checks it against the data collection guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "statistics_bayesian_inference_checklist",
+      "research_data_collection_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_tone_and_style_common_pitfalls",
+      "research_research_ethics_conventions",
+      "testing_unit_testing_advanced_patterns",
+      "data_analysis_cohort_analysis_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "secondary_domain": "research",
+      "secondary_subject": "data_collection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_bayesian_inference_writing_grammar_and_clarity",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies bayesian inference practices, and make sure the result also satisfies our writing guidelines around grammar and clarity.",
+    "reference_output": "A strong response satisfies both Bayesian Inference Best Practices / Bayesian Inference Checklist and Grammar And Clarity Best Practices: it completes the bayesian inference portion of the request correctly, then explicitly checks it against the grammar and clarity guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "statistics_bayesian_inference_checklist",
+      "writing_grammar_and_clarity_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_time_series_best_practices",
+      "coding_api_design_checklist",
+      "debugging_logging_strategy_checklist",
+      "research_citation_management_conventions"
+    ],
+    "metadata": {
+      "subject": "bayesian_inference",
+      "secondary_domain": "writing",
+      "secondary_subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_time_series_coding_error_handling",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies time series practices, and make sure the result also satisfies our coding guidelines around error handling.",
+    "reference_output": "A strong response satisfies both Time Series Best Practices / Time Series Checklist and Error Handling Best Practices: it completes the time series portion of the request correctly, then explicitly checks it against the error handling guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices",
+      "statistics_time_series_checklist",
+      "coding_error_handling_best_practices"
+    ],
+    "distractor_modules": [
+      "security_input_validation_advanced_patterns",
+      "debugging_reproducing_bugs_conventions",
+      "writing_content_structuring_common_pitfalls",
+      "research_data_collection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "secondary_domain": "coding",
+      "secondary_subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_time_series_data_analysis_cohort_analysis",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies time series practices, and make sure the result also satisfies our data analysis guidelines around cohort analysis.",
+    "reference_output": "A strong response satisfies both Time Series Best Practices / Time Series Checklist and Cohort Analysis Best Practices: it completes the time series portion of the request correctly, then explicitly checks it against the cohort analysis guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices",
+      "statistics_time_series_checklist",
+      "data_analysis_cohort_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_exception_handling_advanced_patterns",
+      "data_analysis_ab_testing_best_practices",
+      "deployment_environment_configuration_checklist",
+      "coding_typescript_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_time_series_research_qualitative_methods",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies time series practices, and make sure the result also satisfies our research guidelines around qualitative methods.",
+    "reference_output": "A strong response satisfies both Time Series Best Practices / Time Series Checklist and Qualitative Methods Best Practices: it completes the time series portion of the request correctly, then explicitly checks it against the qualitative methods guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices",
+      "statistics_time_series_checklist",
+      "research_qualitative_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "database_connection_pooling_conventions",
+      "deployment_rollback_strategy_best_practices",
+      "debugging_performance_profiling_conventions",
+      "statistics_multivariate_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "secondary_domain": "research",
+      "secondary_subject": "qualitative_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_time_series_writing_content_structuring",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies time series practices, and make sure the result also satisfies our writing guidelines around content structuring.",
+    "reference_output": "A strong response satisfies both Time Series Best Practices / Time Series Checklist and Content Structuring Best Practices: it completes the time series portion of the request correctly, then explicitly checks it against the content structuring guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_time_series_best_practices",
+      "statistics_time_series_checklist",
+      "writing_content_structuring_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_nonparametric_methods_checklist",
+      "writing_audience_adaptation_advanced_patterns",
+      "testing_unit_testing_conventions",
+      "data_analysis_cohort_analysis_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "time_series",
+      "secondary_domain": "writing",
+      "secondary_subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_survival_analysis_coding_type_safety",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies survival analysis practices, and make sure the result also satisfies our coding guidelines around type safety.",
+    "reference_output": "A strong response satisfies both Survival Analysis Best Practices / Survival Analysis Checklist and Type Safety Best Practices: it completes the survival analysis portion of the request correctly, then explicitly checks it against the type safety guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices",
+      "statistics_survival_analysis_checklist",
+      "coding_type_safety_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_content_structuring_common_pitfalls",
+      "research_systematic_review_conventions",
+      "statistics_sampling_advanced_patterns",
+      "coding_documentation_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "secondary_domain": "coding",
+      "secondary_subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_survival_analysis_data_analysis_ab_testing",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies survival analysis practices, and make sure the result also satisfies our data analysis guidelines around ab testing.",
+    "reference_output": "A strong response satisfies both Survival Analysis Best Practices / Survival Analysis Checklist and Ab Testing Best Practices: it completes the survival analysis portion of the request correctly, then explicitly checks it against the ab testing guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices",
+      "statistics_survival_analysis_checklist",
+      "data_analysis_ab_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_checklist",
+      "data_analysis_feature_engineering_conventions",
+      "coding_api_design_best_practices",
+      "data_analysis_data_cleaning_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_survival_analysis_research_systematic_review",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies survival analysis practices, and make sure the result also satisfies our research guidelines around systematic review.",
+    "reference_output": "A strong response satisfies both Survival Analysis Best Practices / Survival Analysis Checklist and Systematic Review Best Practices: it completes the survival analysis portion of the request correctly, then explicitly checks it against the systematic review guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices",
+      "statistics_survival_analysis_checklist",
+      "research_systematic_review_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_outlier_detection_checklist",
+      "database_transactions_best_practices",
+      "database_migrations_advanced_patterns",
+      "testing_test_driven_development_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "secondary_domain": "research",
+      "secondary_subject": "systematic_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_survival_analysis_writing_audience_adaptation",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies survival analysis practices, and make sure the result also satisfies our writing guidelines around audience adaptation.",
+    "reference_output": "A strong response satisfies both Survival Analysis Best Practices / Survival Analysis Checklist and Audience Adaptation Best Practices: it completes the survival analysis portion of the request correctly, then explicitly checks it against the audience adaptation guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_survival_analysis_best_practices",
+      "statistics_survival_analysis_checklist",
+      "writing_audience_adaptation_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_grammar_and_clarity_checklist",
+      "data_analysis_exploratory_analysis_advanced_patterns",
+      "testing_flaky_test_management_conventions",
+      "debugging_memory_leaks_conventions"
+    ],
+    "metadata": {
+      "subject": "survival_analysis",
+      "secondary_domain": "writing",
+      "secondary_subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_experimental_design_coding_code_review",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies experimental design practices, and make sure the result also satisfies our coding guidelines around code review.",
+    "reference_output": "A strong response satisfies both Experimental Design Best Practices / Experimental Design Checklist and Code Review Best Practices: it completes the experimental design portion of the request correctly, then explicitly checks it against the code review guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices",
+      "statistics_experimental_design_checklist",
+      "coding_code_review_best_practices"
+    ],
+    "distractor_modules": [
+      "research_qualitative_methods_common_pitfalls",
+      "security_authentication_conventions",
+      "testing_test_driven_development_checklist",
+      "statistics_survival_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "secondary_domain": "coding",
+      "secondary_subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_experimental_design_data_analysis_reporting",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies experimental design practices, and make sure the result also satisfies our data analysis guidelines around reporting.",
+    "reference_output": "A strong response satisfies both Experimental Design Best Practices / Experimental Design Checklist and Reporting Best Practices: it completes the experimental design portion of the request correctly, then explicitly checks it against the reporting guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices",
+      "statistics_experimental_design_checklist",
+      "data_analysis_reporting_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_persuasive_writing_common_pitfalls",
+      "deployment_capacity_planning_conventions",
+      "database_schema_design_checklist",
+      "coding_typescript_best_practices"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_experimental_design_research_research_ethics",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies experimental design practices, and make sure the result also satisfies our research guidelines around research ethics.",
+    "reference_output": "A strong response satisfies both Experimental Design Best Practices / Experimental Design Checklist and Research Ethics Best Practices: it completes the experimental design portion of the request correctly, then explicitly checks it against the research ethics guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices",
+      "statistics_experimental_design_checklist",
+      "research_research_ethics_best_practices"
+    ],
+    "distractor_modules": [
+      "research_grant_writing_checklist",
+      "coding_type_safety_best_practices",
+      "debugging_reproducing_bugs_conventions",
+      "data_analysis_outlier_detection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "secondary_domain": "research",
+      "secondary_subject": "research_ethics",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_experimental_design_writing_proofreading",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies experimental design practices, and make sure the result also satisfies our writing guidelines around proofreading.",
+    "reference_output": "A strong response satisfies both Experimental Design Best Practices / Experimental Design Checklist and Proofreading Best Practices: it completes the experimental design portion of the request correctly, then explicitly checks it against the proofreading guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_experimental_design_best_practices",
+      "statistics_experimental_design_checklist",
+      "writing_proofreading_best_practices"
+    ],
+    "distractor_modules": [
+      "research_literature_review_best_practices",
+      "coding_error_handling_advanced_patterns",
+      "database_query_optimization_advanced_patterns",
+      "research_reproducibility_checklist"
+    ],
+    "metadata": {
+      "subject": "experimental_design",
+      "secondary_domain": "writing",
+      "secondary_subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_sampling_coding_documentation",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies sampling practices, and make sure the result also satisfies our coding guidelines around documentation.",
+    "reference_output": "A strong response satisfies both Sampling Best Practices / Sampling Checklist and Documentation Best Practices: it completes the sampling portion of the request correctly, then explicitly checks it against the documentation guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices",
+      "statistics_sampling_checklist",
+      "coding_documentation_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_ethics_checklist",
+      "coding_python_best_practices",
+      "security_authorization_advanced_patterns",
+      "testing_test_data_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "secondary_domain": "coding",
+      "secondary_subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_sampling_data_analysis_data_pipelines",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies sampling practices, and make sure the result also satisfies our data analysis guidelines around data pipelines.",
+    "reference_output": "A strong response satisfies both Sampling Best Practices / Sampling Checklist and Data Pipelines Best Practices: it completes the sampling portion of the request correctly, then explicitly checks it against the data pipelines guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices",
+      "statistics_sampling_checklist",
+      "data_analysis_data_pipelines_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_hypothesis_testing_common_pitfalls",
+      "data_analysis_cohort_analysis_checklist",
+      "deployment_release_management_conventions",
+      "statistics_anova_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_sampling_research_reproducibility",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies sampling practices, and make sure the result also satisfies our research guidelines around reproducibility.",
+    "reference_output": "A strong response satisfies both Sampling Best Practices / Sampling Checklist and Reproducibility Best Practices: it completes the sampling portion of the request correctly, then explicitly checks it against the reproducibility guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices",
+      "statistics_sampling_checklist",
+      "research_reproducibility_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_reporting_checklist",
+      "deployment_capacity_planning_checklist",
+      "database_nosql_modeling_checklist",
+      "security_secrets_management_checklist"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "secondary_domain": "research",
+      "secondary_subject": "reproducibility",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_sampling_writing_technical_writing",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies sampling practices, and make sure the result also satisfies our writing guidelines around technical writing.",
+    "reference_output": "A strong response satisfies both Sampling Best Practices / Sampling Checklist and Technical Writing Best Practices: it completes the sampling portion of the request correctly, then explicitly checks it against the technical writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_sampling_best_practices",
+      "statistics_sampling_checklist",
+      "writing_technical_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_performance_profiling_conventions",
+      "statistics_experimental_design_conventions",
+      "data_analysis_exploratory_analysis_best_practices",
+      "statistics_anova_best_practices"
+    ],
+    "metadata": {
+      "subject": "sampling",
+      "secondary_domain": "writing",
+      "secondary_subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_nonparametric_methods_coding_refactoring",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies nonparametric methods practices, and make sure the result also satisfies our coding guidelines around refactoring.",
+    "reference_output": "A strong response satisfies both Nonparametric Methods Best Practices / Nonparametric Methods Checklist and Refactoring Best Practices: it completes the nonparametric methods portion of the request correctly, then explicitly checks it against the refactoring guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "statistics_nonparametric_methods_checklist",
+      "coding_refactoring_best_practices"
+    ],
+    "distractor_modules": [
+      "research_peer_review_advanced_patterns",
+      "writing_editing_common_pitfalls",
+      "research_systematic_review_common_pitfalls",
+      "security_vulnerability_disclosure_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "secondary_domain": "coding",
+      "secondary_subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_nonparametric_methods_data_analysis_outlier_detection",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies nonparametric methods practices, and make sure the result also satisfies our data analysis guidelines around outlier detection.",
+    "reference_output": "A strong response satisfies both Nonparametric Methods Best Practices / Nonparametric Methods Checklist and Outlier Detection Best Practices: it completes the nonparametric methods portion of the request correctly, then explicitly checks it against the outlier detection guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "statistics_nonparametric_methods_checklist",
+      "data_analysis_outlier_detection_best_practices"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_common_pitfalls",
+      "data_analysis_visualization_checklist",
+      "database_normalization_conventions",
+      "coding_code_review_checklist"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_nonparametric_methods_research_literature_review",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies nonparametric methods practices, and make sure the result also satisfies our research guidelines around literature review.",
+    "reference_output": "A strong response satisfies both Nonparametric Methods Best Practices / Nonparametric Methods Checklist and Literature Review Best Practices: it completes the nonparametric methods portion of the request correctly, then explicitly checks it against the literature review guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "statistics_nonparametric_methods_checklist",
+      "research_literature_review_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_time_series_advanced_patterns",
+      "statistics_anova_advanced_patterns",
+      "testing_integration_testing_best_practices",
+      "writing_persuasive_writing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "secondary_domain": "research",
+      "secondary_subject": "literature_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_nonparametric_methods_writing_editing",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies nonparametric methods practices, and make sure the result also satisfies our writing guidelines around editing.",
+    "reference_output": "A strong response satisfies both Nonparametric Methods Best Practices / Nonparametric Methods Checklist and Editing Best Practices: it completes the nonparametric methods portion of the request correctly, then explicitly checks it against the editing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "statistics_nonparametric_methods_checklist",
+      "writing_editing_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_refactoring_conventions",
+      "research_grant_writing_advanced_patterns",
+      "deployment_canary_releases_advanced_patterns",
+      "writing_proofreading_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "nonparametric_methods",
+      "secondary_domain": "writing",
+      "secondary_subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_multivariate_analysis_coding_performance",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies multivariate analysis practices, and make sure the result also satisfies our coding guidelines around performance.",
+    "reference_output": "A strong response satisfies both Multivariate Analysis Best Practices / Multivariate Analysis Checklist and Performance Best Practices: it completes the multivariate analysis portion of the request correctly, then explicitly checks it against the performance guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices",
+      "statistics_multivariate_analysis_checklist",
+      "coding_performance_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_blue_green_deployment_conventions",
+      "testing_end_to_end_testing_conventions",
+      "coding_documentation_advanced_patterns",
+      "statistics_bayesian_inference_conventions"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "secondary_domain": "coding",
+      "secondary_subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_multivariate_analysis_data_analysis_exploratory_analysis",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies multivariate analysis practices, and make sure the result also satisfies our data analysis guidelines around exploratory analysis.",
+    "reference_output": "A strong response satisfies both Multivariate Analysis Best Practices / Multivariate Analysis Checklist and Exploratory Analysis Best Practices: it completes the multivariate analysis portion of the request correctly, then explicitly checks it against the exploratory analysis guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices",
+      "statistics_multivariate_analysis_checklist",
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_checklist",
+      "deployment_monitoring_and_alerting_advanced_patterns",
+      "security_incident_response_conventions",
+      "data_analysis_data_pipelines_checklist"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_multivariate_analysis_research_research_design",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies multivariate analysis practices, and make sure the result also satisfies our research guidelines around research design.",
+    "reference_output": "A strong response satisfies both Multivariate Analysis Best Practices / Multivariate Analysis Checklist and Research Design Best Practices: it completes the multivariate analysis portion of the request correctly, then explicitly checks it against the research design guidance from research before calling the task done.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices",
+      "statistics_multivariate_analysis_checklist",
+      "research_research_design_best_practices"
+    ],
+    "distractor_modules": [
+      "research_research_ethics_common_pitfalls",
+      "coding_javascript_advanced_patterns",
+      "testing_test_coverage_best_practices",
+      "deployment_environment_configuration_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "secondary_domain": "research",
+      "secondary_subject": "research_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "statistics_compound_multivariate_analysis_writing_tone_and_style",
+    "domain": "statistics",
+    "domains": [
+      "statistics",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Run a statistical analysis that applies multivariate analysis practices, and make sure the result also satisfies our writing guidelines around tone and style.",
+    "reference_output": "A strong response satisfies both Multivariate Analysis Best Practices / Multivariate Analysis Checklist and Tone And Style Best Practices: it completes the multivariate analysis portion of the request correctly, then explicitly checks it against the tone and style guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "statistics_multivariate_analysis_best_practices",
+      "statistics_multivariate_analysis_checklist",
+      "writing_tone_and_style_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_concurrency_bugs_conventions",
+      "research_data_collection_checklist",
+      "writing_content_structuring_conventions",
+      "coding_typescript_checklist"
+    ],
+    "metadata": {
+      "subject": "multivariate_analysis",
+      "secondary_domain": "writing",
+      "secondary_subject": "tone_and_style",
+      "source": "template"
+    }
+  }
+]

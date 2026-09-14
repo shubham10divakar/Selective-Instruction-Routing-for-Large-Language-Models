@@ -1,0 +1,20 @@
+{
+  "module_id": "database_transactions_advanced_patterns",
+  "name": "Advanced Transactions Patterns",
+  "domain": "database",
+  "description": "This module describes advanced patterns for transactions intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "database",
+    "edge cases",
+    "scalability",
+    "transactions"
+  ],
+  "content": "This module describes advanced patterns for transactions intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Validate transactions outputs against a concrete example before treating the work as complete.\n2. Check that transactions terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. State assumptions about transactions explicitly before proceeding, rather than leaving them implicit.\n4. Before starting transactions work, confirm the scope and constraints so the approach matches the actual requirement.\n5. When multiple transactions strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Document any non-obvious transactions decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Keep transactions changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic transactions advice without checking it fits the specific context at hand.\n- Avoid introducing new transactions abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting transactions assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for transactions, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 357,
+  "metadata": {
+    "subject": "transactions",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

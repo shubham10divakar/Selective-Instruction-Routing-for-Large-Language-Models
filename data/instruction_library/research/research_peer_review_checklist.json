@@ -1,0 +1,22 @@
+{
+  "module_id": "research_peer_review_checklist",
+  "name": "Peer Review Checklist",
+  "domain": "research",
+  "description": "This module is a pre-completion checklist for peer review work: a short set of checks to run before calling a peer review task done.",
+  "capabilities": [
+    "checklist",
+    "peer",
+    "peer review",
+    "pre-completion review",
+    "research",
+    "review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for peer review work: a short set of checks to run before calling a peer review task done.\n\nCORE GUIDELINES\n1. Document any non-obvious peer review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Prefer explicit, readable peer review solutions over clever ones that are hard to verify.\n3. Check that peer review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When multiple peer review strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Prefer the simplest peer review approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Keep peer review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Before starting peer review work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated peer review concerns into a single change; keep each change focused.\n- Do not silently drop peer review edge cases to make an example look cleaner than the real system.\n- Do not skip documenting peer review assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these peer review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 353,
+  "metadata": {
+    "subject": "peer_review",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

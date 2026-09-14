@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_exploratory_analysis_checklist",
+  "name": "Exploratory Analysis Checklist",
+  "domain": "data_analysis",
+  "description": "This module is a pre-completion checklist for exploratory analysis work: a short set of checks to run before calling a exploratory analysis task done.",
+  "capabilities": [
+    "analysis",
+    "checklist",
+    "data_analysis",
+    "exploratory",
+    "exploratory analysis",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for exploratory analysis work: a short set of checks to run before calling a exploratory analysis task done.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to exploratory analysis (empty input, boundary values, concurrent access) before calling the task done.\n2. When exploratory analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Validate exploratory analysis outputs against a concrete example before treating the work as complete.\n4. State assumptions about exploratory analysis explicitly before proceeding, rather than leaving them implicit.\n5. Before starting exploratory analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n6. When multiple exploratory analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Prefer explicit, readable exploratory analysis solutions over clever ones that are hard to verify.\n8. Keep exploratory analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Measure before optimizing any exploratory analysis bottleneck; do not guess at what is slow.\n10. Document any non-obvious exploratory analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. Surface known limitations of a chosen exploratory analysis approach instead of presenting it as complete when it is not.\n12. Prefer the simplest exploratory analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop exploratory analysis edge cases to make an example look cleaner than the real system.\n- Do not apply generic exploratory analysis advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated exploratory analysis concerns into a single change; keep each change focused.\n- Do not skip documenting exploratory analysis assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for exploratory analysis, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 556,
+  "metadata": {
+    "subject": "exploratory_analysis",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "module_id": "coding_refactoring_common_pitfalls",
+  "name": "Refactoring Common Pitfalls",
+  "domain": "coding",
+  "description": "This module lists the most common pitfalls encountered in refactoring work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "coding",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "refactoring"
+  ],
+  "content": "This module lists the most common pitfalls encountered in refactoring work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When refactoring decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When multiple refactoring strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Keep refactoring changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Prefer the simplest refactoring approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Re-check edge cases relevant to refactoring (empty input, boundary values, concurrent access) before calling the task done.\n6. Document any non-obvious refactoring decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Validate refactoring outputs against a concrete example before treating the work as complete.\n8. When refactoring guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting refactoring assumptions just because they seem obvious in the moment.\n- Do not silently drop refactoring edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated refactoring concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these refactoring guidelines if the task's constraints change significantly during the work.",
+  "token_count": 379,
+  "metadata": {
+    "subject": "refactoring",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

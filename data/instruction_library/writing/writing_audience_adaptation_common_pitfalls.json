@@ -1,0 +1,23 @@
+{
+  "module_id": "writing_audience_adaptation_common_pitfalls",
+  "name": "Audience Adaptation Common Pitfalls",
+  "domain": "writing",
+  "description": "This module lists the most common pitfalls encountered in audience adaptation work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "adaptation",
+    "anti-patterns",
+    "audience",
+    "audience adaptation",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "writing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in audience adaptation work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Validate audience adaptation outputs against a concrete example before treating the work as complete.\n2. Keep audience adaptation outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Surface known limitations of a chosen audience adaptation approach instead of presenting it as complete when it is not.\n4. Prefer explicit, readable audience adaptation solutions over clever ones that are hard to verify.\n5. State assumptions about audience adaptation explicitly before proceeding, rather than leaving them implicit.\n6. Re-check edge cases relevant to audience adaptation (empty input, boundary values, concurrent access) before calling the task done.\n7. Measure before optimizing any audience adaptation bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of audience adaptation correctness.\n- Do not apply generic audience adaptation advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated audience adaptation concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about audience adaptation over a shortcut that saves a few lines but hides intent.",
+  "token_count": 360,
+  "metadata": {
+    "subject": "audience_adaptation",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_outlier_detection_best_practices",
+  "name": "Outlier Detection Best Practices",
+  "domain": "data_analysis",
+  "description": "This module captures the best practices for outlier detection, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "data_analysis",
+    "detection",
+    "maintainability",
+    "outlier",
+    "outlier detection",
+    "quality"
+  ],
+  "content": "This module captures the best practices for outlier detection, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When outlier detection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When multiple outlier detection strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Surface known limitations of a chosen outlier detection approach instead of presenting it as complete when it is not.\n4. Validate outlier detection outputs against a concrete example before treating the work as complete.\n5. Keep outlier detection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Before starting outlier detection work, confirm the scope and constraints so the approach matches the actual requirement.\n7. State assumptions about outlier detection explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting outlier detection assumptions just because they seem obvious in the moment.\n- Avoid introducing new outlier detection abstractions before there is a second concrete use case that needs them.\n- Do not apply generic outlier detection advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for outlier detection, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 368,
+  "metadata": {
+    "subject": "outlier_detection",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

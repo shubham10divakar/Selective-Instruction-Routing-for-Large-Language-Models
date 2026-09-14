@@ -1,0 +1,24 @@
+{
+  "module_id": "security_secure_coding_conventions",
+  "name": "Secure Coding Conventions",
+  "domain": "security",
+  "description": "This module governs the naming, structure, and style conventions expected when working on secure coding so output stays consistent and easy to review.",
+  "capabilities": [
+    "coding",
+    "consistency",
+    "conventions",
+    "formatting",
+    "naming",
+    "secure",
+    "secure coding",
+    "security",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on secure coding so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When secure coding guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Before starting secure coding work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Prefer the simplest secure coding approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Prefer explicit, readable secure coding solutions over clever ones that are hard to verify.\n5. Keep secure coding changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. When secure coding decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. State assumptions about secure coding explicitly before proceeding, rather than leaving them implicit.\n8. Keep secure coding outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Check that secure coding terminology is used consistently throughout, matching existing conventions in the surrounding context.\n10. Document any non-obvious secure coding decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. Surface known limitations of a chosen secure coding approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic secure coding advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated secure coding concerns into a single change; keep each change focused.\n- Do not skip documenting secure coding assumptions just because they seem obvious in the moment.\n- Avoid introducing new secure coding abstractions before there is a second concrete use case that needs them.\n- Do not silently drop secure coding edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about secure coding over a shortcut that saves a few lines but hides intent.",
+  "token_count": 536,
+  "metadata": {
+    "subject": "secure_coding",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

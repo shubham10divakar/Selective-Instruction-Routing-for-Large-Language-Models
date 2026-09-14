@@ -1,0 +1,21 @@
+{
+  "module_id": "deployment_containerization_common_pitfalls",
+  "name": "Containerization Common Pitfalls",
+  "domain": "deployment",
+  "description": "This module lists the most common pitfalls encountered in containerization work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "containerization",
+    "deployment",
+    "failure modes",
+    "pitfalls"
+  ],
+  "content": "This module lists the most common pitfalls encountered in containerization work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Before starting containerization work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Re-check edge cases relevant to containerization (empty input, boundary values, concurrent access) before calling the task done.\n3. Measure before optimizing any containerization bottleneck; do not guess at what is slow.\n4. Surface known limitations of a chosen containerization approach instead of presenting it as complete when it is not.\n5. State assumptions about containerization explicitly before proceeding, rather than leaving them implicit.\n6. Keep containerization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Prefer explicit, readable containerization solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop containerization edge cases to make an example look cleaner than the real system.\n- Do not apply generic containerization advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated containerization concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of containerization correctness.\n- Avoid introducing new containerization abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about containerization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 404,
+  "metadata": {
+    "subject": "containerization",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

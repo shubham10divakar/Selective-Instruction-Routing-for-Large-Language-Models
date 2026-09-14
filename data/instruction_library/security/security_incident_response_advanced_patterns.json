@@ -1,0 +1,22 @@
+{
+  "module_id": "security_incident_response_advanced_patterns",
+  "name": "Advanced Incident Response Patterns",
+  "domain": "security",
+  "description": "This module describes advanced patterns for incident response intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "incident",
+    "incident response",
+    "response",
+    "scalability",
+    "security"
+  ],
+  "content": "This module describes advanced patterns for incident response intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. When multiple incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Document any non-obvious incident response decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Prefer explicit, readable incident response solutions over clever ones that are hard to verify.\n4. Prefer the simplest incident response approach that satisfies the requirement over a more general one that isn't needed yet.\n5. State assumptions about incident response explicitly before proceeding, rather than leaving them implicit.\n6. Measure before optimizing any incident response bottleneck; do not guess at what is slow.\n7. Surface known limitations of a chosen incident response approach instead of presenting it as complete when it is not.\n8. When incident response guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Check that incident response terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting incident response assumptions just because they seem obvious in the moment.\n- Do not apply generic incident response advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of incident response correctness.\n- Avoid mixing unrelated incident response concerns into a single change; keep each change focused.\n- Do not silently drop incident response edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about incident response over a shortcut that saves a few lines but hides intent.",
+  "token_count": 480,
+  "metadata": {
+    "subject": "incident_response",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

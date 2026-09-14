@@ -1,0 +1,24 @@
+{
+  "module_id": "debugging_production_incident_response_common_pitfalls",
+  "name": "Production Incident Response Common Pitfalls",
+  "domain": "debugging",
+  "description": "This module lists the most common pitfalls encountered in production incident response work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "debugging",
+    "failure modes",
+    "incident",
+    "pitfalls",
+    "production",
+    "production incident response",
+    "response"
+  ],
+  "content": "This module lists the most common pitfalls encountered in production incident response work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When multiple production incident response strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Measure before optimizing any production incident response bottleneck; do not guess at what is slow.\n3. Keep production incident response outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Keep production incident response changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Document any non-obvious production incident response decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Re-check edge cases relevant to production incident response (empty input, boundary values, concurrent access) before calling the task done.\n7. Validate production incident response outputs against a concrete example before treating the work as complete.\n8. When production incident response guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Prefer the simplest production incident response approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic production incident response advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of production incident response correctness.\n- Do not skip documenting production incident response assumptions just because they seem obvious in the moment.\n- Avoid introducing new production incident response abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for production incident response, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 502,
+  "metadata": {
+    "subject": "production_incident_response",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

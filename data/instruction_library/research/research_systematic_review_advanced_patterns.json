@@ -1,0 +1,22 @@
+{
+  "module_id": "research_systematic_review_advanced_patterns",
+  "name": "Advanced Systematic Review Patterns",
+  "domain": "research",
+  "description": "This module describes advanced patterns for systematic review intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "research",
+    "review",
+    "scalability",
+    "systematic",
+    "systematic review"
+  ],
+  "content": "This module describes advanced patterns for systematic review intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen systematic review approach instead of presenting it as complete when it is not.\n2. State assumptions about systematic review explicitly before proceeding, rather than leaving them implicit.\n3. Keep systematic review changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Keep systematic review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Prefer explicit, readable systematic review solutions over clever ones that are hard to verify.\n6. Document any non-obvious systematic review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. When systematic review decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Validate systematic review outputs against a concrete example before treating the work as complete.\n9. When systematic review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n10. Measure before optimizing any systematic review bottleneck; do not guess at what is slow.\n11. When multiple systematic review strategies are viable, name the trade-off explicitly rather than silently picking one.\n12. Check that systematic review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated systematic review concerns into a single change; keep each change focused.\n- Avoid introducing new systematic review abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting systematic review assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of systematic review correctness.\n- Do not silently drop systematic review edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for systematic review, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 565,
+  "metadata": {
+    "subject": "systematic_review",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "module_id": "research_citation_management_checklist",
+  "name": "Citation Management Checklist",
+  "domain": "research",
+  "description": "This module is a pre-completion checklist for citation management work: a short set of checks to run before calling a citation management task done.",
+  "capabilities": [
+    "checklist",
+    "citation",
+    "citation management",
+    "management",
+    "pre-completion review",
+    "research",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for citation management work: a short set of checks to run before calling a citation management task done.\n\nCORE GUIDELINES\n1. Prefer the simplest citation management approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When citation management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. When multiple citation management strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep citation management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Surface known limitations of a chosen citation management approach instead of presenting it as complete when it is not.\n6. Validate citation management outputs against a concrete example before treating the work as complete.\n7. When citation management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Prefer explicit, readable citation management solutions over clever ones that are hard to verify.\n9. State assumptions about citation management explicitly before proceeding, rather than leaving them implicit.\n10. Before starting citation management work, confirm the scope and constraints so the approach matches the actual requirement.\n11. Document any non-obvious citation management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of citation management correctness.\n- Do not silently drop citation management edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated citation management concerns into a single change; keep each change focused.\n- Do not apply generic citation management advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for citation management, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 528,
+  "metadata": {
+    "subject": "citation_management",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

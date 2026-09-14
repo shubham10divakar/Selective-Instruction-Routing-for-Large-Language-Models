@@ -1,0 +1,22 @@
+{
+  "module_id": "testing_unit_testing_common_pitfalls",
+  "name": "Unit Testing Common Pitfalls",
+  "domain": "testing",
+  "description": "This module lists the most common pitfalls encountered in unit testing work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "testing",
+    "unit",
+    "unit testing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in unit testing work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Keep unit testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Validate unit testing outputs against a concrete example before treating the work as complete.\n3. Prefer the simplest unit testing approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Keep unit testing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Re-check edge cases relevant to unit testing (empty input, boundary values, concurrent access) before calling the task done.\n6. When unit testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Before starting unit testing work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Surface known limitations of a chosen unit testing approach instead of presenting it as complete when it is not.\n9. Document any non-obvious unit testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop unit testing edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of unit testing correctness.\n- Do not apply generic unit testing advice without checking it fits the specific context at hand.\n- Do not skip documenting unit testing assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated unit testing concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for unit testing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 471,
+  "metadata": {
+    "subject": "unit_testing",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

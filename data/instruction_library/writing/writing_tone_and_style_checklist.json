@@ -1,0 +1,23 @@
+{
+  "module_id": "writing_tone_and_style_checklist",
+  "name": "Tone And Style Checklist",
+  "domain": "writing",
+  "description": "This module is a pre-completion checklist for tone and style work: a short set of checks to run before calling a tone and style task done.",
+  "capabilities": [
+    "and",
+    "checklist",
+    "pre-completion review",
+    "style",
+    "tone",
+    "tone and style",
+    "verification",
+    "writing"
+  ],
+  "content": "This module is a pre-completion checklist for tone and style work: a short set of checks to run before calling a tone and style task done.\n\nCORE GUIDELINES\n1. Prefer explicit, readable tone and style solutions over clever ones that are hard to verify.\n2. Keep tone and style outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Check that tone and style terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Measure before optimizing any tone and style bottleneck; do not guess at what is slow.\n5. State assumptions about tone and style explicitly before proceeding, rather than leaving them implicit.\n6. When tone and style decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Surface known limitations of a chosen tone and style approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting tone and style assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of tone and style correctness.\n- Avoid introducing new tone and style abstractions before there is a second concrete use case that needs them.\n- Do not silently drop tone and style edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these tone and style guidelines if the task's constraints change significantly during the work.",
+  "token_count": 370,
+  "metadata": {
+    "subject": "tone_and_style",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

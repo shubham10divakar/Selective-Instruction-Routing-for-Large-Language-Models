@@ -1,0 +1,23 @@
+{
+  "module_id": "testing_test_data_management_advanced_patterns",
+  "name": "Advanced Test Data Management Patterns",
+  "domain": "testing",
+  "description": "This module describes advanced patterns for test data management intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "data",
+    "edge cases",
+    "management",
+    "scalability",
+    "test",
+    "test data management",
+    "testing"
+  ],
+  "content": "This module describes advanced patterns for test data management intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Document any non-obvious test data management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Prefer the simplest test data management approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Surface known limitations of a chosen test data management approach instead of presenting it as complete when it is not.\n4. When test data management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Re-check edge cases relevant to test data management (empty input, boundary values, concurrent access) before calling the task done.\n6. Keep test data management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Keep test data management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. Before starting test data management work, confirm the scope and constraints so the approach matches the actual requirement.\n9. State assumptions about test data management explicitly before proceeding, rather than leaving them implicit.\n10. When multiple test data management strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting test data management assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of test data management correctness.\n- Do not apply generic test data management advice without checking it fits the specific context at hand.\n- Do not silently drop test data management edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated test data management concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these test data management guidelines if the task's constraints change significantly during the work.",
+  "token_count": 526,
+  "metadata": {
+    "subject": "test_data_management",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

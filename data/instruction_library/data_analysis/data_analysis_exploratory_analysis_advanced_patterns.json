@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_exploratory_analysis_advanced_patterns",
+  "name": "Advanced Exploratory Analysis Patterns",
+  "domain": "data_analysis",
+  "description": "This module describes advanced patterns for exploratory analysis intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "analysis",
+    "data_analysis",
+    "edge cases",
+    "exploratory",
+    "exploratory analysis",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for exploratory analysis intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Prefer explicit, readable exploratory analysis solutions over clever ones that are hard to verify.\n2. Keep exploratory analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. When exploratory analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n4. Re-check edge cases relevant to exploratory analysis (empty input, boundary values, concurrent access) before calling the task done.\n5. Check that exploratory analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Keep exploratory analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Surface known limitations of a chosen exploratory analysis approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of exploratory analysis correctness.\n- Avoid introducing new exploratory analysis abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting exploratory analysis assumptions just because they seem obvious in the moment.\n- Do not apply generic exploratory analysis advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about exploratory analysis over a shortcut that saves a few lines but hides intent.",
+  "token_count": 402,
+  "metadata": {
+    "subject": "exploratory_analysis",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

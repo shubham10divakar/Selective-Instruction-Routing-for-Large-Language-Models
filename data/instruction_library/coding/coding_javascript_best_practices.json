@@ -1,0 +1,20 @@
+{
+  "module_id": "coding_javascript_best_practices",
+  "name": "Javascript Best Practices",
+  "domain": "coding",
+  "description": "This module captures the best practices for javascript, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "coding",
+    "javascript",
+    "maintainability",
+    "quality"
+  ],
+  "content": "This module captures the best practices for javascript, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Document any non-obvious javascript decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Check that javascript terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Prefer explicit, readable javascript solutions over clever ones that are hard to verify.\n4. State assumptions about javascript explicitly before proceeding, rather than leaving them implicit.\n5. Surface known limitations of a chosen javascript approach instead of presenting it as complete when it is not.\n6. Prefer the simplest javascript approach that satisfies the requirement over a more general one that isn't needed yet.\n7. When javascript decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Before starting javascript work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new javascript abstractions before there is a second concrete use case that needs them.\n- Do not apply generic javascript advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated javascript concerns into a single change; keep each change focused.\n- Do not skip documenting javascript assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these javascript guidelines if the task's constraints change significantly during the work.",
+  "token_count": 398,
+  "metadata": {
+    "subject": "javascript",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

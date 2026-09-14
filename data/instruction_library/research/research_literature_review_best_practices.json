@@ -1,0 +1,22 @@
+{
+  "module_id": "research_literature_review_best_practices",
+  "name": "Literature Review Best Practices",
+  "domain": "research",
+  "description": "This module captures the best practices for literature review, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "literature",
+    "literature review",
+    "maintainability",
+    "quality",
+    "research",
+    "review"
+  ],
+  "content": "This module captures the best practices for literature review, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer the simplest literature review approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When multiple literature review strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Check that literature review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. State assumptions about literature review explicitly before proceeding, rather than leaving them implicit.\n5. Validate literature review outputs against a concrete example before treating the work as complete.\n6. When literature review decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Surface known limitations of a chosen literature review approach instead of presenting it as complete when it is not.\n8. Before starting literature review work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Measure before optimizing any literature review bottleneck; do not guess at what is slow.\n10. Keep literature review changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n11. Keep literature review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated literature review concerns into a single change; keep each change focused.\n- Do not silently drop literature review edge cases to make an example look cleaner than the real system.\n- Do not skip documenting literature review assumptions just because they seem obvious in the moment.\n- Do not apply generic literature review advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these literature review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 498,
+  "metadata": {
+    "subject": "literature_review",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

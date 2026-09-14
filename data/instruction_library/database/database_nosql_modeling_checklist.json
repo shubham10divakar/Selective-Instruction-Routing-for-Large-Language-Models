@@ -1,0 +1,22 @@
+{
+  "module_id": "database_nosql_modeling_checklist",
+  "name": "Nosql Modeling Checklist",
+  "domain": "database",
+  "description": "This module is a pre-completion checklist for nosql modeling work: a short set of checks to run before calling a nosql modeling task done.",
+  "capabilities": [
+    "checklist",
+    "database",
+    "modeling",
+    "nosql",
+    "nosql modeling",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for nosql modeling work: a short set of checks to run before calling a nosql modeling task done.\n\nCORE GUIDELINES\n1. Prefer the simplest nosql modeling approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Document any non-obvious nosql modeling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Check that nosql modeling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. When nosql modeling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. When multiple nosql modeling strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Prefer explicit, readable nosql modeling solutions over clever ones that are hard to verify.\n7. State assumptions about nosql modeling explicitly before proceeding, rather than leaving them implicit.\n8. Re-check edge cases relevant to nosql modeling (empty input, boundary values, concurrent access) before calling the task done.\n9. Measure before optimizing any nosql modeling bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated nosql modeling concerns into a single change; keep each change focused.\n- Avoid introducing new nosql modeling abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of nosql modeling correctness.\n- Do not skip documenting nosql modeling assumptions just because they seem obvious in the moment.\n- Do not silently drop nosql modeling edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these nosql modeling guidelines if the task's constraints change significantly during the work.",
+  "token_count": 469,
+  "metadata": {
+    "subject": "nosql_modeling",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "module_id": "writing_content_structuring_common_pitfalls",
+  "name": "Content Structuring Common Pitfalls",
+  "domain": "writing",
+  "description": "This module lists the most common pitfalls encountered in content structuring work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "content",
+    "content structuring",
+    "failure modes",
+    "pitfalls",
+    "structuring",
+    "writing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in content structuring work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Measure before optimizing any content structuring bottleneck; do not guess at what is slow.\n2. Document any non-obvious content structuring decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Keep content structuring changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. State assumptions about content structuring explicitly before proceeding, rather than leaving them implicit.\n5. Check that content structuring terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Before starting content structuring work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer the simplest content structuring approach that satisfies the requirement over a more general one that isn't needed yet.\n8. When content structuring decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n9. When content structuring guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n10. Keep content structuring outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n11. When multiple content structuring strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting content structuring assumptions just because they seem obvious in the moment.\n- Do not silently drop content structuring edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of content structuring correctness.\n- Do not apply generic content structuring advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated content structuring concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about content structuring over a shortcut that saves a few lines but hides intent.",
+  "token_count": 552,
+  "metadata": {
+    "subject": "content_structuring",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

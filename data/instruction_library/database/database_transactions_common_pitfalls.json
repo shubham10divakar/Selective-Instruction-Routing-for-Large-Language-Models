@@ -1,0 +1,21 @@
+{
+  "module_id": "database_transactions_common_pitfalls",
+  "name": "Transactions Common Pitfalls",
+  "domain": "database",
+  "description": "This module lists the most common pitfalls encountered in transactions work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "database",
+    "failure modes",
+    "pitfalls",
+    "transactions"
+  ],
+  "content": "This module lists the most common pitfalls encountered in transactions work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Before starting transactions work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Prefer explicit, readable transactions solutions over clever ones that are hard to verify.\n3. Document any non-obvious transactions decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When transactions decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When multiple transactions strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Keep transactions changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Keep transactions outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. Re-check edge cases relevant to transactions (empty input, boundary values, concurrent access) before calling the task done.\n9. State assumptions about transactions explicitly before proceeding, rather than leaving them implicit.\n10. Prefer the simplest transactions approach that satisfies the requirement over a more general one that isn't needed yet.\n11. Check that transactions terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated transactions concerns into a single change; keep each change focused.\n- Do not skip documenting transactions assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of transactions correctness.\n- Do not silently drop transactions edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these transactions guidelines if the task's constraints change significantly during the work.",
+  "token_count": 489,
+  "metadata": {
+    "subject": "transactions",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

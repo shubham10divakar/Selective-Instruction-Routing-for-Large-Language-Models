@@ -1,0 +1,23 @@
+{
+  "module_id": "statistics_regression_analysis_common_pitfalls",
+  "name": "Regression Analysis Common Pitfalls",
+  "domain": "statistics",
+  "description": "This module lists the most common pitfalls encountered in regression analysis work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "analysis",
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "regression",
+    "regression analysis",
+    "statistics"
+  ],
+  "content": "This module lists the most common pitfalls encountered in regression analysis work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Validate regression analysis outputs against a concrete example before treating the work as complete.\n2. Re-check edge cases relevant to regression analysis (empty input, boundary values, concurrent access) before calling the task done.\n3. Before starting regression analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Check that regression analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Prefer the simplest regression analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Measure before optimizing any regression analysis bottleneck; do not guess at what is slow.\n7. Surface known limitations of a chosen regression analysis approach instead of presenting it as complete when it is not.\n8. Prefer explicit, readable regression analysis solutions over clever ones that are hard to verify.\n9. When regression analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated regression analysis concerns into a single change; keep each change focused.\n- Do not apply generic regression analysis advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of regression analysis correctness.\n- Do not skip documenting regression analysis assumptions just because they seem obvious in the moment.\n- Avoid introducing new regression analysis abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these regression analysis guidelines if the task's constraints change significantly during the work.",
+  "token_count": 475,
+  "metadata": {
+    "subject": "regression_analysis",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

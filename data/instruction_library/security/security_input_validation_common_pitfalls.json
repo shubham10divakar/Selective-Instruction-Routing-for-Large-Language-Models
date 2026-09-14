@@ -1,0 +1,23 @@
+{
+  "module_id": "security_input_validation_common_pitfalls",
+  "name": "Input Validation Common Pitfalls",
+  "domain": "security",
+  "description": "This module lists the most common pitfalls encountered in input validation work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "input",
+    "input validation",
+    "pitfalls",
+    "security",
+    "validation"
+  ],
+  "content": "This module lists the most common pitfalls encountered in input validation work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Check that input validation terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. When input validation guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. When input validation decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n4. Prefer the simplest input validation approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Keep input validation changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Re-check edge cases relevant to input validation (empty input, boundary values, concurrent access) before calling the task done.\n7. Validate input validation outputs against a concrete example before treating the work as complete.\n8. Keep input validation outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable input validation solutions over clever ones that are hard to verify.\n10. State assumptions about input validation explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic input validation advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of input validation correctness.\n- Do not silently drop input validation edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these input validation guidelines if the task's constraints change significantly during the work.",
+  "token_count": 446,
+  "metadata": {
+    "subject": "input_validation",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "module_id": "deployment_containerization_advanced_patterns",
+  "name": "Advanced Containerization Patterns",
+  "domain": "deployment",
+  "description": "This module describes advanced patterns for containerization intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "containerization",
+    "deployment",
+    "edge cases",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for containerization intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. When multiple containerization strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Re-check edge cases relevant to containerization (empty input, boundary values, concurrent access) before calling the task done.\n3. Prefer the simplest containerization approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Measure before optimizing any containerization bottleneck; do not guess at what is slow.\n5. Before starting containerization work, confirm the scope and constraints so the approach matches the actual requirement.\n6. State assumptions about containerization explicitly before proceeding, rather than leaving them implicit.\n7. Prefer explicit, readable containerization solutions over clever ones that are hard to verify.\n8. Keep containerization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Surface known limitations of a chosen containerization approach instead of presenting it as complete when it is not.\n10. Validate containerization outputs against a concrete example before treating the work as complete.\n11. When containerization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n12. Document any non-obvious containerization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of containerization correctness.\n- Do not skip documenting containerization assumptions just because they seem obvious in the moment.\n- Do not silently drop containerization edge cases to make an example look cleaner than the real system.\n- Avoid introducing new containerization abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated containerization concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these containerization guidelines if the task's constraints change significantly during the work.",
+  "token_count": 547,
+  "metadata": {
+    "subject": "containerization",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

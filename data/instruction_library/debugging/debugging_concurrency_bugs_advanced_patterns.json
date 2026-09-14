@@ -1,0 +1,22 @@
+{
+  "module_id": "debugging_concurrency_bugs_advanced_patterns",
+  "name": "Advanced Concurrency Bugs Patterns",
+  "domain": "debugging",
+  "description": "This module describes advanced patterns for concurrency bugs intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "bugs",
+    "concurrency",
+    "concurrency bugs",
+    "debugging",
+    "edge cases",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for concurrency bugs intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen concurrency bugs approach instead of presenting it as complete when it is not.\n2. State assumptions about concurrency bugs explicitly before proceeding, rather than leaving them implicit.\n3. Validate concurrency bugs outputs against a concrete example before treating the work as complete.\n4. When concurrency bugs decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Prefer the simplest concurrency bugs approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Measure before optimizing any concurrency bugs bottleneck; do not guess at what is slow.\n7. Prefer explicit, readable concurrency bugs solutions over clever ones that are hard to verify.\n8. Re-check edge cases relevant to concurrency bugs (empty input, boundary values, concurrent access) before calling the task done.\n9. Before starting concurrency bugs work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Document any non-obvious concurrency bugs decision with a short rationale so future readers understand the 'why', not just the 'what'.\n11. When concurrency bugs guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop concurrency bugs edge cases to make an example look cleaner than the real system.\n- Do not skip documenting concurrency bugs assumptions just because they seem obvious in the moment.\n- Do not apply generic concurrency bugs advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated concurrency bugs concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of concurrency bugs correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about concurrency bugs over a shortcut that saves a few lines but hides intent.",
+  "token_count": 530,
+  "metadata": {
+    "subject": "concurrency_bugs",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

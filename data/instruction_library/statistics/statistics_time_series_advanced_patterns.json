@@ -1,0 +1,22 @@
+{
+  "module_id": "statistics_time_series_advanced_patterns",
+  "name": "Advanced Time Series Patterns",
+  "domain": "statistics",
+  "description": "This module describes advanced patterns for time series intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "scalability",
+    "series",
+    "statistics",
+    "time",
+    "time series"
+  ],
+  "content": "This module describes advanced patterns for time series intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. When time series decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. When time series guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Check that time series terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Keep time series changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. When multiple time series strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Keep time series outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Validate time series outputs against a concrete example before treating the work as complete.\n8. Surface known limitations of a chosen time series approach instead of presenting it as complete when it is not.\n9. Prefer explicit, readable time series solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of time series correctness.\n- Avoid introducing new time series abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated time series concerns into a single change; keep each change focused.\n- Do not silently drop time series edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these time series guidelines if the task's constraints change significantly during the work.",
+  "token_count": 422,
+  "metadata": {
+    "subject": "time_series",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

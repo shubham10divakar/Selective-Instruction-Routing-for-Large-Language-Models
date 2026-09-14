@@ -1,0 +1,23 @@
+{
+  "module_id": "testing_flaky_test_management_advanced_patterns",
+  "name": "Advanced Flaky Test Management Patterns",
+  "domain": "testing",
+  "description": "This module describes advanced patterns for flaky test management intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "flaky",
+    "flaky test management",
+    "management",
+    "scalability",
+    "test",
+    "testing"
+  ],
+  "content": "This module describes advanced patterns for flaky test management intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Prefer the simplest flaky test management approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Document any non-obvious flaky test management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Check that flaky test management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Validate flaky test management outputs against a concrete example before treating the work as complete.\n5. State assumptions about flaky test management explicitly before proceeding, rather than leaving them implicit.\n6. When flaky test management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Before starting flaky test management work, confirm the scope and constraints so the approach matches the actual requirement.\n8. When flaky test management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Keep flaky test management outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n10. Surface known limitations of a chosen flaky test management approach instead of presenting it as complete when it is not.\n11. Keep flaky test management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n12. Prefer explicit, readable flaky test management solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new flaky test management abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of flaky test management correctness.\n- Avoid mixing unrelated flaky test management concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about flaky test management over a shortcut that saves a few lines but hides intent.",
+  "token_count": 538,
+  "metadata": {
+    "subject": "flaky_test_management",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

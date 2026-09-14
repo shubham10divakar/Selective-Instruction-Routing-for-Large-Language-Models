@@ -1,0 +1,2062 @@
+[
+  {
+    "task_id": "research_simple_literature_review_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a literature review plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Literature Review Best Practices: it addresses the request about literature review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_literature_review_best_practices"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_checklist",
+      "statistics_anova_checklist",
+      "statistics_nonparametric_methods_checklist",
+      "testing_mocking_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_design_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a research design plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Research Design Best Practices: it addresses the request about research design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_design_best_practices"
+    ],
+    "distractor_modules": [
+      "security_dependency_scanning_conventions",
+      "security_incident_response_conventions",
+      "statistics_time_series_common_pitfalls",
+      "coding_typescript_checklist"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_citation_management_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a citation management plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Citation Management Best Practices: it addresses the request about citation management directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_citation_management_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_documentation_best_practices",
+      "testing_integration_testing_common_pitfalls",
+      "security_dependency_scanning_checklist",
+      "data_analysis_outlier_detection_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_peer_review_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a peer review plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Peer Review Best Practices: it addresses the request about peer review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_peer_review_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_flaky_test_management_best_practices",
+      "data_analysis_outlier_detection_best_practices",
+      "statistics_multivariate_analysis_checklist",
+      "security_incident_response_best_practices"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_grant_writing_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a grant writing plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Grant Writing Best Practices: it addresses the request about grant writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "database_indexing_checklist",
+      "debugging_performance_profiling_common_pitfalls",
+      "research_systematic_review_checklist",
+      "coding_code_review_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_data_collection_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a data collection plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Data Collection Best Practices: it addresses the request about data collection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_data_collection_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_typescript_best_practices",
+      "testing_test_data_management_checklist",
+      "database_indexing_common_pitfalls",
+      "security_authentication_checklist"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_qualitative_methods_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a qualitative methods plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Qualitative Methods Best Practices: it addresses the request about qualitative methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_performance_common_pitfalls",
+      "deployment_release_management_advanced_patterns",
+      "data_analysis_ab_testing_conventions",
+      "research_peer_review_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_systematic_review_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a systematic review plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Systematic Review Best Practices: it addresses the request about systematic review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_content_structuring_checklist",
+      "research_peer_review_checklist",
+      "database_transactions_common_pitfalls",
+      "data_analysis_outlier_detection_checklist"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_ethics_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a research ethics plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Research Ethics Best Practices: it addresses the request about research ethics directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_load_testing_checklist",
+      "deployment_release_management_checklist",
+      "statistics_time_series_common_pitfalls",
+      "database_indexing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_reproducibility_0",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Draft a reproducibility plan for a new research project on user retention.",
+    "reference_output": "A strong response follows the guidance in Reproducibility Best Practices: it addresses the request about reproducibility directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_checklist",
+      "deployment_canary_releases_checklist",
+      "testing_test_coverage_best_practices",
+      "database_migrations_conventions"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_literature_review_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for literature review that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Literature Review Best Practices, Literature Review Checklist: it addresses the request about literature review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_literature_review_best_practices",
+      "research_literature_review_checklist"
+    ],
+    "distractor_modules": [
+      "research_systematic_review_advanced_patterns",
+      "writing_tone_and_style_checklist",
+      "deployment_ci_cd_pipelines_conventions",
+      "research_grant_writing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_design_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for research design that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Research Design Best Practices, Research Design Checklist: it addresses the request about research design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_design_best_practices",
+      "research_research_design_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_advanced_patterns",
+      "security_incident_response_conventions",
+      "statistics_survival_analysis_conventions",
+      "security_threat_modeling_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_citation_management_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for citation management that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Citation Management Best Practices, Citation Management Checklist: it addresses the request about citation management directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_citation_management_best_practices",
+      "research_citation_management_checklist"
+    ],
+    "distractor_modules": [
+      "database_transactions_advanced_patterns",
+      "statistics_anova_advanced_patterns",
+      "database_query_optimization_conventions",
+      "statistics_nonparametric_methods_conventions"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_peer_review_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for peer review that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Peer Review Best Practices, Peer Review Checklist: it addresses the request about peer review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_peer_review_best_practices",
+      "research_peer_review_checklist"
+    ],
+    "distractor_modules": [
+      "writing_tone_and_style_checklist",
+      "coding_documentation_common_pitfalls",
+      "deployment_release_management_best_practices",
+      "writing_content_structuring_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_grant_writing_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for grant writing that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Grant Writing Best Practices, Grant Writing Checklist: it addresses the request about grant writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices",
+      "research_grant_writing_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_best_practices",
+      "debugging_memory_leaks_common_pitfalls",
+      "research_reproducibility_common_pitfalls",
+      "statistics_sampling_conventions"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_data_collection_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for data collection that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Data Collection Best Practices, Data Collection Checklist: it addresses the request about data collection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_data_collection_best_practices",
+      "research_data_collection_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_visualization_best_practices",
+      "writing_executive_summaries_conventions",
+      "testing_unit_testing_conventions",
+      "database_transactions_checklist"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_qualitative_methods_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for qualitative methods that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Qualitative Methods Best Practices, Qualitative Methods Checklist: it addresses the request about qualitative methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices",
+      "research_qualitative_methods_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_nonparametric_methods_best_practices",
+      "research_research_design_advanced_patterns",
+      "research_literature_review_conventions",
+      "debugging_logging_strategy_checklist"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_systematic_review_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for systematic review that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Systematic Review Best Practices, Systematic Review Checklist: it addresses the request about systematic review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices",
+      "research_systematic_review_checklist"
+    ],
+    "distractor_modules": [
+      "writing_technical_writing_advanced_patterns",
+      "research_qualitative_methods_common_pitfalls",
+      "coding_python_checklist",
+      "database_migrations_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_ethics_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for research ethics that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Research Ethics Best Practices, Research Ethics Checklist: it addresses the request about research ethics directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices",
+      "research_research_ethics_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_checklist",
+      "writing_technical_writing_common_pitfalls",
+      "testing_regression_testing_conventions",
+      "database_normalization_checklist"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_reproducibility_1",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Summarize best practices for reproducibility that our research team should follow.",
+    "reference_output": "A strong response follows the guidance in Reproducibility Best Practices, Reproducibility Checklist: it addresses the request about reproducibility directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices",
+      "research_reproducibility_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_advanced_patterns",
+      "coding_type_safety_conventions",
+      "deployment_capacity_planning_checklist",
+      "testing_flaky_test_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_literature_review_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for literature review and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Literature Review Best Practices: it addresses the request about literature review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_literature_review_best_practices"
+    ],
+    "distractor_modules": [
+      "security_secrets_management_best_practices",
+      "writing_grammar_and_clarity_best_practices",
+      "deployment_ci_cd_pipelines_best_practices",
+      "testing_mocking_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_design_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for research design and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Research Design Best Practices: it addresses the request about research design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_design_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_best_practices",
+      "debugging_exception_handling_advanced_patterns",
+      "coding_code_review_common_pitfalls",
+      "coding_javascript_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_citation_management_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for citation management and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Citation Management Best Practices: it addresses the request about citation management directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_citation_management_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_time_series_checklist",
+      "data_analysis_feature_engineering_conventions",
+      "database_connection_pooling_advanced_patterns",
+      "testing_mocking_conventions"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_peer_review_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for peer review and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Peer Review Best Practices: it addresses the request about peer review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_peer_review_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_best_practices",
+      "writing_persuasive_writing_conventions",
+      "statistics_anova_best_practices",
+      "writing_documentation_writing_best_practices"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_grant_writing_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for grant writing and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Grant Writing Best Practices: it addresses the request about grant writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_checklist",
+      "testing_integration_testing_advanced_patterns",
+      "statistics_nonparametric_methods_best_practices",
+      "security_authorization_best_practices"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_data_collection_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for data collection and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Data Collection Best Practices: it addresses the request about data collection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_data_collection_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_canary_releases_conventions",
+      "coding_typescript_checklist",
+      "statistics_survival_analysis_best_practices",
+      "research_reproducibility_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_qualitative_methods_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for qualitative methods and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Qualitative Methods Best Practices: it addresses the request about qualitative methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_load_testing_checklist",
+      "database_migrations_conventions",
+      "debugging_concurrency_bugs_common_pitfalls",
+      "data_analysis_ab_testing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_systematic_review_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for systematic review and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Systematic Review Best Practices: it addresses the request about systematic review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_feature_engineering_conventions",
+      "statistics_nonparametric_methods_conventions",
+      "debugging_concurrency_bugs_conventions",
+      "debugging_memory_leaks_checklist"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_ethics_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for research ethics and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Research Ethics Best Practices: it addresses the request about research ethics directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_cohort_analysis_checklist",
+      "database_schema_design_best_practices",
+      "writing_editing_best_practices",
+      "coding_type_safety_checklist"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_reproducibility_2",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Review our current process for reproducibility and suggest improvements.",
+    "reference_output": "A strong response follows the guidance in Reproducibility Best Practices: it addresses the request about reproducibility directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "security_encryption_common_pitfalls",
+      "statistics_regression_analysis_best_practices",
+      "research_research_design_best_practices"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_literature_review_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in literature review for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Literature Review Best Practices, Literature Review Checklist: it addresses the request about literature review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_literature_review_best_practices",
+      "research_literature_review_checklist"
+    ],
+    "distractor_modules": [
+      "database_schema_design_checklist",
+      "research_grant_writing_best_practices",
+      "database_connection_pooling_common_pitfalls",
+      "debugging_memory_leaks_best_practices"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_design_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in research design for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Research Design Best Practices, Research Design Checklist: it addresses the request about research design directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_design_best_practices",
+      "research_research_design_checklist"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_conventions",
+      "research_literature_review_common_pitfalls",
+      "security_encryption_common_pitfalls",
+      "testing_mocking_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_citation_management_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in citation management for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Citation Management Best Practices, Citation Management Checklist: it addresses the request about citation management directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_citation_management_best_practices",
+      "research_citation_management_checklist"
+    ],
+    "distractor_modules": [
+      "testing_test_coverage_checklist",
+      "security_secrets_management_best_practices",
+      "debugging_production_incident_response_common_pitfalls",
+      "testing_test_driven_development_best_practices"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_peer_review_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in peer review for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Peer Review Best Practices, Peer Review Checklist: it addresses the request about peer review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_peer_review_best_practices",
+      "research_peer_review_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_common_pitfalls",
+      "statistics_sampling_common_pitfalls",
+      "data_analysis_cohort_analysis_checklist",
+      "data_analysis_reporting_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_grant_writing_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in grant writing for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Grant Writing Best Practices, Grant Writing Checklist: it addresses the request about grant writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices",
+      "research_grant_writing_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_infrastructure_as_code_advanced_patterns",
+      "testing_test_coverage_checklist",
+      "data_analysis_exploratory_analysis_common_pitfalls",
+      "testing_integration_testing_conventions"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_data_collection_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in data collection for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Data Collection Best Practices, Data Collection Checklist: it addresses the request about data collection directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_data_collection_best_practices",
+      "research_data_collection_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_monitoring_and_alerting_best_practices",
+      "security_encryption_common_pitfalls",
+      "security_input_validation_conventions",
+      "security_incident_response_best_practices"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_qualitative_methods_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in qualitative methods for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Qualitative Methods Best Practices, Qualitative Methods Checklist: it addresses the request about qualitative methods directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices",
+      "research_qualitative_methods_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_time_series_conventions",
+      "writing_grammar_and_clarity_checklist",
+      "deployment_canary_releases_advanced_patterns",
+      "database_migrations_best_practices"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_systematic_review_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in systematic review for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Systematic Review Best Practices, Systematic Review Checklist: it addresses the request about systematic review directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices",
+      "research_systematic_review_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_cohort_analysis_conventions",
+      "data_analysis_reporting_checklist",
+      "database_transactions_checklist",
+      "coding_python_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_research_ethics_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in research ethics for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Research Ethics Best Practices, Research Ethics Checklist: it addresses the request about research ethics directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices",
+      "research_research_ethics_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_advanced_patterns",
+      "statistics_anova_advanced_patterns",
+      "writing_technical_writing_best_practices",
+      "testing_test_data_management_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_simple_reproducibility_3",
+    "domain": "research",
+    "domains": [
+      "research"
+    ],
+    "complexity": "simple",
+    "request": "Explain the key steps involved in reproducibility for a first-time researcher.",
+    "reference_output": "A strong response follows the guidance in Reproducibility Best Practices, Reproducibility Checklist: it addresses the request about reproducibility directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices",
+      "research_reproducibility_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_cleaning_checklist",
+      "research_research_design_advanced_patterns",
+      "database_indexing_conventions",
+      "research_citation_management_checklist"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_literature_review_writing_technical_writing",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies literature review practices, and make sure the result also satisfies our writing guidelines around technical writing.",
+    "reference_output": "A strong response satisfies both Literature Review Best Practices / Literature Review Checklist and Technical Writing Best Practices: it completes the literature review portion of the request correctly, then explicitly checks it against the technical writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_literature_review_best_practices",
+      "research_literature_review_checklist",
+      "writing_technical_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "database_nosql_modeling_conventions",
+      "coding_error_handling_common_pitfalls",
+      "coding_typescript_conventions",
+      "security_dependency_scanning_checklist"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "secondary_domain": "writing",
+      "secondary_subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_literature_review_statistics_regression_analysis",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies literature review practices, and make sure the result also satisfies our statistics guidelines around regression analysis.",
+    "reference_output": "A strong response satisfies both Literature Review Best Practices / Literature Review Checklist and Regression Analysis Best Practices: it completes the literature review portion of the request correctly, then explicitly checks it against the regression analysis guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_literature_review_best_practices",
+      "research_literature_review_checklist",
+      "statistics_regression_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_containerization_checklist",
+      "statistics_survival_analysis_common_pitfalls",
+      "coding_refactoring_advanced_patterns",
+      "statistics_sampling_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "secondary_domain": "statistics",
+      "secondary_subject": "regression_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_literature_review_data_analysis_feature_engineering",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies literature review practices, and make sure the result also satisfies our data analysis guidelines around feature engineering.",
+    "reference_output": "A strong response satisfies both Literature Review Best Practices / Literature Review Checklist and Feature Engineering Best Practices: it completes the literature review portion of the request correctly, then explicitly checks it against the feature engineering guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_literature_review_best_practices",
+      "research_literature_review_checklist",
+      "data_analysis_feature_engineering_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_data_management_advanced_patterns",
+      "coding_typescript_best_practices",
+      "security_input_validation_conventions",
+      "data_analysis_outlier_detection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_literature_review_coding_api_design",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies literature review practices, and make sure the result also satisfies our coding guidelines around api design.",
+    "reference_output": "A strong response satisfies both Literature Review Best Practices / Literature Review Checklist and Api Design Best Practices: it completes the literature review portion of the request correctly, then explicitly checks it against the api design guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_literature_review_best_practices",
+      "research_literature_review_checklist",
+      "coding_api_design_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_survival_analysis_conventions",
+      "database_nosql_modeling_best_practices",
+      "coding_refactoring_conventions",
+      "debugging_logging_strategy_best_practices"
+    ],
+    "metadata": {
+      "subject": "literature_review",
+      "secondary_domain": "coding",
+      "secondary_subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_design_writing_editing",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research design practices, and make sure the result also satisfies our writing guidelines around editing.",
+    "reference_output": "A strong response satisfies both Research Design Best Practices / Research Design Checklist and Editing Best Practices: it completes the research design portion of the request correctly, then explicitly checks it against the editing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_research_design_best_practices",
+      "research_research_design_checklist",
+      "writing_editing_best_practices"
+    ],
+    "distractor_modules": [
+      "research_qualitative_methods_advanced_patterns",
+      "testing_regression_testing_checklist",
+      "debugging_regression_bisection_common_pitfalls",
+      "writing_executive_summaries_best_practices"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "secondary_domain": "writing",
+      "secondary_subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_design_statistics_anova",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research design practices, and make sure the result also satisfies our statistics guidelines around anova.",
+    "reference_output": "A strong response satisfies both Research Design Best Practices / Research Design Checklist and Anova Best Practices: it completes the research design portion of the request correctly, then explicitly checks it against the anova guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_research_design_best_practices",
+      "research_research_design_checklist",
+      "statistics_anova_best_practices"
+    ],
+    "distractor_modules": [
+      "database_connection_pooling_common_pitfalls",
+      "deployment_containerization_best_practices",
+      "security_dependency_scanning_best_practices",
+      "debugging_reproducing_bugs_best_practices"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "secondary_domain": "statistics",
+      "secondary_subject": "anova",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_design_data_analysis_visualization",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research design practices, and make sure the result also satisfies our data analysis guidelines around visualization.",
+    "reference_output": "A strong response satisfies both Research Design Best Practices / Research Design Checklist and Visualization Best Practices: it completes the research design portion of the request correctly, then explicitly checks it against the visualization guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_research_design_best_practices",
+      "research_research_design_checklist",
+      "data_analysis_visualization_best_practices"
+    ],
+    "distractor_modules": [
+      "research_peer_review_best_practices",
+      "statistics_sampling_checklist",
+      "security_secure_coding_checklist",
+      "coding_error_handling_conventions"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_design_coding_error_handling",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research design practices, and make sure the result also satisfies our coding guidelines around error handling.",
+    "reference_output": "A strong response satisfies both Research Design Best Practices / Research Design Checklist and Error Handling Best Practices: it completes the research design portion of the request correctly, then explicitly checks it against the error handling guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_research_design_best_practices",
+      "research_research_design_checklist",
+      "coding_error_handling_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_anova_advanced_patterns",
+      "testing_flaky_test_management_checklist",
+      "writing_persuasive_writing_best_practices",
+      "data_analysis_dashboarding_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "research_design",
+      "secondary_domain": "coding",
+      "secondary_subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_citation_management_writing_tone_and_style",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies citation management practices, and make sure the result also satisfies our writing guidelines around tone and style.",
+    "reference_output": "A strong response satisfies both Citation Management Best Practices / Citation Management Checklist and Tone And Style Best Practices: it completes the citation management portion of the request correctly, then explicitly checks it against the tone and style guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_citation_management_best_practices",
+      "research_citation_management_checklist",
+      "writing_tone_and_style_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_integration_testing_common_pitfalls",
+      "deployment_infrastructure_as_code_conventions",
+      "security_threat_modeling_advanced_patterns",
+      "testing_flaky_test_management_best_practices"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "secondary_domain": "writing",
+      "secondary_subject": "tone_and_style",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_citation_management_statistics_bayesian_inference",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies citation management practices, and make sure the result also satisfies our statistics guidelines around bayesian inference.",
+    "reference_output": "A strong response satisfies both Citation Management Best Practices / Citation Management Checklist and Bayesian Inference Best Practices: it completes the citation management portion of the request correctly, then explicitly checks it against the bayesian inference guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_citation_management_best_practices",
+      "research_citation_management_checklist",
+      "statistics_bayesian_inference_best_practices"
+    ],
+    "distractor_modules": [
+      "security_secrets_management_best_practices",
+      "statistics_time_series_best_practices",
+      "coding_performance_conventions",
+      "writing_executive_summaries_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "secondary_domain": "statistics",
+      "secondary_subject": "bayesian_inference",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_citation_management_data_analysis_dashboarding",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies citation management practices, and make sure the result also satisfies our data analysis guidelines around dashboarding.",
+    "reference_output": "A strong response satisfies both Citation Management Best Practices / Citation Management Checklist and Dashboarding Best Practices: it completes the citation management portion of the request correctly, then explicitly checks it against the dashboarding guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_citation_management_best_practices",
+      "research_citation_management_checklist",
+      "data_analysis_dashboarding_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_flaky_test_management_conventions",
+      "writing_documentation_writing_advanced_patterns",
+      "debugging_concurrency_bugs_advanced_patterns",
+      "research_research_design_checklist"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_citation_management_coding_type_safety",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies citation management practices, and make sure the result also satisfies our coding guidelines around type safety.",
+    "reference_output": "A strong response satisfies both Citation Management Best Practices / Citation Management Checklist and Type Safety Best Practices: it completes the citation management portion of the request correctly, then explicitly checks it against the type safety guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_citation_management_best_practices",
+      "research_citation_management_checklist",
+      "coding_type_safety_best_practices"
+    ],
+    "distractor_modules": [
+      "security_encryption_best_practices",
+      "debugging_stack_trace_analysis_common_pitfalls",
+      "writing_persuasive_writing_checklist",
+      "deployment_environment_configuration_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "citation_management",
+      "secondary_domain": "coding",
+      "secondary_subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_peer_review_writing_documentation_writing",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies peer review practices, and make sure the result also satisfies our writing guidelines around documentation writing.",
+    "reference_output": "A strong response satisfies both Peer Review Best Practices / Peer Review Checklist and Documentation Writing Best Practices: it completes the peer review portion of the request correctly, then explicitly checks it against the documentation writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_peer_review_best_practices",
+      "research_peer_review_checklist",
+      "writing_documentation_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_exploratory_analysis_conventions",
+      "deployment_infrastructure_as_code_checklist",
+      "deployment_canary_releases_common_pitfalls",
+      "security_authentication_best_practices"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "secondary_domain": "writing",
+      "secondary_subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_peer_review_statistics_time_series",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies peer review practices, and make sure the result also satisfies our statistics guidelines around time series.",
+    "reference_output": "A strong response satisfies both Peer Review Best Practices / Peer Review Checklist and Time Series Best Practices: it completes the peer review portion of the request correctly, then explicitly checks it against the time series guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_peer_review_best_practices",
+      "research_peer_review_checklist",
+      "statistics_time_series_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_mocking_common_pitfalls",
+      "debugging_root_cause_analysis_common_pitfalls",
+      "testing_test_data_management_common_pitfalls",
+      "statistics_survival_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "secondary_domain": "statistics",
+      "secondary_subject": "time_series",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_peer_review_data_analysis_cohort_analysis",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies peer review practices, and make sure the result also satisfies our data analysis guidelines around cohort analysis.",
+    "reference_output": "A strong response satisfies both Peer Review Best Practices / Peer Review Checklist and Cohort Analysis Best Practices: it completes the peer review portion of the request correctly, then explicitly checks it against the cohort analysis guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_peer_review_best_practices",
+      "research_peer_review_checklist",
+      "data_analysis_cohort_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "security_secrets_management_advanced_patterns",
+      "writing_documentation_writing_conventions",
+      "research_qualitative_methods_advanced_patterns",
+      "deployment_capacity_planning_best_practices"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_peer_review_coding_code_review",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies peer review practices, and make sure the result also satisfies our coding guidelines around code review.",
+    "reference_output": "A strong response satisfies both Peer Review Best Practices / Peer Review Checklist and Code Review Best Practices: it completes the peer review portion of the request correctly, then explicitly checks it against the code review guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_peer_review_best_practices",
+      "research_peer_review_checklist",
+      "coding_code_review_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_monitoring_and_alerting_conventions",
+      "data_analysis_outlier_detection_checklist",
+      "data_analysis_visualization_conventions",
+      "debugging_memory_leaks_conventions"
+    ],
+    "metadata": {
+      "subject": "peer_review",
+      "secondary_domain": "coding",
+      "secondary_subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_grant_writing_writing_executive_summaries",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies grant writing practices, and make sure the result also satisfies our writing guidelines around executive summaries.",
+    "reference_output": "A strong response satisfies both Grant Writing Best Practices / Grant Writing Checklist and Executive Summaries Best Practices: it completes the grant writing portion of the request correctly, then explicitly checks it against the executive summaries guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices",
+      "research_grant_writing_checklist",
+      "writing_executive_summaries_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_ci_cd_pipelines_best_practices",
+      "statistics_multivariate_analysis_common_pitfalls",
+      "data_analysis_feature_engineering_conventions",
+      "database_query_optimization_checklist"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "secondary_domain": "writing",
+      "secondary_subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_grant_writing_statistics_survival_analysis",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies grant writing practices, and make sure the result also satisfies our statistics guidelines around survival analysis.",
+    "reference_output": "A strong response satisfies both Grant Writing Best Practices / Grant Writing Checklist and Survival Analysis Best Practices: it completes the grant writing portion of the request correctly, then explicitly checks it against the survival analysis guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices",
+      "research_grant_writing_checklist",
+      "statistics_survival_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_best_practices",
+      "debugging_reproducing_bugs_advanced_patterns",
+      "security_vulnerability_disclosure_advanced_patterns",
+      "security_threat_modeling_best_practices"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "secondary_domain": "statistics",
+      "secondary_subject": "survival_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_grant_writing_data_analysis_ab_testing",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies grant writing practices, and make sure the result also satisfies our data analysis guidelines around ab testing.",
+    "reference_output": "A strong response satisfies both Grant Writing Best Practices / Grant Writing Checklist and Ab Testing Best Practices: it completes the grant writing portion of the request correctly, then explicitly checks it against the ab testing guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices",
+      "research_grant_writing_checklist",
+      "data_analysis_ab_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_checklist",
+      "coding_api_design_advanced_patterns",
+      "testing_load_testing_best_practices",
+      "security_secure_coding_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_grant_writing_coding_documentation",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies grant writing practices, and make sure the result also satisfies our coding guidelines around documentation.",
+    "reference_output": "A strong response satisfies both Grant Writing Best Practices / Grant Writing Checklist and Documentation Best Practices: it completes the grant writing portion of the request correctly, then explicitly checks it against the documentation guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_grant_writing_best_practices",
+      "research_grant_writing_checklist",
+      "coding_documentation_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_anova_advanced_patterns",
+      "research_peer_review_advanced_patterns",
+      "writing_executive_summaries_conventions",
+      "security_authorization_checklist"
+    ],
+    "metadata": {
+      "subject": "grant_writing",
+      "secondary_domain": "coding",
+      "secondary_subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_data_collection_writing_persuasive_writing",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies data collection practices, and make sure the result also satisfies our writing guidelines around persuasive writing.",
+    "reference_output": "A strong response satisfies both Data Collection Best Practices / Data Collection Checklist and Persuasive Writing Best Practices: it completes the data collection portion of the request correctly, then explicitly checks it against the persuasive writing guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_data_collection_best_practices",
+      "research_data_collection_checklist",
+      "writing_persuasive_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_content_structuring_common_pitfalls",
+      "testing_load_testing_conventions",
+      "security_secure_coding_advanced_patterns",
+      "writing_documentation_writing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "secondary_domain": "writing",
+      "secondary_subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_data_collection_statistics_experimental_design",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies data collection practices, and make sure the result also satisfies our statistics guidelines around experimental design.",
+    "reference_output": "A strong response satisfies both Data Collection Best Practices / Data Collection Checklist and Experimental Design Best Practices: it completes the data collection portion of the request correctly, then explicitly checks it against the experimental design guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_data_collection_best_practices",
+      "research_data_collection_checklist",
+      "statistics_experimental_design_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_documentation_advanced_patterns",
+      "research_literature_review_checklist",
+      "statistics_multivariate_analysis_advanced_patterns",
+      "statistics_time_series_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "secondary_domain": "statistics",
+      "secondary_subject": "experimental_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_data_collection_data_analysis_reporting",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies data collection practices, and make sure the result also satisfies our data analysis guidelines around reporting.",
+    "reference_output": "A strong response satisfies both Data Collection Best Practices / Data Collection Checklist and Reporting Best Practices: it completes the data collection portion of the request correctly, then explicitly checks it against the reporting guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_data_collection_best_practices",
+      "research_data_collection_checklist",
+      "data_analysis_reporting_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_sampling_common_pitfalls",
+      "coding_refactoring_checklist",
+      "security_secrets_management_common_pitfalls",
+      "debugging_root_cause_analysis_conventions"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_data_collection_coding_refactoring",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies data collection practices, and make sure the result also satisfies our coding guidelines around refactoring.",
+    "reference_output": "A strong response satisfies both Data Collection Best Practices / Data Collection Checklist and Refactoring Best Practices: it completes the data collection portion of the request correctly, then explicitly checks it against the refactoring guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_data_collection_best_practices",
+      "research_data_collection_checklist",
+      "coding_refactoring_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_api_design_advanced_patterns",
+      "deployment_canary_releases_conventions",
+      "coding_performance_checklist",
+      "coding_python_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "data_collection",
+      "secondary_domain": "coding",
+      "secondary_subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_qualitative_methods_writing_grammar_and_clarity",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies qualitative methods practices, and make sure the result also satisfies our writing guidelines around grammar and clarity.",
+    "reference_output": "A strong response satisfies both Qualitative Methods Best Practices / Qualitative Methods Checklist and Grammar And Clarity Best Practices: it completes the qualitative methods portion of the request correctly, then explicitly checks it against the grammar and clarity guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices",
+      "research_qualitative_methods_checklist",
+      "writing_grammar_and_clarity_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_executive_summaries_best_practices",
+      "statistics_hypothesis_testing_advanced_patterns",
+      "security_authorization_common_pitfalls",
+      "statistics_regression_analysis_best_practices"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "secondary_domain": "writing",
+      "secondary_subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_qualitative_methods_statistics_sampling",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies qualitative methods practices, and make sure the result also satisfies our statistics guidelines around sampling.",
+    "reference_output": "A strong response satisfies both Qualitative Methods Best Practices / Qualitative Methods Checklist and Sampling Best Practices: it completes the qualitative methods portion of the request correctly, then explicitly checks it against the sampling guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices",
+      "research_qualitative_methods_checklist",
+      "statistics_sampling_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_advanced_patterns",
+      "coding_performance_advanced_patterns",
+      "debugging_performance_profiling_advanced_patterns",
+      "data_analysis_visualization_checklist"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "secondary_domain": "statistics",
+      "secondary_subject": "sampling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_qualitative_methods_data_analysis_data_pipelines",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies qualitative methods practices, and make sure the result also satisfies our data analysis guidelines around data pipelines.",
+    "reference_output": "A strong response satisfies both Qualitative Methods Best Practices / Qualitative Methods Checklist and Data Pipelines Best Practices: it completes the qualitative methods portion of the request correctly, then explicitly checks it against the data pipelines guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices",
+      "research_qualitative_methods_checklist",
+      "data_analysis_data_pipelines_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_monitoring_and_alerting_best_practices",
+      "testing_test_coverage_conventions",
+      "deployment_infrastructure_as_code_best_practices",
+      "database_schema_design_best_practices"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_qualitative_methods_coding_performance",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies qualitative methods practices, and make sure the result also satisfies our coding guidelines around performance.",
+    "reference_output": "A strong response satisfies both Qualitative Methods Best Practices / Qualitative Methods Checklist and Performance Best Practices: it completes the qualitative methods portion of the request correctly, then explicitly checks it against the performance guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_qualitative_methods_best_practices",
+      "research_qualitative_methods_checklist",
+      "coding_performance_best_practices"
+    ],
+    "distractor_modules": [
+      "database_query_optimization_best_practices",
+      "database_transactions_advanced_patterns",
+      "coding_code_review_best_practices",
+      "deployment_release_management_conventions"
+    ],
+    "metadata": {
+      "subject": "qualitative_methods",
+      "secondary_domain": "coding",
+      "secondary_subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_systematic_review_writing_content_structuring",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies systematic review practices, and make sure the result also satisfies our writing guidelines around content structuring.",
+    "reference_output": "A strong response satisfies both Systematic Review Best Practices / Systematic Review Checklist and Content Structuring Best Practices: it completes the systematic review portion of the request correctly, then explicitly checks it against the content structuring guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices",
+      "research_systematic_review_checklist",
+      "writing_content_structuring_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_code_review_conventions",
+      "coding_refactoring_best_practices",
+      "data_analysis_cohort_analysis_conventions",
+      "deployment_release_management_conventions"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "secondary_domain": "writing",
+      "secondary_subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_systematic_review_statistics_nonparametric_methods",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies systematic review practices, and make sure the result also satisfies our statistics guidelines around nonparametric methods.",
+    "reference_output": "A strong response satisfies both Systematic Review Best Practices / Systematic Review Checklist and Nonparametric Methods Best Practices: it completes the systematic review portion of the request correctly, then explicitly checks it against the nonparametric methods guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices",
+      "research_systematic_review_checklist",
+      "statistics_nonparametric_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_checklist",
+      "testing_unit_testing_common_pitfalls",
+      "security_authorization_advanced_patterns",
+      "testing_mocking_best_practices"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "secondary_domain": "statistics",
+      "secondary_subject": "nonparametric_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_systematic_review_data_analysis_outlier_detection",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies systematic review practices, and make sure the result also satisfies our data analysis guidelines around outlier detection.",
+    "reference_output": "A strong response satisfies both Systematic Review Best Practices / Systematic Review Checklist and Outlier Detection Best Practices: it completes the systematic review portion of the request correctly, then explicitly checks it against the outlier detection guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices",
+      "research_systematic_review_checklist",
+      "data_analysis_outlier_detection_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_regression_bisection_best_practices",
+      "deployment_monitoring_and_alerting_conventions",
+      "security_authorization_advanced_patterns",
+      "security_vulnerability_disclosure_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_systematic_review_coding_python",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies systematic review practices, and make sure the result also satisfies our coding guidelines around python.",
+    "reference_output": "A strong response satisfies both Systematic Review Best Practices / Systematic Review Checklist and Python Best Practices: it completes the systematic review portion of the request correctly, then explicitly checks it against the python guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_systematic_review_best_practices",
+      "research_systematic_review_checklist",
+      "coding_python_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_common_pitfalls",
+      "writing_proofreading_advanced_patterns",
+      "testing_test_coverage_checklist",
+      "coding_error_handling_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "systematic_review",
+      "secondary_domain": "coding",
+      "secondary_subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_ethics_writing_audience_adaptation",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research ethics practices, and make sure the result also satisfies our writing guidelines around audience adaptation.",
+    "reference_output": "A strong response satisfies both Research Ethics Best Practices / Research Ethics Checklist and Audience Adaptation Best Practices: it completes the research ethics portion of the request correctly, then explicitly checks it against the audience adaptation guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices",
+      "research_research_ethics_checklist",
+      "writing_audience_adaptation_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_integration_testing_best_practices",
+      "coding_documentation_checklist",
+      "security_secure_coding_conventions",
+      "debugging_concurrency_bugs_best_practices"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "secondary_domain": "writing",
+      "secondary_subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_ethics_statistics_multivariate_analysis",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research ethics practices, and make sure the result also satisfies our statistics guidelines around multivariate analysis.",
+    "reference_output": "A strong response satisfies both Research Ethics Best Practices / Research Ethics Checklist and Multivariate Analysis Best Practices: it completes the research ethics portion of the request correctly, then explicitly checks it against the multivariate analysis guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices",
+      "research_research_ethics_checklist",
+      "statistics_multivariate_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "security_dependency_scanning_best_practices",
+      "deployment_canary_releases_conventions",
+      "database_schema_design_common_pitfalls",
+      "writing_executive_summaries_conventions"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "secondary_domain": "statistics",
+      "secondary_subject": "multivariate_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_ethics_data_analysis_exploratory_analysis",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research ethics practices, and make sure the result also satisfies our data analysis guidelines around exploratory analysis.",
+    "reference_output": "A strong response satisfies both Research Ethics Best Practices / Research Ethics Checklist and Exploratory Analysis Best Practices: it completes the research ethics portion of the request correctly, then explicitly checks it against the exploratory analysis guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices",
+      "research_research_ethics_checklist",
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_regression_testing_conventions",
+      "coding_code_review_advanced_patterns",
+      "debugging_exception_handling_best_practices",
+      "statistics_regression_analysis_conventions"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_research_ethics_coding_javascript",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies research ethics practices, and make sure the result also satisfies our coding guidelines around javascript.",
+    "reference_output": "A strong response satisfies both Research Ethics Best Practices / Research Ethics Checklist and Javascript Best Practices: it completes the research ethics portion of the request correctly, then explicitly checks it against the javascript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_research_ethics_best_practices",
+      "research_research_ethics_checklist",
+      "coding_javascript_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_end_to_end_testing_checklist",
+      "debugging_regression_bisection_conventions",
+      "statistics_hypothesis_testing_advanced_patterns",
+      "deployment_canary_releases_best_practices"
+    ],
+    "metadata": {
+      "subject": "research_ethics",
+      "secondary_domain": "coding",
+      "secondary_subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_reproducibility_writing_proofreading",
+    "domain": "research",
+    "domains": [
+      "research",
+      "writing"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies reproducibility practices, and make sure the result also satisfies our writing guidelines around proofreading.",
+    "reference_output": "A strong response satisfies both Reproducibility Best Practices / Reproducibility Checklist and Proofreading Best Practices: it completes the reproducibility portion of the request correctly, then explicitly checks it against the proofreading guidance from writing before calling the task done.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices",
+      "research_reproducibility_checklist",
+      "writing_proofreading_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_editing_checklist",
+      "statistics_survival_analysis_common_pitfalls",
+      "deployment_release_management_checklist",
+      "coding_javascript_checklist"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "secondary_domain": "writing",
+      "secondary_subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_reproducibility_statistics_hypothesis_testing",
+    "domain": "research",
+    "domains": [
+      "research",
+      "statistics"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies reproducibility practices, and make sure the result also satisfies our statistics guidelines around hypothesis testing.",
+    "reference_output": "A strong response satisfies both Reproducibility Best Practices / Reproducibility Checklist and Hypothesis Testing Best Practices: it completes the reproducibility portion of the request correctly, then explicitly checks it against the hypothesis testing guidance from statistics before calling the task done.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices",
+      "research_reproducibility_checklist",
+      "statistics_hypothesis_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "database_connection_pooling_conventions",
+      "security_encryption_checklist",
+      "data_analysis_ab_testing_conventions",
+      "deployment_monitoring_and_alerting_conventions"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "secondary_domain": "statistics",
+      "secondary_subject": "hypothesis_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_reproducibility_data_analysis_data_cleaning",
+    "domain": "research",
+    "domains": [
+      "research",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies reproducibility practices, and make sure the result also satisfies our data analysis guidelines around data cleaning.",
+    "reference_output": "A strong response satisfies both Reproducibility Best Practices / Reproducibility Checklist and Data Cleaning Best Practices: it completes the reproducibility portion of the request correctly, then explicitly checks it against the data cleaning guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices",
+      "research_reproducibility_checklist",
+      "data_analysis_data_cleaning_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_common_pitfalls",
+      "writing_grammar_and_clarity_checklist",
+      "statistics_nonparametric_methods_checklist",
+      "security_authorization_best_practices"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "research_compound_reproducibility_coding_typescript",
+    "domain": "research",
+    "domains": [
+      "research",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Produce a research write-up that applies reproducibility practices, and make sure the result also satisfies our coding guidelines around typescript.",
+    "reference_output": "A strong response satisfies both Reproducibility Best Practices / Reproducibility Checklist and Typescript Best Practices: it completes the reproducibility portion of the request correctly, then explicitly checks it against the typescript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "research_reproducibility_best_practices",
+      "research_reproducibility_checklist",
+      "coding_typescript_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_conventions",
+      "testing_test_data_management_best_practices",
+      "testing_regression_testing_advanced_patterns",
+      "deployment_canary_releases_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "reproducibility",
+      "secondary_domain": "coding",
+      "secondary_subject": "typescript",
+      "source": "template"
+    }
+  }
+]

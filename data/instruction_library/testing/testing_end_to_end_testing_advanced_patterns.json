@@ -1,0 +1,22 @@
+{
+  "module_id": "testing_end_to_end_testing_advanced_patterns",
+  "name": "Advanced End To End Testing Patterns",
+  "domain": "testing",
+  "description": "This module describes advanced patterns for end to end testing intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "end",
+    "end to end testing",
+    "scalability",
+    "testing",
+    "to"
+  ],
+  "content": "This module describes advanced patterns for end to end testing intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to end to end testing (empty input, boundary values, concurrent access) before calling the task done.\n2. Measure before optimizing any end to end testing bottleneck; do not guess at what is slow.\n3. Keep end to end testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Document any non-obvious end to end testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. Prefer the simplest end to end testing approach that satisfies the requirement over a more general one that isn't needed yet.\n6. When end to end testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. When multiple end to end testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic end to end testing advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of end to end testing correctness.\n- Avoid mixing unrelated end to end testing concerns into a single change; keep each change focused.\n- Do not skip documenting end to end testing assumptions just because they seem obvious in the moment.\n- Do not silently drop end to end testing edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about end to end testing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 425,
+  "metadata": {
+    "subject": "end_to_end_testing",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

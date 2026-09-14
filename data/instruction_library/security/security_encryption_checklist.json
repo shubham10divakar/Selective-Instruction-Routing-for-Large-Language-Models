@@ -1,0 +1,20 @@
+{
+  "module_id": "security_encryption_checklist",
+  "name": "Encryption Checklist",
+  "domain": "security",
+  "description": "This module is a pre-completion checklist for encryption work: a short set of checks to run before calling a encryption task done.",
+  "capabilities": [
+    "checklist",
+    "encryption",
+    "pre-completion review",
+    "security",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for encryption work: a short set of checks to run before calling a encryption task done.\n\nCORE GUIDELINES\n1. State assumptions about encryption explicitly before proceeding, rather than leaving them implicit.\n2. Measure before optimizing any encryption bottleneck; do not guess at what is slow.\n3. When encryption decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n4. Check that encryption terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Document any non-obvious encryption decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. Validate encryption outputs against a concrete example before treating the work as complete.\n7. Keep encryption changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Keep encryption outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Before starting encryption work, confirm the scope and constraints so the approach matches the actual requirement.\n10. When encryption guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic encryption advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated encryption concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of encryption correctness.\n- Do not skip documenting encryption assumptions just because they seem obvious in the moment.\n- Avoid introducing new encryption abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about encryption over a shortcut that saves a few lines but hides intent.",
+  "token_count": 478,
+  "metadata": {
+    "subject": "encryption",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "module_id": "database_replication_checklist",
+  "name": "Replication Checklist",
+  "domain": "database",
+  "description": "This module is a pre-completion checklist for replication work: a short set of checks to run before calling a replication task done.",
+  "capabilities": [
+    "checklist",
+    "database",
+    "pre-completion review",
+    "replication",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for replication work: a short set of checks to run before calling a replication task done.\n\nCORE GUIDELINES\n1. Validate replication outputs against a concrete example before treating the work as complete.\n2. When multiple replication strategies are viable, name the trade-off explicitly rather than silently picking one.\n3. Keep replication outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Surface known limitations of a chosen replication approach instead of presenting it as complete when it is not.\n5. State assumptions about replication explicitly before proceeding, rather than leaving them implicit.\n6. Re-check edge cases relevant to replication (empty input, boundary values, concurrent access) before calling the task done.\n7. Measure before optimizing any replication bottleneck; do not guess at what is slow.\n8. Document any non-obvious replication decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting replication assumptions just because they seem obvious in the moment.\n- Do not apply generic replication advice without checking it fits the specific context at hand.\n- Do not silently drop replication edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated replication concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of replication correctness.\n\nCLOSING NOTE\nRevisit these replication guidelines if the task's constraints change significantly during the work.",
+  "token_count": 416,
+  "metadata": {
+    "subject": "replication",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

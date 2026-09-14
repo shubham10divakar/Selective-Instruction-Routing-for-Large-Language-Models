@@ -1,0 +1,25 @@
+{
+  "module_id": "writing_tone_and_style_conventions",
+  "name": "Tone And Style Conventions",
+  "domain": "writing",
+  "description": "This module governs the naming, structure, and style conventions expected when working on tone and style so output stays consistent and easy to review.",
+  "capabilities": [
+    "and",
+    "consistency",
+    "conventions",
+    "formatting",
+    "naming",
+    "style",
+    "style guide",
+    "tone",
+    "tone and style",
+    "writing"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on tone and style so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Keep tone and style outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. When tone and style decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Measure before optimizing any tone and style bottleneck; do not guess at what is slow.\n4. Prefer the simplest tone and style approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Check that tone and style terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Document any non-obvious tone and style decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. When multiple tone and style strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Surface known limitations of a chosen tone and style approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop tone and style edge cases to make an example look cleaner than the real system.\n- Do not apply generic tone and style advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated tone and style concerns into a single change; keep each change focused.\n- Do not skip documenting tone and style assumptions just because they seem obvious in the moment.\n- Avoid introducing new tone and style abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these tone and style guidelines if the task's constraints change significantly during the work.",
+  "token_count": 444,
+  "metadata": {
+    "subject": "tone_and_style",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

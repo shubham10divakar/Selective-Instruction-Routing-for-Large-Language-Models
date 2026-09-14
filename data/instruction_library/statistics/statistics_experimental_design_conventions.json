@@ -1,0 +1,24 @@
+{
+  "module_id": "statistics_experimental_design_conventions",
+  "name": "Experimental Design Conventions",
+  "domain": "statistics",
+  "description": "This module governs the naming, structure, and style conventions expected when working on experimental design so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "design",
+    "experimental",
+    "experimental design",
+    "formatting",
+    "naming",
+    "statistics",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on experimental design so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When multiple experimental design strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Re-check edge cases relevant to experimental design (empty input, boundary values, concurrent access) before calling the task done.\n3. Keep experimental design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Surface known limitations of a chosen experimental design approach instead of presenting it as complete when it is not.\n5. When experimental design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Before starting experimental design work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer explicit, readable experimental design solutions over clever ones that are hard to verify.\n8. When experimental design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic experimental design advice without checking it fits the specific context at hand.\n- Avoid introducing new experimental design abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of experimental design correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about experimental design over a shortcut that saves a few lines but hides intent.",
+  "token_count": 410,
+  "metadata": {
+    "subject": "experimental_design",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

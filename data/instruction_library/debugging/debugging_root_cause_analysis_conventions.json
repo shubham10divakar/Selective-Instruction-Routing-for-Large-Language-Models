@@ -1,0 +1,25 @@
+{
+  "module_id": "debugging_root_cause_analysis_conventions",
+  "name": "Root Cause Analysis Conventions",
+  "domain": "debugging",
+  "description": "This module governs the naming, structure, and style conventions expected when working on root cause analysis so output stays consistent and easy to review.",
+  "capabilities": [
+    "analysis",
+    "cause",
+    "consistency",
+    "conventions",
+    "debugging",
+    "formatting",
+    "naming",
+    "root",
+    "root cause analysis",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on root cause analysis so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer the simplest root cause analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Before starting root cause analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Prefer explicit, readable root cause analysis solutions over clever ones that are hard to verify.\n4. Surface known limitations of a chosen root cause analysis approach instead of presenting it as complete when it is not.\n5. When root cause analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Keep root cause analysis outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Measure before optimizing any root cause analysis bottleneck; do not guess at what is slow.\n8. When multiple root cause analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop root cause analysis edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of root cause analysis correctness.\n- Avoid mixing unrelated root cause analysis concerns into a single change; keep each change focused.\n- Avoid introducing new root cause analysis abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for root cause analysis, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 439,
+  "metadata": {
+    "subject": "root_cause_analysis",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

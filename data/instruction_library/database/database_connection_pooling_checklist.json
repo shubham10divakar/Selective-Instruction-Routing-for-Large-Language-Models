@@ -1,0 +1,22 @@
+{
+  "module_id": "database_connection_pooling_checklist",
+  "name": "Connection Pooling Checklist",
+  "domain": "database",
+  "description": "This module is a pre-completion checklist for connection pooling work: a short set of checks to run before calling a connection pooling task done.",
+  "capabilities": [
+    "checklist",
+    "connection",
+    "connection pooling",
+    "database",
+    "pooling",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for connection pooling work: a short set of checks to run before calling a connection pooling task done.\n\nCORE GUIDELINES\n1. When connection pooling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Re-check edge cases relevant to connection pooling (empty input, boundary values, concurrent access) before calling the task done.\n3. Prefer the simplest connection pooling approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Measure before optimizing any connection pooling bottleneck; do not guess at what is slow.\n5. Keep connection pooling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Before starting connection pooling work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Check that connection pooling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Validate connection pooling outputs against a concrete example before treating the work as complete.\n9. When multiple connection pooling strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop connection pooling edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated connection pooling concerns into a single change; keep each change focused.\n- Do not apply generic connection pooling advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about connection pooling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 428,
+  "metadata": {
+    "subject": "connection_pooling",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

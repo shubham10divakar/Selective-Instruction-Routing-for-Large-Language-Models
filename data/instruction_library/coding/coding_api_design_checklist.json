@@ -1,0 +1,22 @@
+{
+  "module_id": "coding_api_design_checklist",
+  "name": "Api Design Checklist",
+  "domain": "coding",
+  "description": "This module is a pre-completion checklist for api design work: a short set of checks to run before calling a api design task done.",
+  "capabilities": [
+    "api",
+    "api design",
+    "checklist",
+    "coding",
+    "design",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for api design work: a short set of checks to run before calling a api design task done.\n\nCORE GUIDELINES\n1. When api design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Surface known limitations of a chosen api design approach instead of presenting it as complete when it is not.\n3. When api design guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Prefer explicit, readable api design solutions over clever ones that are hard to verify.\n5. Measure before optimizing any api design bottleneck; do not guess at what is slow.\n6. Keep api design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Validate api design outputs against a concrete example before treating the work as complete.\n8. Check that api design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Re-check edge cases relevant to api design (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated api design concerns into a single change; keep each change focused.\n- Do not apply generic api design advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of api design correctness.\n- Do not silently drop api design edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about api design over a shortcut that saves a few lines but hides intent.",
+  "token_count": 417,
+  "metadata": {
+    "subject": "api_design",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

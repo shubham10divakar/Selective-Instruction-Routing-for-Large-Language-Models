@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_outlier_detection_checklist",
+  "name": "Outlier Detection Checklist",
+  "domain": "data_analysis",
+  "description": "This module is a pre-completion checklist for outlier detection work: a short set of checks to run before calling a outlier detection task done.",
+  "capabilities": [
+    "checklist",
+    "data_analysis",
+    "detection",
+    "outlier",
+    "outlier detection",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for outlier detection work: a short set of checks to run before calling a outlier detection task done.\n\nCORE GUIDELINES\n1. Keep outlier detection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. Document any non-obvious outlier detection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Surface known limitations of a chosen outlier detection approach instead of presenting it as complete when it is not.\n4. Re-check edge cases relevant to outlier detection (empty input, boundary values, concurrent access) before calling the task done.\n5. Prefer explicit, readable outlier detection solutions over clever ones that are hard to verify.\n6. State assumptions about outlier detection explicitly before proceeding, rather than leaving them implicit.\n7. When outlier detection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Measure before optimizing any outlier detection bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting outlier detection assumptions just because they seem obvious in the moment.\n- Avoid introducing new outlier detection abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of outlier detection correctness.\n- Do not silently drop outlier detection edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these outlier detection guidelines if the task's constraints change significantly during the work.",
+  "token_count": 409,
+  "metadata": {
+    "subject": "outlier_detection",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

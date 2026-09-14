@@ -1,0 +1,24 @@
+{
+  "module_id": "statistics_hypothesis_testing_conventions",
+  "name": "Hypothesis Testing Conventions",
+  "domain": "statistics",
+  "description": "This module governs the naming, structure, and style conventions expected when working on hypothesis testing so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "hypothesis",
+    "hypothesis testing",
+    "naming",
+    "statistics",
+    "style guide",
+    "testing"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on hypothesis testing so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When multiple hypothesis testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Keep hypothesis testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Document any non-obvious hypothesis testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Check that hypothesis testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Re-check edge cases relevant to hypothesis testing (empty input, boundary values, concurrent access) before calling the task done.\n6. When hypothesis testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Prefer the simplest hypothesis testing approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Before starting hypothesis testing work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic hypothesis testing advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated hypothesis testing concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of hypothesis testing correctness.\n\nCLOSING NOTE\nRevisit these hypothesis testing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 420,
+  "metadata": {
+    "subject": "hypothesis_testing",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

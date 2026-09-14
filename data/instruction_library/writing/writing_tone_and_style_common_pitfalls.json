@@ -1,0 +1,24 @@
+{
+  "module_id": "writing_tone_and_style_common_pitfalls",
+  "name": "Tone And Style Common Pitfalls",
+  "domain": "writing",
+  "description": "This module lists the most common pitfalls encountered in tone and style work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "and",
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "style",
+    "tone",
+    "tone and style",
+    "writing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in tone and style work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When multiple tone and style strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Prefer the simplest tone and style approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Surface known limitations of a chosen tone and style approach instead of presenting it as complete when it is not.\n4. Validate tone and style outputs against a concrete example before treating the work as complete.\n5. Keep tone and style changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Before starting tone and style work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Measure before optimizing any tone and style bottleneck; do not guess at what is slow.\n8. State assumptions about tone and style explicitly before proceeding, rather than leaving them implicit.\n9. Prefer explicit, readable tone and style solutions over clever ones that are hard to verify.\n10. When tone and style decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n11. Check that tone and style terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new tone and style abstractions before there is a second concrete use case that needs them.\n- Do not apply generic tone and style advice without checking it fits the specific context at hand.\n- Do not skip documenting tone and style assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these tone and style guidelines if the task's constraints change significantly during the work.",
+  "token_count": 457,
+  "metadata": {
+    "subject": "tone_and_style",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

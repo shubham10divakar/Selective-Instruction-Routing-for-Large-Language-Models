@@ -1,0 +1,20 @@
+{
+  "module_id": "writing_editing_advanced_patterns",
+  "name": "Advanced Editing Patterns",
+  "domain": "writing",
+  "description": "This module describes advanced patterns for editing intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "editing",
+    "scalability",
+    "writing"
+  ],
+  "content": "This module describes advanced patterns for editing intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Prefer the simplest editing approach that satisfies the requirement over a more general one that isn't needed yet.\n2. State assumptions about editing explicitly before proceeding, rather than leaving them implicit.\n3. Before starting editing work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Check that editing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n5. Validate editing outputs against a concrete example before treating the work as complete.\n6. Keep editing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Prefer explicit, readable editing solutions over clever ones that are hard to verify.\n8. Keep editing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. When multiple editing strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. When editing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of editing correctness.\n- Do not skip documenting editing assumptions just because they seem obvious in the moment.\n- Do not silently drop editing edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these editing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 412,
+  "metadata": {
+    "subject": "editing",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

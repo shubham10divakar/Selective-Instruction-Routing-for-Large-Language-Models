@@ -1,0 +1,23 @@
+{
+  "module_id": "deployment_canary_releases_common_pitfalls",
+  "name": "Canary Releases Common Pitfalls",
+  "domain": "deployment",
+  "description": "This module lists the most common pitfalls encountered in canary releases work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "canary",
+    "canary releases",
+    "common pitfalls",
+    "deployment",
+    "failure modes",
+    "pitfalls",
+    "releases"
+  ],
+  "content": "This module lists the most common pitfalls encountered in canary releases work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen canary releases approach instead of presenting it as complete when it is not.\n2. Document any non-obvious canary releases decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Prefer explicit, readable canary releases solutions over clever ones that are hard to verify.\n4. Before starting canary releases work, confirm the scope and constraints so the approach matches the actual requirement.\n5. When canary releases decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Validate canary releases outputs against a concrete example before treating the work as complete.\n7. Measure before optimizing any canary releases bottleneck; do not guess at what is slow.\n8. Keep canary releases changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Prefer the simplest canary releases approach that satisfies the requirement over a more general one that isn't needed yet.\n10. When canary releases guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n11. When multiple canary releases strategies are viable, name the trade-off explicitly rather than silently picking one.\n12. Re-check edge cases relevant to canary releases (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop canary releases edge cases to make an example look cleaner than the real system.\n- Do not skip documenting canary releases assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of canary releases correctness.\n- Do not apply generic canary releases advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated canary releases concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these canary releases guidelines if the task's constraints change significantly during the work.",
+  "token_count": 548,
+  "metadata": {
+    "subject": "canary_releases",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

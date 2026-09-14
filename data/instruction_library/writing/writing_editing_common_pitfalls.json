@@ -1,0 +1,21 @@
+{
+  "module_id": "writing_editing_common_pitfalls",
+  "name": "Editing Common Pitfalls",
+  "domain": "writing",
+  "description": "This module lists the most common pitfalls encountered in editing work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "editing",
+    "failure modes",
+    "pitfalls",
+    "writing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in editing work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Document any non-obvious editing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Before starting editing work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Surface known limitations of a chosen editing approach instead of presenting it as complete when it is not.\n4. When editing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Check that editing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Prefer explicit, readable editing solutions over clever ones that are hard to verify.\n7. Measure before optimizing any editing bottleneck; do not guess at what is slow.\n8. State assumptions about editing explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop editing edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of editing correctness.\n- Avoid mixing unrelated editing concerns into a single change; keep each change focused.\n- Do not skip documenting editing assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these editing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 383,
+  "metadata": {
+    "subject": "editing",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

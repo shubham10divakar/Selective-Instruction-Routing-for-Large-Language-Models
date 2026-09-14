@@ -1,0 +1,24 @@
+{
+  "module_id": "statistics_bayesian_inference_conventions",
+  "name": "Bayesian Inference Conventions",
+  "domain": "statistics",
+  "description": "This module governs the naming, structure, and style conventions expected when working on bayesian inference so output stays consistent and easy to review.",
+  "capabilities": [
+    "bayesian",
+    "bayesian inference",
+    "consistency",
+    "conventions",
+    "formatting",
+    "inference",
+    "naming",
+    "statistics",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on bayesian inference so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Document any non-obvious bayesian inference decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. Prefer explicit, readable bayesian inference solutions over clever ones that are hard to verify.\n3. When multiple bayesian inference strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep bayesian inference outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Before starting bayesian inference work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Validate bayesian inference outputs against a concrete example before treating the work as complete.\n7. Check that bayesian inference terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Measure before optimizing any bayesian inference bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop bayesian inference edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of bayesian inference correctness.\n- Avoid mixing unrelated bayesian inference concerns into a single change; keep each change focused.\n- Avoid introducing new bayesian inference abstractions before there is a second concrete use case that needs them.\n- Do not apply generic bayesian inference advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these bayesian inference guidelines if the task's constraints change significantly during the work.",
+  "token_count": 449,
+  "metadata": {
+    "subject": "bayesian_inference",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

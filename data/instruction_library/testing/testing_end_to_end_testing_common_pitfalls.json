@@ -1,0 +1,23 @@
+{
+  "module_id": "testing_end_to_end_testing_common_pitfalls",
+  "name": "End To End Testing Common Pitfalls",
+  "domain": "testing",
+  "description": "This module lists the most common pitfalls encountered in end to end testing work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "end",
+    "end to end testing",
+    "failure modes",
+    "pitfalls",
+    "testing",
+    "to"
+  ],
+  "content": "This module lists the most common pitfalls encountered in end to end testing work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When end to end testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Before starting end to end testing work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Keep end to end testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. When end to end testing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Re-check edge cases relevant to end to end testing (empty input, boundary values, concurrent access) before calling the task done.\n6. Prefer the simplest end to end testing approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Prefer explicit, readable end to end testing solutions over clever ones that are hard to verify.\n8. Document any non-obvious end to end testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Validate end to end testing outputs against a concrete example before treating the work as complete.\n10. Measure before optimizing any end to end testing bottleneck; do not guess at what is slow.\n11. When multiple end to end testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n12. Check that end to end testing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new end to end testing abstractions before there is a second concrete use case that needs them.\n- Do not apply generic end to end testing advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated end to end testing concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of end to end testing correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about end to end testing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 556,
+  "metadata": {
+    "subject": "end_to_end_testing",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

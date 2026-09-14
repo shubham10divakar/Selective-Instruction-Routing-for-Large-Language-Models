@@ -1,0 +1,23 @@
+{
+  "module_id": "deployment_ci_cd_pipelines_best_practices",
+  "name": "Ci Cd Pipelines Best Practices",
+  "domain": "deployment",
+  "description": "This module captures the best practices for ci cd pipelines, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "cd",
+    "ci",
+    "ci cd pipelines",
+    "deployment",
+    "maintainability",
+    "pipelines",
+    "quality"
+  ],
+  "content": "This module captures the best practices for ci cd pipelines, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. State assumptions about ci cd pipelines explicitly before proceeding, rather than leaving them implicit.\n2. Check that ci cd pipelines terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Keep ci cd pipelines changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Validate ci cd pipelines outputs against a concrete example before treating the work as complete.\n5. Keep ci cd pipelines outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. When ci cd pipelines guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Surface known limitations of a chosen ci cd pipelines approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop ci cd pipelines edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of ci cd pipelines correctness.\n- Do not apply generic ci cd pipelines advice without checking it fits the specific context at hand.\n- Avoid introducing new ci cd pipelines abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about ci cd pipelines over a shortcut that saves a few lines but hides intent.",
+  "token_count": 390,
+  "metadata": {
+    "subject": "ci_cd_pipelines",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

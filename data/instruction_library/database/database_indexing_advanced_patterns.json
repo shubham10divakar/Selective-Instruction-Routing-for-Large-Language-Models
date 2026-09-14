@@ -1,0 +1,20 @@
+{
+  "module_id": "database_indexing_advanced_patterns",
+  "name": "Advanced Indexing Patterns",
+  "domain": "database",
+  "description": "This module describes advanced patterns for indexing intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "database",
+    "edge cases",
+    "indexing",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for indexing intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Before starting indexing work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Surface known limitations of a chosen indexing approach instead of presenting it as complete when it is not.\n3. When multiple indexing strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep indexing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Re-check edge cases relevant to indexing (empty input, boundary values, concurrent access) before calling the task done.\n6. State assumptions about indexing explicitly before proceeding, rather than leaving them implicit.\n7. When indexing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Keep indexing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Prefer explicit, readable indexing solutions over clever ones that are hard to verify.\n10. Validate indexing outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic indexing advice without checking it fits the specific context at hand.\n- Do not silently drop indexing edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated indexing concerns into a single change; keep each change focused.\n- Do not skip documenting indexing assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about indexing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 444,
+  "metadata": {
+    "subject": "indexing",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

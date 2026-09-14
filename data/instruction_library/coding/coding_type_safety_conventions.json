@@ -1,0 +1,24 @@
+{
+  "module_id": "coding_type_safety_conventions",
+  "name": "Type Safety Conventions",
+  "domain": "coding",
+  "description": "This module governs the naming, structure, and style conventions expected when working on type safety so output stays consistent and easy to review.",
+  "capabilities": [
+    "coding",
+    "consistency",
+    "conventions",
+    "formatting",
+    "naming",
+    "safety",
+    "style guide",
+    "type",
+    "type safety"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on type safety so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Keep type safety outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Before starting type safety work, confirm the scope and constraints so the approach matches the actual requirement.\n3. State assumptions about type safety explicitly before proceeding, rather than leaving them implicit.\n4. Prefer explicit, readable type safety solutions over clever ones that are hard to verify.\n5. Measure before optimizing any type safety bottleneck; do not guess at what is slow.\n6. When type safety decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Keep type safety changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n8. Re-check edge cases relevant to type safety (empty input, boundary values, concurrent access) before calling the task done.\n9. Validate type safety outputs against a concrete example before treating the work as complete.\n10. When multiple type safety strategies are viable, name the trade-off explicitly rather than silently picking one.\n11. Prefer the simplest type safety approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new type safety abstractions before there is a second concrete use case that needs them.\n- Do not silently drop type safety edge cases to make an example look cleaner than the real system.\n- Do not skip documenting type safety assumptions just because they seem obvious in the moment.\n- Do not apply generic type safety advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of type safety correctness.\n\nCLOSING NOTE\nRevisit these type safety guidelines if the task's constraints change significantly during the work.",
+  "token_count": 497,
+  "metadata": {
+    "subject": "type_safety",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

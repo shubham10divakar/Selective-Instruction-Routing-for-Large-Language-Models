@@ -1,0 +1,24 @@
+{
+  "module_id": "deployment_monitoring_and_alerting_common_pitfalls",
+  "name": "Monitoring And Alerting Common Pitfalls",
+  "domain": "deployment",
+  "description": "This module lists the most common pitfalls encountered in monitoring and alerting work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "alerting",
+    "and",
+    "anti-patterns",
+    "common pitfalls",
+    "deployment",
+    "failure modes",
+    "monitoring",
+    "monitoring and alerting",
+    "pitfalls"
+  ],
+  "content": "This module lists the most common pitfalls encountered in monitoring and alerting work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Prefer the simplest monitoring and alerting approach that satisfies the requirement over a more general one that isn't needed yet.\n2. State assumptions about monitoring and alerting explicitly before proceeding, rather than leaving them implicit.\n3. When monitoring and alerting guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Re-check edge cases relevant to monitoring and alerting (empty input, boundary values, concurrent access) before calling the task done.\n5. Before starting monitoring and alerting work, confirm the scope and constraints so the approach matches the actual requirement.\n6. Document any non-obvious monitoring and alerting decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Validate monitoring and alerting outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop monitoring and alerting edge cases to make an example look cleaner than the real system.\n- Avoid introducing new monitoring and alerting abstractions before there is a second concrete use case that needs them.\n- Avoid mixing unrelated monitoring and alerting concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of monitoring and alerting correctness.\n\nCLOSING NOTE\nRevisit these monitoring and alerting guidelines if the task's constraints change significantly during the work.",
+  "token_count": 420,
+  "metadata": {
+    "subject": "monitoring_and_alerting",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

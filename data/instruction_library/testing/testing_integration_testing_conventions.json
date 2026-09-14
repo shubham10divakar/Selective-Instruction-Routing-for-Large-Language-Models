@@ -1,0 +1,23 @@
+{
+  "module_id": "testing_integration_testing_conventions",
+  "name": "Integration Testing Conventions",
+  "domain": "testing",
+  "description": "This module governs the naming, structure, and style conventions expected when working on integration testing so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "integration",
+    "integration testing",
+    "naming",
+    "style guide",
+    "testing"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on integration testing so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When integration testing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Prefer explicit, readable integration testing solutions over clever ones that are hard to verify.\n3. Before starting integration testing work, confirm the scope and constraints so the approach matches the actual requirement.\n4. State assumptions about integration testing explicitly before proceeding, rather than leaving them implicit.\n5. When multiple integration testing strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Measure before optimizing any integration testing bottleneck; do not guess at what is slow.\n7. Re-check edge cases relevant to integration testing (empty input, boundary values, concurrent access) before calling the task done.\n8. Document any non-obvious integration testing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Keep integration testing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic integration testing advice without checking it fits the specific context at hand.\n- Do not skip documenting integration testing assumptions just because they seem obvious in the moment.\n- Do not silently drop integration testing edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these integration testing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 437,
+  "metadata": {
+    "subject": "integration_testing",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

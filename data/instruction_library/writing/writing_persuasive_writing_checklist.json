@@ -1,0 +1,21 @@
+{
+  "module_id": "writing_persuasive_writing_checklist",
+  "name": "Persuasive Writing Checklist",
+  "domain": "writing",
+  "description": "This module is a pre-completion checklist for persuasive writing work: a short set of checks to run before calling a persuasive writing task done.",
+  "capabilities": [
+    "checklist",
+    "persuasive",
+    "persuasive writing",
+    "pre-completion review",
+    "verification",
+    "writing"
+  ],
+  "content": "This module is a pre-completion checklist for persuasive writing work: a short set of checks to run before calling a persuasive writing task done.\n\nCORE GUIDELINES\n1. Prefer explicit, readable persuasive writing solutions over clever ones that are hard to verify.\n2. Check that persuasive writing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. When multiple persuasive writing strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep persuasive writing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Document any non-obvious persuasive writing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. State assumptions about persuasive writing explicitly before proceeding, rather than leaving them implicit.\n7. When persuasive writing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Prefer the simplest persuasive writing approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of persuasive writing correctness.\n- Do not apply generic persuasive writing advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated persuasive writing concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these persuasive writing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 406,
+  "metadata": {
+    "subject": "persuasive_writing",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

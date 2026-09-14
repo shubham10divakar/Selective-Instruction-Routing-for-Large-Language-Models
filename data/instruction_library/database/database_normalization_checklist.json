@@ -1,0 +1,20 @@
+{
+  "module_id": "database_normalization_checklist",
+  "name": "Normalization Checklist",
+  "domain": "database",
+  "description": "This module is a pre-completion checklist for normalization work: a short set of checks to run before calling a normalization task done.",
+  "capabilities": [
+    "checklist",
+    "database",
+    "normalization",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for normalization work: a short set of checks to run before calling a normalization task done.\n\nCORE GUIDELINES\n1. When multiple normalization strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. State assumptions about normalization explicitly before proceeding, rather than leaving them implicit.\n3. Keep normalization outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n4. Validate normalization outputs against a concrete example before treating the work as complete.\n5. Surface known limitations of a chosen normalization approach instead of presenting it as complete when it is not.\n6. When normalization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Prefer the simplest normalization approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Keep normalization changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Prefer explicit, readable normalization solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting normalization assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated normalization concerns into a single change; keep each change focused.\n- Avoid introducing new normalization abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about normalization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 404,
+  "metadata": {
+    "subject": "normalization",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

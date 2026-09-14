@@ -1,0 +1,24 @@
+{
+  "module_id": "data_analysis_data_pipelines_conventions",
+  "name": "Data Pipelines Conventions",
+  "domain": "data_analysis",
+  "description": "This module governs the naming, structure, and style conventions expected when working on data pipelines so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "data",
+    "data pipelines",
+    "data_analysis",
+    "formatting",
+    "naming",
+    "pipelines",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on data pipelines so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer explicit, readable data pipelines solutions over clever ones that are hard to verify.\n2. Check that data pipelines terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Validate data pipelines outputs against a concrete example before treating the work as complete.\n4. Keep data pipelines changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Prefer the simplest data pipelines approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Before starting data pipelines work, confirm the scope and constraints so the approach matches the actual requirement.\n7. When multiple data pipelines strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Re-check edge cases relevant to data pipelines (empty input, boundary values, concurrent access) before calling the task done.\n9. Keep data pipelines outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n10. State assumptions about data pipelines explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic data pipelines advice without checking it fits the specific context at hand.\n- Do not silently drop data pipelines edge cases to make an example look cleaner than the real system.\n- Do not skip documenting data pipelines assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated data pipelines concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nThese guidelines are a starting point for data pipelines, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 475,
+  "metadata": {
+    "subject": "data_pipelines",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

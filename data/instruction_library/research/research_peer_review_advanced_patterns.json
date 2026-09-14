@@ -1,0 +1,22 @@
+{
+  "module_id": "research_peer_review_advanced_patterns",
+  "name": "Advanced Peer Review Patterns",
+  "domain": "research",
+  "description": "This module describes advanced patterns for peer review intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "peer",
+    "peer review",
+    "research",
+    "review",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for peer review intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to peer review (empty input, boundary values, concurrent access) before calling the task done.\n2. Measure before optimizing any peer review bottleneck; do not guess at what is slow.\n3. When peer review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Prefer explicit, readable peer review solutions over clever ones that are hard to verify.\n5. Surface known limitations of a chosen peer review approach instead of presenting it as complete when it is not.\n6. Document any non-obvious peer review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Keep peer review changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated peer review concerns into a single change; keep each change focused.\n- Do not silently drop peer review edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of peer review correctness.\n- Do not apply generic peer review advice without checking it fits the specific context at hand.\n- Avoid introducing new peer review abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these peer review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 391,
+  "metadata": {
+    "subject": "peer_review",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "module_id": "statistics_nonparametric_methods_conventions",
+  "name": "Nonparametric Methods Conventions",
+  "domain": "statistics",
+  "description": "This module governs the naming, structure, and style conventions expected when working on nonparametric methods so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "methods",
+    "naming",
+    "nonparametric",
+    "nonparametric methods",
+    "statistics",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on nonparametric methods so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Before starting nonparametric methods work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Surface known limitations of a chosen nonparametric methods approach instead of presenting it as complete when it is not.\n3. Validate nonparametric methods outputs against a concrete example before treating the work as complete.\n4. Keep nonparametric methods outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Measure before optimizing any nonparametric methods bottleneck; do not guess at what is slow.\n6. When nonparametric methods guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Prefer explicit, readable nonparametric methods solutions over clever ones that are hard to verify.\n8. When multiple nonparametric methods strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated nonparametric methods concerns into a single change; keep each change focused.\n- Do not silently drop nonparametric methods edge cases to make an example look cleaner than the real system.\n- Avoid introducing new nonparametric methods abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for nonparametric methods, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 415,
+  "metadata": {
+    "subject": "nonparametric_methods",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

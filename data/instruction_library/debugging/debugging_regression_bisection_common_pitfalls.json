@@ -1,0 +1,23 @@
+{
+  "module_id": "debugging_regression_bisection_common_pitfalls",
+  "name": "Regression Bisection Common Pitfalls",
+  "domain": "debugging",
+  "description": "This module lists the most common pitfalls encountered in regression bisection work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "bisection",
+    "common pitfalls",
+    "debugging",
+    "failure modes",
+    "pitfalls",
+    "regression",
+    "regression bisection"
+  ],
+  "content": "This module lists the most common pitfalls encountered in regression bisection work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Measure before optimizing any regression bisection bottleneck; do not guess at what is slow.\n2. Keep regression bisection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. When multiple regression bisection strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. When regression bisection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Prefer the simplest regression bisection approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Re-check edge cases relevant to regression bisection (empty input, boundary values, concurrent access) before calling the task done.\n7. Keep regression bisection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. Document any non-obvious regression bisection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. Surface known limitations of a chosen regression bisection approach instead of presenting it as complete when it is not.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting regression bisection assumptions just because they seem obvious in the moment.\n- Avoid introducing new regression bisection abstractions before there is a second concrete use case that needs them.\n- Do not silently drop regression bisection edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about regression bisection over a shortcut that saves a few lines but hides intent.",
+  "token_count": 451,
+  "metadata": {
+    "subject": "regression_bisection",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "module_id": "deployment_blue_green_deployment_best_practices",
+  "name": "Blue Green Deployment Best Practices",
+  "domain": "deployment",
+  "description": "This module captures the best practices for blue green deployment, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "blue",
+    "blue green deployment",
+    "deployment",
+    "green",
+    "maintainability",
+    "quality"
+  ],
+  "content": "This module captures the best practices for blue green deployment, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer the simplest blue green deployment approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Surface known limitations of a chosen blue green deployment approach instead of presenting it as complete when it is not.\n3. State assumptions about blue green deployment explicitly before proceeding, rather than leaving them implicit.\n4. Keep blue green deployment outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. When blue green deployment decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Validate blue green deployment outputs against a concrete example before treating the work as complete.\n7. Check that blue green deployment terminology is used consistently throughout, matching existing conventions in the surrounding context.\n8. Re-check edge cases relevant to blue green deployment (empty input, boundary values, concurrent access) before calling the task done.\n9. Keep blue green deployment changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n10. Prefer explicit, readable blue green deployment solutions over clever ones that are hard to verify.\n11. When multiple blue green deployment strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated blue green deployment concerns into a single change; keep each change focused.\n- Avoid introducing new blue green deployment abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of blue green deployment correctness.\n- Do not silently drop blue green deployment edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for blue green deployment, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 528,
+  "metadata": {
+    "subject": "blue_green_deployment",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

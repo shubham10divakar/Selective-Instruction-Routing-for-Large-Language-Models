@@ -1,0 +1,22 @@
+{
+  "module_id": "database_nosql_modeling_best_practices",
+  "name": "Nosql Modeling Best Practices",
+  "domain": "database",
+  "description": "This module captures the best practices for nosql modeling, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "database",
+    "maintainability",
+    "modeling",
+    "nosql",
+    "nosql modeling",
+    "quality"
+  ],
+  "content": "This module captures the best practices for nosql modeling, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Validate nosql modeling outputs against a concrete example before treating the work as complete.\n2. Check that nosql modeling terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Re-check edge cases relevant to nosql modeling (empty input, boundary values, concurrent access) before calling the task done.\n4. State assumptions about nosql modeling explicitly before proceeding, rather than leaving them implicit.\n5. When nosql modeling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Surface known limitations of a chosen nosql modeling approach instead of presenting it as complete when it is not.\n7. When multiple nosql modeling strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Measure before optimizing any nosql modeling bottleneck; do not guess at what is slow.\n9. Prefer the simplest nosql modeling approach that satisfies the requirement over a more general one that isn't needed yet.\n10. Keep nosql modeling outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new nosql modeling abstractions before there is a second concrete use case that needs them.\n- Do not silently drop nosql modeling edge cases to make an example look cleaner than the real system.\n- Do not apply generic nosql modeling advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated nosql modeling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these nosql modeling guidelines if the task's constraints change significantly during the work.",
+  "token_count": 465,
+  "metadata": {
+    "subject": "nosql_modeling",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

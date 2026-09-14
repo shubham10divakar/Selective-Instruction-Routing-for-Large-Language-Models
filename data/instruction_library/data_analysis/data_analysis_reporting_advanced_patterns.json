@@ -1,0 +1,20 @@
+{
+  "module_id": "data_analysis_reporting_advanced_patterns",
+  "name": "Advanced Reporting Patterns",
+  "domain": "data_analysis",
+  "description": "This module describes advanced patterns for reporting intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "data_analysis",
+    "edge cases",
+    "reporting",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for reporting intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen reporting approach instead of presenting it as complete when it is not.\n2. Document any non-obvious reporting decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Prefer explicit, readable reporting solutions over clever ones that are hard to verify.\n4. Keep reporting changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Prefer the simplest reporting approach that satisfies the requirement over a more general one that isn't needed yet.\n6. When multiple reporting strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. When reporting decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n8. Before starting reporting work, confirm the scope and constraints so the approach matches the actual requirement.\n9. Keep reporting outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting reporting assumptions just because they seem obvious in the moment.\n- Do not apply generic reporting advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of reporting correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for reporting, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 399,
+  "metadata": {
+    "subject": "reporting",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

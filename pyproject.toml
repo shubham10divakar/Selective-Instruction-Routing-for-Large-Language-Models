@@ -1,0 +1,14 @@
+[project]
+name = "sir"
+version = "0.1.0"
+description = "Selective Instruction Routing (SIR) for Large Language Models"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

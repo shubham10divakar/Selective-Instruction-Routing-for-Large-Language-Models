@@ -1,0 +1,22 @@
+{
+  "module_id": "research_reproducibility_conventions",
+  "name": "Reproducibility Conventions",
+  "domain": "research",
+  "description": "This module governs the naming, structure, and style conventions expected when working on reproducibility so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "naming",
+    "reproducibility",
+    "research",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on reproducibility so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Measure before optimizing any reproducibility bottleneck; do not guess at what is slow.\n2. When reproducibility decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. State assumptions about reproducibility explicitly before proceeding, rather than leaving them implicit.\n4. Before starting reproducibility work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Surface known limitations of a chosen reproducibility approach instead of presenting it as complete when it is not.\n6. Re-check edge cases relevant to reproducibility (empty input, boundary values, concurrent access) before calling the task done.\n7. Validate reproducibility outputs against a concrete example before treating the work as complete.\n8. When reproducibility guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Check that reproducibility terminology is used consistently throughout, matching existing conventions in the surrounding context.\n10. Prefer the simplest reproducibility approach that satisfies the requirement over a more general one that isn't needed yet.\n11. Document any non-obvious reproducibility decision with a short rationale so future readers understand the 'why', not just the 'what'.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of reproducibility correctness.\n- Do not silently drop reproducibility edge cases to make an example look cleaner than the real system.\n- Do not apply generic reproducibility advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these reproducibility guidelines if the task's constraints change significantly during the work.",
+  "token_count": 484,
+  "metadata": {
+    "subject": "reproducibility",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

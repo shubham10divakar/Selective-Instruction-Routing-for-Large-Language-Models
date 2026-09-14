@@ -1,0 +1,22 @@
+{
+  "module_id": "security_secure_coding_best_practices",
+  "name": "Secure Coding Best Practices",
+  "domain": "security",
+  "description": "This module captures the best practices for secure coding, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "coding",
+    "maintainability",
+    "quality",
+    "secure",
+    "secure coding",
+    "security"
+  ],
+  "content": "This module captures the best practices for secure coding, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer the simplest secure coding approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Check that secure coding terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Document any non-obvious secure coding decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. State assumptions about secure coding explicitly before proceeding, rather than leaving them implicit.\n5. Surface known limitations of a chosen secure coding approach instead of presenting it as complete when it is not.\n6. Keep secure coding outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Measure before optimizing any secure coding bottleneck; do not guess at what is slow.\n8. Validate secure coding outputs against a concrete example before treating the work as complete.\n9. When secure coding decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n10. Prefer explicit, readable secure coding solutions over clever ones that are hard to verify.\n11. When secure coding guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop secure coding edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated secure coding concerns into a single change; keep each change focused.\n- Avoid introducing new secure coding abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nThese guidelines are a starting point for secure coding, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 476,
+  "metadata": {
+    "subject": "secure_coding",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

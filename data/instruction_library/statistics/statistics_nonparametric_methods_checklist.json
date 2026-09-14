@@ -1,0 +1,22 @@
+{
+  "module_id": "statistics_nonparametric_methods_checklist",
+  "name": "Nonparametric Methods Checklist",
+  "domain": "statistics",
+  "description": "This module is a pre-completion checklist for nonparametric methods work: a short set of checks to run before calling a nonparametric methods task done.",
+  "capabilities": [
+    "checklist",
+    "methods",
+    "nonparametric",
+    "nonparametric methods",
+    "pre-completion review",
+    "statistics",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for nonparametric methods work: a short set of checks to run before calling a nonparametric methods task done.\n\nCORE GUIDELINES\n1. Before starting nonparametric methods work, confirm the scope and constraints so the approach matches the actual requirement.\n2. Measure before optimizing any nonparametric methods bottleneck; do not guess at what is slow.\n3. Prefer explicit, readable nonparametric methods solutions over clever ones that are hard to verify.\n4. When nonparametric methods decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. Keep nonparametric methods outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n6. Check that nonparametric methods terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Surface known limitations of a chosen nonparametric methods approach instead of presenting it as complete when it is not.\n8. When multiple nonparametric methods strategies are viable, name the trade-off explicitly rather than silently picking one.\n9. Re-check edge cases relevant to nonparametric methods (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of nonparametric methods correctness.\n- Do not skip documenting nonparametric methods assumptions just because they seem obvious in the moment.\n- Do not apply generic nonparametric methods advice without checking it fits the specific context at hand.\n- Avoid introducing new nonparametric methods abstractions before there is a second concrete use case that needs them.\n- Do not silently drop nonparametric methods edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these nonparametric methods guidelines if the task's constraints change significantly during the work.",
+  "token_count": 491,
+  "metadata": {
+    "subject": "nonparametric_methods",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

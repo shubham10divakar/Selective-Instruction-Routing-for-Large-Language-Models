@@ -1,0 +1,22 @@
+{
+  "module_id": "database_normalization_conventions",
+  "name": "Normalization Conventions",
+  "domain": "database",
+  "description": "This module governs the naming, structure, and style conventions expected when working on normalization so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "database",
+    "formatting",
+    "naming",
+    "normalization",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on normalization so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer explicit, readable normalization solutions over clever ones that are hard to verify.\n2. Measure before optimizing any normalization bottleneck; do not guess at what is slow.\n3. Re-check edge cases relevant to normalization (empty input, boundary values, concurrent access) before calling the task done.\n4. Before starting normalization work, confirm the scope and constraints so the approach matches the actual requirement.\n5. Document any non-obvious normalization decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. When multiple normalization strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. When normalization guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Validate normalization outputs against a concrete example before treating the work as complete.\n9. When normalization decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop normalization edge cases to make an example look cleaner than the real system.\n- Do not skip documenting normalization assumptions just because they seem obvious in the moment.\n- Do not apply generic normalization advice without checking it fits the specific context at hand.\n- Avoid introducing new normalization abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about normalization over a shortcut that saves a few lines but hides intent.",
+  "token_count": 445,
+  "metadata": {
+    "subject": "normalization",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

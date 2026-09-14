@@ -1,0 +1,21 @@
+{
+  "module_id": "writing_persuasive_writing_best_practices",
+  "name": "Persuasive Writing Best Practices",
+  "domain": "writing",
+  "description": "This module captures the best practices for persuasive writing, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "maintainability",
+    "persuasive",
+    "persuasive writing",
+    "quality",
+    "writing"
+  ],
+  "content": "This module captures the best practices for persuasive writing, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When multiple persuasive writing strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Surface known limitations of a chosen persuasive writing approach instead of presenting it as complete when it is not.\n3. Validate persuasive writing outputs against a concrete example before treating the work as complete.\n4. Keep persuasive writing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. State assumptions about persuasive writing explicitly before proceeding, rather than leaving them implicit.\n6. When persuasive writing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Re-check edge cases relevant to persuasive writing (empty input, boundary values, concurrent access) before calling the task done.\n8. Prefer explicit, readable persuasive writing solutions over clever ones that are hard to verify.\n9. Measure before optimizing any persuasive writing bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting persuasive writing assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of persuasive writing correctness.\n- Do not apply generic persuasive writing advice without checking it fits the specific context at hand.\n- Avoid introducing new persuasive writing abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these persuasive writing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 439,
+  "metadata": {
+    "subject": "persuasive_writing",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

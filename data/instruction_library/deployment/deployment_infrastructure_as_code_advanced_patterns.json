@@ -1,0 +1,23 @@
+{
+  "module_id": "deployment_infrastructure_as_code_advanced_patterns",
+  "name": "Advanced Infrastructure As Code Patterns",
+  "domain": "deployment",
+  "description": "This module describes advanced patterns for infrastructure as code intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "as",
+    "code",
+    "deployment",
+    "edge cases",
+    "infrastructure",
+    "infrastructure as code",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for infrastructure as code intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Keep infrastructure as code changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. Validate infrastructure as code outputs against a concrete example before treating the work as complete.\n3. Surface known limitations of a chosen infrastructure as code approach instead of presenting it as complete when it is not.\n4. State assumptions about infrastructure as code explicitly before proceeding, rather than leaving them implicit.\n5. Document any non-obvious infrastructure as code decision with a short rationale so future readers understand the 'why', not just the 'what'.\n6. When infrastructure as code decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Before starting infrastructure as code work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Check that infrastructure as code terminology is used consistently throughout, matching existing conventions in the surrounding context.\n9. Measure before optimizing any infrastructure as code bottleneck; do not guess at what is slow.\n10. Prefer the simplest infrastructure as code approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop infrastructure as code edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of infrastructure as code correctness.\n- Do not skip documenting infrastructure as code assumptions just because they seem obvious in the moment.\n- Do not apply generic infrastructure as code advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about infrastructure as code over a shortcut that saves a few lines but hides intent.",
+  "token_count": 495,
+  "metadata": {
+    "subject": "infrastructure_as_code",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

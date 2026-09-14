@@ -1,0 +1,24 @@
+{
+  "module_id": "writing_content_structuring_conventions",
+  "name": "Content Structuring Conventions",
+  "domain": "writing",
+  "description": "This module governs the naming, structure, and style conventions expected when working on content structuring so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "content",
+    "content structuring",
+    "conventions",
+    "formatting",
+    "naming",
+    "structuring",
+    "style guide",
+    "writing"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on content structuring so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Document any non-obvious content structuring decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When content structuring decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Validate content structuring outputs against a concrete example before treating the work as complete.\n4. Before starting content structuring work, confirm the scope and constraints so the approach matches the actual requirement.\n5. When content structuring guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Surface known limitations of a chosen content structuring approach instead of presenting it as complete when it is not.\n7. When multiple content structuring strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Prefer the simplest content structuring approach that satisfies the requirement over a more general one that isn't needed yet.\n9. State assumptions about content structuring explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated content structuring concerns into a single change; keep each change focused.\n- Do not silently drop content structuring edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of content structuring correctness.\n- Do not skip documenting content structuring assumptions just because they seem obvious in the moment.\n- Do not apply generic content structuring advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these content structuring guidelines if the task's constraints change significantly during the work.",
+  "token_count": 490,
+  "metadata": {
+    "subject": "content_structuring",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

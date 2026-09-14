@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_outlier_detection_advanced_patterns",
+  "name": "Advanced Outlier Detection Patterns",
+  "domain": "data_analysis",
+  "description": "This module describes advanced patterns for outlier detection intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "data_analysis",
+    "detection",
+    "edge cases",
+    "outlier",
+    "outlier detection",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for outlier detection intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Prefer the simplest outlier detection approach that satisfies the requirement over a more general one that isn't needed yet.\n2. When outlier detection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n3. Keep outlier detection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Validate outlier detection outputs against a concrete example before treating the work as complete.\n5. Prefer explicit, readable outlier detection solutions over clever ones that are hard to verify.\n6. Before starting outlier detection work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Measure before optimizing any outlier detection bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of outlier detection correctness.\n- Avoid mixing unrelated outlier detection concerns into a single change; keep each change focused.\n- Do not silently drop outlier detection edge cases to make an example look cleaner than the real system.\n- Do not apply generic outlier detection advice without checking it fits the specific context at hand.\n- Do not skip documenting outlier detection assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these outlier detection guidelines if the task's constraints change significantly during the work.",
+  "token_count": 399,
+  "metadata": {
+    "subject": "outlier_detection",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

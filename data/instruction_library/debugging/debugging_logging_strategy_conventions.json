@@ -1,0 +1,24 @@
+{
+  "module_id": "debugging_logging_strategy_conventions",
+  "name": "Logging Strategy Conventions",
+  "domain": "debugging",
+  "description": "This module governs the naming, structure, and style conventions expected when working on logging strategy so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "debugging",
+    "formatting",
+    "logging",
+    "logging strategy",
+    "naming",
+    "strategy",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on logging strategy so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. When multiple logging strategy strategies are viable, name the trade-off explicitly rather than silently picking one.\n2. Document any non-obvious logging strategy decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. Check that logging strategy terminology is used consistently throughout, matching existing conventions in the surrounding context.\n4. Prefer explicit, readable logging strategy solutions over clever ones that are hard to verify.\n5. Validate logging strategy outputs against a concrete example before treating the work as complete.\n6. When logging strategy guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n7. Measure before optimizing any logging strategy bottleneck; do not guess at what is slow.\n8. Keep logging strategy changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Before starting logging strategy work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting logging strategy assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated logging strategy concerns into a single change; keep each change focused.\n- Avoid introducing new logging strategy abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of logging strategy correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for logging strategy, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 453,
+  "metadata": {
+    "subject": "logging_strategy",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

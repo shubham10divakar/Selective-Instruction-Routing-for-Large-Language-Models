@@ -1,0 +1,20 @@
+{
+  "module_id": "coding_refactoring_best_practices",
+  "name": "Refactoring Best Practices",
+  "domain": "coding",
+  "description": "This module captures the best practices for refactoring, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "coding",
+    "maintainability",
+    "quality",
+    "refactoring"
+  ],
+  "content": "This module captures the best practices for refactoring, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer the simplest refactoring approach that satisfies the requirement over a more general one that isn't needed yet.\n2. Measure before optimizing any refactoring bottleneck; do not guess at what is slow.\n3. When multiple refactoring strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. When refactoring guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. When refactoring decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Document any non-obvious refactoring decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Before starting refactoring work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop refactoring edge cases to make an example look cleaner than the real system.\n- Do not apply generic refactoring advice without checking it fits the specific context at hand.\n- Do not skip documenting refactoring assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of refactoring correctness.\n\nCLOSING NOTE\nRevisit these refactoring guidelines if the task's constraints change significantly during the work.",
+  "token_count": 372,
+  "metadata": {
+    "subject": "refactoring",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

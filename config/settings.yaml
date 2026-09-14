@@ -1,0 +1,50 @@
+# SIR experiment configuration
+
+library:
+  path: "data/instruction_library/"
+  n_modules: 500
+  domains: ["coding", "statistics", "research", "writing",
+            "data_analysis", "debugging", "testing", "security",
+            "database", "deployment"]
+  modules_per_domain: 50
+
+router:
+  encoder:
+    model: "all-MiniLM-L6-v2"
+    alpha: 0.6          # semantic vs functional weight
+    dim: 384
+  index:
+    type: "faiss_flat_ip"
+    top_n: 20            # candidates considered before selection
+  selector:
+    strategy: "adaptive"  # top_k | threshold | adaptive
+    top_k: 3
+    threshold: 0.70
+    gamma: 1.5
+    fallback_k: 3
+    min_k: 1
+    max_k: 10
+
+composer:
+  budget_tokens: 8000
+  tokenizer_model: "gpt-4o"
+
+evaluation:
+  judge_model: "gpt-4o"
+  tasks_path: "data/tasks/"
+  n_tasks_per_domain: 80
+  eval_domains: ["coding", "statistics", "research",
+                 "writing", "data_analysis", "debugging"]
+
+models:
+  - "gpt-4o"
+  - "claude-3-5-sonnet-20241022"
+  - "ollama/llama3.1:8b"
+  - "ollama/mistral:7b"
+
+noise:
+  levels: [0.0, 0.25, 0.50, 0.75, 0.85, 0.90, 0.95]
+  tasks_per_level: 100
+  repeats: 3
+
+seed: 42

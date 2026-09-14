@@ -1,0 +1,24 @@
+{
+  "module_id": "research_peer_review_conventions",
+  "name": "Peer Review Conventions",
+  "domain": "research",
+  "description": "This module governs the naming, structure, and style conventions expected when working on peer review so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "formatting",
+    "naming",
+    "peer",
+    "peer review",
+    "research",
+    "review",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on peer review so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Check that peer review terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Keep peer review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. Prefer the simplest peer review approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Keep peer review changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Validate peer review outputs against a concrete example before treating the work as complete.\n6. When multiple peer review strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. Prefer explicit, readable peer review solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop peer review edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated peer review concerns into a single change; keep each change focused.\n- Do not skip documenting peer review assumptions just because they seem obvious in the moment.\n- Do not apply generic peer review advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of peer review correctness.\n\nCLOSING NOTE\nThese guidelines are a starting point for peer review, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 398,
+  "metadata": {
+    "subject": "peer_review",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

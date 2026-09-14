@@ -1,0 +1,20 @@
+{
+  "module_id": "research_reproducibility_checklist",
+  "name": "Reproducibility Checklist",
+  "domain": "research",
+  "description": "This module is a pre-completion checklist for reproducibility work: a short set of checks to run before calling a reproducibility task done.",
+  "capabilities": [
+    "checklist",
+    "pre-completion review",
+    "reproducibility",
+    "research",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for reproducibility work: a short set of checks to run before calling a reproducibility task done.\n\nCORE GUIDELINES\n1. When reproducibility guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Document any non-obvious reproducibility decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When multiple reproducibility strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep reproducibility changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Prefer the simplest reproducibility approach that satisfies the requirement over a more general one that isn't needed yet.\n6. Keep reproducibility outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. Surface known limitations of a chosen reproducibility approach instead of presenting it as complete when it is not.\n8. Measure before optimizing any reproducibility bottleneck; do not guess at what is slow.\n9. Validate reproducibility outputs against a concrete example before treating the work as complete.\n10. Before starting reproducibility work, confirm the scope and constraints so the approach matches the actual requirement.\n11. When reproducibility decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated reproducibility concerns into a single change; keep each change focused.\n- Avoid introducing new reproducibility abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of reproducibility correctness.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about reproducibility over a shortcut that saves a few lines but hides intent.",
+  "token_count": 482,
+  "metadata": {
+    "subject": "reproducibility",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

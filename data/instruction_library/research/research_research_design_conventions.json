@@ -1,0 +1,23 @@
+{
+  "module_id": "research_research_design_conventions",
+  "name": "Research Design Conventions",
+  "domain": "research",
+  "description": "This module governs the naming, structure, and style conventions expected when working on research design so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "design",
+    "formatting",
+    "naming",
+    "research",
+    "research design",
+    "style guide"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on research design so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Measure before optimizing any research design bottleneck; do not guess at what is slow.\n2. State assumptions about research design explicitly before proceeding, rather than leaving them implicit.\n3. Before starting research design work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Surface known limitations of a chosen research design approach instead of presenting it as complete when it is not.\n5. When research design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Validate research design outputs against a concrete example before treating the work as complete.\n7. Re-check edge cases relevant to research design (empty input, boundary values, concurrent access) before calling the task done.\n8. When multiple research design strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated research design concerns into a single change; keep each change focused.\n- Do not skip documenting research design assumptions just because they seem obvious in the moment.\n- Do not apply generic research design advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about research design over a shortcut that saves a few lines but hides intent.",
+  "token_count": 386,
+  "metadata": {
+    "subject": "research_design",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

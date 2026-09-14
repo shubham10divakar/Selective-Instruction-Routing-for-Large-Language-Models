@@ -1,0 +1,22 @@
+{
+  "module_id": "security_dependency_scanning_checklist",
+  "name": "Dependency Scanning Checklist",
+  "domain": "security",
+  "description": "This module is a pre-completion checklist for dependency scanning work: a short set of checks to run before calling a dependency scanning task done.",
+  "capabilities": [
+    "checklist",
+    "dependency",
+    "dependency scanning",
+    "pre-completion review",
+    "scanning",
+    "security",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for dependency scanning work: a short set of checks to run before calling a dependency scanning task done.\n\nCORE GUIDELINES\n1. When dependency scanning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Keep dependency scanning outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. State assumptions about dependency scanning explicitly before proceeding, rather than leaving them implicit.\n4. When multiple dependency scanning strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. Prefer explicit, readable dependency scanning solutions over clever ones that are hard to verify.\n6. Keep dependency scanning changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n7. Document any non-obvious dependency scanning decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. Re-check edge cases relevant to dependency scanning (empty input, boundary values, concurrent access) before calling the task done.\n9. Before starting dependency scanning work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic dependency scanning advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated dependency scanning concerns into a single change; keep each change focused.\n- Do not skip documenting dependency scanning assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of dependency scanning correctness.\n\nCLOSING NOTE\nRevisit these dependency scanning guidelines if the task's constraints change significantly during the work.",
+  "token_count": 452,
+  "metadata": {
+    "subject": "dependency_scanning",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

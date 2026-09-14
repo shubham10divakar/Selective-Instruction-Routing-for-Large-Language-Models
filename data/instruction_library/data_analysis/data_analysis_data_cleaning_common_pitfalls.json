@@ -1,0 +1,23 @@
+{
+  "module_id": "data_analysis_data_cleaning_common_pitfalls",
+  "name": "Data Cleaning Common Pitfalls",
+  "domain": "data_analysis",
+  "description": "This module lists the most common pitfalls encountered in data cleaning work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "cleaning",
+    "common pitfalls",
+    "data",
+    "data cleaning",
+    "data_analysis",
+    "failure modes",
+    "pitfalls"
+  ],
+  "content": "This module lists the most common pitfalls encountered in data cleaning work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen data cleaning approach instead of presenting it as complete when it is not.\n2. Before starting data cleaning work, confirm the scope and constraints so the approach matches the actual requirement.\n3. When data cleaning guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n4. Keep data cleaning changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. Validate data cleaning outputs against a concrete example before treating the work as complete.\n6. Check that data cleaning terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Prefer explicit, readable data cleaning solutions over clever ones that are hard to verify.\n8. When data cleaning decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic data cleaning advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated data cleaning concerns into a single change; keep each change focused.\n- Do not skip documenting data cleaning assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of data cleaning correctness.\n- Avoid introducing new data cleaning abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about data cleaning over a shortcut that saves a few lines but hides intent.",
+  "token_count": 431,
+  "metadata": {
+    "subject": "data_cleaning",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

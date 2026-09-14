@@ -1,0 +1,22 @@
+{
+  "module_id": "database_schema_design_best_practices",
+  "name": "Schema Design Best Practices",
+  "domain": "database",
+  "description": "This module captures the best practices for schema design, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "database",
+    "design",
+    "maintainability",
+    "quality",
+    "schema",
+    "schema design"
+  ],
+  "content": "This module captures the best practices for schema design, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Keep schema design outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. When schema design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Document any non-obvious schema design decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Surface known limitations of a chosen schema design approach instead of presenting it as complete when it is not.\n5. Keep schema design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Check that schema design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Before starting schema design work, confirm the scope and constraints so the approach matches the actual requirement.\n8. Prefer explicit, readable schema design solutions over clever ones that are hard to verify.\n\nCOMMON PITFALLS TO AVOID\n- Do not silently drop schema design edge cases to make an example look cleaner than the real system.\n- Do not apply generic schema design advice without checking it fits the specific context at hand.\n- Avoid mixing unrelated schema design concerns into a single change; keep each change focused.\n- Do not skip documenting schema design assumptions just because they seem obvious in the moment.\n- Avoid introducing new schema design abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nRevisit these schema design guidelines if the task's constraints change significantly during the work.",
+  "token_count": 431,
+  "metadata": {
+    "subject": "schema_design",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

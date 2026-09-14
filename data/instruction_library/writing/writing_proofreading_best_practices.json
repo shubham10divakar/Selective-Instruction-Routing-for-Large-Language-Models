@@ -1,0 +1,20 @@
+{
+  "module_id": "writing_proofreading_best_practices",
+  "name": "Proofreading Best Practices",
+  "domain": "writing",
+  "description": "This module captures the best practices for proofreading, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "maintainability",
+    "proofreading",
+    "quality",
+    "writing"
+  ],
+  "content": "This module captures the best practices for proofreading, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When proofreading guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Prefer the simplest proofreading approach that satisfies the requirement over a more general one that isn't needed yet.\n3. Document any non-obvious proofreading decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. Validate proofreading outputs against a concrete example before treating the work as complete.\n5. When proofreading decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Re-check edge cases relevant to proofreading (empty input, boundary values, concurrent access) before calling the task done.\n7. When multiple proofreading strategies are viable, name the trade-off explicitly rather than silently picking one.\n8. Measure before optimizing any proofreading bottleneck; do not guess at what is slow.\n9. Keep proofreading changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n10. State assumptions about proofreading explicitly before proceeding, rather than leaving them implicit.\n11. Keep proofreading outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated proofreading concerns into a single change; keep each change focused.\n- Do not silently drop proofreading edge cases to make an example look cleaner than the real system.\n- Do not treat a single passing example as full verification of proofreading correctness.\n- Avoid introducing new proofreading abstractions before there is a second concrete use case that needs them.\n- Do not apply generic proofreading advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for proofreading, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 519,
+  "metadata": {
+    "subject": "proofreading",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "module_id": "testing_test_data_management_common_pitfalls",
+  "name": "Test Data Management Common Pitfalls",
+  "domain": "testing",
+  "description": "This module lists the most common pitfalls encountered in test data management work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "data",
+    "failure modes",
+    "management",
+    "pitfalls",
+    "test",
+    "test data management",
+    "testing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in test data management work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to test data management (empty input, boundary values, concurrent access) before calling the task done.\n2. Validate test data management outputs against a concrete example before treating the work as complete.\n3. Measure before optimizing any test data management bottleneck; do not guess at what is slow.\n4. When test data management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Check that test data management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Prefer explicit, readable test data management solutions over clever ones that are hard to verify.\n7. When test data management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated test data management concerns into a single change; keep each change focused.\n- Do not apply generic test data management advice without checking it fits the specific context at hand.\n- Do not silently drop test data management edge cases to make an example look cleaner than the real system.\n- Avoid introducing new test data management abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting test data management assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for test data management, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 431,
+  "metadata": {
+    "subject": "test_data_management",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

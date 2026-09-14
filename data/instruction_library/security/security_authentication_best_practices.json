@@ -1,0 +1,20 @@
+{
+  "module_id": "security_authentication_best_practices",
+  "name": "Authentication Best Practices",
+  "domain": "security",
+  "description": "This module captures the best practices for authentication, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "authentication",
+    "best practices",
+    "maintainability",
+    "quality",
+    "security"
+  ],
+  "content": "This module captures the best practices for authentication, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Prefer explicit, readable authentication solutions over clever ones that are hard to verify.\n2. State assumptions about authentication explicitly before proceeding, rather than leaving them implicit.\n3. Keep authentication changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. When multiple authentication strategies are viable, name the trade-off explicitly rather than silently picking one.\n5. When authentication decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Measure before optimizing any authentication bottleneck; do not guess at what is slow.\n7. Prefer the simplest authentication approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated authentication concerns into a single change; keep each change focused.\n- Do not skip documenting authentication assumptions just because they seem obvious in the moment.\n- Avoid introducing new authentication abstractions before there is a second concrete use case that needs them.\n- Do not apply generic authentication advice without checking it fits the specific context at hand.\n- Do not silently drop authentication edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for authentication, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 396,
+  "metadata": {
+    "subject": "authentication",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

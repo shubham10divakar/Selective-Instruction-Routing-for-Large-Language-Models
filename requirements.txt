@@ -1,0 +1,30 @@
+# Core
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+tiktoken>=0.5.0
+
+# LLM backends
+litellm>=1.30.0
+openai>=1.12.0
+
+# BM25 baseline
+rank-bm25>=0.2.2
+
+# Evaluation
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Results
+tabulate>=0.9.0
+jsonlines>=3.1.0
+
+# Config
+PyYAML>=6.0
+
+# Dev
+pytest>=7.4.0

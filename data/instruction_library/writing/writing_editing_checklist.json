@@ -1,0 +1,20 @@
+{
+  "module_id": "writing_editing_checklist",
+  "name": "Editing Checklist",
+  "domain": "writing",
+  "description": "This module is a pre-completion checklist for editing work: a short set of checks to run before calling a editing task done.",
+  "capabilities": [
+    "checklist",
+    "editing",
+    "pre-completion review",
+    "verification",
+    "writing"
+  ],
+  "content": "This module is a pre-completion checklist for editing work: a short set of checks to run before calling a editing task done.\n\nCORE GUIDELINES\n1. Keep editing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Check that editing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Measure before optimizing any editing bottleneck; do not guess at what is slow.\n4. When editing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When multiple editing strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Surface known limitations of a chosen editing approach instead of presenting it as complete when it is not.\n7. When editing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Re-check edge cases relevant to editing (empty input, boundary values, concurrent access) before calling the task done.\n9. Prefer the simplest editing approach that satisfies the requirement over a more general one that isn't needed yet.\n10. Validate editing outputs against a concrete example before treating the work as complete.\n11. State assumptions about editing explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new editing abstractions before there is a second concrete use case that needs them.\n- Do not apply generic editing advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of editing correctness.\n- Do not silently drop editing edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated editing concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about editing over a shortcut that saves a few lines but hides intent.",
+  "token_count": 498,
+  "metadata": {
+    "subject": "editing",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

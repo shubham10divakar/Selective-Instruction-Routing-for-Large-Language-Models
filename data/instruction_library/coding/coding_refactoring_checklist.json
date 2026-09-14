@@ -1,0 +1,20 @@
+{
+  "module_id": "coding_refactoring_checklist",
+  "name": "Refactoring Checklist",
+  "domain": "coding",
+  "description": "This module is a pre-completion checklist for refactoring work: a short set of checks to run before calling a refactoring task done.",
+  "capabilities": [
+    "checklist",
+    "coding",
+    "pre-completion review",
+    "refactoring",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for refactoring work: a short set of checks to run before calling a refactoring task done.\n\nCORE GUIDELINES\n1. Keep refactoring outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n2. Before starting refactoring work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Re-check edge cases relevant to refactoring (empty input, boundary values, concurrent access) before calling the task done.\n4. Prefer explicit, readable refactoring solutions over clever ones that are hard to verify.\n5. When multiple refactoring strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Measure before optimizing any refactoring bottleneck; do not guess at what is slow.\n7. Prefer the simplest refactoring approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated refactoring concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of refactoring correctness.\n- Do not silently drop refactoring edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about refactoring over a shortcut that saves a few lines but hides intent.",
+  "token_count": 346,
+  "metadata": {
+    "subject": "refactoring",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

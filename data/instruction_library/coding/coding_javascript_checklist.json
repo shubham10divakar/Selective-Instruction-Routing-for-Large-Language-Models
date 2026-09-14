@@ -1,0 +1,20 @@
+{
+  "module_id": "coding_javascript_checklist",
+  "name": "Javascript Checklist",
+  "domain": "coding",
+  "description": "This module is a pre-completion checklist for javascript work: a short set of checks to run before calling a javascript task done.",
+  "capabilities": [
+    "checklist",
+    "coding",
+    "javascript",
+    "pre-completion review",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for javascript work: a short set of checks to run before calling a javascript task done.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen javascript approach instead of presenting it as complete when it is not.\n2. Check that javascript terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Prefer explicit, readable javascript solutions over clever ones that are hard to verify.\n4. When javascript decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When javascript guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Before starting javascript work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Prefer the simplest javascript approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Validate javascript outputs against a concrete example before treating the work as complete.\n9. Document any non-obvious javascript decision with a short rationale so future readers understand the 'why', not just the 'what'.\n10. Measure before optimizing any javascript bottleneck; do not guess at what is slow.\n11. Keep javascript changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated javascript concerns into a single change; keep each change focused.\n- Do not skip documenting javascript assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of javascript correctness.\n- Avoid introducing new javascript abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about javascript over a shortcut that saves a few lines but hides intent.",
+  "token_count": 481,
+  "metadata": {
+    "subject": "javascript",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

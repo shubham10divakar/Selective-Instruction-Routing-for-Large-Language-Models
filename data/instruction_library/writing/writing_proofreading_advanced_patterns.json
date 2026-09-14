@@ -1,0 +1,20 @@
+{
+  "module_id": "writing_proofreading_advanced_patterns",
+  "name": "Advanced Proofreading Patterns",
+  "domain": "writing",
+  "description": "This module describes advanced patterns for proofreading intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "edge cases",
+    "proofreading",
+    "scalability",
+    "writing"
+  ],
+  "content": "This module describes advanced patterns for proofreading intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Document any non-obvious proofreading decision with a short rationale so future readers understand the 'why', not just the 'what'.\n2. When proofreading decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. When multiple proofreading strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Prefer explicit, readable proofreading solutions over clever ones that are hard to verify.\n5. Check that proofreading terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Keep proofreading outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n7. When proofreading guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n8. Re-check edge cases relevant to proofreading (empty input, boundary values, concurrent access) before calling the task done.\n9. Before starting proofreading work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting proofreading assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated proofreading concerns into a single change; keep each change focused.\n- Avoid introducing new proofreading abstractions before there is a second concrete use case that needs them.\n- Do not apply generic proofreading advice without checking it fits the specific context at hand.\n- Do not silently drop proofreading edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these proofreading guidelines if the task's constraints change significantly during the work.",
+  "token_count": 470,
+  "metadata": {
+    "subject": "proofreading",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

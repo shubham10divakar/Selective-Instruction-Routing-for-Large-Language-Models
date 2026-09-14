@@ -1,0 +1,23 @@
+{
+  "module_id": "debugging_stack_trace_analysis_best_practices",
+  "name": "Stack Trace Analysis Best Practices",
+  "domain": "debugging",
+  "description": "This module captures the best practices for stack trace analysis, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "analysis",
+    "best practices",
+    "debugging",
+    "maintainability",
+    "quality",
+    "stack",
+    "stack trace analysis",
+    "trace"
+  ],
+  "content": "This module captures the best practices for stack trace analysis, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When stack trace analysis guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. When stack trace analysis decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Before starting stack trace analysis work, confirm the scope and constraints so the approach matches the actual requirement.\n4. Prefer the simplest stack trace analysis approach that satisfies the requirement over a more general one that isn't needed yet.\n5. Check that stack trace analysis terminology is used consistently throughout, matching existing conventions in the surrounding context.\n6. Prefer explicit, readable stack trace analysis solutions over clever ones that are hard to verify.\n7. Document any non-obvious stack trace analysis decision with a short rationale so future readers understand the 'why', not just the 'what'.\n8. Keep stack trace analysis changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. State assumptions about stack trace analysis explicitly before proceeding, rather than leaving them implicit.\n10. When multiple stack trace analysis strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of stack trace analysis correctness.\n- Avoid introducing new stack trace analysis abstractions before there is a second concrete use case that needs them.\n- Do not apply generic stack trace analysis advice without checking it fits the specific context at hand.\n- Do not silently drop stack trace analysis edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nThese guidelines are a starting point for stack trace analysis, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 504,
+  "metadata": {
+    "subject": "stack_trace_analysis",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

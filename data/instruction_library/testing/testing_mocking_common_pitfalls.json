@@ -1,0 +1,21 @@
+{
+  "module_id": "testing_mocking_common_pitfalls",
+  "name": "Mocking Common Pitfalls",
+  "domain": "testing",
+  "description": "This module lists the most common pitfalls encountered in mocking work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "mocking",
+    "pitfalls",
+    "testing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in mocking work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. Check that mocking terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Before starting mocking work, confirm the scope and constraints so the approach matches the actual requirement.\n3. Measure before optimizing any mocking bottleneck; do not guess at what is slow.\n4. Keep mocking outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Validate mocking outputs against a concrete example before treating the work as complete.\n6. When mocking decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n7. Prefer the simplest mocking approach that satisfies the requirement over a more general one that isn't needed yet.\n8. State assumptions about mocking explicitly before proceeding, rather than leaving them implicit.\n9. When multiple mocking strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of mocking correctness.\n- Do not silently drop mocking edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated mocking concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nRevisit these mocking guidelines if the task's constraints change significantly during the work.",
+  "token_count": 380,
+  "metadata": {
+    "subject": "mocking",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

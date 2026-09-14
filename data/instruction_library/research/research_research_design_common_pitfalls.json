@@ -1,0 +1,22 @@
+{
+  "module_id": "research_research_design_common_pitfalls",
+  "name": "Research Design Common Pitfalls",
+  "domain": "research",
+  "description": "This module lists the most common pitfalls encountered in research design work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "design",
+    "failure modes",
+    "pitfalls",
+    "research",
+    "research design"
+  ],
+  "content": "This module lists the most common pitfalls encountered in research design work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. State assumptions about research design explicitly before proceeding, rather than leaving them implicit.\n2. Surface known limitations of a chosen research design approach instead of presenting it as complete when it is not.\n3. Keep research design changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n4. Before starting research design work, confirm the scope and constraints so the approach matches the actual requirement.\n5. When research design decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. Check that research design terminology is used consistently throughout, matching existing conventions in the surrounding context.\n7. Measure before optimizing any research design bottleneck; do not guess at what is slow.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting research design assumptions just because they seem obvious in the moment.\n- Avoid mixing unrelated research design concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of research design correctness.\n\nCLOSING NOTE\nRevisit these research design guidelines if the task's constraints change significantly during the work.",
+  "token_count": 344,
+  "metadata": {
+    "subject": "research_design",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

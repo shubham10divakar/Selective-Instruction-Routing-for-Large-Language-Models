@@ -1,0 +1,22 @@
+{
+  "module_id": "debugging_regression_bisection_advanced_patterns",
+  "name": "Advanced Regression Bisection Patterns",
+  "domain": "debugging",
+  "description": "This module describes advanced patterns for regression bisection intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "bisection",
+    "debugging",
+    "edge cases",
+    "regression",
+    "regression bisection",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for regression bisection intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Prefer explicit, readable regression bisection solutions over clever ones that are hard to verify.\n2. When regression bisection decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Document any non-obvious regression bisection decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When regression bisection guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n5. Re-check edge cases relevant to regression bisection (empty input, boundary values, concurrent access) before calling the task done.\n6. Before starting regression bisection work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Keep regression bisection outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. Keep regression bisection changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. State assumptions about regression bisection explicitly before proceeding, rather than leaving them implicit.\n10. Surface known limitations of a chosen regression bisection approach instead of presenting it as complete when it is not.\n11. Validate regression bisection outputs against a concrete example before treating the work as complete.\n12. When multiple regression bisection strategies are viable, name the trade-off explicitly rather than silently picking one.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of regression bisection correctness.\n- Do not skip documenting regression bisection assumptions just because they seem obvious in the moment.\n- Avoid introducing new regression bisection abstractions before there is a second concrete use case that needs them.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about regression bisection over a shortcut that saves a few lines but hides intent.",
+  "token_count": 532,
+  "metadata": {
+    "subject": "regression_bisection",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

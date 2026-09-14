@@ -1,0 +1,20 @@
+{
+  "module_id": "statistics_sampling_best_practices",
+  "name": "Sampling Best Practices",
+  "domain": "statistics",
+  "description": "This module captures the best practices for sampling, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "maintainability",
+    "quality",
+    "sampling",
+    "statistics"
+  ],
+  "content": "This module captures the best practices for sampling, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. When sampling guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Validate sampling outputs against a concrete example before treating the work as complete.\n3. Prefer the simplest sampling approach that satisfies the requirement over a more general one that isn't needed yet.\n4. When sampling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When multiple sampling strategies are viable, name the trade-off explicitly rather than silently picking one.\n6. Document any non-obvious sampling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Keep sampling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of sampling correctness.\n- Do not apply generic sampling advice without checking it fits the specific context at hand.\n- Avoid introducing new sampling abstractions before there is a second concrete use case that needs them.\n- Do not silently drop sampling edge cases to make an example look cleaner than the real system.\n- Avoid mixing unrelated sampling concerns into a single change; keep each change focused.\n\nCLOSING NOTE\nWhen in doubt, prefer clarity and explicit reasoning about sampling over a shortcut that saves a few lines but hides intent.",
+  "token_count": 392,
+  "metadata": {
+    "subject": "sampling",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

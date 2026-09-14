@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Large generated artifacts (indices, model caches)
+*.faiss
+data/results/*.jsonl
+data/results/*.csv
+!data/results/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

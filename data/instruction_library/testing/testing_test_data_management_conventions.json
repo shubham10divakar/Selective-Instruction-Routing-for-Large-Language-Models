@@ -1,0 +1,25 @@
+{
+  "module_id": "testing_test_data_management_conventions",
+  "name": "Test Data Management Conventions",
+  "domain": "testing",
+  "description": "This module governs the naming, structure, and style conventions expected when working on test data management so output stays consistent and easy to review.",
+  "capabilities": [
+    "consistency",
+    "conventions",
+    "data",
+    "formatting",
+    "management",
+    "naming",
+    "style guide",
+    "test",
+    "test data management",
+    "testing"
+  ],
+  "content": "This module governs the naming, structure, and style conventions expected when working on test data management so output stays consistent and easy to review.\n\nCORE GUIDELINES\n1. Prefer explicit, readable test data management solutions over clever ones that are hard to verify.\n2. Keep test data management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Document any non-obvious test data management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n4. When test data management decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n5. When test data management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. When multiple test data management strategies are viable, name the trade-off explicitly rather than silently picking one.\n7. State assumptions about test data management explicitly before proceeding, rather than leaving them implicit.\n8. Re-check edge cases relevant to test data management (empty input, boundary values, concurrent access) before calling the task done.\n9. Prefer the simplest test data management approach that satisfies the requirement over a more general one that isn't needed yet.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of test data management correctness.\n- Avoid mixing unrelated test data management concerns into a single change; keep each change focused.\n- Do not silently drop test data management edge cases to make an example look cleaner than the real system.\n- Do not skip documenting test data management assumptions just because they seem obvious in the moment.\n- Do not apply generic test data management advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these test data management guidelines if the task's constraints change significantly during the work.",
+  "token_count": 490,
+  "metadata": {
+    "subject": "test_data_management",
+    "aspect": "conventions",
+    "source": "template"
+  }
+}

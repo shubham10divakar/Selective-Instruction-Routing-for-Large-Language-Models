@@ -1,0 +1,20 @@
+{
+  "module_id": "statistics_sampling_checklist",
+  "name": "Sampling Checklist",
+  "domain": "statistics",
+  "description": "This module is a pre-completion checklist for sampling work: a short set of checks to run before calling a sampling task done.",
+  "capabilities": [
+    "checklist",
+    "pre-completion review",
+    "sampling",
+    "statistics",
+    "verification"
+  ],
+  "content": "This module is a pre-completion checklist for sampling work: a short set of checks to run before calling a sampling task done.\n\nCORE GUIDELINES\n1. Keep sampling changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n2. When sampling decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n3. Prefer the simplest sampling approach that satisfies the requirement over a more general one that isn't needed yet.\n4. Document any non-obvious sampling decision with a short rationale so future readers understand the 'why', not just the 'what'.\n5. Surface known limitations of a chosen sampling approach instead of presenting it as complete when it is not.\n6. Re-check edge cases relevant to sampling (empty input, boundary values, concurrent access) before calling the task done.\n7. Validate sampling outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated sampling concerns into a single change; keep each change focused.\n- Do not apply generic sampling advice without checking it fits the specific context at hand.\n- Do not silently drop sampling edge cases to make an example look cleaner than the real system.\n- Do not skip documenting sampling assumptions just because they seem obvious in the moment.\n- Do not treat a single passing example as full verification of sampling correctness.\n\nCLOSING NOTE\nRevisit these sampling guidelines if the task's constraints change significantly during the work.",
+  "token_count": 379,
+  "metadata": {
+    "subject": "sampling",
+    "aspect": "checklist",
+    "source": "template"
+  }
+}

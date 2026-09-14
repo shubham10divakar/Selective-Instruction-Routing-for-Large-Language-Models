@@ -1,0 +1,21 @@
+{
+  "module_id": "writing_documentation_writing_advanced_patterns",
+  "name": "Advanced Documentation Writing Patterns",
+  "domain": "writing",
+  "description": "This module describes advanced patterns for documentation writing intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "documentation",
+    "documentation writing",
+    "edge cases",
+    "scalability",
+    "writing"
+  ],
+  "content": "This module describes advanced patterns for documentation writing intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Surface known limitations of a chosen documentation writing approach instead of presenting it as complete when it is not.\n2. Keep documentation writing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n3. When multiple documentation writing strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Prefer explicit, readable documentation writing solutions over clever ones that are hard to verify.\n5. When documentation writing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n6. State assumptions about documentation writing explicitly before proceeding, rather than leaving them implicit.\n7. Measure before optimizing any documentation writing bottleneck; do not guess at what is slow.\n8. Keep documentation writing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n9. Before starting documentation writing work, confirm the scope and constraints so the approach matches the actual requirement.\n10. Validate documentation writing outputs against a concrete example before treating the work as complete.\n11. When documentation writing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n\nCOMMON PITFALLS TO AVOID\n- Do not treat a single passing example as full verification of documentation writing correctness.\n- Avoid introducing new documentation writing abstractions before there is a second concrete use case that needs them.\n- Do not skip documenting documentation writing assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nRevisit these documentation writing guidelines if the task's constraints change significantly during the work.",
+  "token_count": 483,
+  "metadata": {
+    "subject": "documentation_writing",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

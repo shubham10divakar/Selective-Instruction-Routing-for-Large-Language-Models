@@ -1,0 +1,22 @@
+{
+  "module_id": "deployment_release_management_best_practices",
+  "name": "Release Management Best Practices",
+  "domain": "deployment",
+  "description": "This module captures the best practices for release management, distilled from common failure modes and what tends to hold up over time.",
+  "capabilities": [
+    "best practices",
+    "deployment",
+    "maintainability",
+    "management",
+    "quality",
+    "release",
+    "release management"
+  ],
+  "content": "This module captures the best practices for release management, distilled from common failure modes and what tends to hold up over time.\n\nCORE GUIDELINES\n1. Check that release management terminology is used consistently throughout, matching existing conventions in the surrounding context.\n2. Re-check edge cases relevant to release management (empty input, boundary values, concurrent access) before calling the task done.\n3. Prefer explicit, readable release management solutions over clever ones that are hard to verify.\n4. Keep release management changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n5. When release management guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n6. Validate release management outputs against a concrete example before treating the work as complete.\n7. Measure before optimizing any release management bottleneck; do not guess at what is slow.\n8. Document any non-obvious release management decision with a short rationale so future readers understand the 'why', not just the 'what'.\n9. When multiple release management strategies are viable, name the trade-off explicitly rather than silently picking one.\n10. Prefer the simplest release management approach that satisfies the requirement over a more general one that isn't needed yet.\n11. Surface known limitations of a chosen release management approach instead of presenting it as complete when it is not.\n12. State assumptions about release management explicitly before proceeding, rather than leaving them implicit.\n\nCOMMON PITFALLS TO AVOID\n- Avoid introducing new release management abstractions before there is a second concrete use case that needs them.\n- Do not silently drop release management edge cases to make an example look cleaner than the real system.\n- Do not skip documenting release management assumptions just because they seem obvious in the moment.\n\nCLOSING NOTE\nThese guidelines are a starting point for release management, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 526,
+  "metadata": {
+    "subject": "release_management",
+    "aspect": "best_practices",
+    "source": "template"
+  }
+}

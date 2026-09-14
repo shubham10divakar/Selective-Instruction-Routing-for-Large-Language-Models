@@ -1,0 +1,22 @@
+{
+  "module_id": "writing_documentation_writing_common_pitfalls",
+  "name": "Documentation Writing Common Pitfalls",
+  "domain": "writing",
+  "description": "This module lists the most common pitfalls encountered in documentation writing work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "documentation",
+    "documentation writing",
+    "failure modes",
+    "pitfalls",
+    "writing"
+  ],
+  "content": "This module lists the most common pitfalls encountered in documentation writing work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When documentation writing guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n2. Check that documentation writing terminology is used consistently throughout, matching existing conventions in the surrounding context.\n3. Prefer explicit, readable documentation writing solutions over clever ones that are hard to verify.\n4. Validate documentation writing outputs against a concrete example before treating the work as complete.\n5. Keep documentation writing changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n6. Document any non-obvious documentation writing decision with a short rationale so future readers understand the 'why', not just the 'what'.\n7. Prefer the simplest documentation writing approach that satisfies the requirement over a more general one that isn't needed yet.\n8. Keep documentation writing outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n9. Measure before optimizing any documentation writing bottleneck; do not guess at what is slow.\n10. When documentation writing decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n11. Re-check edge cases relevant to documentation writing (empty input, boundary values, concurrent access) before calling the task done.\n\nCOMMON PITFALLS TO AVOID\n- Avoid mixing unrelated documentation writing concerns into a single change; keep each change focused.\n- Do not treat a single passing example as full verification of documentation writing correctness.\n- Do not silently drop documentation writing edge cases to make an example look cleaner than the real system.\n- Do not skip documenting documentation writing assumptions just because they seem obvious in the moment.\n- Do not apply generic documentation writing advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nThese guidelines are a starting point for documentation writing, not an exhaustive rulebook — use judgment when a rule doesn't fit the situation.",
+  "token_count": 558,
+  "metadata": {
+    "subject": "documentation_writing",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

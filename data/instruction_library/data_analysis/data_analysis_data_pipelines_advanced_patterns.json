@@ -1,0 +1,22 @@
+{
+  "module_id": "data_analysis_data_pipelines_advanced_patterns",
+  "name": "Advanced Data Pipelines Patterns",
+  "domain": "data_analysis",
+  "description": "This module describes advanced patterns for data pipelines intended for non-trivial cases where the basic approach is insufficient.",
+  "capabilities": [
+    "advanced patterns",
+    "data",
+    "data pipelines",
+    "data_analysis",
+    "edge cases",
+    "pipelines",
+    "scalability"
+  ],
+  "content": "This module describes advanced patterns for data pipelines intended for non-trivial cases where the basic approach is insufficient.\n\nCORE GUIDELINES\n1. Re-check edge cases relevant to data pipelines (empty input, boundary values, concurrent access) before calling the task done.\n2. Keep data pipelines changes scoped to what was asked; avoid unrelated cleanup in the same pass.\n3. Surface known limitations of a chosen data pipelines approach instead of presenting it as complete when it is not.\n4. Prefer the simplest data pipelines approach that satisfies the requirement over a more general one that isn't needed yet.\n5. State assumptions about data pipelines explicitly before proceeding, rather than leaving them implicit.\n6. Before starting data pipelines work, confirm the scope and constraints so the approach matches the actual requirement.\n7. Keep data pipelines outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n8. Validate data pipelines outputs against a concrete example before treating the work as complete.\n\nCOMMON PITFALLS TO AVOID\n- Do not skip documenting data pipelines assumptions just because they seem obvious in the moment.\n- Avoid introducing new data pipelines abstractions before there is a second concrete use case that needs them.\n- Do not treat a single passing example as full verification of data pipelines correctness.\n- Do not apply generic data pipelines advice without checking it fits the specific context at hand.\n\nCLOSING NOTE\nRevisit these data pipelines guidelines if the task's constraints change significantly during the work.",
+  "token_count": 405,
+  "metadata": {
+    "subject": "data_pipelines",
+    "aspect": "advanced_patterns",
+    "source": "template"
+  }
+}

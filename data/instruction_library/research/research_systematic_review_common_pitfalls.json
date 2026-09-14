@@ -1,0 +1,23 @@
+{
+  "module_id": "research_systematic_review_common_pitfalls",
+  "name": "Systematic Review Common Pitfalls",
+  "domain": "research",
+  "description": "This module lists the most common pitfalls encountered in systematic review work, so they can be actively avoided rather than rediscovered.",
+  "capabilities": [
+    "anti-patterns",
+    "common pitfalls",
+    "failure modes",
+    "pitfalls",
+    "research",
+    "review",
+    "systematic",
+    "systematic review"
+  ],
+  "content": "This module lists the most common pitfalls encountered in systematic review work, so they can be actively avoided rather than rediscovered.\n\nCORE GUIDELINES\n1. When systematic review decisions are ambiguous, favor the option that is easiest to reverse or extend later.\n2. Document any non-obvious systematic review decision with a short rationale so future readers understand the 'why', not just the 'what'.\n3. When multiple systematic review strategies are viable, name the trade-off explicitly rather than silently picking one.\n4. Keep systematic review outputs reproducible: fix seeds, record versions, and avoid hidden non-determinism where it matters.\n5. Surface known limitations of a chosen systematic review approach instead of presenting it as complete when it is not.\n6. Prefer the simplest systematic review approach that satisfies the requirement over a more general one that isn't needed yet.\n7. Measure before optimizing any systematic review bottleneck; do not guess at what is slow.\n8. When systematic review guidance conflicts with a specific user instruction, defer to the user's explicit instruction and note the conflict.\n9. Before starting systematic review work, confirm the scope and constraints so the approach matches the actual requirement.\n\nCOMMON PITFALLS TO AVOID\n- Do not apply generic systematic review advice without checking it fits the specific context at hand.\n- Do not treat a single passing example as full verification of systematic review correctness.\n- Do not skip documenting systematic review assumptions just because they seem obvious in the moment.\n- Do not silently drop systematic review edge cases to make an example look cleaner than the real system.\n\nCLOSING NOTE\nRevisit these systematic review guidelines if the task's constraints change significantly during the work.",
+  "token_count": 455,
+  "metadata": {
+    "subject": "systematic_review",
+    "aspect": "common_pitfalls",
+    "source": "template"
+  }
+}

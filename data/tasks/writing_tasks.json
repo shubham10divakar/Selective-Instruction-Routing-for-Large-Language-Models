@@ -1,0 +1,2062 @@
+[
+  {
+    "task_id": "writing_simple_technical_writing_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong technical writing for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Technical Writing Best Practices: it addresses the request about technical writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_common_pitfalls",
+      "testing_integration_testing_advanced_patterns",
+      "deployment_capacity_planning_best_practices",
+      "database_nosql_modeling_best_practices"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_editing_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong editing for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Editing Best Practices: it addresses the request about editing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_editing_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_ci_cd_pipelines_conventions",
+      "writing_technical_writing_best_practices",
+      "writing_documentation_writing_conventions",
+      "testing_integration_testing_best_practices"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_tone_and_style_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong tone and style for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Tone And Style Best Practices: it addresses the request about tone and style directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_ci_cd_pipelines_common_pitfalls",
+      "debugging_memory_leaks_conventions",
+      "security_secrets_management_conventions",
+      "security_encryption_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_documentation_writing_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong documentation writing for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Documentation Writing Best Practices: it addresses the request about documentation writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_common_pitfalls",
+      "data_analysis_visualization_checklist",
+      "database_schema_design_advanced_patterns",
+      "writing_persuasive_writing_checklist"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_executive_summaries_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong executive summaries for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Executive Summaries Best Practices: it addresses the request about executive summaries directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices"
+    ],
+    "distractor_modules": [
+      "research_literature_review_advanced_patterns",
+      "debugging_production_incident_response_advanced_patterns",
+      "database_migrations_advanced_patterns",
+      "data_analysis_feature_engineering_checklist"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_persuasive_writing_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong persuasive writing for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Persuasive Writing Best Practices: it addresses the request about persuasive writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_sampling_advanced_patterns",
+      "statistics_nonparametric_methods_conventions",
+      "deployment_capacity_planning_checklist",
+      "writing_executive_summaries_checklist"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_grammar_and_clarity_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong grammar and clarity for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Grammar And Clarity Best Practices: it addresses the request about grammar and clarity directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_blue_green_deployment_advanced_patterns",
+      "coding_type_safety_common_pitfalls",
+      "research_citation_management_best_practices",
+      "research_peer_review_best_practices"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_content_structuring_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong content structuring for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Content Structuring Best Practices: it addresses the request about content structuring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_bayesian_inference_best_practices",
+      "database_migrations_best_practices",
+      "coding_type_safety_common_pitfalls",
+      "deployment_blue_green_deployment_best_practices"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_audience_adaptation_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong audience adaptation for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Audience Adaptation Best Practices: it addresses the request about audience adaptation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices"
+    ],
+    "distractor_modules": [
+      "research_literature_review_conventions",
+      "research_grant_writing_best_practices",
+      "statistics_experimental_design_advanced_patterns",
+      "statistics_nonparametric_methods_best_practices"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_proofreading_0",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Write a short piece using strong proofreading for a technical audience.",
+    "reference_output": "A strong response follows the guidance in Proofreading Best Practices: it addresses the request about proofreading directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_advanced_patterns",
+      "security_input_validation_advanced_patterns",
+      "coding_api_design_common_pitfalls",
+      "deployment_ci_cd_pipelines_best_practices"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_technical_writing_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its technical writing.",
+    "reference_output": "A strong response follows the guidance in Technical Writing Best Practices, Technical Writing Checklist: it addresses the request about technical writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices",
+      "writing_technical_writing_checklist"
+    ],
+    "distractor_modules": [
+      "coding_type_safety_conventions",
+      "statistics_experimental_design_conventions",
+      "writing_editing_conventions",
+      "research_peer_review_conventions"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_editing_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its editing.",
+    "reference_output": "A strong response follows the guidance in Editing Best Practices, Editing Checklist: it addresses the request about editing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_editing_best_practices",
+      "writing_editing_checklist"
+    ],
+    "distractor_modules": [
+      "testing_integration_testing_conventions",
+      "writing_technical_writing_checklist",
+      "data_analysis_reporting_checklist",
+      "deployment_capacity_planning_checklist"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_tone_and_style_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its tone and style.",
+    "reference_output": "A strong response follows the guidance in Tone And Style Best Practices, Tone And Style Checklist: it addresses the request about tone and style directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices",
+      "writing_tone_and_style_checklist"
+    ],
+    "distractor_modules": [
+      "debugging_memory_leaks_common_pitfalls",
+      "research_data_collection_common_pitfalls",
+      "research_peer_review_best_practices",
+      "deployment_capacity_planning_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_documentation_writing_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its documentation writing.",
+    "reference_output": "A strong response follows the guidance in Documentation Writing Best Practices, Documentation Writing Checklist: it addresses the request about documentation writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices",
+      "writing_documentation_writing_checklist"
+    ],
+    "distractor_modules": [
+      "research_data_collection_common_pitfalls",
+      "writing_content_structuring_conventions",
+      "statistics_experimental_design_common_pitfalls",
+      "database_indexing_checklist"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_executive_summaries_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its executive summaries.",
+    "reference_output": "A strong response follows the guidance in Executive Summaries Best Practices, Executive Summaries Checklist: it addresses the request about executive summaries directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices",
+      "writing_executive_summaries_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_regression_analysis_common_pitfalls",
+      "testing_unit_testing_checklist",
+      "statistics_bayesian_inference_common_pitfalls",
+      "deployment_infrastructure_as_code_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_persuasive_writing_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its persuasive writing.",
+    "reference_output": "A strong response follows the guidance in Persuasive Writing Best Practices, Persuasive Writing Checklist: it addresses the request about persuasive writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices",
+      "writing_persuasive_writing_checklist"
+    ],
+    "distractor_modules": [
+      "deployment_containerization_best_practices",
+      "data_analysis_dashboarding_conventions",
+      "database_replication_best_practices",
+      "data_analysis_visualization_checklist"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_grammar_and_clarity_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its grammar and clarity.",
+    "reference_output": "A strong response follows the guidance in Grammar And Clarity Best Practices, Grammar And Clarity Checklist: it addresses the request about grammar and clarity directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices",
+      "writing_grammar_and_clarity_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_data_pipelines_checklist",
+      "research_literature_review_best_practices",
+      "statistics_bayesian_inference_conventions",
+      "security_incident_response_best_practices"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_content_structuring_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its content structuring.",
+    "reference_output": "A strong response follows the guidance in Content Structuring Best Practices, Content Structuring Checklist: it addresses the request about content structuring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices",
+      "writing_content_structuring_checklist"
+    ],
+    "distractor_modules": [
+      "coding_error_handling_best_practices",
+      "writing_executive_summaries_conventions",
+      "writing_audience_adaptation_advanced_patterns",
+      "deployment_rollback_strategy_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_audience_adaptation_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its audience adaptation.",
+    "reference_output": "A strong response follows the guidance in Audience Adaptation Best Practices, Audience Adaptation Checklist: it addresses the request about audience adaptation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices",
+      "writing_audience_adaptation_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_experimental_design_common_pitfalls",
+      "debugging_concurrency_bugs_conventions",
+      "testing_test_data_management_common_pitfalls",
+      "testing_flaky_test_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_proofreading_1",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Edit this draft to improve its proofreading.",
+    "reference_output": "A strong response follows the guidance in Proofreading Best Practices, Proofreading Checklist: it addresses the request about proofreading directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices",
+      "writing_proofreading_checklist"
+    ],
+    "distractor_modules": [
+      "testing_mocking_conventions",
+      "database_backup_and_recovery_common_pitfalls",
+      "coding_type_safety_conventions",
+      "debugging_regression_bisection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_technical_writing_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for technical writing that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Technical Writing Best Practices: it addresses the request about technical writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_concurrency_bugs_conventions",
+      "security_encryption_advanced_patterns",
+      "testing_regression_testing_checklist",
+      "debugging_root_cause_analysis_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_editing_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for editing that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Editing Best Practices: it addresses the request about editing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_editing_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_ab_testing_best_practices",
+      "coding_refactoring_advanced_patterns",
+      "data_analysis_outlier_detection_best_practices",
+      "deployment_ci_cd_pipelines_best_practices"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_tone_and_style_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for tone and style that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Tone And Style Best Practices: it addresses the request about tone and style directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices"
+    ],
+    "distractor_modules": [
+      "research_peer_review_conventions",
+      "writing_editing_advanced_patterns",
+      "coding_javascript_advanced_patterns",
+      "deployment_environment_configuration_conventions"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_documentation_writing_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for documentation writing that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Documentation Writing Best Practices: it addresses the request about documentation writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_code_review_common_pitfalls",
+      "security_secrets_management_best_practices",
+      "testing_load_testing_conventions",
+      "debugging_exception_handling_best_practices"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_executive_summaries_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for executive summaries that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Executive Summaries Best Practices: it addresses the request about executive summaries directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices"
+    ],
+    "distractor_modules": [
+      "research_reproducibility_advanced_patterns",
+      "statistics_hypothesis_testing_conventions",
+      "database_backup_and_recovery_conventions",
+      "deployment_capacity_planning_best_practices"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_persuasive_writing_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for persuasive writing that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Persuasive Writing Best Practices: it addresses the request about persuasive writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_logging_strategy_common_pitfalls",
+      "debugging_regression_bisection_checklist",
+      "debugging_exception_handling_checklist",
+      "deployment_blue_green_deployment_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_grammar_and_clarity_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for grammar and clarity that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Grammar And Clarity Best Practices: it addresses the request about grammar and clarity directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices"
+    ],
+    "distractor_modules": [
+      "database_nosql_modeling_conventions",
+      "data_analysis_visualization_best_practices",
+      "research_grant_writing_conventions",
+      "database_query_optimization_checklist"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_content_structuring_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for content structuring that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Content Structuring Best Practices: it addresses the request about content structuring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_documentation_common_pitfalls",
+      "debugging_reproducing_bugs_conventions",
+      "research_systematic_review_checklist",
+      "deployment_environment_configuration_best_practices"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_audience_adaptation_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for audience adaptation that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Audience Adaptation Best Practices: it addresses the request about audience adaptation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_regression_bisection_conventions",
+      "security_secure_coding_advanced_patterns",
+      "statistics_regression_analysis_checklist",
+      "data_analysis_visualization_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_proofreading_2",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Explain the guidelines for proofreading that our writing team follows.",
+    "reference_output": "A strong response follows the guidance in Proofreading Best Practices: it addresses the request about proofreading directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_load_testing_common_pitfalls",
+      "research_systematic_review_conventions",
+      "statistics_survival_analysis_conventions",
+      "coding_performance_checklist"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_technical_writing_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for technical writing.",
+    "reference_output": "A strong response follows the guidance in Technical Writing Best Practices, Technical Writing Checklist: it addresses the request about technical writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices",
+      "writing_technical_writing_checklist"
+    ],
+    "distractor_modules": [
+      "writing_persuasive_writing_best_practices",
+      "debugging_logging_strategy_best_practices",
+      "research_literature_review_best_practices",
+      "coding_refactoring_best_practices"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_editing_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for editing.",
+    "reference_output": "A strong response follows the guidance in Editing Best Practices, Editing Checklist: it addresses the request about editing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_editing_best_practices",
+      "writing_editing_checklist"
+    ],
+    "distractor_modules": [
+      "statistics_nonparametric_methods_common_pitfalls",
+      "coding_error_handling_conventions",
+      "database_migrations_advanced_patterns",
+      "deployment_canary_releases_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_tone_and_style_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for tone and style.",
+    "reference_output": "A strong response follows the guidance in Tone And Style Best Practices, Tone And Style Checklist: it addresses the request about tone and style directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices",
+      "writing_tone_and_style_checklist"
+    ],
+    "distractor_modules": [
+      "database_replication_best_practices",
+      "coding_documentation_advanced_patterns",
+      "security_threat_modeling_checklist",
+      "testing_test_coverage_best_practices"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_documentation_writing_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for documentation writing.",
+    "reference_output": "A strong response follows the guidance in Documentation Writing Best Practices, Documentation Writing Checklist: it addresses the request about documentation writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices",
+      "writing_documentation_writing_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_outlier_detection_best_practices",
+      "database_schema_design_conventions",
+      "statistics_survival_analysis_advanced_patterns",
+      "debugging_reproducing_bugs_best_practices"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_executive_summaries_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for executive summaries.",
+    "reference_output": "A strong response follows the guidance in Executive Summaries Best Practices, Executive Summaries Checklist: it addresses the request about executive summaries directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices",
+      "writing_executive_summaries_checklist"
+    ],
+    "distractor_modules": [
+      "database_nosql_modeling_conventions",
+      "database_schema_design_best_practices",
+      "security_encryption_checklist",
+      "data_analysis_reporting_checklist"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_persuasive_writing_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for persuasive writing.",
+    "reference_output": "A strong response follows the guidance in Persuasive Writing Best Practices, Persuasive Writing Checklist: it addresses the request about persuasive writing directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices",
+      "writing_persuasive_writing_checklist"
+    ],
+    "distractor_modules": [
+      "debugging_memory_leaks_best_practices",
+      "research_grant_writing_advanced_patterns",
+      "statistics_time_series_conventions",
+      "statistics_anova_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_grammar_and_clarity_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for grammar and clarity.",
+    "reference_output": "A strong response follows the guidance in Grammar And Clarity Best Practices, Grammar And Clarity Checklist: it addresses the request about grammar and clarity directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices",
+      "writing_grammar_and_clarity_checklist"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_advanced_patterns",
+      "statistics_survival_analysis_best_practices",
+      "writing_proofreading_advanced_patterns",
+      "security_input_validation_conventions"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_content_structuring_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for content structuring.",
+    "reference_output": "A strong response follows the guidance in Content Structuring Best Practices, Content Structuring Checklist: it addresses the request about content structuring directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices",
+      "writing_content_structuring_checklist"
+    ],
+    "distractor_modules": [
+      "security_threat_modeling_best_practices",
+      "testing_flaky_test_management_advanced_patterns",
+      "database_indexing_common_pitfalls",
+      "writing_grammar_and_clarity_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_audience_adaptation_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for audience adaptation.",
+    "reference_output": "A strong response follows the guidance in Audience Adaptation Best Practices, Audience Adaptation Checklist: it addresses the request about audience adaptation directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices",
+      "writing_audience_adaptation_checklist"
+    ],
+    "distractor_modules": [
+      "data_analysis_exploratory_analysis_common_pitfalls",
+      "testing_mocking_common_pitfalls",
+      "database_transactions_common_pitfalls",
+      "testing_unit_testing_conventions"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_simple_proofreading_3",
+    "domain": "writing",
+    "domains": [
+      "writing"
+    ],
+    "complexity": "simple",
+    "request": "Rewrite this paragraph applying best practices for proofreading.",
+    "reference_output": "A strong response follows the guidance in Proofreading Best Practices, Proofreading Checklist: it addresses the request about proofreading directly, states any assumptions, checks relevant edge cases, and avoids introducing unrelated changes.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices",
+      "writing_proofreading_checklist"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_checklist",
+      "database_query_optimization_checklist",
+      "coding_performance_best_practices",
+      "statistics_bayesian_inference_checklist"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_technical_writing_research_literature_review",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies technical writing practices, and make sure the result also satisfies our research guidelines around literature review.",
+    "reference_output": "A strong response satisfies both Technical Writing Best Practices / Technical Writing Checklist and Literature Review Best Practices: it completes the technical writing portion of the request correctly, then explicitly checks it against the literature review guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices",
+      "writing_technical_writing_checklist",
+      "research_literature_review_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_outlier_detection_checklist",
+      "testing_test_driven_development_best_practices",
+      "debugging_reproducing_bugs_best_practices",
+      "database_indexing_best_practices"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "secondary_domain": "research",
+      "secondary_subject": "literature_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_technical_writing_coding_javascript",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies technical writing practices, and make sure the result also satisfies our coding guidelines around javascript.",
+    "reference_output": "A strong response satisfies both Technical Writing Best Practices / Technical Writing Checklist and Javascript Best Practices: it completes the technical writing portion of the request correctly, then explicitly checks it against the javascript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices",
+      "writing_technical_writing_checklist",
+      "coding_javascript_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_unit_testing_conventions",
+      "deployment_ci_cd_pipelines_checklist",
+      "database_migrations_common_pitfalls",
+      "testing_mocking_best_practices"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "secondary_domain": "coding",
+      "secondary_subject": "javascript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_technical_writing_data_analysis_feature_engineering",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies technical writing practices, and make sure the result also satisfies our data analysis guidelines around feature engineering.",
+    "reference_output": "A strong response satisfies both Technical Writing Best Practices / Technical Writing Checklist and Feature Engineering Best Practices: it completes the technical writing portion of the request correctly, then explicitly checks it against the feature engineering guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices",
+      "writing_technical_writing_checklist",
+      "data_analysis_feature_engineering_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_experimental_design_checklist",
+      "debugging_root_cause_analysis_best_practices",
+      "deployment_capacity_planning_conventions",
+      "coding_performance_best_practices"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "feature_engineering",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_technical_writing_testing_mocking",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies technical writing practices, and make sure the result also satisfies our testing guidelines around mocking.",
+    "reference_output": "A strong response satisfies both Technical Writing Best Practices / Technical Writing Checklist and Mocking Best Practices: it completes the technical writing portion of the request correctly, then explicitly checks it against the mocking guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_technical_writing_best_practices",
+      "writing_technical_writing_checklist",
+      "testing_mocking_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_regression_bisection_conventions",
+      "research_systematic_review_best_practices",
+      "statistics_anova_advanced_patterns",
+      "statistics_experimental_design_conventions"
+    ],
+    "metadata": {
+      "subject": "technical_writing",
+      "secondary_domain": "testing",
+      "secondary_subject": "mocking",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_editing_research_research_design",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies editing practices, and make sure the result also satisfies our research guidelines around research design.",
+    "reference_output": "A strong response satisfies both Editing Best Practices / Editing Checklist and Research Design Best Practices: it completes the editing portion of the request correctly, then explicitly checks it against the research design guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_editing_best_practices",
+      "writing_editing_checklist",
+      "research_research_design_best_practices"
+    ],
+    "distractor_modules": [
+      "data_analysis_dashboarding_best_practices",
+      "testing_integration_testing_conventions",
+      "security_encryption_conventions",
+      "deployment_release_management_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "secondary_domain": "research",
+      "secondary_subject": "research_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_editing_coding_typescript",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies editing practices, and make sure the result also satisfies our coding guidelines around typescript.",
+    "reference_output": "A strong response satisfies both Editing Best Practices / Editing Checklist and Typescript Best Practices: it completes the editing portion of the request correctly, then explicitly checks it against the typescript guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_editing_best_practices",
+      "writing_editing_checklist",
+      "coding_typescript_best_practices"
+    ],
+    "distractor_modules": [
+      "security_dependency_scanning_conventions",
+      "writing_proofreading_conventions",
+      "deployment_release_management_best_practices",
+      "debugging_production_incident_response_conventions"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "secondary_domain": "coding",
+      "secondary_subject": "typescript",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_editing_data_analysis_visualization",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies editing practices, and make sure the result also satisfies our data analysis guidelines around visualization.",
+    "reference_output": "A strong response satisfies both Editing Best Practices / Editing Checklist and Visualization Best Practices: it completes the editing portion of the request correctly, then explicitly checks it against the visualization guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_editing_best_practices",
+      "writing_editing_checklist",
+      "data_analysis_visualization_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_coverage_conventions",
+      "research_citation_management_conventions",
+      "research_literature_review_advanced_patterns",
+      "research_grant_writing_checklist"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "visualization",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_editing_testing_test_data_management",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies editing practices, and make sure the result also satisfies our testing guidelines around test data management.",
+    "reference_output": "A strong response satisfies both Editing Best Practices / Editing Checklist and Test Data Management Best Practices: it completes the editing portion of the request correctly, then explicitly checks it against the test data management guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_editing_best_practices",
+      "writing_editing_checklist",
+      "testing_test_data_management_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_release_management_advanced_patterns",
+      "coding_error_handling_checklist",
+      "debugging_logging_strategy_common_pitfalls",
+      "security_secure_coding_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "editing",
+      "secondary_domain": "testing",
+      "secondary_subject": "test_data_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_tone_and_style_research_citation_management",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies tone and style practices, and make sure the result also satisfies our research guidelines around citation management.",
+    "reference_output": "A strong response satisfies both Tone And Style Best Practices / Tone And Style Checklist and Citation Management Best Practices: it completes the tone and style portion of the request correctly, then explicitly checks it against the citation management guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices",
+      "writing_tone_and_style_checklist",
+      "research_citation_management_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_driven_development_checklist",
+      "data_analysis_feature_engineering_conventions",
+      "testing_flaky_test_management_checklist",
+      "writing_persuasive_writing_checklist"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "secondary_domain": "research",
+      "secondary_subject": "citation_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_tone_and_style_coding_api_design",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies tone and style practices, and make sure the result also satisfies our coding guidelines around api design.",
+    "reference_output": "A strong response satisfies both Tone And Style Best Practices / Tone And Style Checklist and Api Design Best Practices: it completes the tone and style portion of the request correctly, then explicitly checks it against the api design guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices",
+      "writing_tone_and_style_checklist",
+      "coding_api_design_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_audience_adaptation_conventions",
+      "research_peer_review_common_pitfalls",
+      "data_analysis_feature_engineering_conventions",
+      "research_data_collection_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "secondary_domain": "coding",
+      "secondary_subject": "api_design",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_tone_and_style_data_analysis_dashboarding",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies tone and style practices, and make sure the result also satisfies our data analysis guidelines around dashboarding.",
+    "reference_output": "A strong response satisfies both Tone And Style Best Practices / Tone And Style Checklist and Dashboarding Best Practices: it completes the tone and style portion of the request correctly, then explicitly checks it against the dashboarding guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices",
+      "writing_tone_and_style_checklist",
+      "data_analysis_dashboarding_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_performance_common_pitfalls",
+      "deployment_ci_cd_pipelines_best_practices",
+      "security_secure_coding_common_pitfalls",
+      "writing_persuasive_writing_conventions"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "dashboarding",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_tone_and_style_testing_regression_testing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies tone and style practices, and make sure the result also satisfies our testing guidelines around regression testing.",
+    "reference_output": "A strong response satisfies both Tone And Style Best Practices / Tone And Style Checklist and Regression Testing Best Practices: it completes the tone and style portion of the request correctly, then explicitly checks it against the regression testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_tone_and_style_best_practices",
+      "writing_tone_and_style_checklist",
+      "testing_regression_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "research_reproducibility_common_pitfalls",
+      "security_authentication_best_practices",
+      "testing_unit_testing_checklist",
+      "data_analysis_feature_engineering_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "tone_and_style",
+      "secondary_domain": "testing",
+      "secondary_subject": "regression_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_documentation_writing_research_peer_review",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies documentation writing practices, and make sure the result also satisfies our research guidelines around peer review.",
+    "reference_output": "A strong response satisfies both Documentation Writing Best Practices / Documentation Writing Checklist and Peer Review Best Practices: it completes the documentation writing portion of the request correctly, then explicitly checks it against the peer review guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices",
+      "writing_documentation_writing_checklist",
+      "research_peer_review_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_integration_testing_advanced_patterns",
+      "deployment_infrastructure_as_code_conventions",
+      "research_systematic_review_common_pitfalls",
+      "database_indexing_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "secondary_domain": "research",
+      "secondary_subject": "peer_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_documentation_writing_coding_error_handling",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies documentation writing practices, and make sure the result also satisfies our coding guidelines around error handling.",
+    "reference_output": "A strong response satisfies both Documentation Writing Best Practices / Documentation Writing Checklist and Error Handling Best Practices: it completes the documentation writing portion of the request correctly, then explicitly checks it against the error handling guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices",
+      "writing_documentation_writing_checklist",
+      "coding_error_handling_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_memory_leaks_conventions",
+      "research_research_ethics_advanced_patterns",
+      "writing_tone_and_style_common_pitfalls",
+      "statistics_survival_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "secondary_domain": "coding",
+      "secondary_subject": "error_handling",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_documentation_writing_data_analysis_cohort_analysis",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies documentation writing practices, and make sure the result also satisfies our data analysis guidelines around cohort analysis.",
+    "reference_output": "A strong response satisfies both Documentation Writing Best Practices / Documentation Writing Checklist and Cohort Analysis Best Practices: it completes the documentation writing portion of the request correctly, then explicitly checks it against the cohort analysis guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices",
+      "writing_documentation_writing_checklist",
+      "data_analysis_cohort_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "database_backup_and_recovery_common_pitfalls",
+      "writing_tone_and_style_conventions",
+      "statistics_bayesian_inference_checklist",
+      "statistics_survival_analysis_conventions"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "cohort_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_documentation_writing_testing_load_testing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies documentation writing practices, and make sure the result also satisfies our testing guidelines around load testing.",
+    "reference_output": "A strong response satisfies both Documentation Writing Best Practices / Documentation Writing Checklist and Load Testing Best Practices: it completes the documentation writing portion of the request correctly, then explicitly checks it against the load testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_documentation_writing_best_practices",
+      "writing_documentation_writing_checklist",
+      "testing_load_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "database_transactions_conventions",
+      "writing_editing_conventions",
+      "writing_technical_writing_conventions",
+      "coding_refactoring_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "documentation_writing",
+      "secondary_domain": "testing",
+      "secondary_subject": "load_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_executive_summaries_research_grant_writing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies executive summaries practices, and make sure the result also satisfies our research guidelines around grant writing.",
+    "reference_output": "A strong response satisfies both Executive Summaries Best Practices / Executive Summaries Checklist and Grant Writing Best Practices: it completes the executive summaries portion of the request correctly, then explicitly checks it against the grant writing guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices",
+      "writing_executive_summaries_checklist",
+      "research_grant_writing_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_typescript_conventions",
+      "database_backup_and_recovery_best_practices",
+      "statistics_sampling_common_pitfalls",
+      "research_research_design_best_practices"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "secondary_domain": "research",
+      "secondary_subject": "grant_writing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_executive_summaries_coding_type_safety",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies executive summaries practices, and make sure the result also satisfies our coding guidelines around type safety.",
+    "reference_output": "A strong response satisfies both Executive Summaries Best Practices / Executive Summaries Checklist and Type Safety Best Practices: it completes the executive summaries portion of the request correctly, then explicitly checks it against the type safety guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices",
+      "writing_executive_summaries_checklist",
+      "coding_type_safety_best_practices"
+    ],
+    "distractor_modules": [
+      "security_authentication_conventions",
+      "debugging_stack_trace_analysis_conventions",
+      "writing_technical_writing_best_practices",
+      "debugging_root_cause_analysis_checklist"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "secondary_domain": "coding",
+      "secondary_subject": "type_safety",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_executive_summaries_data_analysis_ab_testing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies executive summaries practices, and make sure the result also satisfies our data analysis guidelines around ab testing.",
+    "reference_output": "A strong response satisfies both Executive Summaries Best Practices / Executive Summaries Checklist and Ab Testing Best Practices: it completes the executive summaries portion of the request correctly, then explicitly checks it against the ab testing guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices",
+      "writing_executive_summaries_checklist",
+      "data_analysis_ab_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "security_vulnerability_disclosure_conventions",
+      "research_reproducibility_best_practices",
+      "testing_test_coverage_best_practices",
+      "database_query_optimization_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "ab_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_executive_summaries_testing_end_to_end_testing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies executive summaries practices, and make sure the result also satisfies our testing guidelines around end to end testing.",
+    "reference_output": "A strong response satisfies both Executive Summaries Best Practices / Executive Summaries Checklist and End To End Testing Best Practices: it completes the executive summaries portion of the request correctly, then explicitly checks it against the end to end testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_executive_summaries_best_practices",
+      "writing_executive_summaries_checklist",
+      "testing_end_to_end_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_exception_handling_common_pitfalls",
+      "testing_test_data_management_checklist",
+      "coding_performance_checklist",
+      "coding_type_safety_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "executive_summaries",
+      "secondary_domain": "testing",
+      "secondary_subject": "end_to_end_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_persuasive_writing_research_data_collection",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies persuasive writing practices, and make sure the result also satisfies our research guidelines around data collection.",
+    "reference_output": "A strong response satisfies both Persuasive Writing Best Practices / Persuasive Writing Checklist and Data Collection Best Practices: it completes the persuasive writing portion of the request correctly, then explicitly checks it against the data collection guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices",
+      "writing_persuasive_writing_checklist",
+      "research_data_collection_best_practices"
+    ],
+    "distractor_modules": [
+      "debugging_regression_bisection_common_pitfalls",
+      "security_authorization_conventions",
+      "writing_documentation_writing_conventions",
+      "statistics_time_series_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "secondary_domain": "research",
+      "secondary_subject": "data_collection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_persuasive_writing_coding_code_review",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies persuasive writing practices, and make sure the result also satisfies our coding guidelines around code review.",
+    "reference_output": "A strong response satisfies both Persuasive Writing Best Practices / Persuasive Writing Checklist and Code Review Best Practices: it completes the persuasive writing portion of the request correctly, then explicitly checks it against the code review guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices",
+      "writing_persuasive_writing_checklist",
+      "coding_code_review_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_content_structuring_common_pitfalls",
+      "testing_load_testing_advanced_patterns",
+      "data_analysis_visualization_best_practices",
+      "security_authorization_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "secondary_domain": "coding",
+      "secondary_subject": "code_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_persuasive_writing_data_analysis_reporting",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies persuasive writing practices, and make sure the result also satisfies our data analysis guidelines around reporting.",
+    "reference_output": "A strong response satisfies both Persuasive Writing Best Practices / Persuasive Writing Checklist and Reporting Best Practices: it completes the persuasive writing portion of the request correctly, then explicitly checks it against the reporting guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices",
+      "writing_persuasive_writing_checklist",
+      "data_analysis_reporting_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_test_data_management_common_pitfalls",
+      "statistics_regression_analysis_checklist",
+      "testing_unit_testing_checklist",
+      "database_transactions_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "reporting",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_persuasive_writing_testing_test_driven_development",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies persuasive writing practices, and make sure the result also satisfies our testing guidelines around test driven development.",
+    "reference_output": "A strong response satisfies both Persuasive Writing Best Practices / Persuasive Writing Checklist and Test Driven Development Best Practices: it completes the persuasive writing portion of the request correctly, then explicitly checks it against the test driven development guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_persuasive_writing_best_practices",
+      "writing_persuasive_writing_checklist",
+      "testing_test_driven_development_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_refactoring_checklist",
+      "writing_proofreading_best_practices",
+      "debugging_stack_trace_analysis_conventions",
+      "database_migrations_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "persuasive_writing",
+      "secondary_domain": "testing",
+      "secondary_subject": "test_driven_development",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_grammar_and_clarity_research_qualitative_methods",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies grammar and clarity practices, and make sure the result also satisfies our research guidelines around qualitative methods.",
+    "reference_output": "A strong response satisfies both Grammar And Clarity Best Practices / Grammar And Clarity Checklist and Qualitative Methods Best Practices: it completes the grammar and clarity portion of the request correctly, then explicitly checks it against the qualitative methods guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices",
+      "writing_grammar_and_clarity_checklist",
+      "research_qualitative_methods_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_tone_and_style_conventions",
+      "debugging_logging_strategy_conventions",
+      "coding_api_design_checklist",
+      "writing_persuasive_writing_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "secondary_domain": "research",
+      "secondary_subject": "qualitative_methods",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_grammar_and_clarity_coding_documentation",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies grammar and clarity practices, and make sure the result also satisfies our coding guidelines around documentation.",
+    "reference_output": "A strong response satisfies both Grammar And Clarity Best Practices / Grammar And Clarity Checklist and Documentation Best Practices: it completes the grammar and clarity portion of the request correctly, then explicitly checks it against the documentation guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices",
+      "writing_grammar_and_clarity_checklist",
+      "coding_documentation_best_practices"
+    ],
+    "distractor_modules": [
+      "writing_persuasive_writing_advanced_patterns",
+      "debugging_memory_leaks_best_practices",
+      "security_authentication_common_pitfalls",
+      "security_secrets_management_best_practices"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "secondary_domain": "coding",
+      "secondary_subject": "documentation",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_grammar_and_clarity_data_analysis_data_pipelines",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies grammar and clarity practices, and make sure the result also satisfies our data analysis guidelines around data pipelines.",
+    "reference_output": "A strong response satisfies both Grammar And Clarity Best Practices / Grammar And Clarity Checklist and Data Pipelines Best Practices: it completes the grammar and clarity portion of the request correctly, then explicitly checks it against the data pipelines guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices",
+      "writing_grammar_and_clarity_checklist",
+      "data_analysis_data_pipelines_best_practices"
+    ],
+    "distractor_modules": [
+      "database_schema_design_checklist",
+      "data_analysis_dashboarding_checklist",
+      "deployment_ci_cd_pipelines_checklist",
+      "research_grant_writing_conventions"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "data_pipelines",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_grammar_and_clarity_testing_flaky_test_management",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies grammar and clarity practices, and make sure the result also satisfies our testing guidelines around flaky test management.",
+    "reference_output": "A strong response satisfies both Grammar And Clarity Best Practices / Grammar And Clarity Checklist and Flaky Test Management Best Practices: it completes the grammar and clarity portion of the request correctly, then explicitly checks it against the flaky test management guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_grammar_and_clarity_best_practices",
+      "writing_grammar_and_clarity_checklist",
+      "testing_flaky_test_management_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_conventions",
+      "research_literature_review_checklist",
+      "statistics_bayesian_inference_advanced_patterns",
+      "writing_technical_writing_best_practices"
+    ],
+    "metadata": {
+      "subject": "grammar_and_clarity",
+      "secondary_domain": "testing",
+      "secondary_subject": "flaky_test_management",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_content_structuring_research_systematic_review",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies content structuring practices, and make sure the result also satisfies our research guidelines around systematic review.",
+    "reference_output": "A strong response satisfies both Content Structuring Best Practices / Content Structuring Checklist and Systematic Review Best Practices: it completes the content structuring portion of the request correctly, then explicitly checks it against the systematic review guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices",
+      "writing_content_structuring_checklist",
+      "research_systematic_review_best_practices"
+    ],
+    "distractor_modules": [
+      "security_input_validation_common_pitfalls",
+      "coding_type_safety_advanced_patterns",
+      "database_backup_and_recovery_advanced_patterns",
+      "statistics_hypothesis_testing_best_practices"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "secondary_domain": "research",
+      "secondary_subject": "systematic_review",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_content_structuring_coding_refactoring",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies content structuring practices, and make sure the result also satisfies our coding guidelines around refactoring.",
+    "reference_output": "A strong response satisfies both Content Structuring Best Practices / Content Structuring Checklist and Refactoring Best Practices: it completes the content structuring portion of the request correctly, then explicitly checks it against the refactoring guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices",
+      "writing_content_structuring_checklist",
+      "coding_refactoring_best_practices"
+    ],
+    "distractor_modules": [
+      "database_replication_advanced_patterns",
+      "database_indexing_checklist",
+      "writing_documentation_writing_conventions",
+      "security_encryption_best_practices"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "secondary_domain": "coding",
+      "secondary_subject": "refactoring",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_content_structuring_data_analysis_outlier_detection",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies content structuring practices, and make sure the result also satisfies our data analysis guidelines around outlier detection.",
+    "reference_output": "A strong response satisfies both Content Structuring Best Practices / Content Structuring Checklist and Outlier Detection Best Practices: it completes the content structuring portion of the request correctly, then explicitly checks it against the outlier detection guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices",
+      "writing_content_structuring_checklist",
+      "data_analysis_outlier_detection_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_canary_releases_checklist",
+      "data_analysis_exploratory_analysis_common_pitfalls",
+      "database_backup_and_recovery_checklist",
+      "statistics_sampling_advanced_patterns"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "outlier_detection",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_content_structuring_testing_unit_testing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies content structuring practices, and make sure the result also satisfies our testing guidelines around unit testing.",
+    "reference_output": "A strong response satisfies both Content Structuring Best Practices / Content Structuring Checklist and Unit Testing Best Practices: it completes the content structuring portion of the request correctly, then explicitly checks it against the unit testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_content_structuring_best_practices",
+      "writing_content_structuring_checklist",
+      "testing_unit_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_mocking_common_pitfalls",
+      "database_indexing_best_practices",
+      "statistics_anova_checklist",
+      "security_vulnerability_disclosure_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "content_structuring",
+      "secondary_domain": "testing",
+      "secondary_subject": "unit_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_audience_adaptation_research_research_ethics",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies audience adaptation practices, and make sure the result also satisfies our research guidelines around research ethics.",
+    "reference_output": "A strong response satisfies both Audience Adaptation Best Practices / Audience Adaptation Checklist and Research Ethics Best Practices: it completes the audience adaptation portion of the request correctly, then explicitly checks it against the research ethics guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices",
+      "writing_audience_adaptation_checklist",
+      "research_research_ethics_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_rollback_strategy_checklist",
+      "testing_test_data_management_advanced_patterns",
+      "statistics_experimental_design_conventions",
+      "security_vulnerability_disclosure_conventions"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "secondary_domain": "research",
+      "secondary_subject": "research_ethics",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_audience_adaptation_coding_performance",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies audience adaptation practices, and make sure the result also satisfies our coding guidelines around performance.",
+    "reference_output": "A strong response satisfies both Audience Adaptation Best Practices / Audience Adaptation Checklist and Performance Best Practices: it completes the audience adaptation portion of the request correctly, then explicitly checks it against the performance guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices",
+      "writing_audience_adaptation_checklist",
+      "coding_performance_best_practices"
+    ],
+    "distractor_modules": [
+      "statistics_nonparametric_methods_checklist",
+      "coding_refactoring_checklist",
+      "testing_mocking_advanced_patterns",
+      "research_peer_review_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "secondary_domain": "coding",
+      "secondary_subject": "performance",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_audience_adaptation_data_analysis_exploratory_analysis",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies audience adaptation practices, and make sure the result also satisfies our data analysis guidelines around exploratory analysis.",
+    "reference_output": "A strong response satisfies both Audience Adaptation Best Practices / Audience Adaptation Checklist and Exploratory Analysis Best Practices: it completes the audience adaptation portion of the request correctly, then explicitly checks it against the exploratory analysis guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices",
+      "writing_audience_adaptation_checklist",
+      "data_analysis_exploratory_analysis_best_practices"
+    ],
+    "distractor_modules": [
+      "security_secrets_management_best_practices",
+      "security_threat_modeling_common_pitfalls",
+      "writing_documentation_writing_best_practices",
+      "security_vulnerability_disclosure_common_pitfalls"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "exploratory_analysis",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_audience_adaptation_testing_integration_testing",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies audience adaptation practices, and make sure the result also satisfies our testing guidelines around integration testing.",
+    "reference_output": "A strong response satisfies both Audience Adaptation Best Practices / Audience Adaptation Checklist and Integration Testing Best Practices: it completes the audience adaptation portion of the request correctly, then explicitly checks it against the integration testing guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_audience_adaptation_best_practices",
+      "writing_audience_adaptation_checklist",
+      "testing_integration_testing_best_practices"
+    ],
+    "distractor_modules": [
+      "deployment_environment_configuration_advanced_patterns",
+      "database_normalization_advanced_patterns",
+      "database_transactions_best_practices",
+      "statistics_bayesian_inference_checklist"
+    ],
+    "metadata": {
+      "subject": "audience_adaptation",
+      "secondary_domain": "testing",
+      "secondary_subject": "integration_testing",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_proofreading_research_reproducibility",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "research"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies proofreading practices, and make sure the result also satisfies our research guidelines around reproducibility.",
+    "reference_output": "A strong response satisfies both Proofreading Best Practices / Proofreading Checklist and Reproducibility Best Practices: it completes the proofreading portion of the request correctly, then explicitly checks it against the reproducibility guidance from research before calling the task done.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices",
+      "writing_proofreading_checklist",
+      "research_reproducibility_best_practices"
+    ],
+    "distractor_modules": [
+      "database_migrations_advanced_patterns",
+      "debugging_reproducing_bugs_best_practices",
+      "security_dependency_scanning_conventions",
+      "debugging_regression_bisection_checklist"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "secondary_domain": "research",
+      "secondary_subject": "reproducibility",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_proofreading_coding_python",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "coding"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies proofreading practices, and make sure the result also satisfies our coding guidelines around python.",
+    "reference_output": "A strong response satisfies both Proofreading Best Practices / Proofreading Checklist and Python Best Practices: it completes the proofreading portion of the request correctly, then explicitly checks it against the python guidance from coding before calling the task done.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices",
+      "writing_proofreading_checklist",
+      "coding_python_best_practices"
+    ],
+    "distractor_modules": [
+      "testing_end_to_end_testing_best_practices",
+      "debugging_reproducing_bugs_conventions",
+      "research_grant_writing_conventions",
+      "deployment_canary_releases_checklist"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "secondary_domain": "coding",
+      "secondary_subject": "python",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_proofreading_data_analysis_data_cleaning",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "data_analysis"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies proofreading practices, and make sure the result also satisfies our data analysis guidelines around data cleaning.",
+    "reference_output": "A strong response satisfies both Proofreading Best Practices / Proofreading Checklist and Data Cleaning Best Practices: it completes the proofreading portion of the request correctly, then explicitly checks it against the data cleaning guidance from data analysis before calling the task done.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices",
+      "writing_proofreading_checklist",
+      "data_analysis_data_cleaning_best_practices"
+    ],
+    "distractor_modules": [
+      "database_schema_design_conventions",
+      "debugging_performance_profiling_conventions",
+      "security_dependency_scanning_best_practices",
+      "debugging_regression_bisection_best_practices"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "secondary_domain": "data_analysis",
+      "secondary_subject": "data_cleaning",
+      "source": "template"
+    }
+  },
+  {
+    "task_id": "writing_compound_proofreading_testing_test_coverage",
+    "domain": "writing",
+    "domains": [
+      "writing",
+      "testing"
+    ],
+    "complexity": "compound",
+    "request": "Draft a document that applies proofreading practices, and make sure the result also satisfies our testing guidelines around test coverage.",
+    "reference_output": "A strong response satisfies both Proofreading Best Practices / Proofreading Checklist and Test Coverage Best Practices: it completes the proofreading portion of the request correctly, then explicitly checks it against the test coverage guidance from testing before calling the task done.",
+    "relevant_modules": [
+      "writing_proofreading_best_practices",
+      "writing_proofreading_checklist",
+      "testing_test_coverage_best_practices"
+    ],
+    "distractor_modules": [
+      "coding_code_review_common_pitfalls",
+      "database_schema_design_conventions",
+      "research_systematic_review_conventions",
+      "data_analysis_data_pipelines_best_practices"
+    ],
+    "metadata": {
+      "subject": "proofreading",
+      "secondary_domain": "testing",
+      "secondary_subject": "test_coverage",
+      "source": "template"
+    }
+  }
+]
